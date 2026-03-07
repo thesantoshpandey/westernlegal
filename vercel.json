@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "westernlegal",
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "*.css", "use": "@vercel/static" },
+    { "src": "*.xml", "use": "@vercel/static" },
+    { "src": "robots.txt", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/trademark-registration", "dest": "/index.html" }
+  ]
+}
