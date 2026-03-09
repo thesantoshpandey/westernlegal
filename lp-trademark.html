@@ -9,13 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17979250617"></script>
+<!-- Google Ads: consent-gated -->
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-17979250617');
+(function(){if(localStorage.getItem("cookie_consent")==="accepted"){loadGtag();}})();
+function loadGtag(){var s=document.createElement("script");s.src="https://www.googletagmanager.com/gtag/js?id=AW-17979250617";s.async=true;document.head.appendChild(s);s.onload=function(){window.dataLayer=window.dataLayer||[];function g(){dataLayer.push(arguments);}g("js",new Date());g("config","AW-17979250617");};}
 </script>
 
 <style>
@@ -1273,8 +1270,9 @@ body {
   <footer class="footer">
     <p>
       © 2026 Western Legal Corporation Limited (Company No. 10453250).<br>
-      Santosh Pandey, Solicitor (England & Wales), regulated by the <a href="https://www.sra.org.uk" target="_blank">Solicitors Regulation Authority</a>.<br>
-      <a href="https://westernlegal.co.uk/about.html">About</a> · <a href="https://westernlegal.co.uk/contact.html">Contact</a> · <a href="mailto:sp@westernlegal.co.uk">sp@westernlegal.co.uk</a> · <a href="tel:+442045771755">+44 204 577 1755</a>
+      Registered office: 19 The Circle, Queen Elizabeth Street, London, SE1 2JE.<br>
+      Santosh Pandey, Solicitor (England & Wales), SRA No. 641612, regulated by the <a href="https://www.sra.org.uk" target="_blank">Solicitors Regulation Authority</a>.<br>
+      <a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Engagement</a> · <a href="/complaints.html">Complaints Procedure</a> · <a href="/about.html">About</a> · <a href="mailto:sp@westernlegal.co.uk">sp@westernlegal.co.uk</a> · <a href="tel:+442045771755">+44 204 577 1755</a>
     </p>
   </footer>
 
@@ -1394,6 +1392,18 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+<!-- COOKIE CONSENT -->
+<div id="cookieConsent" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;background:var(--navy,#1B2D4F);color:#fff;padding:14px 24px;font-family:'DM Sans',sans-serif;font-size:0.85rem;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;">
+<span>We use cookies for analytics and advertising. See our <a href="/privacy.html" style="color:#d4af37;text-decoration:underline;">privacy policy</a>.</span>
+<button onclick="acceptCookies()" style="background:#d4af37;color:#0f1a2e;border:none;padding:8px 20px;border-radius:8px;font-weight:700;cursor:pointer;font-family:inherit;">Accept</button>
+<button onclick="declineCookies()" style="background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.3);padding:8px 20px;border-radius:8px;font-weight:600;cursor:pointer;font-family:inherit;">Decline</button>
+</div>
+<script>
+(function(){var c=document.getElementById("cookieConsent");if(!localStorage.getItem("cookie_consent")){c.style.display="flex";}})();
+function acceptCookies(){localStorage.setItem("cookie_consent","accepted");document.getElementById("cookieConsent").style.display="none";loadGtag();}
+function declineCookies(){localStorage.setItem("cookie_consent","declined");document.getElementById("cookieConsent").style.display="none";}
 </script>
 
 </body>

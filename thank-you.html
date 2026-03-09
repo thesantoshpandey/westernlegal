@@ -9,13 +9,22 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <!-- Google Ads conversion tracking fires here -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17979250617"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag("js", new Date());
-gtag("config", "AW-17979250617");
-gtag("event", "conversion", {"send_to": "AW-17979250617/qR3ZCJuF0_8bELmvlv1C"});
+// Consent-gated: only fires if user accepted cookies
+(function(){
+  if(localStorage.getItem("cookie_consent")==="accepted"){
+    var s=document.createElement("script");
+    s.src="https://www.googletagmanager.com/gtag/js?id=AW-17979250617";
+    s.async=true;document.head.appendChild(s);
+    s.onload=function(){
+      window.dataLayer=window.dataLayer||[];
+      function g(){dataLayer.push(arguments);}
+      g("js",new Date());
+      g("config","AW-17979250617");
+      g("event","conversion",{"send_to":"AW-17979250617/qR3ZCJuF0_8bELmvlv1C"});
+    };
+  }
+})();
 </script>
 </head>
 <body>
