@@ -4,10 +4,12 @@
   "builds": [
     { "src": "*.html", "use": "@vercel/static" },
     { "src": "*.css", "use": "@vercel/static" },
+    { "src": "*.svg", "use": "@vercel/static" },
     { "src": "*.xml", "use": "@vercel/static" },
     { "src": "robots.txt", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/lp/trademark", "dest": "/lp-trademark.html" },
     { "src": "/trademark-registration", "dest": "/index.html" }
   ]
 }
