@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://westernlegal.co.uk/sitemap.xml
