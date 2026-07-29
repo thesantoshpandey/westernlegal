@@ -178,3 +178,9 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 .photo-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
 .photo-strip img{width:100%;height:220px;object-fit:cover;display:block;border-radius:10px}
 @media(max-width:760px){.photo-strip{grid-template-columns:1fr}.photo-strip img{height:180px}}
+
+.fastband{border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);background:#FFFCF3;padding:20px 24px;text-align:center}
+.fastband .k,.fastnote .k{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.2em;color:var(--tape)}
+.fastband p{margin:8px auto 0;font-size:16.5px;font-weight:600;color:var(--ink);max-width:760px;line-height:1.55}
+.fastnote{border:1px solid var(--gold);background:#FFFCF3;padding:18px 26px;margin:32px auto 0;text-align:center;max-width:840px}
+.fastnote p{margin:7px auto 0;font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.55}
