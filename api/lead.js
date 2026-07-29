@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
       <b>Email:</b> ${esc(d.email)}<br><b>Phone:</b> ${esc(d.phone)}</p>
       <p>${esc(d.message)}</p><hr>
       <p style="color:#888;font-size:12px">Page: ${esc(d.page)} · Referrer: ${esc(d.referrer)}<br>
-      UTM: ${esc(d.utm_source)} / ${esc(d.utm_medium)} / ${esc(d.utm_campaign)} / ${esc(d.utm_term)}</p>`;
+      UTM: ${esc(d.utm_source)} / ${esc(d.utm_medium)} / ${esc(d.utm_campaign)} / ${esc(d.utm_term)}<br>GCLID: ${esc(d.gclid)}</p>`;
     const r = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: { 'Authorization': `Bearer ${key}`, 'Content-Type': 'application/json' },
