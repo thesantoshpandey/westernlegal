@@ -4,6 +4,7 @@
   "redirects": [
     { "source": "/defending-uk-trademark-opposition", "destination": "/trademark-opposition-defence", "permanent": true },
     { "source": "/lp/trademark", "destination": "/trademarks", "permanent": true },
-    { "source": "/trademark-registration", "destination": "/trademarks", "permanent": true }
+    { "source": "/trademark-registration", "destination": "/trademarks", "permanent": true },
+    { "source": "/nri-legal-services", "destination": "/international-trademarks", "permanent": true }
   ]
 }
