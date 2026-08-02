@@ -90,3 +90,5 @@
       .catch(formsubmitFallback);
   });
 })();
+// touch toggle for practice dropdown
+document.addEventListener("click",function(e){var t=e.target.closest(".navdrop-t");var d=document.querySelector(".navdrop");if(t&&window.matchMedia("(hover: none)").matches){e.preventDefault();d.classList.toggle("open");}else if(d&&!e.target.closest(".navdrop")){d.classList.remove("open");}});

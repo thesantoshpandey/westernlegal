@@ -4,6 +4,7 @@ module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ ok: false });
   try {
     const d = req.body || {};
+    if (!d.name || (!d.email && !d.phone)) return res.status(400).json({ ok: false, error: 'name and email or phone required' });
     const key = process.env.RESEND_API_KEY;
     if (!key) return res.status(500).json({ ok: false, error: 'no key' });
     const esc = (s) => String(s || '').replace(/</g, '&lt;');

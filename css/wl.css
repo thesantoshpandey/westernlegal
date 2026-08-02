@@ -74,10 +74,10 @@ h3{font-family:var(--sans);font-weight:700;font-size:21px;line-height:1.3}
 .sub{color:var(--slate);margin-top:14px;max-width:64ch}
 
 /* ---------- practice grid ---------- */
-.grid{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:44px}
+.grid{display:grid;gap:18px;background:transparent;border:0;margin-top:44px}
 .grid.c3{grid-template-columns:repeat(3,1fr)}
 .grid.c2{grid-template-columns:repeat(2,1fr)}
-.cell{background:var(--paper);padding:30px 26px;position:relative;transition:transform .22s ease,box-shadow .22s ease}
+.cell{background:var(--paper);border:1px solid var(--rule);padding:30px 26px;position:relative;transition:transform .22s ease,box-shadow .22s ease}
 .cell:hover{background:#fff;transform:translateY(-5px);box-shadow:0 16px 34px rgba(19,41,75,.16);z-index:2}
 .cell .ico{width:40px;height:40px;margin-bottom:16px}
 .cell h3{font-size:19px}
@@ -200,6 +200,33 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 .wa-float svg{width:30px;height:30px;fill:#fff}
 @media print{.wa-float{display:none}}
 
-.gridlabel{grid-column:1/-1;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.22em;color:var(--tape);margin:30px 0 -8px;padding-top:16px;border-top:1px solid var(--rule)}
-.gridlabel.first{margin-top:0;padding-top:0;border-top:0}
-@media(max-width:720px){.gridlabel{margin:22px 0 -6px}}
+
+.tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;margin-top:26px}
+.tquote{border:1px solid var(--rule);background:#fff;padding:26px;position:relative}
+.tquote .stars{color:#00B67A;font-size:15px;letter-spacing:2px;margin-bottom:10px}
+.tquote p{font-size:15px;line-height:1.6;color:var(--ink);margin:0 0 14px}
+.tquote .who{font-family:var(--mono);font-size:12px;color:var(--slate)}
+.tquote .who a{color:var(--tape);text-decoration:none}
+
+.pgroup{margin-top:46px}
+.pgroup:first-of-type{margin-top:8px}
+.glabel{display:flex;align-items:center;gap:14px;margin:0 0 20px;font-family:'Archivo';font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate)}
+.glabel::before{content:"";width:26px;height:3px;background:var(--gold);flex:none}
+.glabel::after{content:"";flex:1;height:1px;background:var(--rule)}
+.cell .from{font-family:'Archivo';font-weight:700;font-size:13.5px;letter-spacing:.01em}
+
+/* soft radii for mobile-friendly surfaces */
+.cell,.tquote,.fastnote,.schedule,.faq details,.dropmenu{border-radius:12px}
+.schedule{overflow:hidden}
+.photo{border-radius:14px}
+/* nav dropdown */
+.navdrop{position:relative;display:inline-block}
+.navdrop-t{display:inline-flex;align-items:center;gap:6px}
+.dropmenu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--rule);box-shadow:0 18px 50px rgba(19,41,75,.14);padding:22px 26px;display:none;grid-template-columns:repeat(4,minmax(150px,1fr));gap:20px;z-index:120;min-width:680px}
+.navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu,.navdrop.open .dropmenu{display:grid}
+.dmcol b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--tape);margin-bottom:8px}
+.dmcol a{display:block;font-size:13.5px;color:var(--ink);text-decoration:none;padding:4px 0}
+.dmcol a:hover{color:var(--tape)}
+@media(max-width:900px){.dropmenu{position:fixed;left:12px;right:12px;transform:none;min-width:0;grid-template-columns:1fr 1fr;max-height:70vh;overflow:auto}}
+
+.pgroup .grid{margin-top:0}
