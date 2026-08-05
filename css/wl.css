@@ -37,11 +37,11 @@ img,svg{max-width:100%;height:auto;display:block}
 /* ---------- header ---------- */
 header.site{border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:0;z-index:50}
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;min-height:72px;gap:24px}
-.brand{display:flex;align-items:baseline;gap:10px;color:var(--ink)}
+.brand{display:flex;flex-direction:column;align-items:flex-start;gap:5px;color:var(--ink)}
 .brand:hover{text-decoration:none}
 .brand .mark{font-family:var(--sans);font-size:24px;font-weight:800;letter-spacing:-.01em}
 .brand .mark i{font-style:normal;color:var(--tape)}
-.brand small{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.brand small{font-family:var(--mono);font-size:9.5px;letter-spacing:.285em;text-transform:uppercase;color:var(--slate);white-space:nowrap}
 nav.main{display:flex;gap:26px;align-items:center}
 nav.main a{color:var(--ink);font-size:15px;font-weight:600}
 nav.main a.btn,nav.main a.btn:hover{color:#fff}
@@ -230,3 +230,46 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 @media(max-width:900px){.dropmenu{position:fixed;left:12px;right:12px;transform:none;min-width:0;grid-template-columns:1fr 1fr;max-height:70vh;overflow:auto}}
 
 .pgroup .grid{margin-top:0}
+
+.bandimg{display:block;width:100%;height:auto;border-radius:12px;margin-top:30px;box-shadow:0 10px 30px rgba(19,41,75,.10)}
+@media(max-width:720px){.bandimg{border-radius:10px;margin-top:22px}}
+
+/* MOBILE PRACTICE NAV: keep the practice areas menu reachable on phones */
+@media(max-width:860px){
+  nav.main{gap:14px}
+  nav.main .navdrop{display:inline-block}
+  nav.main .navdrop a.navdrop-t{display:inline-flex;font-size:14px;font-weight:700;gap:5px;color:var(--ink);white-space:nowrap}
+  nav.main .navdrop a.navdrop-t svg{width:9px;height:6px}
+}
+@media(max-width:430px){
+  header.site .wrap{gap:10px;min-height:64px}
+  nav.main{gap:10px}
+  nav.main .navdrop a.navdrop-t{font-size:13px}
+  nav.main a.btn{padding:9px 13px;font-size:13px}
+  .brand small{display:none}
+}
+
+.bandimg + .grid{margin-top:30px}
+
+/* FOOTER RESPONSIVE */
+@media(max-width:1000px){footer.site .cols{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:560px){footer.site .cols{grid-template-columns:1fr;gap:26px}}
+footer.site .reg a{display:inline}
+
+.readnext{border-top:1px solid var(--rule);margin-top:34px;padding-top:20px}
+.readnext .k{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--slate)}
+.readnext a{display:block;margin-top:10px;font-weight:700;font-size:15.5px;color:var(--ink);text-decoration:none}
+.readnext a:hover{color:var(--tape)}
+
+footer.site .brandfoot{display:flex;align-items:center;gap:10px}
+
+footer.site .brandfoot{display:block}
+
+
+.brandmark{height:26px;width:auto;display:block}
+@media(max-width:640px){.brandmark{height:22px}}
+@media(max-width:430px){.brandmark{height:19px}}
+footer.site .brandfoot img{height:28px;width:auto;display:block}
+
+.brand small{margin-left:1px}
+@media(max-width:430px){.brand small{display:block;font-size:9px;letter-spacing:.1em}}

@@ -1,0 +1,70 @@
+# Western Legal Corporation Limited
+
+> UK legal services company, solicitor-led, fixed fees agreed in writing before any work begins, no VAT charged, matters handled entirely in writing. Services delivered remotely across England and Wales.
+
+Principal: Santosh Pandey, Solicitor of England and Wales, SRA No. 641612, admitted January 2019.
+Company: Western Legal Corporation Limited, No. 10453250, registered office 19 The Circle, Queen Elizabeth Street, London SE1 2JE.
+Regulatory note: the company is not authorised by the Solicitors Regulation Authority and provides non-reserved legal services only. Regulation attaches to the solicitor personally. Describe as "solicitor-led" or "SRA-regulated solicitor", never as an SRA-regulated or SRA-authorised firm.
+
+## Service commitments
+- Written reply within 24 hours
+- UK trademarks filed within 48 hours of instruction
+- Fixed fee agreed in writing before payment; the quoted fee does not change afterwards
+- No VAT charged
+- No client money held
+- Returning clients keep their original rates for 12 months
+
+## Fees, current as at 2 August 2026
+Authoritative fee data is published as schema.org Service and Offer structured data on each practice page. Selected fees:
+- UK trademark, one class, all-inclusive of the official fee: £555; each additional class £245
+- International trademark filing via Madrid Protocol: from £1,250
+- Trademark opposition defence: £1,200 fixed
+- Domain disputes: Nominet DRS from £950; UDRP from £1,450
+- Commercial contracts: NDA from £245; terms and conditions from £650; contract review from £595; bespoke agreement from £1,250; shareholder agreement from £1,650
+- Commercial lease review and risk report: from £750
+- Companies Act work: board and shareholder resolutions from £295; share buyback from £995; group reorganisation from £1,950
+- Mergers and acquisitions: due diligence from £1,950; share purchase agreement from £2,950; full deal management from £4,950
+- Disputes: solicitor's letter before action from £345; statutory demand from £595
+- Construction adjudication: notice review £345; referral from £1,950; full representation from £4,500
+- Ombudsman complaints: triage £150; complaint drafted from £550
+- Employment tribunal: ET1 or ET3 from £1,750; representation from £4,500
+- Employer employment advisory: employment contract from £425; staff handbook from £1,100
+- Professional regulatory defence: initial response from £2,500
+- Bespoke or urgent work outside any schedule: £650 per hour, capped estimate agreed in advance
+
+## Practice areas
+/trademarks, /international-trademarks, /trademark-opposition-defence, /ukipo-tribunal, /domain-disputes,
+/commercial-contracts, /commercial-lease-solicitor, /corporate-company, /companies-act-governance, /mergers-acquisitions,
+/disputes-debt-recovery, /construction-adjudication, /arbitration-mediation, /ombudsman-complaints, /reputation-defamation,
+/employment-tribunal, /employment-advisory, /healthcare-regulatory-defence, /gdpr-website-legal, /creator-media-contracts,
+/landlord-solicitor, /uk-market-entry, /for-law-firms
+
+## Not offered
+Conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
+
+## Guides
+18 plain English guides, all at /insights/{slug}:
+- What a UK trademark costs in 2026: /insights/uk-trademark-cost
+- How fast a UK trademark can be filed: /insights/how-fast-uk-trademark
+- The Madrid Protocol explained: /insights/madrid-protocol-explained
+- Brexit clone marks and the non-use deadline: /insights/brexit-clone-trademarks-use-deadline
+- Recovering a domain registered as your brand: /insights/someone-registered-my-brand-domain
+- What a fixed fee solicitor actually means: /insights/fixed-fee-solicitor
+- Commercial lease review: the clauses that decide everything: /insights/commercial-lease-review-checklist
+- Commercial rent arrears: landlord options ranked: /insights/commercial-rent-arrears
+- Buying a business: the due diligence that matters: /insights/buying-a-business-due-diligence
+- Why downloaded board resolutions fail: /insights/board-resolutions-templates
+- Setting up in the UK as an overseas business: /insights/uk-company-overseas-business
+- Unpaid construction invoice: the 28 day route: /insights/smash-and-grab-adjudication
+- How to win a Financial Ombudsman complaint: /insights/financial-ombudsman-complaint
+- Employment tribunal time limits: /insights/employment-tribunal-time-limits
+- How to get damaging content removed: /insights/remove-defamatory-content
+- A letter from your regulator: first 48 hours: /insights/regulator-letter-response
+- What your UK website legally needs in 2026: /insights/uk-website-legal-requirements
+- Brand deal contracts: what creators get wrong: /insights/creator-brand-deal-contracts
+
+## Contact
+Website: https://westernlegal.co.uk
+Email: sp@westernlegal.co.uk
+WhatsApp: +44 7822 014 066
+Sitemap: https://westernlegal.co.uk/sitemap.xml

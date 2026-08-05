@@ -2,9 +2,100 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/defending-uk-trademark-opposition", "destination": "/trademark-opposition-defence", "permanent": true },
-    { "source": "/lp/trademark", "destination": "/trademarks", "permanent": true },
-    { "source": "/trademark-registration", "destination": "/trademarks", "permanent": true },
-    { "source": "/nri-legal-services", "destination": "/international-trademarks", "permanent": true }
+    {
+      "source": "/defending-uk-trademark-opposition",
+      "destination": "/trademark-opposition-defence",
+      "permanent": true
+    },
+    {
+      "source": "/lp/trademark",
+      "destination": "/trademarks",
+      "permanent": true
+    },
+    {
+      "source": "/trademark-registration",
+      "destination": "/trademarks",
+      "permanent": true
+    },
+    {
+      "source": "/nri-legal-services",
+      "destination": "/international-trademarks",
+      "permanent": true
+    },
+    {
+      "source": "/settlement-agreements",
+      "destination": "/employment-advisory",
+      "permanent": false
+    },
+    {
+      "source": "/independent-legal-advice",
+      "destination": "/commercial-contracts",
+      "permanent": false
+    },
+    {
+      "source": "/insights/settlement-agreement-guide",
+      "destination": "/insights",
+      "permanent": false
+    },
+    {
+      "source": "/insights/settlement-agreement-solicitor-cost",
+      "destination": "/insights",
+      "permanent": false
+    },
+    {
+      "source": "/insights/independent-legal-advice-certificate",
+      "destination": "/insights",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?<sub>.*)\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self'"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Permitted-Cross-Domain-Policies",
+          "value": "none"
+        }
+      ]
+    }
   ]
 }
