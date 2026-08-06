@@ -41,7 +41,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
 .brand:hover{text-decoration:none}
 .brand .mark{font-family:var(--sans);font-size:24px;font-weight:800;letter-spacing:-.01em}
 .brand .mark i{font-style:normal;color:var(--tape)}
-.brand small{font-family:var(--mono);font-size:9.5px;letter-spacing:.285em;text-transform:uppercase;color:var(--slate);white-space:nowrap}
+.brand small{font-family:var(--mono);font-size:10px;letter-spacing:.40em;text-transform:uppercase;color:var(--slate);white-space:nowrap}
 nav.main{display:flex;gap:26px;align-items:center}
 nav.main a{color:var(--ink);font-size:15px;font-weight:600}
 nav.main a.btn,nav.main a.btn:hover{color:#fff}
@@ -266,9 +266,9 @@ footer.site .brandfoot{display:flex;align-items:center;gap:10px}
 footer.site .brandfoot{display:block}
 
 
-.brandmark{height:26px;width:auto;display:block;margin-left:-3px}
-@media(max-width:640px){.brandmark{height:22px}}
-@media(max-width:430px){.brandmark{height:19px}}
+.brandmark{height:34px;width:auto;display:block;margin-left:-4px}
+@media(max-width:640px){.brandmark{height:27px;margin-left:-3px}}
+@media(max-width:430px){.brandmark{height:23px;margin-left:-3px}}
 footer.site .brandfoot img{height:28px;width:auto;display:block}
 
 .brand small{margin-left:1px}
