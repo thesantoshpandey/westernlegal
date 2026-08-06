@@ -12,8 +12,8 @@
   --slate:#55677E;
   --rule:#D7DEE8;
   --max:1120px;
-  --serif:'Archivo', Helvetica, Arial, sans-serif;
-  --sans:'Archivo', -apple-system, Helvetica, Arial, sans-serif;
+  --serif:'Montserrat', Helvetica, Arial, sans-serif;
+  --sans:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
   --mono:'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -210,10 +210,10 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 
 .pgroup{margin-top:46px}
 .pgroup:first-of-type{margin-top:8px}
-.glabel{display:flex;align-items:center;gap:14px;margin:0 0 20px;font-family:'Archivo';font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate)}
+.glabel{display:flex;align-items:center;gap:14px;margin:0 0 20px;font-family:'Montserrat';font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate)}
 .glabel::before{content:"";width:26px;height:3px;background:var(--gold);flex:none}
 .glabel::after{content:"";flex:1;height:1px;background:var(--rule)}
-.cell .from{font-family:'Archivo';font-weight:700;font-size:13.5px;letter-spacing:.01em}
+.cell .from{font-family:'Montserrat';font-weight:700;font-size:13.5px;letter-spacing:.01em}
 
 /* soft radii for mobile-friendly surfaces */
 .cell,.tquote,.fastnote,.schedule,.faq details,.dropmenu{border-radius:12px}
