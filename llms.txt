@@ -33,7 +33,7 @@ Authoritative fee data is published as schema.org Service and Offer structured d
 - Bespoke or urgent work outside any schedule: £650 per hour, capped estimate agreed in advance
 
 ## International desks
-Switzerland: /switzerland, fixed fees quoted in CHF. Netherlands: /netherlands, fixed fees quoted in EUR. English law, UK and EU trademark procedure and UK market entry only; local law is referred to correspondent counsel in that jurisdiction.
+Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerland (CHF). Nordics, covering Sweden, Denmark and Finland: /nordics (SEK, DKK, EUR). English law, UK and EU trademark procedure and UK market entry only; local law is referred to correspondent counsel in that jurisdiction.
 
 ## Practice areas
 /trademarks, /international-trademarks, /trademark-opposition-defence, /ukipo-tribunal, /domain-disputes,
