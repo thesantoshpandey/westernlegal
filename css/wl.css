@@ -282,3 +282,11 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
   .dmcol a{padding:7px 0;font-size:14px}
 }
 @media(max-width:430px){.dropmenu{grid-template-columns:1fr}}
+
+/* DROPDOWN HOVER BRIDGE: the panel sits 12px below the trigger, so the cursor must be able to cross that gap */
+.navdrop::after{content:"";position:absolute;left:0;right:0;top:100%;height:16px;display:block}
+@media(hover:hover) and (min-width:901px){
+  .navdrop:hover::after{pointer-events:auto}
+  .dropmenu{transition:opacity .12s ease}
+  .navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu,.dropmenu:hover{display:grid}
+}
