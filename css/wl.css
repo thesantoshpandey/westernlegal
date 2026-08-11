@@ -223,7 +223,8 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 .navdrop{position:relative;display:inline-block}
 .navdrop-t{display:inline-flex;align-items:center;gap:6px}
 .dropmenu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--rule);box-shadow:0 18px 50px rgba(19,41,75,.14);padding:22px 26px;display:none;grid-template-columns:repeat(5,minmax(140px,1fr));gap:20px;z-index:120;min-width:820px}
-.navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu,.navdrop.open .dropmenu{display:grid}
+.navdrop.open .dropmenu{display:grid}
+@media(hover:hover) and (min-width:901px){.navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu{display:grid}}
 .dmcol b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--tape);margin-bottom:8px}
 .dmcol a{display:block;font-size:13.5px;color:var(--ink);text-decoration:none;padding:4px 0}
 .dmcol a:hover{color:var(--tape)}
@@ -273,3 +274,11 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
 
 .brand small{margin-left:1px}
 @media(max-width:430px){.brand small{display:block;font-size:9px;letter-spacing:.1em}}
+
+/* MOBILE DROPDOWN PANEL */
+@media(max-width:900px){
+  .dropmenu{position:fixed;top:auto;left:10px;right:10px;transform:none;min-width:0;grid-template-columns:1fr 1fr;max-height:68vh;overflow:auto;padding:18px 16px;border-radius:12px;box-shadow:0 22px 60px rgba(19,41,75,.22)}
+  .navdrop.open .dropmenu{display:grid}
+  .dmcol a{padding:7px 0;font-size:14px}
+}
+@media(max-width:430px){.dropmenu{grid-template-columns:1fr}}

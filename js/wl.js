@@ -90,5 +90,26 @@
       .catch(formsubmitFallback);
   });
 })();
-// touch toggle for practice dropdown
-document.addEventListener("click",function(e){var t=e.target.closest(".navdrop-t");var d=document.querySelector(".navdrop");if(t&&window.matchMedia("(hover: none)").matches){e.preventDefault();d.classList.toggle("open");}else if(d&&!e.target.closest(".navdrop")){d.classList.remove("open");}});
+
+/* practice areas dropdown: tap to open on any narrow or touch device */
+(function(){
+  var d=document.querySelector('.navdrop'); if(!d) return;
+  var t=d.querySelector('.navdrop-t'); if(!t) return;
+  t.setAttribute('role','button'); t.setAttribute('aria-expanded','false');
+  function narrow(){ return window.matchMedia('(max-width: 900px)').matches || window.matchMedia('(hover: none)').matches; }
+  t.addEventListener('click',function(e){
+    if(!narrow()) return;
+    e.preventDefault(); e.stopPropagation();
+    var open=d.classList.toggle('open');
+    t.setAttribute('aria-expanded',open?'true':'false');
+  });
+  document.addEventListener('click',function(e){
+    if(!d.contains(e.target)){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); }
+  });
+  d.querySelectorAll('.dropmenu a').forEach(function(a){
+    a.addEventListener('click',function(){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); });
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); }
+  });
+})();
