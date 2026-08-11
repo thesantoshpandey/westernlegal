@@ -32,6 +32,9 @@ Authoritative fee data is published as schema.org Service and Offer structured d
 - Professional regulatory defence: initial response from £2,500
 - Bespoke or urgent work outside any schedule: £650 per hour, capped estimate agreed in advance
 
+## International desks
+Switzerland: /switzerland, fixed fees quoted in CHF. Netherlands: /netherlands, fixed fees quoted in EUR. English law, UK and EU trademark procedure and UK market entry only; local law is referred to correspondent counsel in that jurisdiction.
+
 ## Practice areas
 /trademarks, /international-trademarks, /trademark-opposition-defence, /ukipo-tribunal, /domain-disputes,
 /commercial-contracts, /commercial-lease-solicitor, /corporate-company, /companies-act-governance, /mergers-acquisitions,
