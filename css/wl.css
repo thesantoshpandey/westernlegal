@@ -222,7 +222,7 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 /* nav dropdown */
 .navdrop{position:relative;display:inline-block}
 .navdrop-t{display:inline-flex;align-items:center;gap:6px}
-.dropmenu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--rule);box-shadow:0 18px 50px rgba(19,41,75,.14);padding:22px 26px;display:none;grid-template-columns:repeat(4,minmax(150px,1fr));gap:20px;z-index:120;min-width:680px}
+.dropmenu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--rule);box-shadow:0 18px 50px rgba(19,41,75,.14);padding:22px 26px;display:none;grid-template-columns:repeat(5,minmax(140px,1fr));gap:20px;z-index:120;min-width:820px}
 .navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu,.navdrop.open .dropmenu{display:grid}
 .dmcol b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--tape);margin-bottom:8px}
 .dmcol a{display:block;font-size:13.5px;color:var(--ink);text-decoration:none;padding:4px 0}
