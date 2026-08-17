@@ -46,7 +46,7 @@ Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerl
 Conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
 
 ## Guides
-18 plain English guides, all at /insights/{slug}:
+24 plain English guides, all at /insights/{slug}:
 - What a UK trademark costs in 2026: /insights/uk-trademark-cost
 - How fast a UK trademark can be filed: /insights/how-fast-uk-trademark
 - The Madrid Protocol explained: /insights/madrid-protocol-explained
@@ -65,6 +65,12 @@ Conveyancing, preparation or registration of land instruments and lease deeds ov
 - A letter from your regulator: first 48 hours: /insights/regulator-letter-response
 - What your UK website legally needs in 2026: /insights/uk-website-legal-requirements
 - Brand deal contracts: what creators get wrong: /insights/creator-brand-deal-contracts
+- Trademark classes: how to choose: /insights/trademark-classes-explained
+- Your trademark was refused. What next?: /insights/trademark-refused-what-next
+- Five mistakes that make an NDA worthless: /insights/nda-mistakes
+- Signing a personal guarantee: /insights/personal-guarantee-risks
+- When directors become personally liable: /insights/director-personal-liability
+- The first 48 hours of a legal problem: /insights/what-to-do-first-legal-problem
 
 ## Contact
 Website: https://westernlegal.co.uk
