@@ -290,3 +290,14 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
   .dropmenu{transition:opacity .12s ease}
   .navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu,.dropmenu:hover{display:grid}
 }
+
+/* MOBILE ACTION BAR */
+.actionbar{display:none}
+@media(max-width:720px){
+  .actionbar{display:grid;grid-template-columns:1fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:200;background:var(--ink);border-top:1px solid var(--ink)}
+  .actionbar a{display:flex;align-items:center;justify-content:center;gap:6px;padding:13px 6px;color:#fff;font-size:13.5px;font-weight:700;text-decoration:none;border-right:1px solid rgba(255,255,255,.16)}
+  .actionbar a:last-child{border-right:0}
+  .actionbar a.primary{background:var(--tape);color:var(--ink)}
+  body{padding-bottom:52px}
+  .wa-float{display:none}
+}
