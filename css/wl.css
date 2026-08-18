@@ -312,3 +312,6 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
   .dmcol a:last-child{border-bottom:0}
 }
 @media(max-width:480px){.dropmenu{grid-template-columns:1fr;max-height:72vh}}
+
+select optgroup{font-family:var(--sans);font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);background:var(--panel)}
+select optgroup option{font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink);background:#fff;padding-left:6px}
