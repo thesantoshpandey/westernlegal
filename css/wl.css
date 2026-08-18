@@ -52,7 +52,7 @@ nav.main a:hover{color:var(--tape);text-decoration:none}
 .btn.ghost:hover{background:var(--ink);color:#fff}
 .btn.tape{background:var(--gold);border-color:var(--gold);color:#13294B}
 .btn.tape:hover{background:var(--ink);border-color:var(--ink);color:#fff}
-@media(max-width:860px){nav.main a:not(.btn){display:none}nav.main{gap:0}}
+@media(max-width:860px){nav.main > a:not(.btn){display:none}nav.main{gap:0}}
 
 /* ---------- hero ---------- */
 .hero{padding:72px 0 56px;border-bottom:1px solid var(--rule)}
@@ -301,3 +301,14 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
   body{padding-bottom:52px}
   .wa-float{display:none}
 }
+
+/* MOBILE DROPDOWN LINKS: the panel lives inside nav.main, so it must be exempt from the link hide */
+@media(max-width:900px){
+  .dropmenu a,.navdrop .dmcol a{display:block !important}
+  .dropmenu{grid-template-columns:1fr 1fr;gap:14px 18px}
+  .dmcol{break-inside:avoid}
+  .dmcol b{margin-bottom:6px}
+  .dmcol a{padding:9px 0;font-size:14.5px;border-bottom:1px solid var(--rule)}
+  .dmcol a:last-child{border-bottom:0}
+}
+@media(max-width:480px){.dropmenu{grid-template-columns:1fr;max-height:72vh}}
