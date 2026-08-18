@@ -127,3 +127,19 @@
     closeOnScroll=setTimeout(function(){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); },400);
   },{passive:true});
 })();
+
+/* focusFirstField: clicking a quote CTA puts the cursor in the name box */
+(function(){
+  function go(){
+    if(location.hash!=='#enquiry') return;
+    var f=document.getElementById('enquiry'); if(!f) return;
+    var first=f.querySelector('input[name="name"],input:not([type=hidden])');
+    if(first) setTimeout(function(){ try{ first.focus({preventScroll:true}); }catch(e){ first.focus(); } },320);
+  }
+  window.addEventListener('hashchange',go);
+  document.addEventListener('click',function(e){
+    var a=e.target.closest && e.target.closest('a[href$="#enquiry"]');
+    if(a) setTimeout(go,340);
+  });
+  go();
+})();

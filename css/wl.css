@@ -359,3 +359,14 @@ section[id]{scroll-margin-top:96px}
 @media(max-width:1180px){.dropmenu{grid-template-columns:repeat(3,minmax(150px,1fr))}}
 @media(max-width:900px){.dropmenu{grid-template-columns:1fr 1fr;width:min(92vw,420px);right:-12px}}
 @media(max-width:480px){.dropmenu{grid-template-columns:1fr;width:min(94vw,340px);right:-8px}}
+
+/* FORM FOCUS: land on the first field, not the preamble */
+#enquiry{scroll-margin-top:96px}
+@media(max-width:860px){#enquiry{scroll-margin-top:84px}}
+@media(max-width:560px){#enquiry{scroll-margin-top:70px}}
+@media(max-width:860px){
+  /* on phones the channels block sits after the form so the fields are first */
+  .contact-grid{display:flex;flex-direction:column}
+  .contact-grid > div:last-child{order:1}
+  .contact-grid .channels{order:2;margin-top:22px}
+}
