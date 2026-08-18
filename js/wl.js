@@ -8,18 +8,14 @@
       } catch (e) { return ''; }
     };
     var zones = {
-      'clk-ldn': 'Europe/London',
-      'clk-zrh': 'Europe/Zurich',
-      'clk-ams': 'Europe/Amsterdam',
-      'clk-dub': 'Europe/Dublin',
-      'clk-sto': 'Europe/Stockholm',
-      'clk-dxb': 'Asia/Dubai',
-      'clk-nyc': 'America/New_York',
-      'clk-lax': 'America/Los_Angeles'
+      'ldn': 'Europe/London', 'zrh': 'Europe/Zurich', 'ams': 'Europe/Amsterdam',
+      'dub': 'Europe/Dublin', 'sto': 'Europe/Stockholm', 'hel': 'Europe/Helsinki',
+      'dxb': 'Asia/Dubai', 'nyc': 'America/New_York', 'lax': 'America/Los_Angeles'
     };
-    Object.keys(zones).forEach(function (id) {
-      var el = document.getElementById(id);
-      if (el) el.textContent = f(zones[id]);
+    Object.keys(zones).forEach(function (k) {
+      var t = f(zones[k]);
+      var a = document.getElementById('clk-' + k); if (a) a.textContent = t;
+      var b = document.getElementById('clk2-' + k); if (b) b.textContent = t;
     });
   }
   tick(); setInterval(tick, 30000);
