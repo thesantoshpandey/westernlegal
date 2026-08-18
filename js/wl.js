@@ -120,4 +120,10 @@
   document.addEventListener('keydown',function(e){
     if(e.key==='Escape'){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); }
   });
+  var closeOnScroll=null;
+  window.addEventListener('scroll',function(){
+    if(!d.classList.contains('open')) return;
+    clearTimeout(closeOnScroll);
+    closeOnScroll=setTimeout(function(){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); },400);
+  },{passive:true});
 })();

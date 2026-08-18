@@ -17,7 +17,7 @@
   --mono:'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
 a{color:var(--tape);text-decoration:none}
@@ -228,7 +228,7 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 .dmcol b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--tape);margin-bottom:8px}
 .dmcol a{display:block;font-size:13.5px;color:var(--ink);text-decoration:none;padding:4px 0}
 .dmcol a:hover{color:var(--tape)}
-@media(max-width:900px){.dropmenu{position:fixed;left:12px;right:12px;transform:none;min-width:0;grid-template-columns:1fr 1fr;max-height:70vh;overflow:auto}}
+@media(max-width:900px){.dropmenu{position:absolute;left:auto;right:0;transform:none;min-width:0;grid-template-columns:1fr 1fr;max-height:70vh;overflow:auto}}
 
 .pgroup .grid{margin-top:0}
 
@@ -277,7 +277,7 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
 
 /* MOBILE DROPDOWN PANEL */
 @media(max-width:900px){
-  .dropmenu{position:fixed;top:auto;left:10px;right:10px;transform:none;min-width:0;grid-template-columns:1fr 1fr;max-height:68vh;overflow:auto;padding:18px 16px;border-radius:12px;box-shadow:0 22px 60px rgba(19,41,75,.22)}
+  .dropmenu{position:absolute;top:calc(100% + 10px);left:auto;right:-12px;transform:none;min-width:min(92vw,420px);grid-template-columns:1fr 1fr;max-height:70vh;overflow:auto;padding:18px 16px;border-radius:12px;box-shadow:0 22px 60px rgba(19,41,75,.22)}
   .navdrop.open .dropmenu{display:grid}
   .dmcol a{padding:7px 0;font-size:14px}
 }
@@ -338,3 +338,18 @@ select optgroup option{font-weight:500;text-transform:none;letter-spacing:0;colo
   .microbar .track{animation:none}
   .microbar .clockscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;mask-image:none;-webkit-mask-image:none}
 }
+
+/* ANCHOR OFFSET */
+html{scroll-padding-top:96px}
+@media(max-width:860px){html{scroll-padding-top:84px}}
+@media(max-width:560px){html{scroll-padding-top:76px}}
+section[id]{scroll-margin-top:96px}
+@media(max-width:860px){section[id]{scroll-margin-top:84px}}
+
+/* DROPDOWN ANCHORING: panel hangs off the trigger so it follows the sticky header at any scroll position */
+.navdrop{position:relative}
+@media(max-width:900px){
+  .dropmenu{position:absolute;top:calc(100% + 10px);right:-12px;left:auto;transform:none;
+    min-width:min(92vw,420px);max-width:92vw;max-height:70vh;overflow-y:auto;-webkit-overflow-scrolling:touch}
+}
+@media(max-width:480px){.dropmenu{grid-template-columns:1fr;right:-8px;min-width:min(94vw,340px)}}
