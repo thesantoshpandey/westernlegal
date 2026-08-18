@@ -323,16 +323,18 @@ select optgroup option{font-weight:500;text-transform:none;letter-spacing:0;colo
 @media(max-width:860px){.microbar .clocks span:nth-child(n+5){display:none}}
 @media(max-width:560px){.microbar .clocks span:nth-child(n+3){display:none}.microbar .clocks{gap:12px}}
 
-/* CLOCK TICKER */
-.microbar .clocks{display:flex;gap:18px;align-items:center;white-space:nowrap;overflow:hidden}
-.microbar .clocks span{flex:none}
-@media(max-width:860px){
-  .microbar .clocks{position:relative;overflow:hidden;flex:1;min-width:0;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 12px,#000 calc(100% - 12px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 12px,#000 calc(100% - 12px),transparent 100%)}
-  .microbar .clocks .track{display:inline-flex;gap:18px;align-items:center;animation:clockslide 26s linear infinite;will-change:transform}
-  .microbar .clocks:hover .track,.microbar .clocks:active .track{animation-play-state:paused}
-  @keyframes clockslide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-}
+
+/* CLOCK TICKER: London pinned, the rest scroll on every viewport */
+.microbar .clocks{display:flex;align-items:center;gap:16px;min-width:0;flex:1}
+.microbar .clockpin{flex:none;padding-right:14px;border-right:1px solid rgba(255,255,255,.22)}
+.microbar .clockscroll{position:relative;overflow:hidden;flex:1;min-width:0;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 26px),transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 26px),transparent 100%)}
+.microbar .track{display:inline-flex;gap:22px;align-items:center;white-space:nowrap;animation:clockslide 34s linear infinite;will-change:transform}
+.microbar .clockscroll:hover .track,.microbar .clockscroll:active .track{animation-play-state:paused}
+@keyframes clockslide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:560px){.microbar .track{gap:18px;animation-duration:26s}.microbar .clockpin{padding-right:10px}}
 @media(prefers-reduced-motion:reduce){
-  .microbar .clocks .track{animation:none}
-  @media(max-width:860px){.microbar .clocks{overflow-x:auto;-webkit-overflow-scrolling:touch}}
+  .microbar .track{animation:none}
+  .microbar .clockscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;mask-image:none;-webkit-mask-image:none}
 }
