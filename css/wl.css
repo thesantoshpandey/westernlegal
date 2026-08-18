@@ -222,7 +222,7 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 /* nav dropdown */
 .navdrop{position:relative;display:inline-block}
 .navdrop-t{display:inline-flex;align-items:center;gap:6px}
-.dropmenu{position:absolute;top:calc(100% + 12px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--rule);box-shadow:0 18px 50px rgba(19,41,75,.14);padding:22px 26px;display:none;grid-template-columns:repeat(5,minmax(140px,1fr));gap:20px;z-index:120;min-width:820px}
+.dropmenu{position:absolute;top:calc(100% + 12px);right:0;left:auto;transform:none;background:#fff;border:1px solid var(--rule);box-shadow:0 18px 50px rgba(19,41,75,.14);padding:22px 26px;display:none;grid-template-columns:repeat(5,minmax(140px,1fr));gap:20px;z-index:120;width:max-content;max-width:calc(100vw - 32px)}
 .navdrop.open .dropmenu{display:grid}
 @media(hover:hover) and (min-width:901px){.navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu{display:grid}}
 .dmcol b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--tape);margin-bottom:8px}
@@ -353,3 +353,9 @@ section[id]{scroll-margin-top:96px}
     min-width:min(92vw,420px);max-width:92vw;max-height:70vh;overflow-y:auto;-webkit-overflow-scrolling:touch}
 }
 @media(max-width:480px){.dropmenu{grid-template-columns:1fr;right:-8px;min-width:min(94vw,340px)}}
+
+/* DROPDOWN CLAMP: right aligned to the trigger, never wider than the viewport */
+.dropmenu{right:0;left:auto;transform:none;width:max-content;max-width:calc(100vw - 32px);box-sizing:border-box}
+@media(max-width:1180px){.dropmenu{grid-template-columns:repeat(3,minmax(150px,1fr))}}
+@media(max-width:900px){.dropmenu{grid-template-columns:1fr 1fr;width:min(92vw,420px);right:-12px}}
+@media(max-width:480px){.dropmenu{grid-template-columns:1fr;width:min(94vw,340px);right:-8px}}
