@@ -1,14 +1,26 @@
 /* Western Legal shared JS */
 (function () {
-  // Clock: London
+  // Clocks: the desks we work across
   function tick() {
     var f = function (tz) {
       try {
-        return new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: tz }).format(new Date());
+        return new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: tz }).format(new Date());
       } catch (e) { return ''; }
     };
-    var l = document.getElementById('clock-ldn');
-    if (l) l.textContent = f('Europe/London');
+    var zones = {
+      'clk-ldn': 'Europe/London',
+      'clk-zrh': 'Europe/Zurich',
+      'clk-ams': 'Europe/Amsterdam',
+      'clk-dub': 'Europe/Dublin',
+      'clk-sto': 'Europe/Stockholm',
+      'clk-dxb': 'Asia/Dubai',
+      'clk-nyc': 'America/New_York',
+      'clk-lax': 'America/Los_Angeles'
+    };
+    Object.keys(zones).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.textContent = f(zones[id]);
+    });
   }
   tick(); setInterval(tick, 30000);
 
