@@ -370,3 +370,7 @@ section[id]{scroll-margin-top:96px}
   .contact-grid > div:last-child{order:1}
   .contact-grid .channels{order:2;margin-top:22px}
 }
+
+/* NATIVE BLOCK */
+[dir="rtl"]{text-align:right;direction:rtl}
+h2[lang]:not([lang="en"]),p[lang]:not([lang="en"]){font-family:var(--sans)}
