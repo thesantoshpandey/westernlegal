@@ -33,7 +33,7 @@ Authoritative fee data is published as schema.org Service and Offer structured d
 - Bespoke or urgent work outside any schedule: £650 per hour, capped estimate agreed in advance
 
 ## International desks
-Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerland (CHF). Nordics, covering Sweden, Denmark and Finland: /nordics (SEK, DKK, EUR). English law, UK and EU trademark procedure and UK market entry only; local law is referred to correspondent counsel in that jurisdiction.
+Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerland (CHF). Nordics, covering Sweden, Denmark and Finland: /nordics (SEK, DKK, EUR). Full English commercial law practice: contracts, company and deals, commercial property, disputes and debt recovery, arbitration, employment for UK staff, data protection, and UK and EU trademarks. Local law is not advised on; local law is referred to correspondent counsel in that jurisdiction.
 
 ## Practice areas
 /trademarks, /international-trademarks, /trademark-opposition-defence, /ukipo-tribunal, /domain-disputes,
@@ -73,7 +73,7 @@ Conveyancing, preparation or registration of land instruments and lease deeds ov
 - The first 48 hours of a legal problem: /insights/what-to-do-first-legal-problem
 
 ## International desks
-Ireland /ireland (EUR). Netherlands /netherlands (EUR). Germany and Austria /germany (EUR). France, Belgium and Luxembourg /france (EUR). Italy, Spain and Portugal /southern-europe (EUR). Switzerland /switzerland (CHF). Nordics /nordics (SEK, DKK, EUR). Gulf and Middle East, covering UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman and Jordan /gulf (USD).
+Ireland /ireland (EUR). Netherlands /netherlands (EUR). Germany and Austria /germany (EUR). France, Belgium and Luxembourg /france (EUR). Italy, Spain and Portugal /southern-europe (EUR). Switzerland /switzerland (CHF). Nordics /nordics (SEK, DKK, EUR). Gulf and Middle East, covering UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman and Jordan /gulf (USD). United States and Canada /united-states (USD). Latin America, covering Brazil, Mexico, Colombia, Chile, Argentina, Peru, Uruguay and Panama /latin-america (USD).
 
 ## Languages and territories
 Enquiries accepted in: Arabic, Persian, French, German, Italian, Spanish, Dutch, Portuguese, Polish, Swedish, Danish, Finnish, Turkish, Hindi, Urdu and English.
