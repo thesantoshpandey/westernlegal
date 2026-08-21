@@ -12,4 +12,5 @@ echo "== waiting for Vercel =="
 sleep 45
 echo "== ping search engines =="
 bash ping.sh
+bash bing.sh
 echo "== done =="
