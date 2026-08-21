@@ -93,6 +93,30 @@ for f in [x for x in glob.glob('*.html') if x not in LEGAL]:
                 if cur=='GBP' and p and p not in nums:
                     fail('prices',f'{f}: schema offer {p} not in schedule')
 
+# ---------- hero chip prices ----------
+# A hero chip pairs a price with a label. Both must agree with the schedule row
+# whose item text the label points at. Comparing figures alone misses the case
+# where the figure is real but attached to the wrong service.
+STOP={'from','the','and','with','for','a','an','of','to','in','pack','fixed','per','your','our'}
+def toks(x): return {w for w in re.findall(r'[a-z]+',x.lower()) if w not in STOP and len(w)>3}
+for f in [x for x in glob.glob('*.html') if x not in LEGAL]:
+    s=txt(f)
+    rows=re.findall(r'<tr><td><b>(.*?)</b></td>.*?<td class="fee"><b>(.*?)</b></td></tr>', s, re.S)
+    if not rows: continue
+    sched=[(H.unescape(re.sub(r'<[^>]+>','',r[0])), set(re.findall(r'£[\d,]+',r[1]))) for r in rows]
+    hero=re.search(r'<section class="hero".*?</section>',s,re.S)
+    if not hero: continue
+    for chip in re.findall(r'<div><b>(£[\d,]+)</b>([^<]{4,90})</div>', hero.group(0)):
+        price,label=chip[0],H.unescape(chip[1])
+        lt=toks(label)
+        if not lt: continue
+        best=None; score=0
+        for item,prices in sched:
+            ov=len(lt & toks(item))
+            if ov>score: score, best = ov, (item,prices)
+        if best and score>=1 and price not in best[1]:
+            fail('prices', f'{f}: hero chip "{label.strip()[:38]}" says {price} but the schedule row "{best[0][:38]}" says {"/".join(sorted(best[1]))}')
+
 # ---------- compliance ----------
 for f in PAGES:
     s=txt(f)
