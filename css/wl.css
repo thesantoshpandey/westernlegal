@@ -407,3 +407,11 @@ header.site .wrap{position:relative}
   .dmcol a:last-child{border-bottom:0}
 }
 @media(max-width:480px){.dropmenu{grid-template-columns:1fr}}
+
+/* FAQ NAV */
+.faqnav{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 6px}
+.faqnav a{display:inline-block;padding:7px 13px;border:1px solid var(--rule);border-radius:999px;
+  font-size:13px;font-weight:600;color:var(--ink);text-decoration:none;background:#fff}
+.faqnav a:hover{border-color:var(--tape);color:var(--tape)}
+section.faqcat{padding-top:26px;padding-bottom:6px;scroll-margin-top:96px}
+section.faqcat h2{margin-bottom:4px}
