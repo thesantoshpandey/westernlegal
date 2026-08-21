@@ -122,11 +122,12 @@
   document.addEventListener('keydown',function(e){
     if(e.key==='Escape'){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); }
   });
-  var closeOnScroll=null;
+  var startY=null;
   window.addEventListener('scroll',function(){
     if(!d.classList.contains('open')) return;
-    clearTimeout(closeOnScroll);
-    closeOnScroll=setTimeout(function(){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); },400);
+    if(window.matchMedia('(hover:hover) and (min-width:901px)').matches) return;
+    if(startY===null){ startY=window.scrollY; return; }
+    if(Math.abs(window.scrollY-startY)>220){ d.classList.remove('open'); t.setAttribute('aria-expanded','false'); startY=null; }
   },{passive:true});
 })();
 
@@ -144,4 +145,19 @@
     if(a) setTimeout(go,340);
   });
   go();
+})();
+
+/* HOVER INTENT: open on hover, close after a delay so cursor drift does not dismiss it */
+(function(){
+  var d=document.querySelector('.navdrop'); if(!d) return;
+  var t=d.querySelector('.navdrop-t'); var m=d.querySelector('.dropmenu'); if(!m) return;
+  var timer=null;
+  function desktop(){ return window.matchMedia('(hover:hover) and (min-width:901px)').matches; }
+  function open(){ if(!desktop()) return; clearTimeout(timer); d.classList.add('open'); if(t) t.setAttribute('aria-expanded','true'); }
+  function close(){ if(!desktop()) return; clearTimeout(timer); timer=setTimeout(function(){ d.classList.remove('open'); if(t) t.setAttribute('aria-expanded','false'); },420); }
+  [t,m,d].forEach(function(el){
+    if(!el) return;
+    el.addEventListener('mouseenter',open);
+    el.addEventListener('mouseleave',close);
+  });
 })();
