@@ -200,7 +200,6 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 .wa-float svg{width:30px;height:30px;fill:#fff}
 @media print{.wa-float{display:none}}
 
-
 .tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:26px}
 .tquote{border:1px solid var(--rule);background:#fff;padding:26px;position:relative}
 .tquote .stars{color:#00B67A;font-size:15px;letter-spacing:2px;margin-bottom:10px}
@@ -216,19 +215,18 @@ footer.site .brandfoot i{font-style:normal;color:var(--tape)}
 .cell .from{font-family:'Montserrat';font-weight:700;font-size:13.5px;letter-spacing:.01em}
 
 /* soft radii for mobile-friendly surfaces */
-.cell,.tquote,.fastnote,.schedule,.faq details,.dropmenu{border-radius:12px}
+.cell,.tquote,.fastnote,.schedule,.faq details,
 .schedule{overflow:hidden}
 .photo{border-radius:14px}
 /* nav dropdown */
 .navdrop{position:relative;display:inline-block}
 .navdrop-t{display:inline-flex;align-items:center;gap:6px}
-.dropmenu{position:absolute;top:calc(100% + 12px);right:0;left:auto;transform:none;background:#fff;border:1px solid var(--rule);box-shadow:0 18px 50px rgba(19,41,75,.14);padding:22px 26px;display:none;grid-template-columns:repeat(5,minmax(140px,1fr));gap:20px;z-index:120;width:max-content;max-width:calc(100vw - 32px)}
-.navdrop.open .dropmenu{display:grid}
-@media(hover:hover) and (min-width:901px){.navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu{display:grid}}
+
+.navdrop.open 
+@media(hover:hover) and (min-width:901px){.navdrop:hover .dropmenu,.navdrop:focus-within }
 .dmcol b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--tape);margin-bottom:8px}
 .dmcol a{display:block;font-size:13.5px;color:var(--ink);text-decoration:none;padding:4px 0}
 .dmcol a:hover{color:var(--tape)}
-@media(max-width:900px){.dropmenu{position:absolute;left:auto;right:0;transform:none;min-width:0;grid-template-columns:1fr 1fr;max-height:70vh;overflow:auto}}
 
 .pgroup .grid{margin-top:0}
 
@@ -266,7 +264,6 @@ footer.site .brandfoot{display:flex;align-items:center;gap:10px}
 
 footer.site .brandfoot{display:block}
 
-
 .brandmark{height:34px;width:auto;display:block;margin-left:-4px}
 @media(max-width:640px){.brandmark{height:27px;margin-left:-3px}}
 @media(max-width:430px){.brandmark{height:23px;margin-left:-3px}}
@@ -275,20 +272,16 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
 .brand small{margin-left:1px}
 @media(max-width:430px){.brand small{display:block;font-size:9px;letter-spacing:.1em}}
 
-/* MOBILE DROPDOWN PANEL */
 @media(max-width:900px){
-  .dropmenu{position:absolute;top:calc(100% + 10px);left:auto;right:-12px;transform:none;min-width:min(92vw,420px);grid-template-columns:1fr 1fr;max-height:70vh;overflow:auto;padding:18px 16px;border-radius:12px;box-shadow:0 22px 60px rgba(19,41,75,.22)}
-  .navdrop.open .dropmenu{display:grid}
+  
+  .navdrop.open 
   .dmcol a{padding:7px 0;font-size:14px}
 }
-@media(max-width:430px){.dropmenu{grid-template-columns:1fr}}
 
-/* DROPDOWN HOVER BRIDGE: the panel sits 12px below the trigger, so the cursor must be able to cross that gap */
-.navdrop::after{content:"";position:absolute;left:0;right:0;top:100%;height:16px;display:block}
 @media(hover:hover) and (min-width:901px){
-  .navdrop:hover::after{pointer-events:auto}
-  .dropmenu{transition:opacity .12s ease}
-  .navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu,.dropmenu:hover{display:grid}
+  
+  
+  
 }
 
 /* MOBILE ACTION BAR */
@@ -302,16 +295,14 @@ footer.site .brandfoot img{height:28px;width:auto;display:block}
   .wa-float{display:none}
 }
 
-/* MOBILE DROPDOWN LINKS: the panel lives inside nav.main, so it must be exempt from the link hide */
 @media(max-width:900px){
-  .dropmenu a,.navdrop .dmcol a{display:block !important}
-  .dropmenu{grid-template-columns:1fr 1fr;gap:14px 18px}
+  
+  
   .dmcol{break-inside:avoid}
   .dmcol b{margin-bottom:6px}
   .dmcol a{padding:9px 0;font-size:14.5px;border-bottom:1px solid var(--rule)}
   .dmcol a:last-child{border-bottom:0}
 }
-@media(max-width:480px){.dropmenu{grid-template-columns:1fr;max-height:72vh}}
 
 select optgroup{font-family:var(--sans);font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);background:var(--panel)}
 select optgroup option{font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink);background:#fff;padding-left:6px}
@@ -322,7 +313,6 @@ select optgroup option{font-weight:500;text-transform:none;letter-spacing:0;colo
 @media(max-width:1100px){.microbar .clocks span:nth-child(n+7){display:none}}
 @media(max-width:860px){.microbar .clocks span:nth-child(n+5){display:none}}
 @media(max-width:560px){.microbar .clocks span:nth-child(n+3){display:none}.microbar .clocks{gap:12px}}
-
 
 /* CLOCK TICKER: London pinned, the rest scroll on every viewport */
 .microbar .clocks{display:flex;align-items:center;gap:16px;min-width:0;flex:1}
@@ -346,19 +336,7 @@ html{scroll-padding-top:96px}
 section[id]{scroll-margin-top:96px}
 @media(max-width:860px){section[id]{scroll-margin-top:84px}}
 
-/* DROPDOWN ANCHORING: panel hangs off the trigger so it follows the sticky header at any scroll position */
 .navdrop{position:relative}
-@media(max-width:900px){
-  .dropmenu{position:absolute;top:calc(100% + 10px);right:-12px;left:auto;transform:none;
-    min-width:min(92vw,420px);max-width:92vw;max-height:70vh;overflow-y:auto;-webkit-overflow-scrolling:touch}
-}
-@media(max-width:480px){.dropmenu{grid-template-columns:1fr;right:-8px;min-width:min(94vw,340px)}}
-
-/* DROPDOWN CLAMP: right aligned to the trigger, never wider than the viewport */
-.dropmenu{right:0;left:auto;transform:none;width:max-content;max-width:calc(100vw - 32px);box-sizing:border-box}
-@media(max-width:1180px){.dropmenu{grid-template-columns:repeat(3,minmax(150px,1fr))}}
-@media(max-width:900px){.dropmenu{grid-template-columns:1fr 1fr;width:min(92vw,420px);right:-12px}}
-@media(max-width:480px){.dropmenu{grid-template-columns:1fr;width:min(94vw,340px);right:-8px}}
 
 /* FORM FOCUS: land on the first field, not the preamble */
 #enquiry{scroll-margin-top:96px}
@@ -389,3 +367,39 @@ h2[lang]:not([lang="en"]),p[lang]:not([lang="en"]){font-family:var(--sans)}
   font-size:clamp(17px,1.7vw,21px);letter-spacing:.06em;line-height:1.3;
   margin:14px 0 16px;white-space:nowrap}
 @media(max-width:420px){.hero .strapline{font-size:16px;letter-spacing:.04em}}
+
+/* ============ DROPDOWN, single source of truth ============ */
+.navdrop{position:relative;display:inline-block}
+.dropmenu{
+  position:absolute;top:calc(100% + 12px);right:0;left:auto;
+  background:#fff;border:1px solid var(--rule);border-radius:12px;
+  box-shadow:0 18px 50px rgba(19,41,75,.14);
+  padding:22px 26px;display:none;
+  grid-template-columns:repeat(5,minmax(140px,1fr));gap:20px;
+  width:max-content;max-width:calc(100vw - 32px);box-sizing:border-box;z-index:200}
+/* invisible bridge so the cursor can cross the 12px gap */
+.navdrop::after{content:"";position:absolute;left:0;right:0;top:100%;height:16px;display:block}
+.navdrop.open .dropmenu{display:grid}
+@media(hover:hover) and (min-width:901px){
+  .navdrop:hover .dropmenu,.navdrop:focus-within .dropmenu,.dropmenu:hover{display:grid}
+}
+@media(max-width:1180px) and (min-width:901px){
+  .dropmenu{grid-template-columns:repeat(3,minmax(150px,1fr))}
+}
+/* below 900 the panel is pinned to the viewport, under the sticky header,
+   so it can never overflow either edge and never drifts on scroll */
+@media(max-width:900px){
+  .dropmenu{
+    position:fixed;top:var(--droptop,92px);left:10px;right:10px;
+    width:auto;max-width:none;transform:none;
+    grid-template-columns:1fr 1fr;gap:12px 18px;
+    padding:18px 16px;max-height:calc(100vh - var(--droptop,92px) - 16px);
+    overflow-y:auto;-webkit-overflow-scrolling:touch;
+    box-shadow:0 22px 60px rgba(19,41,75,.22)}
+  .dropmenu a,.navdrop .dmcol a{display:block}
+  .dmcol{break-inside:avoid}
+  .dmcol b{display:block;margin-bottom:6px}
+  .dmcol a{padding:9px 0;font-size:14.5px;border-bottom:1px solid var(--rule)}
+  .dmcol a:last-child{border-bottom:0}
+}
+@media(max-width:480px){.dropmenu{grid-template-columns:1fr}}

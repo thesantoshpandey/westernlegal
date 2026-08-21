@@ -108,6 +108,8 @@
   t.addEventListener('click',function(e){
     if(!narrow()) return;
     e.preventDefault(); e.stopPropagation();
+    var hdr=document.querySelector('header.site');
+    if(hdr) document.documentElement.style.setProperty('--droptop',Math.max(0,hdr.getBoundingClientRect().bottom)+8+'px');
     var open=d.classList.toggle('open');
     t.setAttribute('aria-expanded',open?'true':'false');
   });
