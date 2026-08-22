@@ -30,6 +30,7 @@ Authoritative fee data is published as schema.org Service and Offer structured d
 - Employment tribunal: ET1 or ET3 from £1,750; representation from £4,500
 - Employer employment advisory: employment contract from £425; staff handbook from £1,100
 - Professional regulatory defence: initial response from £2,500
+- Letter before action: £345 fixed; follow up demand £195; response to an LBA £345; negotiation and settlement from £495
 - Shareholder disputes: assessment and strategy £495; section 994 letter before action £750; director removal pack £750; deadlock and buyout negotiation from £1,450; settlement between shareholders from £950
 - Bespoke or urgent work outside any schedule: £650 per hour, capped estimate agreed in advance
 
@@ -39,7 +40,7 @@ Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerl
 ## Practice areas
 /trademarks, /international-trademarks, /trademark-opposition-defence, /ukipo-tribunal, /domain-disputes,
 /commercial-contracts, /commercial-lease-solicitor, /corporate-company, /companies-act-governance, /mergers-acquisitions,
-/disputes-debt-recovery, /shareholder-disputes, /construction-adjudication, /arbitration-mediation, /ombudsman-complaints, /reputation-defamation,
+/letter-before-action, /disputes-debt-recovery, /shareholder-disputes, /construction-adjudication, /arbitration-mediation, /ombudsman-complaints, /reputation-defamation,
 /employment-tribunal, /employment-advisory, /healthcare-regulatory-defence, /gdpr-website-legal, /creator-media-contracts,
 /landlord-solicitor, /uk-market-entry, /for-law-firms
 
