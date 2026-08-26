@@ -11,7 +11,7 @@
     STORAGE_KEY: 'wl_attribution',
     TTL_DAYS: 90
   };
-  var TRACKED_PARAMS = ['gclid','gbraid','wbraid','utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+  var TRACKED_PARAMS = ['gclid','gbraid','wbraid','msclkid','utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
   function readStored(){try{var raw=localStorage.getItem(CONFIG.STORAGE_KEY);if(!raw)return null;var d=JSON.parse(raw);if(Date.now()-d.first_seen_ts>CONFIG.TTL_DAYS*864e5){localStorage.removeItem(CONFIG.STORAGE_KEY);return null;}return d;}catch(e){return null;}}
   function captureFromUrl(){var p=new URLSearchParams(window.location.search);var found={},has=false;TRACKED_PARAMS.forEach(function(k){var v=p.get(k);if(v){found[k]=v;has=true;}});if(!has)return;var ex=readStored()||{};var m=Object.assign({},ex,found);if(ex.gclid)m.gclid=ex.gclid;m.landing_page=ex.landing_page||(window.location.pathname+window.location.search);m.first_seen_ts=ex.first_seen_ts||Date.now();m.first_seen=ex.first_seen||new Date().toISOString();try{localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify(m));}catch(e){}}
   var LEAD_FIELDS=['gclid','gbraid','wbraid','utm_source','utm_medium','utm_campaign','utm_term','utm_content','landing_page','first_seen'];

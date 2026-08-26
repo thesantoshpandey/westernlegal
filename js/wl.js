@@ -42,7 +42,7 @@
   // Attribution: tracking.js owns capture (localStorage, first-touch, 90d).
   // Backfill from storage only - NEVER blank a field. This fixes the bug where
   // fields were overwritten with '' whenever the submit page URL had no UTMs.
-  var ATTR_FIELDS = ['gclid', 'gbraid', 'wbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'landing_page', 'first_seen'];
+  var ATTR_FIELDS = ['gclid', 'gbraid', 'wbraid', 'msclkid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'landing_page', 'first_seen'];
   function fillAttribution() {
     var att = (typeof window.WL_getAttribution === 'function' && window.WL_getAttribution()) || {};
     ATTR_FIELDS.forEach(function (k) {
@@ -73,15 +73,15 @@
       window.location.href = 'https://wa.me/447822014066?text=' + msg.replace(/\n/g,'%0A');
     }
     function formsubmitFallback() {
-      fetch('https://formsubmit.co/ajax/trademark@westernlegal.co.uk', {
+      fetch('https://formsubmit.co/ajax/intake@westernlegal.co.uk', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
-          _subject: 'New enquiry - ' + (data.matter || 'General') + ' - ' + (data.name || ''),
+          _subject: '[FALLBACK] New enquiry - ' + (data.matter || 'General') + ' - ' + (data.name || '') + (data.msclkid ? ' [BING CLICK]' : (data.gclid || data.gbraid || data.wbraid ? ' [AD CLICK]' : '')),
           name: data.name, email: data.email, phone: data.phone,
           matter: data.matter, message: data.message,
           page: data.page, referrer: data.referrer,
-          gclid: data.gclid, gbraid: data.gbraid, wbraid: data.wbraid,
+          gclid: data.gclid, gbraid: data.gbraid, wbraid: data.wbraid, msclkid: data.msclkid,
           utm_source: data.utm_source, utm_medium: data.utm_medium,
           utm_campaign: data.utm_campaign, utm_term: data.utm_term,
           utm_content: data.utm_content,
