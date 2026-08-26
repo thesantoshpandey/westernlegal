@@ -63,6 +63,7 @@
     new FormData(form).forEach(function (v, k) { data[k] = v; });
     function success() {
       if (typeof gtag === 'function') { gtag('event', 'conversion', { send_to: 'AW-17980143249/_293CM3WqaIcEJHtzP1C' }); }
+      if (window.uetq) { window.uetq.push('event', 'submit_lead_form', { event_category: 'lead', event_label: (data.matter || 'General') }); }
       form.style.display = 'none';
       var ok = document.querySelector('.form-ok');
       if (ok) ok.style.display = 'block';
