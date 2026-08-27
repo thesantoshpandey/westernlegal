@@ -500,3 +500,17 @@ summary{color:var(--ink)}
 footer.site{background:#0A1830;border-top:1px solid var(--rule)}
 hr,.rule{border-color:var(--rule)}
 ::selection{background:var(--tape);color:#0E2145}
+
+/* dark theme button corrections */
+.btn{background:var(--tape);color:#0E2145;border:1px solid var(--tape)}
+.btn:hover{background:#D8AA3E;border-color:#D8AA3E;color:#0E2145}
+nav.main a.btn,nav.main a.btn:hover{background:var(--tape);color:#0E2145;border-color:var(--tape)}
+.btn.ghost,.btn.ghost:hover{background:transparent}
+.btn.ghost{color:var(--ink);border:1px solid var(--rule)}
+.btn.ghost:hover{color:var(--tape);border-color:var(--tape)}
+/* lede was too faint against the page */
+.hero .lede{color:#C9D8EC}
+/* photo edges on dark */
+.photo,.bandimg{border:1px solid var(--rule)}
+/* microbar separator */
+.microbar .clockpin{border-right-color:var(--rule)}
