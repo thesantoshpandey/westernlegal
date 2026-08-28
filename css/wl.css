@@ -668,3 +668,26 @@ select option{background:#fff;color:var(--ink-dark)}
 .fine,.fine *{color:var(--slate)}
 .faq details p a,.faq details p{color:var(--slate-dark)}
 .faq summary{color:var(--ink-dark)}
+
+/* ---- mobile header fit ---- */
+@media(max-width:560px){
+  header.site .wrap{gap:8px;min-height:60px;padding:0 14px}
+  .brandmark{height:20px}
+  .brand small{font-size:8.5px;letter-spacing:.18em}
+  nav.main{gap:8px}
+  nav.main .navdrop a.navdrop-t{font-size:12.5px}
+  nav.main a.btn{padding:8px 10px;font-size:12px;white-space:nowrap;line-height:1.15}
+}
+@media(max-width:420px){
+  nav.main a.btn{padding:7px 9px;font-size:11.5px}
+  .brand small{display:none}
+  .brandmark{height:19px}
+}
+@media(max-width:360px){
+  nav.main .navdrop a.navdrop-t{font-size:11.5px}
+  nav.main a.btn{font-size:11px;padding:7px 8px}
+}
+/* ---- images must never overflow ---- */
+img,.photo,.bandimg{max-width:100%;height:auto}
+.hero .art,.art{max-width:100%;overflow:hidden}
+.hero .art img{width:100%;height:auto;object-fit:cover}
