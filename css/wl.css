@@ -4,7 +4,7 @@
    Display: Libre Caslon Text · Body: Archivo · Figures: IBM Plex Mono */
 
 :root{
-  --brass-dark:#7A5F2E;
+  --brass-dark:#E8B54A;
   --navy:#0A1B33;
   --navy-2:#0E2140;
   --paper:#0A1B33;
@@ -15,15 +15,15 @@
   --ink-dark:#0E2140;
   --slate:#A9B7CC;
   --slate-dark:#5A6579;
-  --tape:#B08D57;
-  --gold:#B08D57;
-  --goldfill:#B08D57;
+  --tape:#E8B54A;
+  --gold:#E8B54A;
+  --goldfill:#E8B54A;
   --rule:#2A3E60;
   --rule-dark:#DED9CF;
   --max:1120px;
   --serif:'Montserrat', Helvetica, Arial, sans-serif;
   --sans:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-  --mono:'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+  --mono:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:96px}
@@ -461,7 +461,7 @@ nav.main a:hover{color:var(--tape)}
 
 /* buttons */
 .btn.tape{background:var(--tape);color:#0E2145;border-color:var(--tape)}
-.btn.tape:hover{background:#D8AA3E;border-color:#D8AA3E}
+.btn.tape:hover{background:#F2C55F;border-color:#F2C55F}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--rule)}
 .btn.ghost:hover{border-color:var(--tape);color:var(--tape)}
 
@@ -509,7 +509,7 @@ hr,.rule{border-color:var(--rule)}
 
 /* dark theme button corrections */
 .btn{background:var(--tape);color:#0E2145;border:1px solid var(--tape)}
-.btn:hover{background:#D8AA3E;border-color:#D8AA3E;color:#0E2145}
+.btn:hover{background:#F2C55F;border-color:#F2C55F;color:#0E2145}
 nav.main a.btn,nav.main a.btn:hover{background:var(--tape);color:#0E2145;border-color:var(--tape)}
 .btn.ghost,.btn.ghost:hover{background:transparent}
 .btn.ghost{color:var(--ink);border:1px solid var(--rule)}
@@ -604,7 +604,7 @@ footer.site h4{color:var(--tape)}
 
 /* ---- buttons ---- */
 .btn{background:var(--tape);color:#0A1B33;border:1px solid var(--tape)}
-.btn:hover{background:#C39F68;border-color:#C39F68;color:#0A1B33}
+.btn:hover{background:#F2C55F;border-color:#F2C55F;color:#0A1B33}
 nav.main a.btn,nav.main a.btn:hover{background:var(--tape);color:#0A1B33;border-color:var(--tape)}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid rgba(245,243,238,.35)}
 .btn.ghost:hover{border-color:var(--tape);color:var(--tape);background:transparent}
@@ -691,3 +691,42 @@ select option{background:#fff;color:var(--ink-dark)}
 img,.photo,.bandimg{max-width:100%;height:auto}
 .hero .art,.art{max-width:100%;overflow:hidden}
 .hero .art img{width:100%;height:auto;object-fit:cover}
+
+/* ================= ONE GOLD, ONE TYPEFACE ================= */
+/* label role: our face, letterspaced, never mono */
+.microbar,.brand small,.eyebrow,.kicker,.proof,.proof.proof4 b,.cell .from,
+.schedule .head .t,.schedule th,.schedule td.fee,.step .n,.art-card .tag,
+.article .meta,.channels .l,form.lead label,footer.site h4,.crumbs,.tierlabel,
+.fastband .k,.fastnote .k,.writtenline,.tquote .who,.readnext .k,.dmcol b,.glabel{
+  font-family:var(--sans);letter-spacing:.12em;font-weight:500}
+.microbar,.crumbs,.writtenline,.tquote .who,.channels .l{letter-spacing:.06em}
+.schedule td.fee,.cell .from{letter-spacing:.02em;font-weight:600}
+.proof.proof4 > div{font-family:var(--sans);letter-spacing:0;font-weight:400}
+
+/* gold lives on navy, where it reads at 9:1 even in sunlight */
+.kicker,.eyebrow,.glabel,.microbar b,.proof b,.proof.proof4 b,
+footer.site h4,.fastband .k,.anchor-rate b{color:var(--gold)}
+hr,.rule,.pgroup{border-color:var(--gold)}
+section > .wrap > h2{border-bottom-color:rgba(232,181,74,.45)}
+footer.site{border-top-color:var(--gold)}
+.actionbar{border-top-color:var(--gold)}
+.actionbar a.primary{background:var(--gold);color:#0A1B33}
+.btn,nav.main a.btn{background:var(--gold);color:#0A1B33;border-color:var(--gold)}
+.btn:hover,nav.main a.btn:hover{background:#F2C55F;border-color:#F2C55F;color:#0A1B33}
+.btn.ghost{background:transparent;color:var(--ink);border-color:rgba(232,181,74,.5)}
+.btn.ghost:hover{border-color:var(--gold);color:var(--gold);background:transparent}
+::selection{background:var(--gold);color:#0A1B33}
+
+/* on cream, text is navy ink; gold appears only as rule and edge, never as small text */
+.cell,.art-card,.tquote,.schedule,.faq,.channels a,.fastnote,.dropmenu,form.lead,.readnext,.step{
+  --tape:var(--ink-dark)}
+.cell .from,.schedule td.fee,.schedule .fee b,.step .n,.art-card .tag,.fastnote .k,.readnext .k{color:var(--ink-dark)}
+.cell a,.art-card a,.tquote a,.schedule a,.faq a,.fastnote a,.readnext a,.step a,form.lead a,.dropmenu a{
+  color:var(--ink-dark);text-decoration:underline;text-underline-offset:2px;text-decoration-color:rgba(14,33,64,.35)}
+.cell a:hover,.art-card a:hover,.schedule a:hover,.faq a:hover,.fastnote a:hover,.readnext a:hover,.step a:hover,.dropmenu a:hover{
+  color:#0A1B33;text-decoration-color:#0A1B33}
+.cell:hover,.art-card:hover,.channels a:hover,.step:hover{border-color:var(--gold)}
+.schedule .head{border-bottom:2px solid var(--gold)}
+.fastnote{border:1px solid var(--gold)}
+.faqnav a{color:var(--ink-dark);font-family:var(--sans);letter-spacing:.02em}
+.faqnav a:hover{border-color:var(--gold);color:var(--ink-dark)}
