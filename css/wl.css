@@ -3,17 +3,23 @@
    Ink #13294B · Paper #FFFFFF · Panel #EDF1F7 · Brief-tape crimson #B5352E · Slate #55677E
    Display: Libre Caslon Text · Body: Archivo · Figures: IBM Plex Mono */
 
-:root{--gold:#E8B54A;--goldfill:#E8B54A;
-
-  --ink:#F2F6FC;          /* text on dark */
-  --paper:#0E2145;        /* page background, deep navy */
-  --panel:#132A54;        /* raised surface */
-  --surface:#17305D;      /* card, one step lighter */
-  --surface-hi:#1D3A6E;   /* card on hover */
-  --navy:#13294B;         /* the brand navy, kept for reference */
-  --tape:#C0952B;         /* gold, UI chrome */
-  --slate:#A8BBD6;        /* secondary text on dark */
-  --rule:#24406B;         /* hairlines */
+:root{
+  --brass-dark:#7A5F2E;
+  --navy:#0A1B33;
+  --navy-2:#0E2140;
+  --paper:#0A1B33;
+  --panel:#0E2140;
+  --surface:#F5F3EE;
+  --surface-hi:#FFFFFF;
+  --ink:#F5F3EE;
+  --ink-dark:#0E2140;
+  --slate:#A9B7CC;
+  --slate-dark:#5A6579;
+  --tape:#B08D57;
+  --gold:#B08D57;
+  --goldfill:#B08D57;
+  --rule:#2A3E60;
+  --rule-dark:#DED9CF;
   --max:1120px;
   --serif:'Montserrat', Helvetica, Arial, sans-serif;
   --sans:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
@@ -529,3 +535,115 @@ nav.main a.btn,nav.main a.btn:hover{background:var(--tape);color:#0E2145;border-
 .channels .l{color:var(--slate)}
 p.lede,.hero p.lede,.hero .lede{color:#C9D8EC}
 *[style*="background:#fff"],*[style*="background: #fff"]{background:var(--surface) !important}
+
+/* ================= NAVY PAGE, CREAM BOXES, BRASS RULES ================= */
+body{background:var(--navy);color:var(--ink)}
+section,.tint{background:transparent}
+.tint{background:var(--navy-2)}
+
+/* type: our face, lighter weight, never italic */
+body,p,li,td,th,summary,input,textarea,select,button{font-weight:400;font-style:normal}
+h1{font-weight:500;letter-spacing:-.015em}
+h2{font-weight:500;letter-spacing:-.01em}
+h3,h4{font-weight:500}
+b,strong,.cell h3,.art-card h3{font-weight:600}
+.kicker,.eyebrow,.dmcol b,.channels .l,.schedule th{font-weight:500}
+.btn{font-weight:500}
+i,em,.brand i,.brandfoot i{font-style:normal}
+.strapline{font-weight:400;letter-spacing:.08em}
+
+/* headings and text on the navy page */
+h1,h2,h3,h4{color:var(--ink)}
+p,li{color:var(--ink)}
+.lede,.sub,.writtenline,.crumbs{color:var(--slate)}
+.kicker,.eyebrow{color:var(--tape)}
+a{color:var(--ink)}a:hover{color:var(--tape)}
+
+/* ---- cream boxes ---- */
+.cell,.art-card,.tquote,.schedule,.faq,.channels a,.fastnote,.fastband,
+.dropmenu,form.lead,.readnext{
+  background:var(--surface);color:var(--ink-dark);border:1px solid var(--rule-dark)}
+.cell h3,.art-card h3,.art-card h3 a,.tquote p,.faq summary,.schedule td,.schedule th,
+.channels a,.channels a *,.fastnote p,.readnext a,.dmcol a{color:var(--ink-dark)}
+.cell p,.art-card p,.tquote .who,.schedule .note,.dmcol b,.channels .l,.faq details p{color:var(--slate-dark)}
+.cell .from,.schedule .fee b{color:var(--tape)}
+.cell:hover,.art-card:hover,.channels a:hover{background:var(--surface-hi);border-color:var(--tape);transform:translateY(-2px)}
+.cell:active,.art-card:active{transform:translateY(0)}
+.faq details,.readnext{border-bottom-color:var(--rule-dark)}
+.faq{padding:6px 22px;border-radius:2px}
+.faq details{border-bottom:1px solid var(--rule-dark)}
+.faq details:last-child{border-bottom:0}
+.schedule{border:1px solid var(--rule-dark)}
+.schedule .head{border-bottom:1px solid var(--tape);color:var(--ink-dark)}
+.schedule .head .t{color:var(--slate-dark)}
+.schedule tr:hover td{background:#EFEBE3}
+.schedule .note{border-top:1px solid var(--rule-dark)}
+.stamp{opacity:.16}
+.fastnote,.fastband{border:1px solid var(--tape)}
+.fastnote .k,.fastband .k{color:var(--tape)}
+.readnext .k{color:var(--slate-dark)}
+
+/* ---- brass rules ---- */
+hr,.rule{border-color:var(--tape)}
+.pgroup{border-top:1px solid var(--tape);padding-top:26px}
+.glabel{color:var(--tape)}
+section > .wrap > h2{padding-bottom:14px;border-bottom:1px solid rgba(176,141,87,.35)}
+
+/* ---- header, microbar, footer ---- */
+.microbar{background:#07142A;color:var(--slate);border-bottom:1px solid var(--rule)}
+.microbar b{color:var(--ink)}
+.microbar .clockpin{border-right-color:var(--rule)}
+header.site{background:rgba(10,27,51,.88);backdrop-filter:saturate(140%) blur(10px);
+  -webkit-backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--rule)}
+nav.main a{color:var(--ink);font-weight:400}
+nav.main a:hover{color:var(--tape)}
+.brand small{color:var(--slate)}
+footer.site{background:#07142A;border-top:1px solid var(--tape);color:var(--slate)}
+footer.site a{color:var(--ink)}footer.site a:hover{color:var(--tape)}
+footer.site h4{color:var(--tape)}
+
+/* ---- buttons ---- */
+.btn{background:var(--tape);color:#0A1B33;border:1px solid var(--tape)}
+.btn:hover{background:#C39F68;border-color:#C39F68;color:#0A1B33}
+nav.main a.btn,nav.main a.btn:hover{background:var(--tape);color:#0A1B33;border-color:var(--tape)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid rgba(245,243,238,.35)}
+.btn.ghost:hover{border-color:var(--tape);color:var(--tape);background:transparent}
+
+/* ---- forms sit on cream ---- */
+form.lead{padding:26px}
+form.lead label,label{color:var(--slate-dark)}
+input,textarea,select,form.lead input,form.lead textarea,form.lead select{
+  background:#fff;color:var(--ink-dark);border:1px solid var(--rule-dark)}
+input::placeholder,textarea::placeholder{color:#8A93A3}
+input:focus,textarea:focus,select:focus{border-color:var(--tape)}
+select optgroup{background:#EFEBE3;color:var(--slate-dark)}
+select option{background:#fff;color:var(--ink-dark)}
+
+/* ---- mobile action bar, was invisible ---- */
+@media(max-width:720px){
+  .actionbar{background:#07142A;border-top:1px solid var(--tape)}
+  .actionbar a{color:var(--ink);font-weight:500;border-right:1px solid var(--rule)}
+  .actionbar a.primary{background:var(--tape);color:#0A1B33}
+  .actionbar a:last-child{border-right:0}
+}
+
+/* ---- misc on navy ---- */
+.proof.proof4 > div,.proof > div{color:var(--slate)}
+.proof b,.proof.proof4 b{color:var(--tape)}
+.proof.proof4 a{color:var(--slate)}
+.article p,.article li{color:var(--ink)}
+.article h2,.article h3{color:var(--ink)}
+.photo,.bandimg{border:1px solid var(--rule);filter:saturate(.86)}
+.faqnav a{background:var(--surface);border-color:var(--rule-dark);color:var(--ink-dark);font-weight:500}
+.faqnav a:hover{border-color:var(--tape);color:var(--tape)}
+.anchor-rate{color:var(--slate)}
+.anchor-rate b{color:var(--tape)}
+::selection{background:var(--tape);color:#0A1B33}
+
+/* brass on cream needs a darker tone to stay legible */
+.cell .from,.schedule .fee b,.fastnote .k,.fastband .k,
+.faq summary::after,.art-card .tag{color:var(--brass-dark)}
+.faqnav a:hover{color:var(--brass-dark);border-color:var(--brass-dark)}
+.cell:hover,.art-card:hover,.channels a:hover{border-color:var(--brass-dark)}
+.schedule .head{border-bottom-color:var(--brass-dark)}
+.fastnote,.fastband{border-color:var(--brass-dark)}
