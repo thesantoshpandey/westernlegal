@@ -39,7 +39,7 @@ module.exports = async (req, res) => {
       headers: { 'Authorization': `Bearer ${key}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
         from: 'Western Legal Website <leads@westernlegal.co.uk>',
-        to: ['intake@westernlegal.co.uk', 'sp@westernlegal.co.uk'],
+        to: ['trademark@westernlegal.co.uk'],
         reply_to: (emailOk && d.email) ? String(d.email).trim() : undefined,
         subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}`,
         html

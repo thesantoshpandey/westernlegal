@@ -74,7 +74,7 @@
       window.location.href = 'https://wa.me/447822014066?text=' + msg.replace(/\n/g,'%0A');
     }
     function formsubmitFallback() {
-      fetch('https://formsubmit.co/ajax/intake@westernlegal.co.uk', {
+      fetch('https://formsubmit.co/ajax/trademark@westernlegal.co.uk', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
