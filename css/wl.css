@@ -819,3 +819,99 @@ footer.site{border-top-color:var(--gold)}
   .consent-btns{width:100%;gap:10px}
   .consent-btns .btn{flex:1;min-width:0;padding:14px 10px;font-size:14px}
 }
+
+/* ================= FLOW: ALL NAVY, NO BOXES ================= */
+:root{--navy-3:#122748;--hair:rgba(232,181,74,.22)}
+body,section,.tint{background:var(--navy)}
+section:nth-of-type(even),.tint{background:var(--navy-2)}
+
+/* every former cream box becomes part of the page */
+.cell,.art-card,.tquote,.step,.schedule,.faq,.channels a,.fastnote,.fastband,form.lead,.readnext,.faqnav a{
+  background:transparent !important;border:0;box-shadow:none;
+  --ink:#F5F3EE; --slate:#A9B7CC; --tape:var(--gold); --rule:var(--hair)}
+.cell,.art-card,.step{padding:0 0 4px;border-top:1px solid var(--hair);padding-top:20px;border-radius:0}
+.cell:hover,.art-card:hover,.step:hover{background:rgba(255,255,255,.035) !important;
+  border-top-color:var(--gold);transform:none}
+.cell h3,.art-card h3,.art-card h3 a,.step h3{color:var(--ink)}
+.cell p,.art-card p,.step p{color:var(--slate)}
+.cell .from,.step .n,.art-card .tag{color:var(--gold)}
+.cell a,.art-card a,.step a,.readnext a,.faq a,.schedule a,.fastnote a,form.lead a,.tquote a{
+  color:var(--ink);text-decoration-color:rgba(232,181,74,.5)}
+.cell a:hover,.art-card a:hover,.step a:hover,.readnext a:hover,.faq a:hover,.schedule a:hover{color:var(--gold)}
+
+/* fee schedule: a typeset list, not a table in a box */
+.schedule{margin-top:34px;padding:0;border:0;border-top:1px solid var(--gold)}
+.schedule .head{padding:16px 0;border-bottom:1px solid var(--hair);color:var(--slate)}
+.schedule .head .t{color:var(--slate)}
+.schedule table{border-collapse:collapse;width:100%}
+.schedule th{color:var(--slate);border-bottom:1px solid var(--hair);padding:12px 0;text-align:left}
+.schedule td{border-bottom:1px solid var(--hair);padding:16px 0;color:var(--ink);vertical-align:top}
+.schedule td:nth-child(2){color:var(--slate)}
+.schedule td.fee,.schedule td:last-child{color:var(--gold);text-align:right;white-space:nowrap;font-weight:600}
+.schedule tr:hover td{background:rgba(255,255,255,.03)}
+.schedule .note{padding:18px 0 0;border-top:1px solid var(--hair);color:var(--slate)}
+.stamp{opacity:.14}
+
+/* faq: hairlines only */
+.faq{padding:0;border-top:1px solid var(--hair)}
+.faq details{border-bottom:1px solid var(--hair);padding:16px 0}
+.faq summary{color:var(--ink);font-weight:600}
+.faq details p{color:var(--slate)}
+.faqnav a{border:1px solid var(--hair);color:var(--ink)}
+.faqnav a:hover{border-color:var(--gold);color:var(--gold)}
+
+/* contact channels and forms flow too */
+.channels a{border:0;border-top:1px solid var(--hair);padding:18px 0;margin:0;color:var(--ink)}
+.channels a:hover{background:rgba(255,255,255,.035);border-top-color:var(--gold);transform:none}
+.channels .l{color:var(--gold)}
+.channels .v{color:var(--ink)}
+form.lead{padding:0;border:0}
+form.lead label{color:var(--slate)}
+input,textarea,select,form.lead input,form.lead textarea,form.lead select{
+  background:rgba(255,255,255,.05);color:var(--ink);border:1px solid var(--hair)}
+input::placeholder,textarea::placeholder{color:#8FA3C0}
+input:focus,textarea:focus,select:focus{border-color:var(--gold);background:rgba(255,255,255,.07)}
+select option,select optgroup{background:#0E2140;color:var(--ink)}
+
+.fastnote,.fastband{border:0;border-left:2px solid var(--gold);padding:6px 0 6px 20px;background:transparent}
+.fastnote .k,.fastband .k{color:var(--gold)}
+.fastnote p,.fastband p{color:var(--slate)}
+.readnext{border-top:1px solid var(--hair);padding-top:18px}
+.readnext .k{color:var(--gold)}
+
+/* grid gaps do the separating now that borders are gone */
+.grid,.grid.c3,.grid.c2{gap:30px 40px}
+.steps{gap:30px 40px}
+.pgroup{border-top:1px solid var(--gold);padding-top:26px}
+section > .wrap > h2{border-bottom:0;padding-bottom:0}
+.photo,.bandimg{border:0}
+
+/* ================= REVIEW DECK ================= */
+.deck{position:relative;max-width:640px;margin:34px auto 0;height:340px;touch-action:pan-y;outline:none}
+.rcard{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+  background:rgba(255,255,255,.055);border:1px solid var(--hair);border-radius:4px;
+  padding:32px 34px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  cursor:grab;will-change:transform,opacity;overflow:auto}
+.rcard:active{cursor:grabbing}
+.rstars{color:var(--gold);letter-spacing:.28em;font-size:14px;margin-bottom:14px}
+.rcard blockquote{margin:0;color:#F5F3EE;font-size:16.5px;line-height:1.62;font-weight:400}
+.rcard footer{display:flex;align-items:center;justify-content:space-between;gap:14px;
+  margin-top:20px;padding-top:14px;border-top:1px solid var(--hair)}
+.rname{color:var(--gold);font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:500}
+.rcard footer a{color:#A9B7CC;font-size:13px;text-decoration:underline;text-underline-offset:2px}
+.rcard footer a:hover{color:var(--gold)}
+.deckbar{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:22px}
+.dnav{width:46px;height:46px;border-radius:50%;background:transparent;cursor:pointer;
+  border:1px solid var(--hair);color:#F5F3EE;font-size:18px;line-height:1;
+  display:flex;align-items:center;justify-content:center;transition:border-color .18s,color .18s}
+.dnav:hover{border-color:var(--gold);color:var(--gold)}
+.dcount{color:#A9B7CC;font-size:14px;letter-spacing:.1em;min-width:56px;text-align:center}
+.dcount b{color:var(--gold);font-weight:600}
+@media(max-width:720px){
+  .deck{height:400px;max-width:100%;margin-top:26px}
+  .rcard{padding:24px 22px;border-radius:3px}
+  .rcard blockquote{font-size:15.5px;line-height:1.6}
+  .dnav{width:48px;height:48px}
+}
+@media(max-width:420px){.deck{height:440px}.rcard blockquote{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.rcard{transition:none !important}}

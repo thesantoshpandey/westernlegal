@@ -162,3 +162,68 @@
     el.addEventListener('mouseleave',close);
   });
 })();
+
+/* Review deck: drag to dismiss with rotation, arrows, counter. */
+(function () {
+  var deck = document.getElementById('deck');
+  if (!deck) return;
+  var cards = [].slice.call(deck.querySelectorAll('.rcard'));
+  if (!cards.length) return;
+  var now = document.getElementById('dnow'), all = document.getElementById('dall');
+  var idx = 0, n = cards.length;
+  if (all) all.textContent = n;
+
+  function layout() {
+    cards.forEach(function (c, i) {
+      var d = (i - idx + n) % n;
+      c.style.transition = 'transform .32s cubic-bezier(.22,.7,.3,1), opacity .28s ease';
+      if (d === 0) { c.style.transform = 'translate(0,0) rotate(0deg)'; c.style.opacity = '1'; c.style.zIndex = 30; c.style.pointerEvents = 'auto'; }
+      else if (d === 1) { c.style.transform = 'translate(0,14px) scale(.965)'; c.style.opacity = '.55'; c.style.zIndex = 20; c.style.pointerEvents = 'none'; }
+      else if (d === 2) { c.style.transform = 'translate(0,26px) scale(.93)'; c.style.opacity = '.28'; c.style.zIndex = 10; c.style.pointerEvents = 'none'; }
+      else { c.style.transform = 'translate(0,34px) scale(.91)'; c.style.opacity = '0'; c.style.zIndex = 1; c.style.pointerEvents = 'none'; }
+    });
+    if (now) now.textContent = idx + 1;
+  }
+
+  function go(dir) {
+    var top = cards[idx];
+    top.style.transition = 'transform .34s ease, opacity .34s ease';
+    top.style.transform = 'translate(' + (dir > 0 ? 460 : -460) + 'px,-30px) rotate(' + (dir > 0 ? 16 : -16) + 'deg)';
+    top.style.opacity = '0';
+    idx = (idx + (dir > 0 ? 1 : n - 1)) % n;
+    setTimeout(layout, 210);
+  }
+
+  deck.addEventListener('click', function (e) { if (e.target.closest('a')) e.stopPropagation(); });
+  document.querySelectorAll('.dnav').forEach(function (b) {
+    b.addEventListener('click', function () { go(parseInt(b.getAttribute('data-d'), 10)); });
+  });
+
+  var sx = 0, sy = 0, dx = 0, dragging = false, card = null, moved = false;
+  function start(x, y) { card = cards[idx]; sx = x; sy = y; dx = 0; dragging = true; moved = false; card.style.transition = 'none'; }
+  function move(x, y) {
+    if (!dragging || !card) return;
+    dx = x - sx; var dy = y - sy;
+    if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return;
+    if (Math.abs(dy) > Math.abs(dx) * 1.4) { end(true); return; }   /* vertical: let the page scroll */
+    moved = true;
+    card.style.transform = 'translate(' + dx + 'px,' + (Math.abs(dx) * 0.04) + 'px) rotate(' + (dx * 0.05) + 'deg)';
+    card.style.opacity = String(Math.max(0.35, 1 - Math.abs(dx) / 420));
+  }
+  function end(cancel) {
+    if (!dragging || !card) return;
+    dragging = false;
+    if (!cancel && Math.abs(dx) > 90) { go(dx > 0 ? 1 : -1); }
+    else { card.style.transition = 'transform .26s ease, opacity .26s ease'; layout(); }
+    card = null;
+  }
+  deck.addEventListener('pointerdown', function (e) { if (e.target.closest('a,button')) return; start(e.clientX, e.clientY); });
+  window.addEventListener('pointermove', function (e) { if (dragging) move(e.clientX, e.clientY); }, { passive: true });
+  window.addEventListener('pointerup', function () { end(false); });
+  window.addEventListener('pointercancel', function () { end(true); });
+  deck.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight') go(1); if (e.key === 'ArrowLeft') go(-1);
+  });
+  deck.setAttribute('tabindex', '0');
+  layout();
+})();
