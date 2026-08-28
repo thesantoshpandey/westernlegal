@@ -514,3 +514,12 @@ nav.main a.btn,nav.main a.btn:hover{background:var(--tape);color:#0E2145;border-
 .photo,.bandimg{border:1px solid var(--rule)}
 /* microbar separator */
 .microbar .clockpin{border-right-color:var(--rule)}
+
+/* inline-style rescue: banners written with background:#fff before the dark theme */
+[style*="background:#fff"],[style*="background: #fff"],[style*="background:#FFF"]{
+  background:var(--panel) !important;border-color:var(--tape) !important}
+[style*="background:#fff"] *,[style*="background: #fff"] *{color:var(--ink)}
+[style*="color:var(--ink)"]{color:var(--ink) !important}
+.article p,.article li,.article td{color:#E6EEF9}
+.article h2,.article h3{color:var(--ink)}
+.article strong,.article b{color:#FFFFFF}
