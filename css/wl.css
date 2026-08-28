@@ -559,30 +559,6 @@ p,li{color:var(--ink)}
 .kicker,.eyebrow{color:var(--tape)}
 a{color:var(--ink)}a:hover{color:var(--tape)}
 
-/* ---- cream boxes ---- */
-.cell,.art-card,.tquote,.schedule,.faq,.channels a,.fastnote,.fastband,
-.dropmenu,form.lead,.readnext{
-  background:var(--surface);color:var(--ink-dark);border:1px solid var(--rule-dark)}
-.cell h3,.art-card h3,.art-card h3 a,.tquote p,.faq summary,.schedule td,.schedule th,
-.channels a,.channels a *,.fastnote p,.readnext a,.dmcol a{color:var(--ink-dark)}
-.cell p,.art-card p,.tquote .who,.schedule .note,.dmcol b,.channels .l,.faq details p{color:var(--slate-dark)}
-.cell .from,.schedule .fee b{color:var(--tape)}
-.cell:hover,.art-card:hover,.channels a:hover{background:var(--surface-hi);border-color:var(--tape);transform:translateY(-2px)}
-.cell:active,.art-card:active{transform:translateY(0)}
-.faq details,.readnext{border-bottom-color:var(--rule-dark)}
-.faq{padding:6px 22px;border-radius:2px}
-.faq details{border-bottom:1px solid var(--rule-dark)}
-.faq details:last-child{border-bottom:0}
-.schedule{border:1px solid var(--rule-dark)}
-.schedule .head{border-bottom:1px solid var(--tape);color:var(--ink-dark)}
-.schedule .head .t{color:var(--slate-dark)}
-.schedule tr:hover td{background:#EFEBE3}
-.schedule .note{border-top:1px solid var(--rule-dark)}
-.stamp{opacity:.16}
-.fastnote,.fastband{border:1px solid var(--tape)}
-.fastnote .k,.fastband .k{color:var(--tape)}
-.readnext .k{color:var(--slate-dark)}
-
 /* ---- brass rules ---- */
 hr,.rule{border-color:var(--tape)}
 .pgroup{border-top:1px solid var(--tape);padding-top:26px}
@@ -640,35 +616,6 @@ select option{background:#fff;color:var(--ink-dark)}
 .anchor-rate b{color:var(--tape)}
 ::selection{background:var(--tape);color:#0A1B33}
 
-/* brass on cream needs a darker tone to stay legible */
-.cell .from,.schedule .fee b,.fastnote .k,.fastband .k,
-.faq summary::after,.art-card .tag{color:var(--brass-dark)}
-.faqnav a:hover{color:var(--brass-dark);border-color:var(--brass-dark)}
-.cell:hover,.art-card:hover,.channels a:hover{border-color:var(--brass-dark)}
-.schedule .head{border-bottom-color:var(--brass-dark)}
-.fastnote,.fastband{border-color:var(--brass-dark)}
-
-/* track record and any remaining block that should be a cream box */
-.step,.step.reveal{background:var(--surface);color:var(--ink-dark);
-  border:1px solid var(--rule-dark);padding:26px 24px;border-radius:2px;
-  transition:background .18s ease,border-color .18s ease,transform .22s ease}
-.step:hover{background:var(--surface-hi);border-color:var(--brass-dark);transform:translateY(-2px)}
-.step h3{color:var(--ink-dark);font-weight:500}
-.step p{color:var(--slate-dark)}
-.step .n{color:var(--brass-dark);font-weight:500}
-.steps{gap:20px}
-
-/* anything inside a cream box takes dark ink, including inline-styled cells and links */
-.cell,.art-card,.tquote,.schedule,.faq,.channels a,.fastnote,.fastband,.dropmenu,form.lead,.readnext,.step{
-  --ink:var(--ink-dark); --slate:var(--slate-dark); --rule:var(--rule-dark); --tape:var(--brass-dark)}
-.schedule td,.schedule td *,.schedule th{color:var(--ink-dark)}
-.schedule td[style*="--slate"],.schedule td[style*="color"]{color:var(--slate-dark) !important}
-.cell a,.art-card a,.tquote a,.schedule a,.faq a,.fastnote a,.fastband a,.readnext a,.step a,form.lead a,.dropmenu a{color:var(--brass-dark)}
-.cell a:hover,.art-card a:hover,.schedule a:hover,.faq a:hover,.fastnote a:hover,.readnext a:hover,.step a:hover,.dropmenu a:hover{color:#0E2140}
-.fine,.fine *{color:var(--slate)}
-.faq details p a,.faq details p{color:var(--slate-dark)}
-.faq summary{color:var(--ink-dark)}
-
 /* ---- mobile header fit ---- */
 @media(max-width:560px){
   header.site .wrap{gap:8px;min-height:60px;padding:0 14px}
@@ -716,26 +663,6 @@ footer.site{border-top-color:var(--gold)}
 .btn.ghost{background:transparent;color:var(--ink);border-color:rgba(232,181,74,.5)}
 .btn.ghost:hover{border-color:var(--gold);color:var(--gold);background:transparent}
 ::selection{background:var(--gold);color:#0A1B33}
-
-/* on cream, text is navy ink; gold appears only as rule and edge, never as small text */
-.cell,.art-card,.tquote,.schedule,.faq,.channels a,.fastnote,.dropmenu,form.lead,.readnext,.step{
-  --tape:var(--ink-dark)}
-.cell .from,.schedule td.fee,.schedule .fee b,.step .n,.art-card .tag,.fastnote .k,.readnext .k{color:var(--ink-dark)}
-.cell a,.art-card a,.tquote a,.schedule a,.faq a,.fastnote a,.readnext a,.step a,form.lead a,.dropmenu a{
-  color:var(--ink-dark);text-decoration:underline;text-underline-offset:2px;text-decoration-color:rgba(14,33,64,.35)}
-.cell a:hover,.art-card a:hover,.schedule a:hover,.faq a:hover,.fastnote a:hover,.readnext a:hover,.step a:hover,.dropmenu a:hover{
-  color:#0A1B33;text-decoration-color:#0A1B33}
-.cell:hover,.art-card:hover,.channels a:hover,.step:hover{border-color:var(--gold)}
-.schedule .head{border-bottom:2px solid var(--gold)}
-.fastnote{border:1px solid var(--gold)}
-.faqnav a{color:var(--ink-dark);font-family:var(--sans);letter-spacing:.02em}
-.faqnav a:hover{border-color:var(--gold);color:var(--ink-dark)}
-
-/* the FAST band is a cream box: its label takes ink, the rule stays gold */
-.fastband{background:var(--surface);color:var(--ink-dark);border:1px solid var(--gold)}
-.fastband .k,.fastnote .k{color:var(--ink-dark)}
-.fastband p,.fastnote p{color:var(--slate-dark)}
-.fastband a,.fastnote a{color:var(--ink-dark)}
 
 /* ================= MOBILE READABILITY ================= */
 @media(max-width:720px){
@@ -915,3 +842,13 @@ section > .wrap > h2{border-bottom:0;padding-bottom:0}
 }
 @media(max-width:420px){.deck{height:440px}.rcard blockquote{font-size:15px}}
 @media(prefers-reduced-motion:reduce){.rcard{transition:none !important}}
+
+/* final: nothing on the page uses the old light-theme inks */
+.cell,.art-card,.tquote,.step,.schedule,.faq,.channels a,.fastnote,.fastband,form.lead,.readnext,
+.cell *,.art-card *,.tquote *,.step *,.schedule *,.faq *,.channels a *,.fastnote *,.fastband *,form.lead *,.readnext *{
+  --ink:#F5F3EE;--ink-dark:#F5F3EE;--slate:#A9B7CC;--slate-dark:#A9B7CC;--tape:#E8B54A;--brass-dark:#E8B54A;--rule-dark:rgba(232,181,74,.22);--surface:transparent;--surface-hi:transparent}
+.schedule td,.schedule td *{color:#F5F3EE}
+.schedule td:nth-child(2),.schedule td:nth-child(2) *{color:#A9B7CC}
+.schedule td.fee,.schedule td:last-child,.schedule td.fee b{color:#E8B54A}
+.cell p,.art-card p,.step p,.faq details p,.tquote .who,.channels .l{color:#A9B7CC}
+.cell h3,.art-card h3,.step h3,.faq summary,.channels .v{color:#F5F3EE}
