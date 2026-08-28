@@ -852,3 +852,24 @@ section > .wrap > h2{border-bottom:0;padding-bottom:0}
 .schedule td.fee,.schedule td:last-child,.schedule td.fee b{color:#E8B54A}
 .cell p,.art-card p,.step p,.faq details p,.tquote .who,.channels .l{color:#A9B7CC}
 .cell h3,.art-card h3,.step h3,.faq summary,.channels .v{color:#F5F3EE}
+
+/* ---- icons on navy ---- */
+.ico{color:#F5F3EE;opacity:.9;transition:color .18s ease,opacity .18s ease}
+.cell:hover .ico{color:#E8B54A;opacity:1}
+.ico [stroke="currentColor"]{stroke:currentColor}
+
+/* ---- cards: equal height, price pinned to the foot ---- */
+.grid,.grid.c3,.grid.c2{align-items:stretch}
+.cell{display:flex;flex-direction:column;height:100%;padding:22px 0 20px}
+.cell h3{margin:12px 0 8px}
+.cell p{flex:1 1 auto;margin-bottom:16px}
+.cell .from{margin-top:auto;padding-top:12px;border-top:1px solid rgba(232,181,74,.18);
+  display:block;font-size:13px;letter-spacing:.06em}
+.art-card{display:flex;flex-direction:column;height:100%}
+.art-card p{flex:1 1 auto}
+.step{display:flex;flex-direction:column;height:100%}
+.step p{flex:1 1 auto;margin-bottom:0}
+@media(max-width:720px){
+  .cell{padding:20px 0 18px}
+  .cell .from{padding-top:10px}
+}
