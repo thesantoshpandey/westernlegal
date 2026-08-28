@@ -730,3 +730,9 @@ footer.site{border-top-color:var(--gold)}
 .fastnote{border:1px solid var(--gold)}
 .faqnav a{color:var(--ink-dark);font-family:var(--sans);letter-spacing:.02em}
 .faqnav a:hover{border-color:var(--gold);color:var(--ink-dark)}
+
+/* the FAST band is a cream box: its label takes ink, the rule stays gold */
+.fastband{background:var(--surface);color:var(--ink-dark);border:1px solid var(--gold)}
+.fastband .k,.fastnote .k{color:var(--ink-dark)}
+.fastband p,.fastnote p{color:var(--slate-dark)}
+.fastband a,.fastnote a{color:var(--ink-dark)}
