@@ -657,3 +657,14 @@ select option{background:#fff;color:var(--ink-dark)}
 .step p{color:var(--slate-dark)}
 .step .n{color:var(--brass-dark);font-weight:500}
 .steps{gap:20px}
+
+/* anything inside a cream box takes dark ink, including inline-styled cells and links */
+.cell,.art-card,.tquote,.schedule,.faq,.channels a,.fastnote,.fastband,.dropmenu,form.lead,.readnext,.step{
+  --ink:var(--ink-dark); --slate:var(--slate-dark); --rule:var(--rule-dark); --tape:var(--brass-dark)}
+.schedule td,.schedule td *,.schedule th{color:var(--ink-dark)}
+.schedule td[style*="--slate"],.schedule td[style*="color"]{color:var(--slate-dark) !important}
+.cell a,.art-card a,.tquote a,.schedule a,.faq a,.fastnote a,.fastband a,.readnext a,.step a,form.lead a,.dropmenu a{color:var(--brass-dark)}
+.cell a:hover,.art-card a:hover,.schedule a:hover,.faq a:hover,.fastnote a:hover,.readnext a:hover,.step a:hover,.dropmenu a:hover{color:#0E2140}
+.fine,.fine *{color:var(--slate)}
+.faq details p a,.faq details p{color:var(--slate-dark)}
+.faq summary{color:var(--ink-dark)}
