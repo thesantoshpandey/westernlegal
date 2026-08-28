@@ -647,3 +647,13 @@ select option{background:#fff;color:var(--ink-dark)}
 .cell:hover,.art-card:hover,.channels a:hover{border-color:var(--brass-dark)}
 .schedule .head{border-bottom-color:var(--brass-dark)}
 .fastnote,.fastband{border-color:var(--brass-dark)}
+
+/* track record and any remaining block that should be a cream box */
+.step,.step.reveal{background:var(--surface);color:var(--ink-dark);
+  border:1px solid var(--rule-dark);padding:26px 24px;border-radius:2px;
+  transition:background .18s ease,border-color .18s ease,transform .22s ease}
+.step:hover{background:var(--surface-hi);border-color:var(--brass-dark);transform:translateY(-2px)}
+.step h3{color:var(--ink-dark);font-weight:500}
+.step p{color:var(--slate-dark)}
+.step .n{color:var(--brass-dark);font-weight:500}
+.steps{gap:20px}
