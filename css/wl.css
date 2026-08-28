@@ -736,3 +736,59 @@ footer.site{border-top-color:var(--gold)}
 .fastband .k,.fastnote .k{color:var(--ink-dark)}
 .fastband p,.fastnote p{color:var(--slate-dark)}
 .fastband a,.fastnote a{color:var(--ink-dark)}
+
+/* ================= MOBILE READABILITY ================= */
+@media(max-width:720px){
+  /* fee schedules: stack each row as a labelled block so the price is always on screen */
+  .schedule{padding:0}
+  .schedule table,.schedule thead,.schedule tbody,.schedule tr,.schedule td{display:block;width:100%}
+  .schedule thead{display:none}
+  .schedule tr{padding:16px 18px;border-bottom:1px solid var(--rule-dark)}
+  .schedule tr:last-child{border-bottom:0}
+  .schedule td{padding:0;border:0}
+  .schedule td:first-child{font-weight:600;font-size:15.5px;line-height:1.35;margin-bottom:4px}
+  .schedule td:nth-child(2){font-size:14px;line-height:1.5;margin-bottom:8px}
+  .schedule td.fee,.schedule td:last-child{text-align:left;font-size:17px;font-weight:700;
+    letter-spacing:.01em;color:var(--ink-dark)}
+  .schedule .head{padding:14px 18px}
+  .schedule .note{padding:16px 18px;font-size:12.5px}
+  .stamp{display:none}
+
+  /* body text on phones: heavier and larger, thin weights read poorly on small screens */
+  body{font-size:16.5px}
+  p,li,td,summary{font-weight:450}
+  .cell p,.art-card p,.step p,.faq details p{font-size:15px;font-weight:450;line-height:1.6}
+  .lede,.hero p.lede{font-size:17px;font-weight:450;line-height:1.55}
+  h1{font-weight:600}
+  h2{font-size:26px;font-weight:600}
+  h3,.cell h3,.art-card h3,.step h3{font-size:18px;font-weight:600}
+  .faq summary{font-weight:600;font-size:15.5px}
+  form.lead label,.channels .l{font-weight:600;font-size:11.5px}
+  .channels .v{font-weight:600;font-size:15.5px}
+  .btn{font-weight:600}
+
+  /* boxes: even padding and consistent rhythm */
+  .cell,.art-card,.step,.tquote{padding:22px 20px;margin:0}
+  .grid,.grid.c3,.grid.c2{display:grid;grid-template-columns:1fr;gap:14px}
+  .steps{display:grid;grid-template-columns:1fr;gap:14px}
+  .pgroup{padding-top:20px;margin-bottom:26px}
+  section{padding:34px 0}
+  .wrap{padding:0 18px}
+  .faq{padding:2px 18px}
+  .faq details{padding:14px 0}
+  form.lead{padding:20px 18px}
+  .channels a{padding:16px 18px;margin-bottom:10px}
+  .readnext{padding:18px}
+  .fastnote,.fastband{padding:18px}
+}
+
+/* dropdown: readable at arm's length on a phone */
+@media(max-width:900px){
+  .dmcol b{font-size:11.5px;font-weight:700;letter-spacing:.14em;color:var(--ink-dark)}
+  .dmcol a{font-size:15.5px;font-weight:600;padding:12px 0;line-height:1.3}
+  .dropmenu{padding:18px 18px 8px}
+}
+@media(max-width:480px){
+  .dmcol a{font-size:16px;padding:13px 0}
+  .dmcol b{font-size:12px}
+}
