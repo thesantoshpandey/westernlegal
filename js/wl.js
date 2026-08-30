@@ -58,7 +58,8 @@
     ev.preventDefault();
     fillAttribution(); // re-check at submit time in case tracking.js stored after this ran
     var btn = form.querySelector('button[type="submit"]');
-    btn.disabled = true; btn.textContent = 'Sending…';
+    var btnText = btn ? btn.textContent : 'Send enquiry';
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
     var data = {};
     new FormData(form).forEach(function (v, k) { data[k] = v; });
     function success() {
@@ -93,10 +94,47 @@
         success();
       }).catch(whatsappFallback);
     }
-    // Primary: own endpoint (Resend, own-domain DKIM). Fallbacks: FormSubmit, then WhatsApp.
+    // Validate before sending. An incomplete form is a user error, not a delivery failure,
+    // so it must never reach the fallback.
+    var nm = String(data.name || '').trim();
+    var em = String(data.email || '').trim();
+    var ph = String(data.phone || '').trim();
+    var msg = String(data.message || '').trim();
+    var bad = [];
+    if (nm.length < 2) bad.push('your name');
+    if (!em && !ph) bad.push('an email address or phone number');
+    else if (em && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)) bad.push('a valid email address');
+    if (msg.length < 10) bad.push('a short description of your matter');
+    if (bad.length) {
+      var note = form.querySelector('.formerr');
+      if (!note) { note = document.createElement('p'); note.className = 'formerr'; form.insertBefore(note, form.querySelector('button')); }
+      note.textContent = 'Please add ' + bad.join(', ') + '.';
+      note.setAttribute('role', 'alert');
+      var first = form.querySelector('input[name="name"]');
+      if (first) first.focus();
+      if (btn) { btn.disabled = false; btn.textContent = btnText; }
+      return;
+    }
+    var e = form.querySelector('.formerr'); if (e) e.remove();
+
+    // Primary: own endpoint (Resend, own-domain DKIM).
+    // Fall back only on a genuine delivery failure. A 4xx is a rejection, not an outage.
     fetch('/api/lead', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
-      .then(function (r) { if (!r.ok) throw new Error('api failed'); success(); })
-      .catch(formsubmitFallback);
+      .then(function (r) {
+        if (r.ok) { success(); return; }
+        if (r.status >= 400 && r.status < 500) { throw { client: true, status: r.status }; }
+        throw new Error('api failed');
+      })
+      .catch(function (err) {
+        if (err && err.client) {
+          var note = form.querySelector('.formerr');
+          if (!note) { note = document.createElement('p'); note.className = 'formerr'; form.insertBefore(note, form.querySelector('button')); }
+          note.textContent = 'Please check the form and try again.';
+          if (btn) { btn.disabled = false; btn.textContent = btnText; }
+          return;
+        }
+        formsubmitFallback();
+      });
   });
 })();
 
