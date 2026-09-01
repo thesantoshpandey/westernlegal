@@ -127,6 +127,14 @@ for f in PAGES:
         fail('compliance',f'{f}: India reference')
     if 'id="contact"' in s and 'professional indemnity insurance of' not in s and f not in NOINDEX:
         warn('compliance',f'{f}: no PII disclosure line')
+    # RETIRED CLAIMS: wording removed by decision must never reappear
+    for phrase,label in [('FOUNDING CLIENT','founding client rates banner'),
+                         ('firm authorisation','SRA firm authorisation claim'),
+                         ('Returning clients keep','retired returning client rate'),
+                         ('in the process of SRA','SRA authorisation in progress claim'),
+                         ('£405','retired 2026 price'),
+                         ('£120/class','retired India pricing')]:
+        if phrase in s: fail('compliance', f'{f}: retired claim, {label}')
     for legacy,label in [('d4af37','retired gold hex'),('formsubmit.co','legacy form action'),
                          ('917042333175','retired India WhatsApp'),('447915318920','old WhatsApp'),
                          ('logo-email.png','deleted logo ref'),('nav-portal','legacy nav')]:
