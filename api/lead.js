@@ -21,14 +21,15 @@ module.exports = async (req, res) => {
     const row = (k, v) => `<tr><td style="padding:4px 12px 4px 0;color:#55677E;vertical-align:top;white-space:nowrap">${k}</td><td style="padding:4px 0">${esc(v)}</td></tr>`;
     const attribution = [
       row('page', d.page), row('referrer', d.referrer),
-      row('gclid', d.gclid), row('gbraid', d.gbraid), row('wbraid', d.wbraid), row('msclkid', d.msclkid),
+      row('short form', d.short ? 'yes' : ''), row('gclid', d.gclid), row('gbraid', d.gbraid), row('wbraid', d.wbraid), row('msclkid', d.msclkid),
       row('utm_source', d.utm_source), row('utm_medium', d.utm_medium),
       row('utm_campaign', d.utm_campaign), row('utm_term', d.utm_term), row('utm_content', d.utm_content),
       row('landing_page', d.landing_page), row('first_seen', d.first_seen),
       row('ts', new Date().toISOString())
     ].join('');
+    const shortTag = d.short ? ' [SHORT]' : '';
     const adSourced = d.msclkid ? ' [BING CLICK]' : ((d.gclid || d.gbraid || d.wbraid) ? ' [AD CLICK]' : '');
-    const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}</h2>
+    const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}${shortTag}</h2>
       <table style="font-size:14px">
       ${row('name', d.name)}${row('email', d.email)}${row('phone', d.phone)}${row('matter', d.matter)}
       </table>
@@ -41,7 +42,7 @@ module.exports = async (req, res) => {
         from: 'Western Legal Website <leads@westernlegal.co.uk>',
         to: ['trademark@westernlegal.co.uk'],
         reply_to: (emailOk && d.email) ? String(d.email).trim() : undefined,
-        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}`,
+        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${shortTag}`,
         html
       })
     });

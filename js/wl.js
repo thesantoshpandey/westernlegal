@@ -265,3 +265,55 @@
   deck.setAttribute('tabindex', '0');
   layout();
 })();
+
+/* Quick quote: two fields, same pipe, flagged short:true so conversion can be compared. */
+(function () {
+  var f = document.getElementById('qqform');
+  if (!f) return;
+  f.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var btn = f.querySelector('button[type="submit"]');
+    var label = btn ? btn.innerHTML : '';
+    var d = {};
+    new FormData(f).forEach(function (v, k) { d[k] = v; });
+    var nm = String(d.name || '').trim();
+    var ct = String(d.contact || '').trim();
+    function err(t) {
+      var e = f.querySelector('.qq-err');
+      if (!e) { e = document.createElement('p'); e.className = 'qq-err'; e.setAttribute('role','alert'); f.appendChild(e); }
+      e.textContent = t;
+      if (btn) { btn.disabled = false; btn.innerHTML = label; }
+    }
+    if (nm.length < 2) return err('Please add your name.');
+    if (ct.length < 5) return err('Please add an email address or a WhatsApp number.');
+    var e = f.querySelector('.qq-err'); if (e) e.remove();
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+
+    var isEmail = ct.indexOf('@') > -1;
+    var payload = {
+      name: nm,
+      email: isEmail ? ct : '',
+      phone: isEmail ? '' : ct,
+      matter: d.matter || 'General enquiry',
+      message: 'Quick quote request from the first screen. Contact given: ' + ct,
+      website: d.website || '',
+      short: true,
+      page: location.pathname,
+      referrer: document.referrer || ''
+    };
+    ['gclid','gbraid','wbraid','msclkid','utm_source','utm_medium','utm_campaign','utm_term','utm_content','landing_page','first_seen'].forEach(function (k) {
+      var el = document.querySelector('form.lead [name="' + k + '"]');
+      if (el && el.value) payload[k] = el.value;
+    });
+
+    fetch('/api/lead', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+      .then(function (r) {
+        if (!r.ok) throw new Error('rejected');
+        if (typeof gtag === 'function') { gtag('event', 'conversion', { send_to: 'AW-17980143249/_293CM3WqaIcEJHtzP1C' }); }
+        window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: 'quick_quote' });
+        var wrap = document.getElementById('qq');
+        wrap.innerHTML = '<p class="qq-ok"><b>Received.</b> Your fixed quote follows by ' + (isEmail ? 'email' : 'WhatsApp') + ', personally from a solicitor, usually within the hour.</p>';
+      })
+      .catch(function () { err('That did not send. Please use WhatsApp or the full form below.'); });
+  });
+})();

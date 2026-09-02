@@ -889,3 +889,42 @@ section > .wrap > h2{border-bottom:0;padding-bottom:0}
 .truemark{font-size:12.5px;line-height:1.6;color:#8FA3C0}
 .tm-char{color:#E8B54A;font-size:20px;line-height:1;vertical-align:-2px;margin-right:6px}
 .truemark b{color:#E8B54A;font-weight:600;letter-spacing:.04em}
+
+/* ================= QUICK QUOTE ================= */
+.qq{display:none}
+@media(max-width:900px){
+  /* the first screen is the whole shop: fee, proof, two fields, call and WhatsApp */
+  .hero .wrap > div:first-child{display:flex;flex-direction:column}
+  .hero .eyebrow{order:1}
+  .hero h1{order:2;font-size:clamp(24px,6.4vw,30px);line-height:1.18;margin:8px 0 0}
+  .qq{order:3;display:block;margin:14px 0 4px}
+  .hero .cta{order:6;margin-top:18px}
+  .hero .lede{order:7;font-size:15.5px;margin-top:14px}
+  .hero .writtenline{order:8}
+  .hero .strapline{order:4;font-size:15px;margin:8px 0 2px}
+  .hero .proof{order:9;margin-top:18px}
+  .hero .art{order:10;margin-top:20px}
+  .hero{padding-top:14px !important;padding-bottom:20px}
+
+  .qq-fee{color:#E8B54A;font-weight:700;font-size:19px;letter-spacing:.01em;margin-bottom:6px}
+  .qq-proof{color:#A9B7CC;font-size:12px;line-height:1.5;margin-bottom:12px}
+  .qqform{display:flex;flex-direction:column;gap:9px;margin:0}
+  .qqform input[type=text]{width:100%;padding:14px 14px;font-size:16px;border-radius:2px;
+    background:rgba(255,255,255,.06);border:1px solid rgba(232,181,74,.3);color:#F5F3EE;box-sizing:border-box}
+  .qqform input::placeholder{color:#8FA3C0}
+  .qqform input:focus{border-color:#E8B54A;outline:none}
+  .qq-btn{width:100%;padding:16px 14px;font-size:16px;font-weight:600;margin:2px 0 0}
+  .qq-micro{color:#A9B7CC;font-size:12.5px;margin:8px 0 0;text-align:center}
+  .qq-alt{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:12px}
+  .qq-a{display:flex;align-items:center;justify-content:center;min-height:46px;
+    border:1px solid rgba(232,181,74,.35);color:#F5F3EE;font-size:14px;font-weight:500;
+    text-decoration:none;border-radius:2px}
+  .qq-a:hover{border-color:#E8B54A;color:#E8B54A}
+  .qq-ok{color:#E8B54A;font-size:14.5px;line-height:1.55;padding:14px 0}
+  .qq-err{color:#E8B54A;font-size:13px;margin:6px 0 0}
+}
+@media(max-width:900px){
+  /* trim what pushes the fold down */
+  .hero .art img{max-height:190px;object-fit:cover}
+  .crumbs{padding-top:8px;padding-bottom:2px;font-size:11.5px}
+}
