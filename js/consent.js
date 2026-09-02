@@ -16,7 +16,7 @@
     window.uetq.push('consent', 'update', { ad_storage: g });
   }
 
-  function close(el) { el.classList.remove('show'); setTimeout(function () { el.remove(); }, 220); }
+  function close(el) { el.classList.remove('show'); document.body.classList.remove('consent-open'); setTimeout(function () { el.remove(); }, 220); }
 
   function banner() {
     var w = document.createElement('div');
@@ -36,6 +36,7 @@
         '</div>' +
       '</div>';
     document.body.appendChild(w);
+    document.body.classList.add('consent-open');
     requestAnimationFrame(function () { w.classList.add('show'); });
     w.addEventListener('click', function (e) {
       var b = e.target.closest('button[data-c]');
