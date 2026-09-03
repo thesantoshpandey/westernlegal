@@ -123,13 +123,8 @@ for f in PAGES:
     bare=len(re.findall(r'SRA[- ]regulated',re.sub(r'SRA-regulated solicitor','',s)))
     if bare: fail('compliance',f'{f}: {bare} bare "SRA-regulated"')
     if re.search(r'Regulated by the Solicitors Regulation Authority(?!;)',s): fail('compliance',f'{f}: firm-level SRA claim')
-    if f.split('/')[-1] not in LEGAL:
-        # the homepage lede names India by decision; anywhere else it is a leftover
-        vis = s
-        if f == 'index.html':
-            vis = vis.replace('the UK, EU and India', '')
-        if re.search(r'\b[Ii]ndia\b|\bDelhi\b|\bNRI\b', vis):
-            fail('compliance', f'{f}: India reference')
+    if f.split('/')[-1] not in LEGAL and re.search(r'\b[Ii]ndia\b|\bDelhi\b|\bNRI\b',s):
+        fail('compliance',f'{f}: India reference')
     if 'id="contact"' in s and 'professional indemnity insurance of' not in s and f not in NOINDEX:
         warn('compliance',f'{f}: no PII disclosure line')
     # RETIRED CLAIMS: wording removed by decision must never reappear
