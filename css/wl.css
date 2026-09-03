@@ -13,8 +13,8 @@
   --surface-hi:rgba(255,255,255,.05);
   --ink:#F5F3EE;
   --ink-dark:#F5F3EE;
-  --slate:#A9B7CC;
-  --slate-dark:#A9B7CC;
+  --slate:#CFDAEA;
+  --slate-dark:#CFDAEA;
   --tape:#E8B54A;
   --gold:#E8B54A;
   --goldfill:#E8B54A;
@@ -28,7 +28,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:96px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto;text-rendering:optimizeLegibility}
 a{color:var(--tape);text-decoration:none}
 a:hover{text-decoration:underline}
 a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--tape);outline-offset:2px}
@@ -755,7 +755,7 @@ section:nth-of-type(even),.tint{background:var(--navy-2)}
 /* every former cream box becomes part of the page */
 .cell,.art-card,.tquote,.step,.schedule,.faq,.channels a,.fastnote,.fastband,form.lead,.readnext,.faqnav a{
   background:transparent !important;border:0;box-shadow:none;
-  --ink:#F5F3EE; --slate:#A9B7CC; --tape:var(--gold); --rule:var(--hair)}
+  --ink:#F5F3EE; --slate:#CFDAEA; --tape:var(--gold); --rule:var(--hair)}
 .cell,.art-card,.step{padding:0 0 4px;border-top:1px solid var(--hair);padding-top:20px;border-radius:0}
 .cell:hover,.art-card:hover,.step:hover{background:rgba(255,255,255,.035) !important;
   border-top-color:var(--gold);transform:none}
@@ -846,7 +846,7 @@ section > .wrap > h2{border-bottom:0;padding-bottom:0}
 /* final: nothing on the page uses the old light-theme inks */
 .cell,.art-card,.tquote,.step,.schedule,.faq,.channels a,.fastnote,.fastband,form.lead,.readnext,
 .cell *,.art-card *,.tquote *,.step *,.schedule *,.faq *,.channels a *,.fastnote *,.fastband *,form.lead *,.readnext *{
-  --ink:#F5F3EE;--ink-dark:#F5F3EE;--slate:#A9B7CC;--slate-dark:#A9B7CC;--tape:#E8B54A;--brass-dark:#E8B54A;--rule-dark:rgba(232,181,74,.22);--surface:transparent;--surface-hi:transparent}
+  --ink:#F5F3EE;--ink-dark:#F5F3EE;--slate:#CFDAEA;--slate-dark:#CFDAEA;--tape:#E8B54A;--brass-dark:#E8B54A;--rule-dark:rgba(232,181,74,.22);--surface:transparent;--surface-hi:transparent}
 .schedule td,.schedule td *{color:#F5F3EE}
 .schedule td:nth-child(2),.schedule td:nth-child(2) *{color:#A9B7CC}
 .schedule td.fee,.schedule td:last-child,.schedule td.fee b{color:#E8B54A}
@@ -939,4 +939,24 @@ section > .wrap > h2{border-bottom:0;padding-bottom:0}
   /* while the banner is up, keep the quick quote clear of it */
   body.consent-open .qq{margin-bottom:0}
   body.consent-open{padding-bottom:calc(52px + 44vh)}
+}
+
+/* ================= LEGIBILITY ON DARK ================= */
+/* Light type on a dark ground loses apparent weight. Everything below is a
+   correction for that, not a style choice. */
+body{-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto}
+p,li,td,summary,.lede,.sub{font-weight:450;letter-spacing:.005em}
+.cell p,.art-card p,.step p,.faq details p,.tquote p,.schedule td{
+  color:#CFDAEA;font-weight:450;font-size:15.5px;line-height:1.66}
+.schedule td:nth-child(2){color:#C3D0E2;font-weight:450}
+.lede,.hero p.lede{color:#DCE4EF;font-weight:450}
+.article p,.article li{color:#E4EAF3;font-weight:450;font-size:17px;line-height:1.72}
+.writtenline,.crumbs,.qq-proof,.qq-micro,.proof > div,.proof.proof4 > div{color:#C3D0E2;font-weight:450}
+.channels .l,.dcount,.readnext a,.faq summary{color:#E4EAF3}
+.tquote .who,.rcard footer a{color:#C3D0E2}
+.note,.schedule .note{color:#C3D0E2;font-weight:450}
+@media(max-width:900px){
+  .cell p,.art-card p,.step p,.faq details p{font-size:15.5px;font-weight:500}
+  .article p,.article li{font-size:16.5px;font-weight:500}
+  .lede,.hero p.lede{font-weight:500}
 }
