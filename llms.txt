@@ -29,13 +29,13 @@ Authoritative fee data is published as schema.org Service and Offer structured d
 - Commercial lease review and risk report: from £750
 - Companies Act work: board and shareholder resolutions from £295; share buyback from £995; group reorganisation from £1,950
 - Mergers and acquisitions: due diligence from £1,950; share purchase agreement from £2,950; full deal management from £4,950
-- Disputes: solicitor's letter before action from £345; statutory demand from £595
+- Disputes: solicitor's letter before action from £595; statutory demand from £595
 - Construction adjudication: notice review £345; referral from £1,950; full representation from £4,500
 - Ombudsman complaints: triage £150; complaint drafted from £550
 - Employment tribunal: ET1 or ET3 from £1,750; representation from £4,500
 - Employer employment advisory: employment contract from £425; staff handbook from £1,100
 - Professional regulatory defence: initial response from £2,500
-- Letter before action: £345 fixed; follow up demand £195; response to an LBA £345; negotiation and settlement from £495
+- Letter before action: from £595; follow up demand £195; response to an LBA £345; negotiation and settlement from £495
 - Shareholder disputes: assessment and strategy £495; section 994 letter before action £750; director removal pack £750; deadlock and buyout negotiation from £1,450; settlement between shareholders from £950
 - Bespoke or urgent work outside any schedule: £650 per hour, capped estimate agreed in advance
 
