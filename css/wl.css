@@ -861,7 +861,7 @@ section > .wrap > h2{border-bottom:0;padding-bottom:0}
 
 /* ---- cards: equal height, price pinned to the foot ---- */
 .grid,.grid.c3,.grid.c2{align-items:stretch}
-.cell{display:flex;flex-direction:column;height:100%;padding:22px 0 20px}
+.cell{display:flex;flex-direction:column;height:100%;padding:22px 18px 20px}
 .cell h3{margin:12px 0 8px}
 .cell p{flex:1 1 auto;margin-bottom:16px}
 .cell .from{margin-top:auto;padding-top:12px;border-top:1px solid rgba(232,181,74,.18);
@@ -871,7 +871,7 @@ section > .wrap > h2{border-bottom:0;padding-bottom:0}
 .step{display:flex;flex-direction:column;height:100%}
 .step p{flex:1 1 auto;margin-bottom:0}
 @media(max-width:720px){
-  .cell{padding:20px 0 18px}
+  .cell{padding:20px 18px 18px}
   .cell .from{padding-top:10px}
 }
 
