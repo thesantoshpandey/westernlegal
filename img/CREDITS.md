@@ -6,3 +6,5 @@ Unsplash License (free use, attribution appreciated). Provenance logged for each
 - hero-shareholder-disputes-2609.jpg | Unsplash PGI9At-QdKE | Mo Darasi https://unsplash.com/@modarasi | https://unsplash.com/photos/chess-pieces-on-a-board-dramatically-lit-from-behind-PGI9At-QdKE | downloaded 2026-09-05
 - band-reviews-2609.jpg | Unsplash I4lqK7v9sL8 | Pawel Czerwinski https://unsplash.com/@pawel_czerwinski | https://unsplash.com/photos/a-close-up-of-a-white-paper-with-a-spiral-design-I4lqK7v9sL8 | downloaded 2026-09-05
 - band-brand-ip-2609.jpg | Unsplash https://images.unsplash.com/photo-1670201202802-5ec2423282ff (photographer not resolved, raw CDN URL supplied) | Unsplash License | downloaded 2026-09-05
+- band-corporate-2609.jpg | Unsplash https://images.unsplash.com/photo-1779812283749-c89ebe0d5b4a (raw CDN URL supplied by SP, photographer not resolved) | Unsplash License | downloaded 2026-09-05
+- band-disputes-2609.jpg | Unsplash https://images.unsplash.com/photo-1713633053659-be37d4c313f9 (raw CDN URL supplied by SP, photographer not resolved) | Unsplash License | downloaded 2026-09-05
