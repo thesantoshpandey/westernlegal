@@ -619,7 +619,7 @@ select option{background:#0E2140;color:#F5F3EE}
 /* ---- mobile header fit ---- */
 @media(max-width:560px){
   header.site .wrap{gap:8px;min-height:60px;padding:0 14px}
-  .brandmark{height:14px}
+  .brandmark{height:17px}
   .brand small{font-size:8.5px;letter-spacing:.18em}
   nav.main{gap:8px}
   nav.main .navdrop a.navdrop-t{font-size:12.5px}
@@ -628,7 +628,7 @@ select option{background:#0E2140;color:#F5F3EE}
 @media(max-width:420px){
   nav.main a.btn{padding:7px 9px;font-size:11.5px}
   .brand small{display:none}
-  .brandmark{height:13px}
+  .brandmark{height:16px}
 }
 @media(max-width:360px){
   nav.main .navdrop a.navdrop-t{font-size:11.5px}
