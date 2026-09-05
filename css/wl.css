@@ -273,9 +273,9 @@ footer.site .brandfoot{display:flex;align-items:center;gap:10px}
 
 footer.site .brandfoot{display:block}
 
-.brandmark{height:34px;width:auto;display:block;margin-left:-4px}
-@media(max-width:640px){.brandmark{height:27px;margin-left:-3px}}
-@media(max-width:430px){.brandmark{height:23px;margin-left:-3px}}
+.brandmark{height:22px;width:auto;display:block;margin-left:0}
+@media(max-width:640px){.brandmark{height:18px;margin-left:0}}
+@media(max-width:430px){.brandmark{height:15px;margin-left:0}}
 footer.site .brandfoot img{height:28px;width:auto;display:block}
 
 .brand small{margin-left:1px}
@@ -619,7 +619,7 @@ select option{background:#0E2140;color:#F5F3EE}
 /* ---- mobile header fit ---- */
 @media(max-width:560px){
   header.site .wrap{gap:8px;min-height:60px;padding:0 14px}
-  .brandmark{height:20px}
+  .brandmark{height:14px}
   .brand small{font-size:8.5px;letter-spacing:.18em}
   nav.main{gap:8px}
   nav.main .navdrop a.navdrop-t{font-size:12.5px}
@@ -628,7 +628,7 @@ select option{background:#0E2140;color:#F5F3EE}
 @media(max-width:420px){
   nav.main a.btn{padding:7px 9px;font-size:11.5px}
   .brand small{display:none}
-  .brandmark{height:19px}
+  .brandmark{height:13px}
 }
 @media(max-width:360px){
   nav.main .navdrop a.navdrop-t{font-size:11.5px}
@@ -968,3 +968,6 @@ p,li,td,summary,.lede,.sub{font-weight:450;letter-spacing:.005em}
 /* form fine print clears the mobile action bar */
 @media(max-width:720px){form.lead{padding-bottom:72px}}
 form.lead .fine a+a{margin-left:.35em}
+
+/* brand signature: gold rule under the header */
+header.site{border-bottom:2px solid var(--gold)}
