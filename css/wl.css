@@ -756,9 +756,10 @@ section:nth-of-type(even),.tint{background:var(--navy-2)}
 .cell,.art-card,.tquote,.step,.schedule,.faq,.channels a,.fastnote,.fastband,form.lead,.readnext,.faqnav a{
   background:transparent !important;border:0;box-shadow:none;
   --ink:#F5F3EE; --slate:#CFDAEA; --tape:var(--gold); --rule:var(--hair)}
-.cell,.art-card,.step{padding:0 0 4px;border-top:1px solid var(--hair);padding-top:20px;border-radius:0}
-.cell:hover,.art-card:hover,.step:hover{background:rgba(255,255,255,.035) !important;
+.cell,.art-card,.step{padding:20px 18px 22px;margin:0 -18px;border-top:1px solid var(--hair);border-radius:0 0 6px 6px;transition:background .18s ease,border-color .18s ease}
+.cell:hover,.art-card:hover,.step:hover{background:rgba(255,255,255,.045) !important;
   border-top-color:var(--gold);transform:none}
+.cell:hover .ico,.art-card:hover .ico{color:var(--gold)}
 .cell h3,.art-card h3,.art-card h3 a,.step h3{color:var(--ink)}
 .cell p,.art-card p,.step p{color:var(--slate)}
 .cell .from,.step .n,.art-card .tag{color:var(--gold)}
