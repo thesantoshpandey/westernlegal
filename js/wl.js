@@ -70,10 +70,9 @@
       if (ok) ok.style.display = 'block';
     }
     function whatsappFallback() {
-      btn.disabled = false; btn.textContent = btnText;
-      var ok = document.querySelector('.form-ok');
-      form.style.display = 'none';
-      if (ok) { ok.innerHTML = '<b>The form could not send just now.</b> Please email <a href="mailto:sp@westernlegal.co.uk?subject=Enquiry">sp@westernlegal.co.uk</a> with your name, the matter and a short outline. We reply in writing within twenty four hours.'; ok.style.display = 'block'; }
+      btn.disabled = false; btn.textContent = 'Send enquiry';
+      var msg = 'New enquiry via westernlegal.co.uk%0A' + 'Matter: ' + (data.matter||'') + '%0AName: ' + (data.name||'') + '%0AEmail: ' + (data.email||'') + '%0APhone: ' + (data.phone||'') + '%0A' + (data.message||'');
+      window.location.href = 'https://wa.me/447822014066?text=' + msg.replace(/\n/g,'%0A');
     }
     function formsubmitFallback() {
       fetch('https://formsubmit.co/ajax/trademark@westernlegal.co.uk', {
