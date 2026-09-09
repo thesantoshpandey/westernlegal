@@ -133,7 +133,11 @@ for f in PAGES:
                          ('Returning clients keep','retired returning client rate'),
                          ('in the process of SRA','SRA authorisation in progress claim'),
                          ('£405','retired 2026 price'),
-                         ('£120/class','retired India pricing')]:
+                         ('£120/class','retired India pricing'),
+                         ('EUR 405','retired LBA desk price (pre 3 Sep 2026)'),
+                         ('USD 440','retired LBA desk price (pre 3 Sep 2026)'),
+                         ('SEK 4,400','retired LBA desk price (pre 3 Sep 2026)'),
+                         ('Letter before action from £345','retired LBA price')]:
         if phrase in s: fail('compliance', f'{f}: retired claim, {label}')
     for legacy,label in [('d4af37','retired gold hex'),('formsubmit.co','legacy form action'),
                          ('917042333175','retired India WhatsApp'),('447915318920','old WhatsApp'),

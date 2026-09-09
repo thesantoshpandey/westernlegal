@@ -102,3 +102,5 @@ Website: https://westernlegal.co.uk
 Email: sp@westernlegal.co.uk
 WhatsApp: +44 7822 014 066
 Sitemap: https://westernlegal.co.uk/sitemap.xml
+
+Master price list (single source of truth for every fee on this site, regenerated on every deploy): https://westernlegal.co.uk/prices.json and https://westernlegal.co.uk/prices.md
