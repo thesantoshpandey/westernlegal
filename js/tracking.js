@@ -18,7 +18,8 @@
   function injectHiddenFields(){var d=readStored();if(!d)return;document.querySelectorAll('form').forEach(function(f){LEAD_FIELDS.forEach(function(n){if(!d[n])return;var i=f.querySelector('input[name="'+n+'"]');if(!i){i=document.createElement('input');i.type='hidden';i.name=n;f.appendChild(i);}i.value=d[n];});});}
   function uet(name){try{if(window.uetq)window.uetq.push('event',name,{event_category:'contact'});}catch(e){}}
   function fire(sendTo){if(typeof window.gtag!=='function')return;if(!sendTo||!/^AW-\d+\/(?=[A-Za-z0-9_-]*[a-z])[A-Za-z0-9_-]{8,}$/.test(sendTo))return;window.gtag('event','conversion',{send_to:sendTo});}
-  function bind(){document.addEventListener('click',function(e){var a=e.target.closest?e.target.closest('a[href]'):null;if(!a)return;var h=a.getAttribute('href')||'';if(h.indexOf('tel:')===0){fire(CONFIG.CONV_PHONE_CLICK);uet('phone_click');}else if(/wa\.me|api\.whatsapp\.com|whatsapp:/.test(h)){fire(CONFIG.CONV_WHATSAPP_CLICK);uet('whatsapp_click');}});}
+  function bind(){document.addEventListener('click',function(e){var a=e.target.closest?e.target.closest('a[href]'):null;if(!a)return;var h=a.getAttribute('href')||'';if(h.indexOf('tel:')===0){fire(CONFIG.CONV_PHONE_CLICK);uet('phone_click');gulf('phone_tap');}else if(/wa\.me|api\.whatsapp\.com|whatsapp:/.test(h)){fire(CONFIG.CONV_WHATSAPP_CLICK);uet('whatsapp_click');gulf('whatsapp_tap');}});}
+  function gulf(n){try{if(location.pathname!=='/gulf'||typeof window.gtag!=='function')return;var L=(window.WL_GULF_LABELS||{})[n];window.gtag('event','gulf_'+n,L?{send_to:L,event_category:'gulf'}:{event_category:'gulf'});}catch(e){}}
   function init(){captureFromUrl();injectHiddenFields();bind();}
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init);}else{init();}
   window.WL_getAttribution=readStored;

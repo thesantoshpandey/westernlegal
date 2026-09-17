@@ -64,6 +64,7 @@
     new FormData(form).forEach(function (v, k) { data[k] = v; });
     function success() {
       if (typeof gtag === 'function') { gtag('event', 'conversion', { send_to: 'AW-17980143249/_293CM3WqaIcEJHtzP1C' }); }
+      if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); }
       window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: (data.matter || 'General') });
       form.style.display = 'none';
       var ok = document.querySelector('.form-ok');
@@ -310,6 +311,7 @@
       .then(function (r) {
         if (!r.ok) throw new Error('rejected');
         if (typeof gtag === 'function') { gtag('event', 'conversion', { send_to: 'AW-17980143249/_293CM3WqaIcEJHtzP1C' }); }
+      if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); }
         window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: 'quick_quote' });
         var wrap = document.getElementById('qq');
         wrap.innerHTML = '<p class="qq-ok"><b>Received.</b> Your fixed quote follows by ' + (isEmail ? 'email' : 'WhatsApp') + ', personally from a solicitor, usually within the hour.</p>';
