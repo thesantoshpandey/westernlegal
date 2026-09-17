@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-09-16 from the live schedules. 328 rows across 36 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-09-17 from the live schedules. 328 rows across 36 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -146,25 +146,25 @@ Generated 2026-09-16 from the live schedules. 328 rows across 36 pages. No VAT. 
 - Domain name disputes | from EUR 1,115 | UDRP and Nominet DRS complaints, decided on the papers.
 
 ## Gulf Businesses  (/gulf)
-- UK trademark, one class | from USD 705 | Filed at the UKIPO within 48 hours of instruction.
-- Each additional class | USD 310 | Added at filing.
-- EU trademark | from USD 880 | Filed through our EU correspondent agent, plus the EUIPO fee at cost.
-- Trademark opposition defence | USD 1,525 | TM8 and evidence rounds, fixed for the whole defence.
-- NDA or confidentiality agreement | from USD 310 | Drafted or reviewed under English law.
-- Contract review and markup | from USD 755 | Distribution, supply, agency, licensing or services agreements with a written risk report.
-- Bespoke commercial agreement | from USD 1,590 | Drafted from your commercial terms under English law.
-- Terms and conditions | from USD 825 | Customer or supplier terms built for English law.
-- Shareholder or joint venture agreement | from USD 2,095 | Control, exit, deadlock and transfer provisions.
-- Letter before action to a UK company | from USD 755 | Formal demand on a business debt owed by a company in England and Wales.
-- Arbitration clause and enforcement strategy | from USD 725 | Drafting the dispute clause so an award is enforceable where the assets are.
-- UK company formation and structure | from USD 700 | Incorporation, SPVs, holding structures and constitutional documents.
-- Board and shareholder resolutions | from USD 375 | Companies Act compliant minutes, allotments, transfers and filings.
-- Buying or selling a business | DD from USD 2,475 · SPA from USD 3,745 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
-- Commercial lease, review and negotiation | from USD 955 | Premises in England and Wales reviewed with a written risk report.
-- Employment documents for UK staff | from USD 540 | Contracts, handbooks and policies for people you employ in the United Kingdom.
-- UK GDPR and website legal pack | from USD 755 | Privacy notice, cookie consent, terms and processing records.
-- Mediation representation and arbitration | from USD 1,840 | Position statements, written submissions and settlement drafting.
-- Domain name disputes | from USD 1,215 | UDRP and Nominet DRS complaints, decided on the papers.
+- UK trademark, one class | from £555 (AED 2,750 indicative) | Filed at the UKIPO within 48 hours of instruction.
+- Each additional class | £245 (AED 1,210 indicative) | Added at filing.
+- EU trademark | from £695 (AED 3,440 indicative) | Filed through our EU correspondent agent, plus the EUIPO fee at cost.
+- Trademark opposition defence | £1,200 (AED 5,940 indicative) | TM8 and evidence rounds, fixed for the whole defence.
+- NDA or confidentiality agreement | from £245 (AED 1,210 indicative) | Drafted or reviewed under English law.
+- Contract review and markup | from £595 (AED 2,950 indicative) | Distribution, supply, agency, licensing or services agreements with a written risk report.
+- Bespoke commercial agreement | from £1,250 (AED 6,190 indicative) | Drafted from your commercial terms under English law.
+- Terms and conditions | from £650 (AED 3,220 indicative) | Customer or supplier terms built for English law.
+- Shareholder or joint venture agreement | from £1,650 (AED 8,170 indicative) | Control, exit, deadlock and transfer provisions.
+- Letter before action to a UK company | from £595 (AED 2,950 indicative) | Formal demand on a business debt owed by a company in England and Wales.
+- Arbitration clause and enforcement strategy | from £570 (AED 2,820 indicative) | Drafting the dispute clause so an award is enforceable where the assets are.
+- UK company formation and structure | from £550 (AED 2,720 indicative) | Incorporation, SPVs, holding structures and constitutional documents.
+- Board and shareholder resolutions | from £295 (AED 1,460 indicative) | Companies Act compliant minutes, allotments, transfers and filings.
+- Buying or selling a business | DD from £1,950 (AED 9,650 indicative) · SPA from £2,950 (AED 14,600 indicative) | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
+- Commercial lease, review and negotiation | from £750 (AED 3,710 indicative) | Premises in England and Wales reviewed with a written risk report.
+- Employment documents for UK staff | from £425 (AED 2,100 indicative) | Contracts, handbooks and policies for people you employ in the United Kingdom.
+- UK GDPR and website legal pack | from £595 (AED 2,950 indicative) | Privacy notice, cookie consent, terms and processing records.
+- Mediation representation and arbitration | from £1,450 (AED 7,180 indicative) | Position statements, written submissions and settlement drafting.
+- Domain name disputes | from £955 (AED 4,730 indicative) | UDRP and Nominet DRS complaints, decided on the papers.
 
 ## GMC, NMC, GDC & HCPC Defence Solicitor  (/healthcare-regulatory-defence)
 - Initial response to the regulator | from £2,500 | The first letter is the most important document in the case: your account framed properly, insight demonstrated, escalation headed off where possible.
