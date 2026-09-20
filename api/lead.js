@@ -30,6 +30,8 @@ module.exports = async (req, res) => {
     const shortTag = d.short ? ' [SHORT]' : '';
     const paidTag = d.paid ? ' [PAID ' + cap(d.paid, 40).replace(/[\r\n\]]/g, ' ') + ']' : '';
     const adSourced = d.msclkid ? ' [BING CLICK]' : ((d.gclid || d.gbraid || d.wbraid) ? ' [AD CLICK]' : '');
+    const clean = v => String(v || '').replace(/[\r\n]/g, ' ').trim().slice(0, 80);
+    const adTags = (d.utm_term ? ' [term: ' + clean(d.utm_term) + ']' : '') + (d.utm_campaign ? ' [campaign: ' + clean(d.utm_campaign) + ']' : '');
     const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}${shortTag}${paidTag}</h2>
       <table style="font-size:14px">
       ${row('name', d.name)}${row('email', d.email)}${row('phone', d.phone)}${row('matter', d.matter)}${d.paid ? row('paid', cap(d.paid, 40)) + row('stripe session', cap(d.session_id, 120)) + row('mark', cap(d.mark, 200)) + row('applicant', cap(d.applicant, 200)) + row('applicant address', cap(d.address, 400)) + row('classes / goods', cap(d.goods, 1500)) : ''}
@@ -43,7 +45,7 @@ module.exports = async (req, res) => {
         from: 'Western Legal Website <leads@westernlegal.co.uk>',
         to: ['trademark@westernlegal.co.uk'],
         reply_to: (emailOk && d.email) ? String(d.email).trim() : undefined,
-        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${shortTag}${paidTag}`,
+        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${adTags}${shortTag}${paidTag}`,
         html
       })
     });
