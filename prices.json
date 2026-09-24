@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21",
+ "generated": "2026-09-24",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 328,
+ "count": 348,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -491,6 +491,104 @@
    "product": "Remote hearing representation",
    "scope": "Preparation and advocacy at video hearings; in-person hearings prepared here and conducted with instructed counsel.",
    "fee": "from £4,500"
+  },
+  {
+   "page": "/eu-gdpr-compliance",
+   "page_title": "EU GDPR Compliance for Businesses Outside the EU",
+   "product": "EU GDPR applicability review",
+   "scope": "A written answer on whether Article 3(2) reaches your business, which obligations follow, and whether you must appoint an EU representative.",
+   "fee": "from £395"
+  },
+  {
+   "page": "/eu-gdpr-compliance",
+   "page_title": "EU GDPR Compliance for Businesses Outside the EU",
+   "product": "EU facing privacy notice",
+   "scope": "Your privacy notice drafted or amended to meet Articles 13 and 14 of the EU GDPR, including representative details where one is appointed.",
+   "fee": "from £595"
+  },
+  {
+   "page": "/eu-gdpr-compliance",
+   "page_title": "EU GDPR Compliance for Businesses Outside the EU",
+   "product": "UK and EU dual compliance pack",
+   "scope": "Privacy notice, cookie policy, records of processing and internal policy set drafted to satisfy both the UK GDPR and the EU GDPR from one document set.",
+   "fee": "from £1,450"
+  },
+  {
+   "page": "/eu-gdpr-compliance",
+   "page_title": "EU GDPR Compliance for Businesses Outside the EU",
+   "product": "Data processing agreement",
+   "scope": "Controller to processor DPA drafted or reviewed under Article 28 of the EU GDPR.",
+   "fee": "from £550"
+  },
+  {
+   "page": "/eu-gdpr-compliance",
+   "page_title": "EU GDPR Compliance for Businesses Outside the EU",
+   "product": "International transfers",
+   "scope": "Transfer mechanism advised and documented for data leaving the EU or the UK: standard contractual clauses, the UK addendum or the IDTA, with the transfer risk assessment.",
+   "fee": "from £750"
+  },
+  {
+   "page": "/eu-gdpr-compliance",
+   "page_title": "EU GDPR Compliance for Businesses Outside the EU",
+   "product": "EU representative introduction",
+   "scope": "Introduction to an EU established Article 27 representative from our correspondent network and review of the appointment terms. The representative's own fee is separate.",
+   "fee": "from £295"
+  },
+  {
+   "page": "/eu-gdpr-compliance",
+   "page_title": "EU GDPR Compliance for Businesses Outside the EU",
+   "product": "Data protection advisory",
+   "scope": "Questions, reviews and incident support, per matter.",
+   "fee": "from £395"
+  },
+  {
+   "page": "/eu-market-entry",
+   "page_title": "EU Market Entry for UK, US and International Companies",
+   "product": "EU Market Entry bundle",
+   "scope": "EU trade mark (one class, filed through our EEA correspondent, EUIPO fee separate), EU facing privacy notice and records, and B2B or B2C terms drafted for EU sale.",
+   "fee": "from £1,950"
+  },
+  {
+   "page": "/eu-market-entry",
+   "page_title": "EU Market Entry for UK, US and International Companies",
+   "product": "EU trade mark, one class",
+   "scope": "Conflict search, specification drafting and filing at the EUIPO through our EEA representative, with objection responses. EUIPO official fee separate.",
+   "fee": "from £695"
+  },
+  {
+   "page": "/eu-market-entry",
+   "page_title": "EU Market Entry for UK, US and International Companies",
+   "product": "EU GDPR applicability review",
+   "scope": "A written answer on whether the EU GDPR reaches you, what follows, and whether you need an EU representative.",
+   "fee": "from £395"
+  },
+  {
+   "page": "/eu-market-entry",
+   "page_title": "EU Market Entry for UK, US and International Companies",
+   "product": "EU facing privacy notice and records",
+   "scope": "Privacy notice and records of processing drafted to Articles 13, 14 and 30 of the EU GDPR.",
+   "fee": "from £595"
+  },
+  {
+   "page": "/eu-market-entry",
+   "page_title": "EU Market Entry for UK, US and International Companies",
+   "product": "EU distribution or reseller agreement",
+   "scope": "Your route to market contract drafted with EU competition and agency rules in mind, under English law with an EU enforcement route.",
+   "fee": "from £995"
+  },
+  {
+   "page": "/eu-market-entry",
+   "page_title": "EU Market Entry for UK, US and International Companies",
+   "product": "EU consumer terms",
+   "scope": "B2C terms and conditions for sale into the EU, meeting the consumer rights and distance selling rules that apply to EU consumers.",
+   "fee": "from £650"
+  },
+  {
+   "page": "/eu-market-entry",
+   "page_title": "EU Market Entry for UK, US and International Companies",
+   "product": "Member state entity formation, coordinated",
+   "scope": "Scoping of the entity you need, instruction and coordination of correspondent counsel in the member state, and review of their output against your plan. The correspondent's own fee is separate and quoted before work begins.",
+   "fee": "from £650"
   },
   {
    "page": "/france",
@@ -2101,6 +2199,48 @@
    "product": "Portfolio / clone-mark use audit",
    "scope": "Review of your UK registrations against the post-Brexit genuine-use exposure, with a written risk report.",
    "fee": "from £595"
+  },
+  {
+   "page": "/uk-gdpr-representative",
+   "page_title": "UK GDPR Article 27 Representative for Non UK Businesses",
+   "product": "Do we need one? Applicability check",
+   "scope": "A written answer on whether Article 3(2) and Article 27 apply to you, and whether the occasional processing exemption is available, against the facts of your business.",
+   "fee": "from £395"
+  },
+  {
+   "page": "/uk-gdpr-representative",
+   "page_title": "UK GDPR Article 27 Representative for Non UK Businesses",
+   "product": "UK privacy notice and Article 30 records",
+   "scope": "Your privacy notice and records of processing brought into line with the UK GDPR, with the representative details in the right places.",
+   "fee": "from £595"
+  },
+  {
+   "page": "/uk-gdpr-representative",
+   "page_title": "UK GDPR Article 27 Representative for Non UK Businesses",
+   "product": "Full UK GDPR pack",
+   "scope": "Privacy notice, cookie policy, internal data protection policy, retention schedule and subject request procedure, drafted to your actual processing.",
+   "fee": "from £1,150"
+  },
+  {
+   "page": "/uk-gdpr-representative",
+   "page_title": "UK GDPR Article 27 Representative for Non UK Businesses",
+   "product": "Data processing agreement",
+   "scope": "Controller to processor DPA drafted or reviewed under the UK GDPR.",
+   "fee": "from £550"
+  },
+  {
+   "page": "/uk-gdpr-representative",
+   "page_title": "UK GDPR Article 27 Representative for Non UK Businesses",
+   "product": "Subject access or erasure response",
+   "scope": "A compliant, proportionate response to a request from a UK individual, drafted for you to send.",
+   "fee": "from £550"
+  },
+  {
+   "page": "/uk-gdpr-representative",
+   "page_title": "UK GDPR Article 27 Representative for Non UK Businesses",
+   "product": "ICO correspondence and incident support",
+   "scope": "Written handling of an ICO enquiry, a complaint or a breach notification decision, per matter.",
+   "fee": "from £395"
   },
   {
    "page": "/uk-market-entry",

@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-09-21 from the live schedules. 328 rows across 36 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -94,6 +94,24 @@ Generated 2026-09-21 from the live schedules. 328 rows across 36 pages. No VAT. 
 - Schedule of loss | from £550 | Quantified, credible, and drafted to frame settlement discussions.
 - Witness statements | from £650 | Drafted per statement from your account and documents.
 - Remote hearing representation | from £4,500 | Preparation and advocacy at video hearings; in-person hearings prepared here and conducted with instructed counsel.
+
+## EU GDPR Compliance for Businesses Outside the EU  (/eu-gdpr-compliance)
+- EU GDPR applicability review | from £395 | A written answer on whether Article 3(2) reaches your business, which obligations follow, and whether you must appoint an EU representative.
+- EU facing privacy notice | from £595 | Your privacy notice drafted or amended to meet Articles 13 and 14 of the EU GDPR, including representative details where one is appointed.
+- UK and EU dual compliance pack | from £1,450 | Privacy notice, cookie policy, records of processing and internal policy set drafted to satisfy both the UK GDPR and the EU GDPR from one document set.
+- Data processing agreement | from £550 | Controller to processor DPA drafted or reviewed under Article 28 of the EU GDPR.
+- International transfers | from £750 | Transfer mechanism advised and documented for data leaving the EU or the UK: standard contractual clauses, the UK addendum or the IDTA, with the transfer risk assessment.
+- EU representative introduction | from £295 | Introduction to an EU established Article 27 representative from our correspondent network and review of the appointment terms. The representative's own fee is separate.
+- Data protection advisory | from £395 | Questions, reviews and incident support, per matter.
+
+## EU Market Entry for UK, US and International Companies  (/eu-market-entry)
+- EU Market Entry bundle | from £1,950 | EU trade mark (one class, filed through our EEA correspondent, EUIPO fee separate), EU facing privacy notice and records, and B2B or B2C terms drafted for EU sale.
+- EU trade mark, one class | from £695 | Conflict search, specification drafting and filing at the EUIPO through our EEA representative, with objection responses. EUIPO official fee separate.
+- EU GDPR applicability review | from £395 | A written answer on whether the EU GDPR reaches you, what follows, and whether you need an EU representative.
+- EU facing privacy notice and records | from £595 | Privacy notice and records of processing drafted to Articles 13, 14 and 30 of the EU GDPR.
+- EU distribution or reseller agreement | from £995 | Your route to market contract drafted with EU competition and agency rules in mind, under English law with an EU enforcement route.
+- EU consumer terms | from £650 | B2C terms and conditions for sale into the EU, meeting the consumer rights and distance selling rules that apply to EU consumers.
+- Member state entity formation, coordinated | from £650 | Scoping of the entity you need, instruction and coordination of correspondent counsel in the member state, and review of their output against your plan. The correspondent's own fee is separate and quoted before work begins.
 
 ## French Businesses  (/france)
 - UK trademark, one class | from EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.
@@ -364,6 +382,14 @@ Generated 2026-09-21 from the live schedules. 328 rows across 36 pages. No VAT. 
 - Opposition defence (TM8 & evidence) | from £1,200 | Counterstatement, evidence rounds and written submissions in a UKIPO opposition.
 - Cease & desist / enforcement letter | from £595 | Solicitor-drafted infringement letter. Most infringers settle before proceedings.
 - Portfolio / clone-mark use audit | from £595 | Review of your UK registrations against the post-Brexit genuine-use exposure, with a written risk report.
+
+## UK GDPR Article 27 Representative for Non UK Businesses  (/uk-gdpr-representative)
+- Do we need one? Applicability check | from £395 | A written answer on whether Article 3(2) and Article 27 apply to you, and whether the occasional processing exemption is available, against the facts of your business.
+- UK privacy notice and Article 30 records | from £595 | Your privacy notice and records of processing brought into line with the UK GDPR, with the representative details in the right places.
+- Full UK GDPR pack | from £1,150 | Privacy notice, cookie policy, internal data protection policy, retention schedule and subject request procedure, drafted to your actual processing.
+- Data processing agreement | from £550 | Controller to processor DPA drafted or reviewed under the UK GDPR.
+- Subject access or erasure response | from £550 | A compliant, proportionate response to a request from a UK individual, drafted for you to send.
+- ICO correspondence and incident support | from £395 | Written handling of an ICO enquiry, a complaint or a breach notification decision, per matter.
 
 ## UK Market Entry for US & International Companies  (/uk-market-entry)
 - UK Market Entry bundle | from £2,150 | UK trademark (one class, UKIPO fee included), UK company incorporation with tailored articles, B2B or B2C terms & conditions, and your first UK employment contract.
