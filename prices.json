@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24",
+ "generated": "2026-09-25",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 348,
+ "count": 326,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -409,90 +409,6 @@
    "fee": "from £1,450"
   },
   {
-   "page": "/employment-advisory",
-   "page_title": "Employment Law for Employers",
-   "product": "Employment contract",
-   "scope": "Drafted for the role, probation, restrictive covenants, IP assignment and confidentiality done properly.",
-   "fee": "from £425"
-  },
-  {
-   "page": "/employment-advisory",
-   "page_title": "Employment Law for Employers",
-   "product": "Staff handbook & policies",
-   "scope": "The core policy set, drafted to the ACAS Code and your actual practices. Contract + handbook bundle £950.",
-   "fee": "from £1,100"
-  },
-  {
-   "page": "/employment-advisory",
-   "page_title": "Employment Law for Employers",
-   "product": "Disciplinary or grievance support",
-   "scope": "The process mapped, letters drafted, and each step advised, so the file defends itself later.",
-   "fee": "from £650 per process"
-  },
-  {
-   "page": "/employment-advisory",
-   "page_title": "Employment Law for Employers",
-   "product": "Redundancy programme",
-   "scope": "Selection, consultation and documentation for a compliant redundancy exercise.",
-   "fee": "from £995"
-  },
-  {
-   "page": "/employment-advisory",
-   "page_title": "Employment Law for Employers",
-   "product": "TUPE advisory",
-   "scope": "Transfer analysis, employee liability information, and consultation documents on a business or service transfer.",
-   "fee": "from £995"
-  },
-  {
-   "page": "/employment-advisory",
-   "page_title": "Employment Law for Employers",
-   "product": "Employer retainer",
-   "scope": "Priority access, document allowance and process support on call, monthly.",
-   "fee": "£750/mo"
-  },
-  {
-   "page": "/employment-tribunal",
-   "page_title": "Employment Tribunal Solicitor",
-   "product": "Early conciliation & merits assessment",
-   "scope": "Your documents reviewed with a written view on claims, defences, time limits and realistic value, before positions harden.",
-   "fee": "from £550"
-  },
-  {
-   "page": "/employment-tribunal",
-   "page_title": "Employment Tribunal Solicitor",
-   "product": "ET1 claim drafted",
-   "scope": "Grounds of claim drafted to be pleaded once and pleaded right, with the ACAS process handled.",
-   "fee": "from £1,750"
-  },
-  {
-   "page": "/employment-tribunal",
-   "page_title": "Employment Tribunal Solicitor",
-   "product": "ET3 response drafted",
-   "scope": "The employer's response and grounds of resistance, drafted with the eventual hearing in mind.",
-   "fee": "from £1,750"
-  },
-  {
-   "page": "/employment-tribunal",
-   "page_title": "Employment Tribunal Solicitor",
-   "product": "Schedule of loss",
-   "scope": "Quantified, credible, and drafted to frame settlement discussions.",
-   "fee": "from £550"
-  },
-  {
-   "page": "/employment-tribunal",
-   "page_title": "Employment Tribunal Solicitor",
-   "product": "Witness statements",
-   "scope": "Drafted per statement from your account and documents.",
-   "fee": "from £650"
-  },
-  {
-   "page": "/employment-tribunal",
-   "page_title": "Employment Tribunal Solicitor",
-   "product": "Remote hearing representation",
-   "scope": "Preparation and advocacy at video hearings; in-person hearings prepared here and conducted with instructed counsel.",
-   "fee": "from £4,500"
-  },
-  {
    "page": "/eu-gdpr-compliance",
    "page_title": "EU GDPR Compliance for Businesses Outside the EU",
    "product": "EU GDPR applicability review",
@@ -691,13 +607,6 @@
   {
    "page": "/france",
    "page_title": "French Businesses",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from EUR 495"
-  },
-  {
-   "page": "/france",
-   "page_title": "French Businesses",
    "product": "UK GDPR and website legal pack",
    "scope": "Privacy notice, cookie consent, terms and processing records for the UK market.",
    "fee": "from EUR 695"
@@ -866,13 +775,6 @@
   {
    "page": "/germany",
    "page_title": "German Businesses",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from EUR 495"
-  },
-  {
-   "page": "/germany",
-   "page_title": "German Businesses",
    "product": "UK GDPR and website legal pack",
    "scope": "Privacy notice, cookie consent, terms and processing records for the UK market.",
    "fee": "from EUR 695"
@@ -1002,13 +904,6 @@
    "product": "Commercial lease, review and negotiation",
    "scope": "Premises in England and Wales reviewed with a written risk report.",
    "fee": "from £750 (AED 3,710 indicative)"
-  },
-  {
-   "page": "/gulf",
-   "page_title": "Gulf Businesses",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from £425 (AED 2,100 indicative)"
   },
   {
    "page": "/gulf",
@@ -1181,13 +1076,6 @@
   {
    "page": "/ireland",
    "page_title": "Ireland",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from EUR 495"
-  },
-  {
-   "page": "/ireland",
-   "page_title": "Ireland",
    "product": "UK GDPR and website legal pack",
    "scope": "Privacy notice, cookie consent, terms and processing records.",
    "fee": "from EUR 695"
@@ -1352,13 +1240,6 @@
    "product": "Commercial lease, review and negotiation",
    "scope": "Premises in England and Wales reviewed with a written risk report.",
    "fee": "from USD 955"
-  },
-  {
-   "page": "/latin-america",
-   "page_title": "Latin America",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from USD 540"
   },
   {
    "page": "/latin-america",
@@ -1601,13 +1482,6 @@
   {
    "page": "/netherlands",
    "page_title": "Netherlands",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from EUR 495"
-  },
-  {
-   "page": "/netherlands",
-   "page_title": "Netherlands",
    "product": "UK GDPR and website legal pack",
    "scope": "Privacy notice, cookie consent, terms and processing records for the UK market.",
    "fee": "from EUR 695"
@@ -1730,13 +1604,6 @@
    "product": "Commercial lease, review and negotiation",
    "scope": "Premises in England and Wales reviewed with a written risk report.",
    "fee": "from EUR 875"
-  },
-  {
-   "page": "/nordics",
-   "page_title": "Nordic Businesses",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from EUR 495"
   },
   {
    "page": "/nordics",
@@ -1968,13 +1835,6 @@
    "product": "Commercial lease, review and negotiation",
    "scope": "Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.",
    "fee": "from EUR 875"
-  },
-  {
-   "page": "/southern-europe",
-   "page_title": "Italy, Spain & Portugal",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from EUR 495"
   },
   {
    "page": "/southern-europe",
@@ -2246,7 +2106,7 @@
    "page": "/uk-market-entry",
    "page_title": "UK Market Entry for US & International Companies",
    "product": "UK Market Entry bundle",
-   "scope": "UK trademark (one class, UKIPO fee included), UK company incorporation with tailored articles, B2B or B2C terms & conditions, and your first UK employment contract.",
+   "scope": "UK trademark (one class, UKIPO fee included), UK company incorporation with tailored articles, and B2B or B2C terms & conditions.",
    "fee": "from £2,150"
   },
   {
@@ -2269,13 +2129,6 @@
    "product": "UK entity & corporate pack",
    "scope": "Company incorporation, tailored articles, board minutes, registers, or an SPV structured for a UK venture (£750).",
    "fee": "from £550"
-  },
-  {
-   "page": "/uk-market-entry",
-   "page_title": "UK Market Entry for US & International Companies",
-   "product": "First-hire employment pack",
-   "scope": "UK-law employment contract plus the core policies a first British employee requires.",
-   "fee": "from £650"
   },
   {
    "page": "/uk-market-entry",
@@ -2409,13 +2262,6 @@
    "product": "Commercial lease, review and negotiation",
    "scope": "Premises in England and Wales reviewed with a written risk report.",
    "fee": "from USD 955"
-  },
-  {
-   "page": "/united-states",
-   "page_title": "US Businesses",
-   "product": "Employment documents for UK staff",
-   "scope": "Contracts, handbooks and policies for people you employ in the United Kingdom.",
-   "fee": "from USD 540"
   },
   {
    "page": "/united-states",

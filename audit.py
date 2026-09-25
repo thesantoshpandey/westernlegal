@@ -141,7 +141,7 @@ for f in PAGES:
         if phrase in s: fail('compliance', f'{f}: retired claim, {label}')
     for legacy,label in [('d4af37','retired gold hex'),('formsubmit.co','legacy form action'),
                          ('917042333175','retired India WhatsApp'),('447915318920','old WhatsApp'),
-                         ('logo-email.png','deleted logo ref'),('nav-portal','legacy nav')]:
+                         ('logo-email.png','deleted logo ref'),('href="/employment-','withdrawn employment page (25 Sep 2026, claims management)'),('ET1 claim','claimant employment work withdrawn 25 Sep 2026'),('nav-portal','legacy nav')]:
         if legacy in s: fail('legacy',f'{f}: {label} ({legacy})')
 
 # ---------- forms and tracking ----------

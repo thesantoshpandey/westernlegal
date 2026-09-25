@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-09-25 from the live schedules. 326 rows across 37 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -79,22 +79,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - UDRP complaint (.com and global domains) | from £1,450 | Full complaint drafted and filed at WIPO or Forum: rights, legitimate interest, bad faith, evidenced properly.
 - UDRP or DRS response (defending your domain) | from £1,450 | Accused of cybersquatting? The response that keeps your domain, built on legitimate interest and good faith.
 
-## Employment Law for Employers  (/employment-advisory)
-- Employment contract | from £425 | Drafted for the role, probation, restrictive covenants, IP assignment and confidentiality done properly.
-- Staff handbook & policies | from £1,100 | The core policy set, drafted to the ACAS Code and your actual practices. Contract + handbook bundle £950.
-- Disciplinary or grievance support | from £650 per process | The process mapped, letters drafted, and each step advised, so the file defends itself later.
-- Redundancy programme | from £995 | Selection, consultation and documentation for a compliant redundancy exercise.
-- TUPE advisory | from £995 | Transfer analysis, employee liability information, and consultation documents on a business or service transfer.
-- Employer retainer | £750/mo | Priority access, document allowance and process support on call, monthly.
-
-## Employment Tribunal Solicitor  (/employment-tribunal)
-- Early conciliation & merits assessment | from £550 | Your documents reviewed with a written view on claims, defences, time limits and realistic value, before positions harden.
-- ET1 claim drafted | from £1,750 | Grounds of claim drafted to be pleaded once and pleaded right, with the ACAS process handled.
-- ET3 response drafted | from £1,750 | The employer's response and grounds of resistance, drafted with the eventual hearing in mind.
-- Schedule of loss | from £550 | Quantified, credible, and drafted to frame settlement discussions.
-- Witness statements | from £650 | Drafted per statement from your account and documents.
-- Remote hearing representation | from £4,500 | Preparation and advocacy at video hearings; in-person hearings prepared here and conducted with instructed counsel.
-
 ## EU GDPR Compliance for Businesses Outside the EU  (/eu-gdpr-compliance)
 - EU GDPR applicability review | from £395 | A written answer on whether Article 3(2) reaches your business, which obligations follow, and whether you must appoint an EU representative.
 - EU facing privacy notice | from £595 | Your privacy notice drafted or amended to meet Articles 13 and 14 of the EU GDPR, including representative details where one is appointed.
@@ -128,7 +112,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
 - Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
-- Employment documents for UK staff | from EUR 495 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Construction adjudication | from EUR 2,280 | Payment disputes under the Construction Act, decision typically in 28 days.
@@ -157,7 +140,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
 - Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
-- Employment documents for UK staff | from EUR 495 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Construction adjudication | from EUR 2,280 | Payment disputes under the Construction Act, decision typically in 28 days.
@@ -179,7 +161,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Board and shareholder resolutions | from £295 (AED 1,460 indicative) | Companies Act compliant minutes, allotments, transfers and filings.
 - Buying or selling a business | DD from £1,950 (AED 9,650 indicative) · SPA from £2,950 (AED 14,600 indicative) | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
 - Commercial lease, review and negotiation | from £750 (AED 3,710 indicative) | Premises in England and Wales reviewed with a written risk report.
-- Employment documents for UK staff | from £425 (AED 2,100 indicative) | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from £595 (AED 2,950 indicative) | Privacy notice, cookie consent, terms and processing records.
 - Mediation representation and arbitration | from £1,450 (AED 7,180 indicative) | Position statements, written submissions and settlement drafting.
 - Domain name disputes | from £955 (AED 4,730 indicative) | UDRP and Nominet DRS complaints, decided on the papers.
@@ -210,7 +191,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Shareholder or partnership agreement | from EUR 1,930 | Control, exit, deadlock and transfer provisions.
 - Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report.
-- Employment documents for UK staff | from EUR 495 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Domain name disputes | from EUR 1,115 | UDRP and Nominet DRS complaints, decided on the papers.
@@ -239,7 +219,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Shareholder or joint venture agreement | from USD 2,095 | Control, exit, deadlock and transfer provisions.
 - Buying or selling a UK business | DD from USD 2,475 · SPA from USD 3,745 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from USD 955 | Premises in England and Wales reviewed with a written risk report.
-- Employment documents for UK staff | from USD 540 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from USD 755 | Privacy notice, cookie consent, terms and processing records.
 - Letter before action to a UK company | from USD 755 | Formal demand on a business debt owed by a company in England and Wales.
 - Mediation representation and arbitration | from USD 1,840 | Position statements, written submissions and settlement drafting.
@@ -280,7 +259,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
 - Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
-- Employment documents for UK staff | from EUR 495 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Construction adjudication | from EUR 2,280 | Payment disputes under the Construction Act, decision typically in 28 days.
@@ -301,7 +279,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Shareholder or partnership agreement | from EUR 1,930 | Control, exit, deadlock and transfer provisions.
 - Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report.
-- Employment documents for UK staff | from EUR 495 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Domain name disputes | from EUR 1,115 | UDRP and Nominet DRS complaints, decided on the papers.
@@ -343,7 +320,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
 - Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
-- Employment documents for UK staff | from EUR 495 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Construction adjudication | from EUR 2,280 | Payment disputes under the Construction Act, decision typically in 28 days.
@@ -392,11 +368,10 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - ICO correspondence and incident support | from £395 | Written handling of an ICO enquiry, a complaint or a breach notification decision, per matter.
 
 ## UK Market Entry for US & International Companies  (/uk-market-entry)
-- UK Market Entry bundle | from £2,150 | UK trademark (one class, UKIPO fee included), UK company incorporation with tailored articles, B2B or B2C terms & conditions, and your first UK employment contract.
+- UK Market Entry bundle | from £2,150 | UK trademark (one class, UKIPO fee included), UK company incorporation with tailored articles, and B2B or B2C terms & conditions.
 - UK trademark only, one class | from £555 | Conflict search, filing within 48 hours, objection responses, certificate. Official fee included.
 - Brexit clone-mark use audit | from £595 | Your UK registrations reviewed against the 2026 genuine-use exposure, with a written risk report and fixes.
 - UK entity & corporate pack | from £550 | Company incorporation, tailored articles, board minutes, registers, or an SPV structured for a UK venture (£750).
-- First-hire employment pack | from £650 | UK-law employment contract plus the core policies a first British employee requires.
 - UK distribution / reseller agreement | from £995 | Your route-to-market contract drafted under English law with enforcement in mind.
 
 ## UKIPO Tribunal Solicitor  (/ukipo-tribunal)
@@ -420,7 +395,6 @@ Generated 2026-09-24 from the live schedules. 348 rows across 39 pages. No VAT. 
 - Shareholder or joint venture agreement | from USD 2,095 | Control, exit, deadlock and transfer provisions.
 - Buying or selling a UK business | DD from USD 2,475 · SPA from USD 3,745 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from USD 955 | Premises in England and Wales reviewed with a written risk report.
-- Employment documents for UK staff | from USD 540 | Contracts, handbooks and policies for people you employ in the United Kingdom.
 - UK GDPR and website legal pack | from USD 755 | Privacy notice, cookie consent, terms and processing records.
 - Letter before action to a UK company | from USD 755 | Formal demand on a business debt owed by a company in England and Wales.
 - Mediation representation and arbitration | from USD 1,840 | Position statements, written submissions and settlement drafting.

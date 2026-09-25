@@ -46,6 +46,26 @@
       "source": "/insights/independent-legal-advice-certificate",
       "destination": "/insights",
       "permanent": false
+    },
+    {
+      "source": "/employment-tribunal",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/employment-advisory",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/insights/employment-tribunal-time-limits",
+      "destination": "/insights",
+      "permanent": false
+    },
+    {
+      "source": "/insights/restrictive-covenants-what-is-enforceable",
+      "destination": "/insights",
+      "permanent": false
     }
   ],
   "headers": [
