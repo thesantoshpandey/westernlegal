@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-09-28 from the live schedules. 326 rows across 37 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-09-28 from the live schedules. 327 rows across 38 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -96,6 +96,9 @@ Generated 2026-09-28 from the live schedules. 326 rows across 37 pages. No VAT. 
 - EU distribution or reseller agreement | from £995 | Your route to market contract drafted with EU competition and agency rules in mind, under English law with an EU enforcement route.
 - EU consumer terms | from £650 | B2C terms and conditions for sale into the EU, meeting the consumer rights and distance selling rules that apply to EU consumers.
 - Member state entity formation, coordinated | from £650 | Scoping of the entity you need, instruction and coordination of correspondent counsel in the member state, and review of their output against your plan. The correspondent's own fee is separate and quoted before work begins.
+
+## FAQs  (/faq)
+- Express work | from £195 | Priority handling of any matter on the schedule, delivery date agreed in writing with the quote.
 
 ## French Businesses  (/france)
 - UK trademark, one class | from EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.

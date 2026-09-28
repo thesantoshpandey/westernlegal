@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 326,
+ "count": 327,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -505,6 +505,13 @@
    "product": "Member state entity formation, coordinated",
    "scope": "Scoping of the entity you need, instruction and coordination of correspondent counsel in the member state, and review of their output against your plan. The correspondent's own fee is separate and quoted before work begins.",
    "fee": "from £650"
+  },
+  {
+   "page": "/faq",
+   "page_title": "FAQs",
+   "product": "Express work",
+   "scope": "Priority handling of any matter on the schedule, delivery date agreed in writing with the quote.",
+   "fee": "from £195"
   },
   {
    "page": "/france",
