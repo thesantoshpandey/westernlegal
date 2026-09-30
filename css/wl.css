@@ -981,6 +981,7 @@ footer.site .paystrip li.dd{display:flex;flex-direction:column;gap:3px;padding:5
 footer.site .paystrip li.mk{background:#fff;border-color:#fff;padding:0 8px;height:32px;display:flex;align-items:center;justify-content:center}
 footer.site .paystrip li.mk img{display:block;height:20px;width:auto}
 footer.site .paystrip li.mk.ap{padding:0}footer.site .paystrip li.mk.ap img{height:32px}
+footer.site .paystrip li.mk.kl{padding:0;background:transparent;border-color:transparent}footer.site .paystrip li.mk.kl img{height:32px}
 footer.site .paystrip li.mk.gp{padding:0;background:transparent;border-color:transparent}footer.site .paystrip li.mk.gp img{height:48px;margin:-8px 0}
 footer.site .paystrip .ps{display:flex;align-items:center;gap:8px}
 footer.site .paystrip .ps img.stripe{height:16px;width:auto;background:#fff;border-radius:3px;padding:2px 5px;box-sizing:content-box}
