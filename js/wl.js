@@ -206,6 +206,7 @@
 (function () {
   var deck = document.getElementById('deck');
   if (!deck) return;
+  if (window.matchMedia('(max-width: 767px)').matches) return; /* phones: swipe rail */
   var cards = [].slice.call(deck.querySelectorAll('.rcard'));
   if (!cards.length) return;
   var now = document.getElementById('dnow'), all = document.getElementById('dall');
@@ -343,4 +344,39 @@
   new IntersectionObserver(function(es){
     es.forEach(function(e){ root.classList.toggle('qq-inview', e.isIntersecting); });
   },{threshold:0}).observe(f);
+})();
+
+/* PHONE HOMEPAGE (under 768px): swipe rails with dots, practice accordion */
+(function(){
+  if(!document.body.classList.contains('home')) return;
+  if(!window.matchMedia('(max-width: 767px)').matches) return;
+  var rails=[document.getElementById('deck'),document.querySelector('#track ~ .steps'),document.querySelector('.arts')];
+  rails.forEach(function(r){
+    if(!r) return;
+    var items=[].slice.call(r.children).filter(function(c){return c.nodeType===1;});
+    if(items.length<2) return;
+    items.forEach(function(c){ c.removeAttribute('style'); c.classList.remove('reveal'); c.classList.add('in'); });
+    var dots=document.createElement('div'); dots.className='mdots'; dots.setAttribute('aria-hidden','true');
+    items.forEach(function(_,i){ var d=document.createElement('span'); if(!i) d.className='on'; dots.appendChild(d); });
+    r.parentNode.insertBefore(dots,r.nextSibling);
+    var t=null;
+    r.addEventListener('scroll',function(){
+      clearTimeout(t); t=setTimeout(function(){
+        var w=items[0].getBoundingClientRect().width+12;
+        var i=Math.round(r.scrollLeft/w); if(r.scrollLeft+r.clientWidth>=r.scrollWidth-4) i=items.length-1;
+        [].forEach.call(dots.children,function(d,k){ d.classList.toggle('on',k===i); });
+      },60);
+    },{passive:true});
+  });
+  var groups=[].slice.call(document.querySelectorAll('.home .pgroup'));
+  groups.forEach(function(g,i){
+    var h=g.querySelector('.glabel'); if(!h) return;
+    h.setAttribute('role','button'); h.setAttribute('tabindex','0');
+    if(i===0) g.classList.add('open');
+    h.setAttribute('aria-expanded',i===0?'true':'false');
+    function toggle(){ var o=g.classList.toggle('open'); h.setAttribute('aria-expanded',o?'true':'false'); }
+    h.addEventListener('click',toggle);
+    h.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); toggle(); } });
+    var img=g.querySelector('img.bandimg'); if(img){ img.addEventListener('click',toggle); img.setAttribute('loading','lazy'); }
+  });
 })();

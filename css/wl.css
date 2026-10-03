@@ -1054,3 +1054,43 @@ footer.site .paystrip+.reg{margin-top:22px;border-top:0;padding-top:0}
   .actionbar{transition:transform .25s ease}
   html.qq-inview .actionbar,html:not(.qq-obs) body:has(#qqform) .actionbar{transform:translateY(110%);pointer-events:none}
 }
+
+/* ================= PHONE HOMEPAGE (3 Oct 2026): chapters, rails, accordion; under 768px only ================= */
+.art-img,.mdots{display:none}
+@media(max-width:767px){
+  body.home section{padding-top:52px;padding-bottom:52px}
+  body.home section h2{font-size:clamp(24px,7vw,30px);line-height:1.2}
+  /* swipe rails: reviews, track record, insights */
+  body.home #deck,body.home #track ~ .steps,body.home .arts{
+    display:flex !important;height:auto !important;max-width:none !important;gap:12px !important;
+    overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+    width:100vw;margin:26px 0 0 calc(50% - 50vw) !important;padding:0 16px 4px;scroll-padding-left:16px;grid-template-columns:none !important}
+  body.home #deck::-webkit-scrollbar,body.home #track ~ .steps::-webkit-scrollbar,body.home .arts::-webkit-scrollbar{display:none}
+  body.home #deck,body.home #track ~ .steps,body.home .arts{align-items:stretch !important}
+  body.home #deck > *,body.home #track ~ .steps > *,body.home .arts > *{flex:0 0 84%;scroll-snap-align:start;min-width:0;height:auto !important;align-self:stretch}
+  body.home #deck .rcard{position:relative !important;inset:auto !important;transform:none !important;opacity:1 !important;
+    pointer-events:auto !important;z-index:auto !important;justify-content:space-between;padding:24px 20px !important}
+  body.home .deckbar,body.home .deckbar + .sub{display:none !important}
+  body.home #track ~ .steps .step{background:rgba(255,255,255,.045);border:1px solid var(--rule);padding:22px 20px;margin:0}
+  body.home .arts .art-card{padding:0 0 20px !important;overflow:hidden;transform:none !important}
+  body.home .arts .art-card > :not(.art-img){margin-left:18px;margin-right:18px}
+  body.home .art-img{display:block;width:100%;height:190px;object-fit:cover;margin:0 0 16px;border:0}
+  body.home .mdots{display:flex;justify-content:center;gap:9px;margin-top:16px}
+  body.home .mdots span{width:7px;height:7px;border-radius:50%;background:rgba(245,243,238,.28);transition:background .2s,transform .2s}
+  body.home .mdots span.on{background:var(--gold);transform:scale(1.2)}
+  /* practice areas: image led accordion */
+  body.home .pgroup{display:flex;flex-direction:column;border:1px solid var(--rule) !important;padding:0 !important;margin:0 0 12px !important;background:rgba(255,255,255,.035);overflow:hidden}
+  body.home .pgroup > img.bandimg{order:-2;margin:0 !important;width:100%;height:118px;object-fit:cover;border-radius:0 !important;box-shadow:none;cursor:pointer}
+  body.home .pgroup > img.bandimg:not(:first-of-type){display:none}
+  body.home .pgroup .glabel{order:-1;margin:0 !important;padding:16px;cursor:pointer;font-size:12.5px;user-select:none}
+  body.home .pgroup .glabel::after{flex:none;width:9px;height:9px;background:none;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:rotate(45deg);margin-left:auto;transition:transform .2s}
+  body.home .pgroup.open .glabel::after{transform:rotate(-135deg)}
+  body.home .pgroup .grid{display:none !important}
+  body.home .pgroup.open .grid{display:grid !important;gap:0 !important;padding:0 0 4px !important;margin:0 !important}
+  body.home .pgroup .cell,body.home #track ~ .steps .step,body.home .arts .art-card{margin:0 !important;border-radius:0 !important}
+  body.home .pgroup .cell .from{border-top:0 !important;padding-top:0 !important}
+  body.home .pgroup .cell{padding:14px 16px !important;border:0 !important;border-top:1px solid var(--rule) !important;background:none !important;transform:none !important;box-shadow:none !important}
+  body.home .pgroup .cell .ico,body.home .pgroup .cell p{display:none}
+  body.home .pgroup .cell h3{font-size:16px;margin:0}
+  body.home .pgroup .cell .from{margin-top:4px;font-size:12.5px}
+}
