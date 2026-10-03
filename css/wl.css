@@ -1061,17 +1061,17 @@ footer.site .paystrip+.reg{margin-top:22px;border-top:0;padding-top:0}
   body.home section{padding-top:52px;padding-bottom:52px}
   body.home section h2{font-size:clamp(24px,7vw,30px);line-height:1.2}
   /* swipe rails: reviews, track record, insights */
-  body.home #deck,body.home #track ~ .steps,body.home .arts{
+  body.home #deck,body.home .steps,body.home .arts{
     display:flex !important;height:auto !important;max-width:none !important;gap:12px !important;
     overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;
     width:100vw;margin:26px 0 0 calc(50% - 50vw) !important;padding:0 16px 4px;scroll-padding-left:16px;grid-template-columns:none !important}
-  body.home #deck::-webkit-scrollbar,body.home #track ~ .steps::-webkit-scrollbar,body.home .arts::-webkit-scrollbar{display:none}
-  body.home #deck,body.home #track ~ .steps,body.home .arts{align-items:stretch !important}
-  body.home #deck > *,body.home #track ~ .steps > *,body.home .arts > *{flex:0 0 84%;scroll-snap-align:start;min-width:0;height:auto !important;align-self:stretch}
+  body.home #deck::-webkit-scrollbar,body.home .steps::-webkit-scrollbar,body.home .arts::-webkit-scrollbar{display:none}
+  body.home #deck,body.home .steps,body.home .arts{align-items:stretch !important}
+  body.home #deck > *,body.home .steps > *,body.home .arts > *{flex:0 0 84%;scroll-snap-align:start;min-width:0;height:auto !important;align-self:stretch}
   body.home #deck .rcard{position:relative !important;inset:auto !important;transform:none !important;opacity:1 !important;
     pointer-events:auto !important;z-index:auto !important;justify-content:space-between;padding:24px 20px !important}
   body.home .deckbar,body.home .deckbar + .sub{display:none !important}
-  body.home #track ~ .steps .step{background:rgba(255,255,255,.045);border:1px solid var(--rule);padding:22px 20px;margin:0}
+  body.home .steps .step{background:rgba(255,255,255,.045);border:1px solid var(--rule);padding:22px 20px;margin:0}
   body.home .arts .art-card{padding:0 0 20px !important;overflow:hidden;transform:none !important}
   body.home .arts .art-card > :not(.art-img){margin-left:18px;margin-right:18px}
   body.home .art-img{display:block;width:100%;height:190px;object-fit:cover;margin:0 0 16px;border:0}
@@ -1087,10 +1087,44 @@ footer.site .paystrip+.reg{margin-top:22px;border-top:0;padding-top:0}
   body.home .pgroup.open .glabel::after{transform:rotate(-135deg)}
   body.home .pgroup .grid{display:none !important}
   body.home .pgroup.open .grid{display:grid !important;gap:0 !important;padding:0 0 4px !important;margin:0 !important}
-  body.home .pgroup .cell,body.home #track ~ .steps .step,body.home .arts .art-card{margin:0 !important;border-radius:0 !important}
+  body.home .pgroup .cell,body.home .steps .step,body.home .arts .art-card{margin:0 !important;border-radius:0 !important}
   body.home .pgroup .cell .from{border-top:0 !important;padding-top:0 !important}
   body.home .pgroup .cell{padding:14px 16px !important;border:0 !important;border-top:1px solid var(--rule) !important;background:none !important;transform:none !important;box-shadow:none !important}
   body.home .pgroup .cell .ico,body.home .pgroup .cell p{display:none}
   body.home .pgroup .cell h3{font-size:16px;margin:0}
   body.home .pgroup .cell .from{margin-top:4px;font-size:12.5px}
+}
+
+/* ================= PHONE HOMEPAGE FRAMES (3 Oct 2026): one section per screen, under 768px only ================= */
+@media(max-width:767px){
+  html:has(body.home){scroll-snap-type:y proximity;scroll-padding-top:0 !important}
+  body.home > section{scroll-snap-align:start;min-height:100vh;min-height:100svh;padding:56px 0 64px !important;
+    border-top:1px solid rgba(232,181,74,.35);display:flex;flex-direction:column;justify-content:flex-start}
+  body.home > section:nth-of-type(odd){background:#0A1B33}
+  body.home > section:nth-of-type(even){background:#0E2445}
+  body.home > section > .wrap{width:100%}
+  /* nothing fades in on phones: frames are simply there */
+  body.home .reveal{opacity:1 !important;transform:none !important;transition:none !important}
+  /* frame 1, the hero: the form, then the photo fills the rest of the screen */
+  body.home > section.hero{scroll-snap-align:none;min-height:calc(100svh - 52px);height:calc(100svh - 52px);overflow:hidden;padding:12px 0 0 !important;border-top:0}
+  body.home section.hero > .wrap{display:flex !important;flex-direction:column;min-height:calc(100svh - 64px)}
+  body.home section.hero .lede,body.home section.hero .proof4{display:none !important}
+  body.home section.hero .art{flex:1 1 auto;display:flex;width:100vw;max-width:none !important;margin:22px 0 0 calc(50% - 50vw) !important;min-height:60px}
+  body.home section.hero .art img{width:100%;height:100% !important;max-height:none !important;object-fit:cover;border:0}
+  /* frame 2: the four proof points, moved here from the hero by script */
+  body.home > section.fastband{text-align:left;padding:56px 20px 64px !important;border-left:0 !important;margin:0 !important}
+  body.home > section.fastband > p{display:none}
+  body.home > section.fastband .proof4{display:grid !important;grid-template-columns:1fr;gap:16px;margin:18px 0 0 !important}
+  body.home > section.fastband .proof4 > div{border-left:2px solid var(--gold);padding-left:14px;font-size:14px;line-height:1.45}
+  body.home > section.fastband .proof4 b{display:block;font-size:12px;letter-spacing:.14em;margin-bottom:4px}
+  /* frames carry a heading and one visual: intros and band photos come off on phones */
+  body.home > section .sub,body.home > section .anchor-rate,body.home > section > .wrap > img.bandimg{display:none !important}
+  body.home .rcard blockquote{display:-webkit-box;-webkit-line-clamp:10;-webkit-box-orient:vertical;overflow:hidden}
+  /* practice areas: one row per group, the photo appears when a group opens */
+  body.home .pgroup > img.bandimg{display:none}
+  body.home .pgroup.open > img.bandimg:first-of-type{display:block}
+  body.home .pgroup{margin:0 0 8px !important}
+  body.home .pgroup .glabel{padding:15px 16px}
+  /* the contact frame and the footer flow normally */
+  body.home > section#contact{min-height:0}
 }

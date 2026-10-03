@@ -350,7 +350,10 @@
 (function(){
   if(!document.body.classList.contains('home')) return;
   if(!window.matchMedia('(max-width: 767px)').matches) return;
-  var rails=[document.getElementById('deck'),document.querySelector('#track ~ .steps'),document.querySelector('.arts')];
+  /* frame 2: proof points move out of the hero into their own screen */
+  var p4=document.querySelector('.hero .proof4'), fb=document.querySelector('section.fastband');
+  if(p4 && fb){ var k=fb.querySelector('.k'); if(k) k.textContent='WHY CLIENTS INSTRUCT US'; fb.appendChild(p4); }
+  var rails=[document.getElementById('deck')].concat([].slice.call(document.querySelectorAll('.home .steps')),[document.querySelector('.arts')]);
   rails.forEach(function(r){
     if(!r) return;
     var items=[].slice.call(r.children).filter(function(c){return c.nodeType===1;});
@@ -372,8 +375,7 @@
   groups.forEach(function(g,i){
     var h=g.querySelector('.glabel'); if(!h) return;
     h.setAttribute('role','button'); h.setAttribute('tabindex','0');
-    if(i===0) g.classList.add('open');
-    h.setAttribute('aria-expanded',i===0?'true':'false');
+    h.setAttribute('aria-expanded','false');
     function toggle(){ var o=g.classList.toggle('open'); h.setAttribute('aria-expanded',o?'true':'false'); }
     h.addEventListener('click',toggle);
     h.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); toggle(); } });
