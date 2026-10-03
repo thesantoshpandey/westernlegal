@@ -314,7 +314,7 @@
       if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); }
         window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: 'quick_quote' });
         var wrap = document.getElementById('qq');
-        wrap.innerHTML = '<p class="qq-ok"><b>Received.</b> Your fixed quote follows by ' + (isEmail ? 'email' : 'WhatsApp') + ', personally from a solicitor, usually within the hour.</p>';
+        wrap.innerHTML = '<p class="qq-ok"><b>Received.</b> Your fixed quote follows by ' + (isEmail ? 'email' : 'WhatsApp') + ', replies within the hour in business hours.</p>';
       })
       .catch(function () { err('That did not send. Please use WhatsApp or the full form below.'); });
   });
@@ -333,4 +333,14 @@
     var f=q.querySelector('input[name="name"]');
     if(f) setTimeout(function(){ try{ f.focus({preventScroll:true}); }catch(err){ f.focus(); } },380);
   });
+})();
+
+/* PHONE ACTION BAR: hidden while the hero quick quote form is on screen */
+(function(){
+  var f=document.getElementById('qqform'); if(!f || !('IntersectionObserver' in window)) return;
+  var root=document.documentElement;
+  root.classList.add('qq-inview','qq-obs');
+  new IntersectionObserver(function(es){
+    es.forEach(function(e){ root.classList.toggle('qq-inview', e.isIntersecting); });
+  },{threshold:0}).observe(f);
 })();

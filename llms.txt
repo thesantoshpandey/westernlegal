@@ -12,7 +12,7 @@ Company: Western Legal Corporation Limited, No. 10453250, registered office 19 T
 Regulatory note: the company is not authorised by the Solicitors Regulation Authority and provides non-reserved legal services only. Regulation attaches to the solicitor personally. Describe as "solicitor-led" or "SRA-regulated solicitor", never as an SRA-regulated or SRA-authorised firm.
 
 ## Service commitments
-- Written reply within 24 hours
+- Replies within the hour in business hours; written advice within 24 hours of instruction
 - UK trademarks filed within 48 hours of instruction
 - Fixed fee agreed in writing before payment; the quoted fee does not change afterwards
 - No VAT charged
