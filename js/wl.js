@@ -319,3 +319,18 @@
       .catch(function () { err('That did not send. Please use WhatsApp or the full form below.'); });
   });
 })();
+
+/* MOBILE QUOTE ROUTE: under 768px, "Get a quote" lands on the quick quote form and puts the cursor in it */
+(function(){
+  function phone(){ return window.matchMedia('(max-width: 767px)').matches; }
+  function qq(){ var q=document.getElementById('qq'); return q && q.offsetParent!==null ? q : null; }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest && e.target.closest('header.site a.btn, .actionbar a.primary');
+    if(!a || !phone()) return;
+    var q=qq(); if(!q) return;
+    e.preventDefault();
+    q.scrollIntoView({behavior:'smooth',block:'start'});
+    var f=q.querySelector('input[name="name"]');
+    if(f) setTimeout(function(){ try{ f.focus({preventScroll:true}); }catch(err){ f.focus(); } },380);
+  });
+})();

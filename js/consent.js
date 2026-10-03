@@ -16,7 +16,7 @@
     window.uetq.push('consent', 'update', { ad_storage: g });
   }
 
-  function close(el) { el.classList.remove('show'); document.body.classList.remove('consent-open'); setTimeout(function () { el.remove(); }, 220); }
+  function close(el) { el.classList.remove('show'); document.body.classList.remove('consent-open'); document.documentElement.classList.remove('cpending'); setTimeout(function () { el.remove(); }, 220); }
 
   function banner() {
     var w = document.createElement('div');
@@ -28,7 +28,8 @@
       '<div class="consent-in">' +
         '<div class="consent-copy">' +
           '<b>Cookies on this site</b>' +
-          '<p>We use essential cookies to make the site work. With your permission we also use analytics and advertising cookies to understand how the site is found and used. You can change your choice at any time. See our <a href="/privacy">privacy notice</a>.</p>' +
+          '<p class="cc-long">We use essential cookies to make the site work. With your permission we also use analytics and advertising cookies to understand how the site is found and used. You can change your choice at any time. See our <a href="/privacy">privacy notice</a>.</p>' +
+          '<p class="cc-short">We use analytics and advertising cookies with your permission. <a href="/privacy">Privacy notice</a></p>' +
         '</div>' +
         '<div class="consent-btns">' +
           '<button type="button" class="btn" data-c="accepted">Accept</button>' +
@@ -50,13 +51,14 @@
 
   function init() {
     var stored = read();
-    if (stored) { apply(stored); }
+    if (stored) { apply(stored); document.documentElement.classList.remove('cpending'); }
     else { banner(); }
     document.addEventListener('click', function (e) {
       var a = e.target.closest('a[href="#cookie-settings"],a[data-cookie-settings]');
       if (!a) return;
       e.preventDefault();
       try { localStorage.removeItem(KEY); } catch (err) {}
+      document.documentElement.classList.add('cpending');
       if (!document.querySelector('.consent')) banner();
     });
   }
