@@ -18,6 +18,7 @@
 
   function close(el) { el.classList.remove('show'); document.body.classList.remove('consent-open'); document.documentElement.classList.remove('cpending'); setTimeout(function () { el.remove(); }, 220); }
 
+  var JA = (document.documentElement.lang || '').toLowerCase().indexOf('ja') === 0;
   function banner() {
     var w = document.createElement('div');
     w.className = 'consent';
@@ -27,13 +28,15 @@
     w.innerHTML =
       '<div class="consent-in">' +
         '<div class="consent-copy">' +
-          '<b>Cookies on this site</b>' +
-          '<p class="cc-long">We use essential cookies to make the site work. With your permission we also use analytics and advertising cookies to understand how the site is found and used. You can change your choice at any time. See our <a href="/privacy">privacy notice</a>.</p>' +
-          '<p class="cc-short">We use analytics and advertising cookies with your permission. <a href="/privacy">Privacy notice</a></p>' +
+          (JA ? '<b>クッキーについて</b>' : '<b>Cookies on this site</b>') +
+          (JA ? '<p class="cc-long">本サイトの動作に必要なクッキーを使用します。ご同意いただいた場合に限り、サイトの利用状況を把握するための分析用・広告用クッキーも使用します。設定はいつでも変更できます。詳しくは<a href="/privacy">プライバシーポリシー</a>（英語）をご覧ください。</p>' +
+                '<p class="cc-short">ご同意いただいた場合に限り、分析用・広告用クッキーを使用します。<a href="/privacy">プライバシーポリシー</a></p>' : '') +
+          (JA ? '' : '<p class="cc-long">We use essential cookies to make the site work. With your permission we also use analytics and advertising cookies to understand how the site is found and used. You can change your choice at any time. See our <a href="/privacy">privacy notice</a>.</p>' +
+          '<p class="cc-short">We use analytics and advertising cookies with your permission. <a href="/privacy">Privacy notice</a></p>') +
         '</div>' +
         '<div class="consent-btns">' +
-          '<button type="button" class="btn" data-c="accepted">Accept</button>' +
-          '<button type="button" class="btn ghost" data-c="essential">Essential only</button>' +
+          '<button type="button" class="btn" data-c="accepted">' + (JA ? '同意する' : 'Accept') + '</button>' +
+          '<button type="button" class="btn ghost" data-c="essential">' + (JA ? '必須のみ' : 'Essential only') + '</button>' +
         '</div>' +
       '</div>';
     document.body.appendChild(w);

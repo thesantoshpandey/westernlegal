@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30",
+ "generated": "2026-10-04",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 327,
+ "count": 339,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -1107,6 +1107,90 @@
    "product": "Trademark opposition defence",
    "scope": "TM8 and evidence rounds, fixed for the whole defence.",
    "fee": "EUR 1,405"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "会社設立パック",
+   "scope": "英国会社の設立、御社向けの定款、最初の取締役会議事録、法定登録簿、株券",
+   "fee": "£550から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "SPV（特別目的会社）設立",
+   "scope": "特定の取引や資産のための会社設立と、グループ内契約書一式",
+   "fee": "£995から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "株主間契約",
+   "scope": "退出条項、ドラッグ・タグ、重要事項の承認、デッドロックなど、紛争時に効く条項",
+   "fee": "£1,650から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "英国商標出願（1区分）",
+   "scope": "先行商標調査、指定商品・役務の作成、UKIPOへの出願（48時間以内）、標準的な応答、登録証。UKIPO官庁手数料込み",
+   "fee": "£555から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "追加区分（1区分ごと）",
+   "scope": "報酬とUKIPOの追加区分手数料を含みます",
+   "fee": "£245から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "先行商標調査",
+   "scope": "1件目は無料、書面で見解をお伝えします。2件目以降は1件£150（30日以内のご依頼で出願料金に充当）",
+   "fee": "初回無料・以降£150"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "秘密保持契約（NDA）",
+   "scope": "片務・双務いずれも、取引内容に合わせて作成。48時間で納品",
+   "fee": "£245から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "契約書の確認と修正",
+   "scope": "受領した契約書のリスクを書面で整理し、交渉ポイントと修正案を提示",
+   "fee": "£595から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "取引約款・利用規約",
+   "scope": "BtoB・BtoCの取引条件、ウェブサイト・SaaSの規約",
+   "fee": "£650から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "個別の商取引契約",
+   "scope": "供給、業務委託、販売代理店、ライセンス、フランチャイズなど",
+   "fee": "£1,250から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "適用判定",
+   "scope": "UK GDPR第3条第2項と第27条が御社に適用されるか、例外の可否を含めて書面で回答",
+   "fee": "£395から"
+  },
+  {
+   "page": "/ja",
+   "page_title": "日本企業の英国進出・英国取引",
+   "product": "英国向けプライバシー通知と処理記録",
+   "scope": "プライバシー通知と第30条の処理記録をUK GDPRに合わせて整備",
+   "fee": "£595から"
   },
   {
    "page": "/landlord-solicitor",

@@ -21,13 +21,14 @@ module.exports = async (req, res) => {
     const row = (k, v) => `<tr><td style="padding:4px 12px 4px 0;color:#55677E;vertical-align:top;white-space:nowrap">${k}</td><td style="padding:4px 0">${esc(v)}</td></tr>`;
     const attribution = [
       row('page', d.page), row('referrer', d.referrer),
-      row('short form', d.short ? 'yes' : ''), row('gclid', d.gclid), row('gbraid', d.gbraid), row('wbraid', d.wbraid), row('msclkid', d.msclkid),
+      row('short form', d.short ? 'yes' : ''), row('language', d.lang), row('gclid', d.gclid), row('gbraid', d.gbraid), row('wbraid', d.wbraid), row('msclkid', d.msclkid),
       row('utm_source', d.utm_source), row('utm_medium', d.utm_medium),
       row('utm_campaign', d.utm_campaign), row('utm_term', d.utm_term), row('utm_content', d.utm_content),
       row('landing_page', d.landing_page), row('first_seen', d.first_seen),
       row('ts', new Date().toISOString())
     ].join('');
     const shortTag = d.short ? ' [SHORT]' : '';
+    const langTag = d.lang ? ' [' + String(d.lang).replace(/[^a-z-]/gi, '').slice(0, 5).toUpperCase() + ']' : '';
     const paidTag = d.paid ? ' [PAID ' + cap(d.paid, 40).replace(/[\r\n\]]/g, ' ') + ']' : '';
     const adSourced = d.msclkid ? ' [BING CLICK]' : ((d.gclid || d.gbraid || d.wbraid) ? ' [AD CLICK]' : '');
     const clean = v => String(v || '').replace(/[\r\n]/g, ' ').trim().slice(0, 80);
@@ -51,7 +52,7 @@ module.exports = async (req, res) => {
         to: ['trademark@westernlegal.co.uk'],
         reply_to: clientEmail || undefined,
         headers: clientEmail ? { 'X-WL-Lead-Email': clientEmail } : { 'X-WL-Lead-Phone': clean(d.phone) },
-        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${noEmailTag}${adTags}${shortTag}${paidTag}`,
+        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${langTag}${noEmailTag}${adTags}${shortTag}${paidTag}`,
         html
       })
     });

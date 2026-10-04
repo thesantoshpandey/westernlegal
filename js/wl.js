@@ -59,7 +59,7 @@
     fillAttribution(); // re-check at submit time in case tracking.js stored after this ran
     var btn = form.querySelector('button[type="submit"]');
     var btnText = btn ? btn.textContent : 'Send enquiry';
-    if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+    if (btn) { btn.disabled = true; btn.textContent = JA ? '送信中…' : 'Sending…'; }
     var data = {};
     new FormData(form).forEach(function (v, k) { data[k] = v; });
     function success() {
@@ -286,10 +286,11 @@
       e.textContent = t;
       if (btn) { btn.disabled = false; btn.innerHTML = label; }
     }
-    if (nm.length < 2) return err('Please add your name.');
-    if (ct.length < 5) return err('Please add an email address or a WhatsApp number.');
+    var JA = d.lang === 'ja';
+    if (nm.length < 2) return err(JA ? 'お名前をご入力ください。' : 'Please add your name.');
+    if (ct.length < 5) return err(JA ? 'メールアドレスまたはWhatsApp番号をご入力ください。' : 'Please add an email address or a WhatsApp number.');
     var e = f.querySelector('.qq-err'); if (e) e.remove();
-    if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+    if (btn) { btn.disabled = true; btn.textContent = JA ? '送信中…' : 'Sending…'; }
 
     var isEmail = ct.indexOf('@') > -1;
     var payload = {
@@ -303,8 +304,9 @@
       page: location.pathname,
       referrer: document.referrer || ''
     };
+    if (d.lang) payload.lang = String(d.lang).slice(0, 5);
     ['gclid','gbraid','wbraid','msclkid','utm_source','utm_medium','utm_campaign','utm_term','utm_content','landing_page','first_seen'].forEach(function (k) {
-      var el = document.querySelector('form.lead [name="' + k + '"]');
+      var el = f.querySelector('[name="' + k + '"]') || document.querySelector('form.lead [name="' + k + '"]');
       if (el && el.value) payload[k] = el.value;
     });
 
@@ -315,9 +317,11 @@
       if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); }
         window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: 'quick_quote' });
         var wrap = document.getElementById('qq');
-        wrap.innerHTML = '<p class="qq-ok"><b>Received.</b> Your fixed quote follows by ' + (isEmail ? 'email' : 'WhatsApp') + ', replies within the hour in business hours.</p>';
+        wrap.innerHTML = JA
+          ? '<p class="qq-ok"><b>受け付けました。</b>固定料金のお見積りを' + (isEmail ? 'メール' : 'WhatsApp') + 'で英語にてお送りします。英国の営業時間内は1時間以内に返信します。</p>'
+          : '<p class="qq-ok"><b>Received.</b> Your fixed quote follows by ' + (isEmail ? 'email' : 'WhatsApp') + ', replies within the hour in business hours.</p>';
       })
-      .catch(function () { err('That did not send. Please use WhatsApp or the full form below.'); });
+      .catch(function () { err(JA ? '送信できませんでした。WhatsAppからご連絡ください。' : 'That did not send. Please use WhatsApp or the full form below.'); });
   });
 })();
 

@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-09-30 from the live schedules. 327 rows across 38 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-04 from the live schedules. 339 rows across 39 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -198,6 +198,20 @@ Generated 2026-09-30 from the live schedules. 327 rows across 38 pages. No VAT. 
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Domain name disputes | from EUR 1,115 | UDRP and Nominet DRS complaints, decided on the papers.
 - Trademark opposition defence | EUR 1,405 | TM8 and evidence rounds, fixed for the whole defence.
+
+## 日本企業の英国進出・英国取引  (/ja)
+- 会社設立パック | £550から | 英国会社の設立、御社向けの定款、最初の取締役会議事録、法定登録簿、株券
+- SPV（特別目的会社）設立 | £995から | 特定の取引や資産のための会社設立と、グループ内契約書一式
+- 株主間契約 | £1,650から | 退出条項、ドラッグ・タグ、重要事項の承認、デッドロックなど、紛争時に効く条項
+- 英国商標出願（1区分） | £555から | 先行商標調査、指定商品・役務の作成、UKIPOへの出願（48時間以内）、標準的な応答、登録証。UKIPO官庁手数料込み
+- 追加区分（1区分ごと） | £245から | 報酬とUKIPOの追加区分手数料を含みます
+- 先行商標調査 | 初回無料・以降£150 | 1件目は無料、書面で見解をお伝えします。2件目以降は1件£150（30日以内のご依頼で出願料金に充当）
+- 秘密保持契約（NDA） | £245から | 片務・双務いずれも、取引内容に合わせて作成。48時間で納品
+- 契約書の確認と修正 | £595から | 受領した契約書のリスクを書面で整理し、交渉ポイントと修正案を提示
+- 取引約款・利用規約 | £650から | BtoB・BtoCの取引条件、ウェブサイト・SaaSの規約
+- 個別の商取引契約 | £1,250から | 供給、業務委託、販売代理店、ライセンス、フランチャイズなど
+- 適用判定 | £395から | UK GDPR第3条第2項と第27条が御社に適用されるか、例外の可否を含めて書面で回答
+- 英国向けプライバシー通知と処理記録 | £595から | プライバシー通知と第30条の処理記録をUK GDPRに合わせて整備
 
 ## Landlord Solicitor  (/landlord-solicitor)
 - Possession notice, drafted & checked | from £550 | The correct notice for your ground and tenancy under the current regime, with the deposit, licensing and compliance history checked first, because a defective notice costs months.
