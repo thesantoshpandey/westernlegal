@@ -32,7 +32,12 @@ module.exports = async (req, res) => {
     const adSourced = d.msclkid ? ' [BING CLICK]' : ((d.gclid || d.gbraid || d.wbraid) ? ' [AD CLICK]' : '');
     const clean = v => String(v || '').replace(/[\r\n]/g, ' ').trim().slice(0, 80);
     const adTags = (d.utm_term ? ' [term: ' + clean(d.utm_term) + ']' : '') + (d.utm_campaign ? ' [campaign: ' + clean(d.utm_campaign) + ']' : '');
-    const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}${shortTag}${paidTag}</h2>
+    // Where replies go. With an email, Reply-To is the client so "Reply" in Gmail reaches them (leads@ is not a mailbox).
+    // Phone only: no email exists, so the subject says so and carries the number, and the lead is answered on WhatsApp.
+    const clientEmail = (emailOk && d.email) ? String(d.email).trim() : '';
+    const phoneOnly = !clientEmail;
+    const noEmailTag = phoneOnly ? ' [NO EMAIL] [WhatsApp ' + clean(d.phone).replace(/[\[\]]/g, '') + ']' : '';
+    const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}${noEmailTag}${shortTag}${paidTag}</h2>${phoneOnly ? '<p style="color:#9a3412"><b>No email given.</b> Reply on WhatsApp to ' + esc(d.phone) + '. Do not reply to this email: it goes nowhere.</p>' : ''}
       <table style="font-size:14px">
       ${row('name', d.name)}${row('email', d.email)}${row('phone', d.phone)}${row('matter', d.matter)}${d.paid ? row('paid', cap(d.paid, 40)) + row('stripe session', cap(d.session_id, 120)) + row('mark', cap(d.mark, 200)) + row('applicant', cap(d.applicant, 200)) + row('applicant address', cap(d.address, 400)) + row('classes / goods', cap(d.goods, 1500)) : ''}
       </table>
@@ -44,8 +49,9 @@ module.exports = async (req, res) => {
       body: JSON.stringify({
         from: 'Western Legal Website <leads@westernlegal.co.uk>',
         to: ['trademark@westernlegal.co.uk'],
-        reply_to: (emailOk && d.email) ? String(d.email).trim() : undefined,
-        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${adTags}${shortTag}${paidTag}`,
+        reply_to: clientEmail || undefined,
+        headers: clientEmail ? { 'X-WL-Lead-Email': clientEmail } : { 'X-WL-Lead-Phone': clean(d.phone) },
+        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${noEmailTag}${adTags}${shortTag}${paidTag}`,
         html
       })
     });

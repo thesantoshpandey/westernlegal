@@ -80,7 +80,7 @@
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
-          _subject: '[FALLBACK] New enquiry - ' + (data.matter || 'General') + ' - ' + (data.name || '') + (data.msclkid ? ' [BING CLICK]' : (data.gclid || data.gbraid || data.wbraid ? ' [AD CLICK]' : '')),
+          _subject: '[FALLBACK] New enquiry - ' + (data.matter || 'General') + ' - ' + (data.name || '') + (data.msclkid ? ' [BING CLICK]' : (data.gclid || data.gbraid || data.wbraid ? ' [AD CLICK]' : '')) + (String(data.email || '').trim() ? '' : ' [NO EMAIL] [WhatsApp ' + String(data.phone || '').trim() + ']'),
           name: data.name, email: data.email, phone: data.phone,
           matter: data.matter, message: data.message,
           page: data.page, referrer: data.referrer,
