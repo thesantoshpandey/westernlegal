@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 339,
+ "count": 351,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -2052,6 +2052,90 @@
    "product": "Swiss data protection documentation pack",
    "scope": "Notices, records of processing and breach procedure brought into line with Swiss requirements.",
    "fee": "from CHF 1,900"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Şirket kuruluş paketi",
+   "scope": "İngiliz şirketinin kuruluşu, şirketinize özel esas sözleşme, ilk yönetim kurulu tutanakları, yasal defterler, pay sertifikaları",
+   "fee": "£550'den itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Özel amaçlı şirket (SPV) kuruluşu",
+   "scope": "Belirli bir işlem veya varlık için şirket kuruluşu ve grup içi sözleşme seti",
+   "fee": "£995'ten itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Ortaklar sözleşmesi (shareholders' agreement)",
+   "scope": "Çıkış hükümleri, drag along ve tag along hakları, önemli kararlarda onay, kilitlenme (deadlock) gibi uyuşmazlıkta işe yarayan hükümler",
+   "fee": "£1,650'den itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Birleşik Krallık marka başvurusu (1 sınıf)",
+   "scope": "Önceki marka araştırması, mal ve hizmet listesi, 48 saat içinde UKIPO'ya başvuru, standart yazışmalar, tescil belgesi. UKIPO resmi harcı dahil",
+   "fee": "£555'ten itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Ek sınıf (her biri)",
+   "scope": "Ücret ve UKIPO ek sınıf harcı dahil",
+   "fee": "£245'ten itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Önceki marka araştırması",
+   "scope": "İlk araştırma ücretsizdir, görüş yazılı olarak iletilir. Sonraki her araştırma £150 (30 gün içinde başvuru yapılırsa başvuru ücretinden düşülür)",
+   "fee": "İlki ücretsiz, sonrası £150"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Gizlilik sözleşmesi (NDA)",
+   "scope": "Tek taraflı veya karşılıklı, işleme göre hazırlanır. 48 saatte teslim",
+   "fee": "£245'ten itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Sözleşme incelemesi ve düzeltme",
+   "scope": "Alınan sözleşmedeki riskler yazılı olarak özetlenir, müzakere noktaları ve değişiklik önerileri sunulur",
+   "fee": "£595'ten itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Satış koşulları ve kullanım şartları",
+   "scope": "B2B ve B2C ticari koşullar, web sitesi ve SaaS şartları",
+   "fee": "£650'den itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Özel ticari sözleşmeler",
+   "scope": "Tedarik, hizmet, distribütörlük, lisans, franchise ve benzeri sözleşmeler",
+   "fee": "£1,250'den itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Uygulanabilirlik değerlendirmesi",
+   "scope": "UK GDPR madde 3(2) ve madde 27'nin işletmenize uygulanıp uygulanmadığı, istisnalar dahil yazılı olarak yanıtlanır",
+   "fee": "£395'ten itibaren"
+  },
+  {
+   "page": "/tr",
+   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "product": "Birleşik Krallık gizlilik bildirimi ve işleme kayıtları",
+   "scope": "Gizlilik bildirimi ve madde 30 işleme faaliyetleri kaydı UK GDPR'a uygun hale getirilir",
+   "fee": "£595'ten itibaren"
   },
   {
    "page": "/trademark-opposition-defence",

@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-04 from the live schedules. 339 rows across 39 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-04 from the live schedules. 351 rows across 40 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -357,6 +357,20 @@ Generated 2026-10-04 from the live schedules. 339 rows across 39 pages. No VAT. 
 - Demand letter to a Swiss debtor | from CHF 525 | Formal demand on an English law claim, with a deadline and the enforcement route stated.
 - Swiss data protection assessment | from CHF 995 | Whether the Act applies to you, whether a Swiss representative is genuinely required, and the gap between your GDPR documentation and Swiss duties.
 - Swiss data protection documentation pack | from CHF 1,900 | Notices, records of processing and breach procedure brought into line with Swiss requirements.
+
+## Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme  (/tr)
+- Şirket kuruluş paketi | £550'den itibaren | İngiliz şirketinin kuruluşu, şirketinize özel esas sözleşme, ilk yönetim kurulu tutanakları, yasal defterler, pay sertifikaları
+- Özel amaçlı şirket (SPV) kuruluşu | £995'ten itibaren | Belirli bir işlem veya varlık için şirket kuruluşu ve grup içi sözleşme seti
+- Ortaklar sözleşmesi (shareholders' agreement) | £1,650'den itibaren | Çıkış hükümleri, drag along ve tag along hakları, önemli kararlarda onay, kilitlenme (deadlock) gibi uyuşmazlıkta işe yarayan hükümler
+- Birleşik Krallık marka başvurusu (1 sınıf) | £555'ten itibaren | Önceki marka araştırması, mal ve hizmet listesi, 48 saat içinde UKIPO'ya başvuru, standart yazışmalar, tescil belgesi. UKIPO resmi harcı dahil
+- Ek sınıf (her biri) | £245'ten itibaren | Ücret ve UKIPO ek sınıf harcı dahil
+- Önceki marka araştırması | İlki ücretsiz, sonrası £150 | İlk araştırma ücretsizdir, görüş yazılı olarak iletilir. Sonraki her araştırma £150 (30 gün içinde başvuru yapılırsa başvuru ücretinden düşülür)
+- Gizlilik sözleşmesi (NDA) | £245'ten itibaren | Tek taraflı veya karşılıklı, işleme göre hazırlanır. 48 saatte teslim
+- Sözleşme incelemesi ve düzeltme | £595'ten itibaren | Alınan sözleşmedeki riskler yazılı olarak özetlenir, müzakere noktaları ve değişiklik önerileri sunulur
+- Satış koşulları ve kullanım şartları | £650'den itibaren | B2B ve B2C ticari koşullar, web sitesi ve SaaS şartları
+- Özel ticari sözleşmeler | £1,250'den itibaren | Tedarik, hizmet, distribütörlük, lisans, franchise ve benzeri sözleşmeler
+- Uygulanabilirlik değerlendirmesi | £395'ten itibaren | UK GDPR madde 3(2) ve madde 27'nin işletmenize uygulanıp uygulanmadığı, istisnalar dahil yazılı olarak yanıtlanır
+- Birleşik Krallık gizlilik bildirimi ve işleme kayıtları | £595'ten itibaren | Gizlilik bildirimi ve madde 30 işleme faaliyetleri kaydı UK GDPR'a uygun hale getirilir
 
 ## Trademark Opposition Defence UK  (/trademark-opposition-defence)
 - Free opposition review | £0 | Your TM7 and the opponent's mark assessed within 24 hours, with a written view on the strength of the opposition and your options.

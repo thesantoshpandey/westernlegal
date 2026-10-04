@@ -59,7 +59,7 @@
     fillAttribution(); // re-check at submit time in case tracking.js stored after this ran
     var btn = form.querySelector('button[type="submit"]');
     var btnText = btn ? btn.textContent : 'Send enquiry';
-    if (btn) { btn.disabled = true; btn.textContent = JA ? '送信中…' : 'Sending…'; }
+    if (btn) { btn.disabled = true; btn.textContent = L ? L.sending : 'Sending…'; }
     var data = {};
     new FormData(form).forEach(function (v, k) { data[k] = v; });
     function success() {
@@ -286,11 +286,17 @@
       e.textContent = t;
       if (btn) { btn.disabled = false; btn.innerHTML = label; }
     }
-    var JA = d.lang === 'ja';
-    if (nm.length < 2) return err(JA ? 'お名前をご入力ください。' : 'Please add your name.');
-    if (ct.length < 5) return err(JA ? 'メールアドレスまたはWhatsApp番号をご入力ください。' : 'Please add an email address or a WhatsApp number.');
+    var L = ({
+      ja: { name: 'お名前をご入力ください。', contact: 'メールアドレスまたはWhatsApp番号をご入力ください。', sending: '送信中…', fail: '送信できませんでした。WhatsAppからご連絡ください。',
+            ok: function (e) { return '<b>受け付けました。</b>固定料金のお見積りを' + (e ? 'メール' : 'WhatsApp') + 'で英語にてお送りします。英国の営業時間内は1時間以内に返信します。'; } },
+      tr: { name: 'Lütfen adınızı yazın.', contact: 'Lütfen e-posta adresinizi veya WhatsApp numaranızı yazın.', sending: 'Gönderiliyor…', fail: 'Gönderilemedi. Lütfen WhatsApp üzerinden yazın.',
+            ok: function (e) { return '<b>Alındı.</b> Sabit ücret teklifiniz İngilizce olarak ' + (e ? 'e-posta' : 'WhatsApp') + ' ile gönderilecek. İngiltere mesai saatlerinde bir saat içinde yanıt verilir.'; } }
+    })[d.lang] || null;
+    var JA = !!L;
+    if (nm.length < 2) return err(L ? L.name : 'Please add your name.');
+    if (ct.length < 5) return err(L ? L.contact : 'Please add an email address or a WhatsApp number.');
     var e = f.querySelector('.qq-err'); if (e) e.remove();
-    if (btn) { btn.disabled = true; btn.textContent = JA ? '送信中…' : 'Sending…'; }
+    if (btn) { btn.disabled = true; btn.textContent = L ? L.sending : 'Sending…'; }
 
     var isEmail = ct.indexOf('@') > -1;
     var payload = {
@@ -317,11 +323,11 @@
       if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); }
         window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: 'quick_quote' });
         var wrap = document.getElementById('qq');
-        wrap.innerHTML = JA
-          ? '<p class="qq-ok"><b>受け付けました。</b>固定料金のお見積りを' + (isEmail ? 'メール' : 'WhatsApp') + 'で英語にてお送りします。英国の営業時間内は1時間以内に返信します。</p>'
+        wrap.innerHTML = L
+          ? '<p class="qq-ok">' + L.ok(isEmail) + '</p>'
           : '<p class="qq-ok"><b>Received.</b> Your fixed quote follows by ' + (isEmail ? 'email' : 'WhatsApp') + ', replies within the hour in business hours.</p>';
       })
-      .catch(function () { err(JA ? '送信できませんでした。WhatsAppからご連絡ください。' : 'That did not send. Please use WhatsApp or the full form below.'); });
+      .catch(function () { err(L ? L.fail : 'That did not send. Please use WhatsApp or the full form below.'); });
   });
 })();
 
