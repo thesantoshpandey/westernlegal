@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 351,
+ "count": 355,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -190,6 +190,13 @@
    "product": "Heads of terms, drafted or reviewed",
    "scope": "Get the commercial deal right before the lease is drafted; the cheapest point to win every later argument.",
    "fee": "from £450"
+  },
+  {
+   "page": "/commercial-lease-solicitor",
+   "page_title": "Commercial Lease Solicitor",
+   "product": "Section 25 notice assessment",
+   "scope": "Notice and lease read, 1954 Act and validity checked, termination date and court deadline identified, written view on your options.",
+   "fee": "£495"
   },
   {
    "page": "/companies-act-governance",
@@ -512,6 +519,27 @@
    "product": "Express work",
    "scope": "Priority handling of any matter on the schedule, delivery date agreed in writing with the quote.",
    "fee": "from £195"
+  },
+  {
+   "page": "/for-law-firms",
+   "page_title": "UK & international Trademark Correspondent",
+   "product": "Second opinion for solicitors",
+   "scope": "A privileged written second view on a live matter: merits, drafting and strategy.",
+   "fee": "from £650"
+  },
+  {
+   "page": "/for-law-firms",
+   "page_title": "UK & international Trademark Correspondent",
+   "product": "Outsourced drafting, white label",
+   "scope": "Contracts, leases and agreements drafted to your instructions for your letterhead, per document.",
+   "fee": "from £395"
+  },
+  {
+   "page": "/for-law-firms",
+   "page_title": "UK & international Trademark Correspondent",
+   "product": "UK trade mark filing, associate rate",
+   "scope": "UK filing and prosecution per mark. Official fees on top, at cost.",
+   "fee": "from £395"
   },
   {
    "page": "/france",

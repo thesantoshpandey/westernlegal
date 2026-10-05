@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-05 from the live schedules. 351 rows across 41 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-05 from the live schedules. 355 rows across 42 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -35,6 +35,7 @@ Generated 2026-10-05 from the live schedules. 351 rows across 41 pages. No VAT. 
 - Variation or surrender, advised and negotiated | from £850 | The commercial terms advised and negotiated to agreed form; the deed itself executed via an instructed authorised solicitor where required.
 - Licence to occupy, drafted or reviewed | from £550 | Short term occupation without granting a tenancy: exclusivity, termination, and the drafting that keeps it a licence rather than a lease by accident.
 - Heads of terms, drafted or reviewed | from £450 | Get the commercial deal right before the lease is drafted; the cheapest point to win every later argument.
+- Section 25 notice assessment | £495 | Notice and lease read, 1954 Act and validity checked, termination date and court deadline identified, written view on your options.
 
 ## Companies Act Solicitor  (/companies-act-governance)
 - Board and shareholder resolutions | from £295 | Minutes and resolutions drafted for the decision you are taking, Companies Act compliant.
@@ -99,6 +100,11 @@ Generated 2026-10-05 from the live schedules. 351 rows across 41 pages. No VAT. 
 
 ## FAQs  (/faq)
 - Express work | from £195 | Priority handling of any matter on the schedule, delivery date agreed in writing with the quote.
+
+## UK & international Trademark Correspondent  (/for-law-firms)
+- Second opinion for solicitors | from £650 | A privileged written second view on a live matter: merits, drafting and strategy.
+- Outsourced drafting, white label | from £395 | Contracts, leases and agreements drafted to your instructions for your letterhead, per document.
+- UK trade mark filing, associate rate | from £395 | UK filing and prosecution per mark. Official fees on top, at cost.
 
 ## French Businesses  (/france)
 - UK trademark, one class | from EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.
