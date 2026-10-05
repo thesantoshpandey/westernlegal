@@ -30,6 +30,13 @@ module.exports = async (req, res) => {
     const shortTag = d.short ? ' [SHORT]' : '';
     const langTag = d.lang ? ' [' + String(d.lang).replace(/[^a-z-]/gi, '').slice(0, 5).toUpperCase() + ']' : '';
     const paidTag = d.paid ? ' [PAID ' + cap(d.paid, 40).replace(/[\r\n\]]/g, ' ') + ']' : '';
+    // Quick quote: what the client has and the date they must sign or reply by. Both go straight after the ad tag.
+    const HAS = ['Draft lease', 'Heads of terms', 'Notice or letter received', 'Contract to sign', 'Nothing yet'];
+    const has = HAS.includes(String(d.has || '')) ? String(d.has) : '';
+    const byIso = /^\d{4}-\d{2}-\d{2}$/.test(String(d.by || '')) ? String(d.by) : '';
+    const byDate = byIso ? new Date(byIso + 'T12:00:00Z') : null;
+    const by = byDate && !isNaN(byDate) ? byDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }) : '';
+    const hasByTag = (has ? ' [HAS: ' + has + ']' : '') + (by ? ' [BY: ' + by + ']' : '');
     const adSourced = d.msclkid ? ' [BING CLICK]' : ((d.gclid || d.gbraid || d.wbraid) ? ' [AD CLICK]' : '');
     const clean = v => String(v || '').replace(/[\r\n]/g, ' ').trim().slice(0, 80);
     const adTags = (d.utm_term ? ' [term: ' + clean(d.utm_term) + ']' : '') + (d.utm_campaign ? ' [campaign: ' + clean(d.utm_campaign) + ']' : '');
@@ -38,9 +45,9 @@ module.exports = async (req, res) => {
     const clientEmail = (emailOk && d.email) ? String(d.email).trim() : '';
     const phoneOnly = !clientEmail;
     const noEmailTag = phoneOnly ? ' [NO EMAIL] [WhatsApp ' + clean(d.phone).replace(/[\[\]]/g, '') + ']' : '';
-    const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}${noEmailTag}${shortTag}${paidTag}</h2>${phoneOnly ? '<p style="color:#9a3412"><b>No email given.</b> Reply on WhatsApp to ' + esc(d.phone) + '. Do not reply to this email: it goes nowhere.</p>' : ''}
+    const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}${hasByTag}${noEmailTag}${shortTag}${paidTag}</h2>${phoneOnly ? '<p style="color:#9a3412"><b>No email given.</b> Reply on WhatsApp to ' + esc(d.phone) + '. Do not reply to this email: it goes nowhere.</p>' : ''}
       <table style="font-size:14px">
-      ${row('name', d.name)}${row('email', d.email)}${row('phone', d.phone)}${row('matter', d.matter)}${d.paid ? row('paid', cap(d.paid, 40)) + row('stripe session', cap(d.session_id, 120)) + row('mark', cap(d.mark, 200)) + row('applicant', cap(d.applicant, 200)) + row('applicant address', cap(d.address, 400)) + row('classes / goods', cap(d.goods, 1500)) : ''}
+      ${row('name', d.name)}${row('email', d.email)}${row('phone', d.phone)}${row('matter', d.matter)}${has ? row('what they have', has) : ''}${by ? row('sign or reply by', by) : ''}${d.paid ? row('paid', cap(d.paid, 40)) + row('stripe session', cap(d.session_id, 120)) + row('mark', cap(d.mark, 200)) + row('applicant', cap(d.applicant, 200)) + row('applicant address', cap(d.address, 400)) + row('classes / goods', cap(d.goods, 1500)) : ''}
       </table>
       <p style="white-space:pre-wrap">${esc(d.message)}</p><hr>
       <table style="font-size:12px;color:#888">${attribution}</table>`;
@@ -52,7 +59,7 @@ module.exports = async (req, res) => {
         to: ['trademark@westernlegal.co.uk'],
         reply_to: clientEmail || undefined,
         headers: clientEmail ? { 'X-WL-Lead-Email': clientEmail } : { 'X-WL-Lead-Phone': clean(d.phone) },
-        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${langTag}${noEmailTag}${adTags}${shortTag}${paidTag}`,
+        subject: `New enquiry: ${String(d.matter || 'General').replace(/[\r\n]/g, ' ')} - ${String(d.name || '').replace(/[\r\n]/g, ' ')}${adSourced}${hasByTag}${langTag}${noEmailTag}${adTags}${shortTag}${paidTag}`,
         html
       })
     });

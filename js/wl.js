@@ -272,6 +272,9 @@
 (function () {
   var f = document.getElementById('qqform');
   if (!f) return;
+  /* the deadline cannot be in the past: earliest selectable date is today, local time */
+  var byEl = f.querySelector('input[name="by"]');
+  if (byEl) { var t = new Date(); byEl.min = t.getFullYear() + '-' + String(t.getMonth() + 1).padStart(2, '0') + '-' + String(t.getDate()).padStart(2, '0'); }
   f.addEventListener('submit', function (ev) {
     ev.preventDefault();
     var btn = f.querySelector('button[type="submit"]');
@@ -287,14 +290,17 @@
       if (btn) { btn.disabled = false; btn.innerHTML = label; }
     }
     var L = ({
-      ja: { name: 'お名前をご入力ください。', contact: 'メールアドレスまたはWhatsApp番号をご入力ください。', sending: '送信中…', fail: '送信できませんでした。WhatsAppからご連絡ください。',
+      ja: { name: 'お名前をご入力ください。', contact: 'メールアドレスまたはWhatsApp番号をご入力ください。', has: 'お手元にあるものをお選びください。', by: '署名または回答の期限をご入力ください。', sending: '送信中…', fail: '送信できませんでした。WhatsAppからご連絡ください。',
             ok: function (e) { return '<b>受け付けました。</b>固定料金のお見積りを' + (e ? 'メール' : 'WhatsApp') + 'で英語にてお送りします。英国の営業時間内は1時間以内に返信します。'; } },
-      tr: { name: 'Lütfen adınızı yazın.', contact: 'Lütfen e-posta adresinizi veya WhatsApp numaranızı yazın.', sending: 'Gönderiliyor…', fail: 'Gönderilemedi. Lütfen WhatsApp üzerinden yazın.',
+      tr: { name: 'Lütfen adınızı yazın.', contact: 'Lütfen e-posta adresinizi veya WhatsApp numaranızı yazın.', has: 'Lütfen elinizde ne olduğunu seçin.', by: 'Lütfen imzalamanız veya yanıt vermeniz gereken tarihi girin.', sending: 'Gönderiliyor…', fail: 'Gönderilemedi. Lütfen WhatsApp üzerinden yazın.',
             ok: function (e) { return '<b>Alındı.</b> Sabit ücret teklifiniz İngilizce olarak ' + (e ? 'e-posta' : 'WhatsApp') + ' ile gönderilecek. İngiltere mesai saatlerinde bir saat içinde yanıt verilir.'; } }
     })[d.lang] || null;
     var JA = !!L;
     if (nm.length < 2) return err(L ? L.name : 'Please add your name.');
     if (ct.length < 5) return err(L ? L.contact : 'Please add an email address or a WhatsApp number.');
+    var has = String(d.has || '').trim(), by = String(d.by || '').trim();
+    if (f.querySelector('[name="has"]') && !has) return err(L ? L.has : 'Please choose what you have.');
+    if (f.querySelector('[name="by"]') && !/^\d{4}-\d{2}-\d{2}$/.test(by)) return err(L ? L.by : 'Please add the date you need to sign or reply by.');
     var e = f.querySelector('.qq-err'); if (e) e.remove();
     if (btn) { btn.disabled = true; btn.textContent = L ? L.sending : 'Sending…'; }
 
@@ -304,7 +310,9 @@
       email: isEmail ? ct : '',
       phone: isEmail ? '' : ct,
       matter: d.matter || 'General enquiry',
-      message: 'Quick quote request from the first screen. Contact given: ' + ct,
+      message: 'Quick quote request from the first screen. Contact given: ' + ct + (has ? '\nWhat they have: ' + has : '') + (by ? '\nSign or reply by: ' + by : ''),
+      has: has,
+      by: by,
       website: d.website || '',
       short: true,
       page: location.pathname,
