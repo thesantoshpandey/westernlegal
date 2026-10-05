@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04",
+ "generated": "2026-10-05",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -832,8 +832,8 @@
    "page": "/gulf",
    "page_title": "Gulf Businesses",
    "product": "Trademark opposition defence",
-   "scope": "TM8 and evidence rounds, fixed for the whole defence.",
-   "fee": "£1,200 (AED 5,940 indicative)"
+   "scope": "TM8 counterstatement, evidence rounds and written submissions through to decision.",
+   "fee": "from £1,200 (AED 5,940 indicative)"
   },
   {
    "page": "/gulf",
@@ -2149,7 +2149,7 @@
    "page_title": "Trademark Opposition Defence UK",
    "product": "Opposition defence, full",
    "scope": "TM8 counterstatement, evidence rounds and written submissions through to decision.",
-   "fee": "£1,200 fixed"
+   "fee": "from £1,200"
   },
   {
    "page": "/trademark-opposition-defence",

@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-04 from the live schedules. 351 rows across 40 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-05 from the live schedules. 351 rows across 40 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -152,7 +152,7 @@ Generated 2026-10-04 from the live schedules. 351 rows across 40 pages. No VAT. 
 - UK trademark, one class | from £555 (AED 2,750 indicative) | Filed at the UKIPO within 48 hours of instruction.
 - Each additional class | £245 (AED 1,210 indicative) | Added at filing.
 - EU trademark | from £695 (AED 3,440 indicative) | Filed through our EU correspondent agent, plus the EUIPO fee at cost.
-- Trademark opposition defence | £1,200 (AED 5,940 indicative) | TM8 and evidence rounds, fixed for the whole defence.
+- Trademark opposition defence | from £1,200 (AED 5,940 indicative) | TM8 counterstatement, evidence rounds and written submissions through to decision.
 - NDA or confidentiality agreement | from £245 (AED 1,210 indicative) | Drafted or reviewed under English law.
 - Contract review and markup | from £595 (AED 2,950 indicative) | Distribution, supply, agency, licensing or services agreements with a written risk report.
 - Bespoke commercial agreement | from £1,250 (AED 6,190 indicative) | Drafted from your commercial terms under English law.
@@ -374,7 +374,7 @@ Generated 2026-10-04 from the live schedules. 351 rows across 40 pages. No VAT. 
 
 ## Trademark Opposition Defence UK  (/trademark-opposition-defence)
 - Free opposition review | £0 | Your TM7 and the opponent's mark assessed within 24 hours, with a written view on the strength of the opposition and your options.
-- Opposition defence, full | £1,200 fixed | TM8 counterstatement, evidence rounds and written submissions through to decision.
+- Opposition defence, full | from £1,200 | TM8 counterstatement, evidence rounds and written submissions through to decision.
 - Negotiated coexistence or settlement | from £750 | Where the commercial answer beats the fight: coexistence agreement or undertakings negotiated with the opponent.
 - Filing the opposition (attacking) | from £1,200 | You oppose a conflicting application: TM7 grounds drafted and filed with evidence strategy.
 
