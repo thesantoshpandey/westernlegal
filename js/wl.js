@@ -59,7 +59,7 @@
     fillAttribution(); // re-check at submit time in case tracking.js stored after this ran
     var btn = form.querySelector('button[type="submit"]');
     var btnText = btn ? btn.textContent : 'Send enquiry';
-    if (btn) { btn.disabled = true; btn.textContent = L ? L.sending : 'Sending…'; }
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
     var data = {};
     new FormData(form).forEach(function (v, k) { data[k] = v; });
     function success() {
