@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-06 from the live schedules. 344 rows across 42 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -91,7 +91,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 
 ## EU Market Entry for UK, US and International Companies  (/eu-market-entry)
 - EU Market Entry bundle | from £1,950 | EU trade mark (one class, filed through our EEA correspondent, EUIPO fee separate), EU facing privacy notice and records, and B2B or B2C terms drafted for EU sale.
-- EU trade mark, one class | from £695 | Conflict search, specification drafting and filing at the EUIPO through our EEA representative, with objection responses. EUIPO official fee separate.
 - EU GDPR applicability review | from £395 | A written answer on whether the EU GDPR reaches you, what follows, and whether you need an EU representative.
 - EU facing privacy notice and records | from £595 | Privacy notice and records of processing drafted to Articles 13, 14 and 30 of the EU GDPR.
 - EU distribution or reseller agreement | from £995 | Your route to market contract drafted with EU competition and agency rules in mind, under English law with an EU enforcement route.
@@ -109,7 +108,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## French Businesses  (/france)
 - UK trademark, one class | from EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.
 - Each additional class | EUR 285 | Added at filing.
-- EU trademark | from EUR 800 | Filed through our established EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | EUR 1,405 | TM8 and evidence rounds, fixed for the whole defence.
 - NDA or confidentiality agreement | from EUR 285 | Drafted or reviewed under English law.
 - Contract review and markup | from EUR 695 | Distribution, supply, licensing, SaaS or services agreements reviewed with a written risk report.
@@ -137,7 +135,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## German Businesses  (/germany)
 - UK trademark, one class | from EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.
 - Each additional class | EUR 285 | Added at filing.
-- EU trademark | from EUR 800 | Filed through our established EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | EUR 1,405 | TM8 and evidence rounds, fixed for the whole defence.
 - NDA or confidentiality agreement | from EUR 285 | Drafted or reviewed under English law.
 - Contract review and markup | from EUR 695 | Distribution, supply, licensing, SaaS or services agreements reviewed with a written risk report.
@@ -157,7 +154,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## Gulf Businesses  (/gulf)
 - UK trademark, one class | from £555 (AED 2,750 indicative) | Filed at the UKIPO within 48 hours of instruction.
 - Each additional class | £245 (AED 1,210 indicative) | Added at filing.
-- EU trademark | from £695 (AED 3,440 indicative) | Filed through our EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | from £1,200 (AED 5,940 indicative) | TM8 counterstatement, evidence rounds and written submissions through to decision.
 - NDA or confidentiality agreement | from £245 (AED 1,210 indicative) | Drafted or reviewed under English law.
 - Contract review and markup | from £595 (AED 2,950 indicative) | Distribution, supply, agency, licensing or services agreements with a written risk report.
@@ -230,7 +226,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## Latin America  (/latin-america)
 - UK trademark, one class | from USD 705 | Filed at the UKIPO within 48 hours of instruction.
 - Each additional class | USD 310 | Added at filing.
-- EU trademark | from USD 880 | Filed through our EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | USD 1,525 | TM8 and evidence rounds, fixed for the whole defence.
 - Domain name disputes | from USD 1,215 | UDRP and Nominet DRS complaints, decided on the papers.
 - NDA or confidentiality agreement | from USD 310 | Drafted or reviewed under English law.
@@ -264,7 +259,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## Netherlands  (/netherlands)
 - UK trademark, one class | from EUR 745 | Filed at the UKIPO within 48 hours of instruction. New EU filings do not cover the United Kingdom.
 - Each additional class | EUR 325 | Added at filing.
-- EU trademark | from EUR 800 | Filed through our established EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | EUR 1,610 | TM8 and evidence rounds, fixed for the whole defence.
 - NDA or confidentiality agreement | from EUR 325 | Drafted or reviewed under English law.
 - Contract review and markup | from EUR 800 | Distribution, supply, licensing, SaaS or services agreements reviewed with a written risk report and negotiation points.
@@ -290,7 +284,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## Nordic Businesses  (/nordics)
 - UK trademark, one class | from SEK 7,100 / DKK 4,850 / EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.
 - Each additional class | SEK 3,100 / DKK 2,150 / EUR 285 | Added at filing.
-- EU trademark | from SEK 7,600 / DKK 5,200 / EUR 695 | Filed through our established EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | SEK 15,400 / DKK 10,500 / EUR 1,405 | TM8 and evidence rounds, fixed for the whole defence.
 - NDA or confidentiality agreement | from SEK 3,100 / DKK 2,150 / EUR 285 | Drafted or reviewed under English law.
 - Contract review and markup | from SEK 7,600 / DKK 5,200 / EUR 695 | Distribution, supply, licensing, SaaS or services agreements reviewed with a written risk report.
@@ -331,7 +324,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## Italy, Spain & Portugal  (/southern-europe)
 - UK trademark, one class | from EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.
 - Each additional class | EUR 285 | Added at filing.
-- EU trademark | from EUR 800 | Filed through our established EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | EUR 1,405 | TM8 and evidence rounds, fixed for the whole defence.
 - NDA or confidentiality agreement | from EUR 285 | Drafted or reviewed under English law.
 - Contract review and markup | from EUR 695 | Distribution, supply, licensing, SaaS or services agreements reviewed with a written risk report.
@@ -351,7 +343,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## Switzerland  (/switzerland)
 - UK trademark, one class | from CHF 850 | Filed at the UKIPO within 48 hours of instruction. Swiss and EU registrations do not cover the United Kingdom.
 - Each additional class | CHF 375 | Added at filing.
-- EU trademark | from CHF 900 | Filed through our established EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | CHF 1,850 | TM8 and evidence rounds, fixed for the whole defence.
 - NDA or confidentiality agreement | from CHF 375 | Drafted or reviewed under English law.
 - Contract review and markup | from CHF 900 | Distribution, supply, licensing, SaaS or services agreements reviewed with a written risk report and negotiation points.
@@ -390,7 +381,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 - UK, each additional class | from £245 | Professional fee plus the UKIPO additional-class fee, included.
 - UK trademark, two classes | £800 | One application, two classes. Everything in the one class filing, both UKIPO class fees included.
 - UK trademark, three classes | £1,045 | One application, three classes. Everything in the one class filing, all three UKIPO class fees included.
-- EU trademark | from €600 + EUIPO fee | Single registration across all 27 member states, filed via our EU correspondent agent.
 - International / Madrid filing (US + 100 countries) | from £1,250 | One application via the UKIPO designating your chosen countries, including the United States. Full schedule on the international page.
 - Opposition defence (TM8 & evidence) | from £1,200 | Counterstatement, evidence rounds and written submissions in a UKIPO opposition.
 - Cease & desist / enforcement letter | from £595 | Solicitor-drafted infringement letter. Most infringers settle before proceedings.
@@ -420,7 +410,6 @@ Generated 2026-10-06 from the live schedules. 355 rows across 42 pages. No VAT. 
 ## US Businesses  (/united-states)
 - UK trademark, one class | from USD 705 | Filed at the UKIPO within 48 hours of instruction.
 - Each additional class | USD 310 | Added at filing.
-- EU trademark | from USD 880 | Filed through our EU correspondent agent, plus the EUIPO fee at cost.
 - Trademark opposition defence | USD 1,525 | TM8 and evidence rounds, fixed for the whole defence.
 - Domain name disputes | from USD 1,215 | UDRP and Nominet DRS complaints, decided on the papers.
 - NDA or confidentiality agreement | from USD 310 | Drafted or reviewed under English law.

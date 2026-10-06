@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 355,
+ "count": 344,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -474,13 +474,6 @@
   {
    "page": "/eu-market-entry",
    "page_title": "EU Market Entry for UK, US and International Companies",
-   "product": "EU trade mark, one class",
-   "scope": "Conflict search, specification drafting and filing at the EUIPO through our EEA representative, with objection responses. EUIPO official fee separate.",
-   "fee": "from £695"
-  },
-  {
-   "page": "/eu-market-entry",
-   "page_title": "EU Market Entry for UK, US and International Companies",
    "product": "EU GDPR applicability review",
    "scope": "A written answer on whether the EU GDPR reaches you, what follows, and whether you need an EU representative.",
    "fee": "from £395"
@@ -554,13 +547,6 @@
    "product": "Each additional class",
    "scope": "Added at filing.",
    "fee": "EUR 285"
-  },
-  {
-   "page": "/france",
-   "page_title": "French Businesses",
-   "product": "EU trademark",
-   "scope": "Filed through our established EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from EUR 800"
   },
   {
    "page": "/france",
@@ -726,13 +712,6 @@
   {
    "page": "/germany",
    "page_title": "German Businesses",
-   "product": "EU trademark",
-   "scope": "Filed through our established EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from EUR 800"
-  },
-  {
-   "page": "/germany",
-   "page_title": "German Businesses",
    "product": "Trademark opposition defence",
    "scope": "TM8 and evidence rounds, fixed for the whole defence.",
    "fee": "EUR 1,405"
@@ -848,13 +827,6 @@
    "product": "Each additional class",
    "scope": "Added at filing.",
    "fee": "£245 (AED 1,210 indicative)"
-  },
-  {
-   "page": "/gulf",
-   "page_title": "Gulf Businesses",
-   "product": "EU trademark",
-   "scope": "Filed through our EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from £695 (AED 3,440 indicative)"
   },
   {
    "page": "/gulf",
@@ -1279,13 +1251,6 @@
   {
    "page": "/latin-america",
    "page_title": "Latin America",
-   "product": "EU trademark",
-   "scope": "Filed through our EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from USD 880"
-  },
-  {
-   "page": "/latin-america",
-   "page_title": "Latin America",
    "product": "Trademark opposition defence",
    "scope": "TM8 and evidence rounds, fixed for the whole defence.",
    "fee": "USD 1,525"
@@ -1475,13 +1440,6 @@
   {
    "page": "/netherlands",
    "page_title": "Netherlands",
-   "product": "EU trademark",
-   "scope": "Filed through our established EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from EUR 800"
-  },
-  {
-   "page": "/netherlands",
-   "page_title": "Netherlands",
    "product": "Trademark opposition defence",
    "scope": "TM8 and evidence rounds, fixed for the whole defence.",
    "fee": "EUR 1,610"
@@ -1639,13 +1597,6 @@
    "product": "Each additional class",
    "scope": "Added at filing.",
    "fee": "SEK 3,100 / DKK 2,150 / EUR 285"
-  },
-  {
-   "page": "/nordics",
-   "page_title": "Nordic Businesses",
-   "product": "EU trademark",
-   "scope": "Filed through our established EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from SEK 7,600 / DKK 5,200 / EUR 695"
   },
   {
    "page": "/nordics",
@@ -1874,13 +1825,6 @@
   {
    "page": "/southern-europe",
    "page_title": "Italy, Spain & Portugal",
-   "product": "EU trademark",
-   "scope": "Filed through our established EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from EUR 800"
-  },
-  {
-   "page": "/southern-europe",
-   "page_title": "Italy, Spain & Portugal",
    "product": "Trademark opposition defence",
    "scope": "TM8 and evidence rounds, fixed for the whole defence.",
    "fee": "EUR 1,405"
@@ -1996,13 +1940,6 @@
    "product": "Each additional class",
    "scope": "Added at filing.",
    "fee": "CHF 375"
-  },
-  {
-   "page": "/switzerland",
-   "page_title": "Switzerland",
-   "product": "EU trademark",
-   "scope": "Filed through our established EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from CHF 900"
   },
   {
    "page": "/switzerland",
@@ -2231,13 +2168,6 @@
   {
    "page": "/trademarks",
    "page_title": "UK & EU Trademark Solicitor",
-   "product": "EU trademark",
-   "scope": "Single registration across all 27 member states, filed via our EU correspondent agent.",
-   "fee": "from €600 + EUIPO fee"
-  },
-  {
-   "page": "/trademarks",
-   "page_title": "UK & EU Trademark Solicitor",
    "product": "International / Madrid filing (US + 100 countries)",
    "scope": "One application via the UKIPO designating your chosen countries, including the United States. Full schedule on the international page.",
    "fee": "from £1,250"
@@ -2381,13 +2311,6 @@
    "product": "Each additional class",
    "scope": "Added at filing.",
    "fee": "USD 310"
-  },
-  {
-   "page": "/united-states",
-   "page_title": "US Businesses",
-   "product": "EU trademark",
-   "scope": "Filed through our EU correspondent agent, plus the EUIPO fee at cost.",
-   "fee": "from USD 880"
   },
   {
    "page": "/united-states",
