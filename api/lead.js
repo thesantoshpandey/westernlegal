@@ -31,8 +31,11 @@ module.exports = async (req, res) => {
     const langTag = d.lang ? ' [' + String(d.lang).replace(/[^a-z-]/gi, '').slice(0, 5).toUpperCase() + ']' : '';
     const paidTag = d.paid ? ' [PAID ' + cap(d.paid, 40).replace(/[\r\n\]]/g, ' ') + ']' : '';
     // Quick quote: what the client has and the date they must sign or reply by. Both go straight after the ad tag.
-    const HAS = ['Draft lease', 'Heads of terms', 'Notice or letter received', 'Contract to sign', 'Nothing yet'];
+    const HAS = ['Draft lease', 'Heads of terms', 'Signed heads of terms', 'Notice or letter received', 'Contract to sign', 'Nothing yet'];
     const has = HAS.includes(String(d.has || '')) ? String(d.has) : '';
+    // Pages can relabel the date (the M&A page asks for a target completion date). Whitelisted labels only.
+    const BY_LABELS = ['Target completion date'];
+    const byLabel = BY_LABELS.includes(String(d.by_label || '')) ? String(d.by_label).toLowerCase() : 'sign or reply by';
     const byIso = /^\d{4}-\d{2}-\d{2}$/.test(String(d.by || '')) ? String(d.by) : '';
     const byDate = byIso ? new Date(byIso + 'T12:00:00Z') : null;
     const by = byDate && !isNaN(byDate) ? byDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }) : '';
@@ -47,7 +50,7 @@ module.exports = async (req, res) => {
     const noEmailTag = phoneOnly ? ' [NO EMAIL] [WhatsApp ' + clean(d.phone).replace(/[\[\]]/g, '') + ']' : '';
     const html = `<h2 style="color:#13294B">New enquiry — westernlegal.co.uk${adSourced}${hasByTag}${noEmailTag}${shortTag}${paidTag}</h2>${phoneOnly ? '<p style="color:#9a3412"><b>No email given.</b> Reply on WhatsApp to ' + esc(d.phone) + '. Do not reply to this email: it goes nowhere.</p>' : ''}
       <table style="font-size:14px">
-      ${row('name', d.name)}${row('email', d.email)}${row('phone', d.phone)}${row('matter', d.matter)}${has ? row('what they have', has) : ''}${by ? row('sign or reply by', by) : ''}${d.paid ? row('paid', cap(d.paid, 40)) + row('stripe session', cap(d.session_id, 120)) + row('mark', cap(d.mark, 200)) + row('applicant', cap(d.applicant, 200)) + row('applicant address', cap(d.address, 400)) + row('classes / goods', cap(d.goods, 1500)) : ''}
+      ${row('name', d.name)}${row('email', d.email)}${row('phone', d.phone)}${row('matter', d.matter)}${has ? row('what they have', has) : ''}${by ? row(byLabel, by) : ''}${d.paid ? row('paid', cap(d.paid, 40)) + row('stripe session', cap(d.session_id, 120)) + row('mark', cap(d.mark, 200)) + row('applicant', cap(d.applicant, 200)) + row('applicant address', cap(d.address, 400)) + row('classes / goods', cap(d.goods, 1500)) : ''}
       </table>
       <p style="white-space:pre-wrap">${esc(d.message)}</p><hr>
       <table style="font-size:12px;color:#888">${attribution}</table>`;

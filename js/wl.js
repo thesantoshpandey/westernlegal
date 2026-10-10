@@ -38,6 +38,9 @@
   if (ref) ref.value = document.referrer || '';
   var pg = form.querySelector('[name="page"]');
   if (pg) pg.value = location.pathname;
+  // Optional deal fields (What do you have? and a date), present on some pages: the date cannot be in the past.
+  var fBy = form.querySelector('input[name="by"]');
+  if (fBy) { var td = new Date(); fBy.min = td.getFullYear() + '-' + String(td.getMonth() + 1).padStart(2, '0') + '-' + String(td.getDate()).padStart(2, '0'); }
 
   // Attribution: tracking.js owns capture (localStorage, first-touch, 90d).
   // Backfill from storage only - NEVER blank a field. This fixes the bug where
@@ -72,7 +75,7 @@
     }
     function whatsappFallback() {
       btn.disabled = false; btn.textContent = 'Send enquiry';
-      var msg = 'New enquiry via westernlegal.co.uk%0A' + 'Matter: ' + (data.matter||'') + '%0AName: ' + (data.name||'') + '%0AEmail: ' + (data.email||'') + '%0APhone: ' + (data.phone||'') + '%0A' + (data.message||'');
+      var msg = 'New enquiry via westernlegal.co.uk%0A' + 'Matter: ' + (data.matter||'') + '%0AName: ' + (data.name||'') + '%0AEmail: ' + (data.email||'') + '%0APhone: ' + (data.phone||'') + (data.has ? '%0AWhat they have: ' + data.has : '') + (data.by ? '%0A' + (data.by_label || 'Sign or reply by') + ': ' + data.by : '') + '%0A' + (data.message||'');
       window.location.href = 'https://wa.me/447822014066?text=' + msg.replace(/\n/g,'%0A');
     }
     function formsubmitFallback() {
@@ -83,6 +86,7 @@
           _subject: '[FALLBACK] New enquiry - ' + (data.matter || 'General') + ' - ' + (data.name || '') + (data.msclkid ? ' [BING CLICK]' : (data.gclid || data.gbraid || data.wbraid ? ' [AD CLICK]' : '')) + (String(data.email || '').trim() ? '' : ' [NO EMAIL] [WhatsApp ' + String(data.phone || '').trim() + ']'),
           name: data.name, email: data.email, phone: data.phone,
           matter: data.matter, message: data.message,
+          has: data.has, by: data.by, by_label: data.by_label,
           page: data.page, referrer: data.referrer,
           gclid: data.gclid, gbraid: data.gbraid, wbraid: data.wbraid, msclkid: data.msclkid,
           utm_source: data.utm_source, utm_medium: data.utm_medium,
@@ -106,6 +110,9 @@
     if (!em && !ph) bad.push('an email address or phone number');
     else if (em && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)) bad.push('a valid email address');
     if (msg.length < 10) bad.push('a short description of your matter');
+    var fHas = form.querySelector('[name="has"]');
+    if (fHas && !String(data.has || '').trim()) bad.push('what you have');
+    if (fBy && !/^\d{4}-\d{2}-\d{2}$/.test(String(data.by || '').trim())) bad.push(fBy.getAttribute('data-msg') || 'the date you need to sign or reply by');
     if (bad.length) {
       var note = form.querySelector('.formerr');
       if (!note) { note = document.createElement('p'); note.className = 'formerr'; form.insertBefore(note, form.querySelector('button')); }
@@ -300,7 +307,8 @@
     if (ct.length < 5) return err(L ? L.contact : 'Please add an email address or a WhatsApp number.');
     var has = String(d.has || '').trim(), by = String(d.by || '').trim();
     if (f.querySelector('[name="has"]') && !has) return err(L ? L.has : 'Please choose what you have.');
-    if (f.querySelector('[name="by"]') && !/^\d{4}-\d{2}-\d{2}$/.test(by)) return err(L ? L.by : 'Please add the date you need to sign or reply by.');
+    if (f.querySelector('[name="by"]') && !/^\d{4}-\d{2}-\d{2}$/.test(by)) return err(L ? L.by : ((byEl && byEl.getAttribute('data-err')) || 'Please add the date you need to sign or reply by.'));
+    var byLabel = String(d.by_label || '').trim();
     var e = f.querySelector('.qq-err'); if (e) e.remove();
     if (btn) { btn.disabled = true; btn.textContent = L ? L.sending : 'Sending…'; }
 
@@ -310,9 +318,10 @@
       email: isEmail ? ct : '',
       phone: isEmail ? '' : ct,
       matter: d.matter || 'General enquiry',
-      message: 'Quick quote request from the first screen. Contact given: ' + ct + (has ? '\nWhat they have: ' + has : '') + (by ? '\nSign or reply by: ' + by : ''),
+      message: 'Quick quote request from the first screen. Contact given: ' + ct + (has ? '\nWhat they have: ' + has : '') + (by ? '\n' + (byLabel || 'Sign or reply by') + ': ' + by : ''),
       has: has,
       by: by,
+      by_label: byLabel,
       website: d.website || '',
       short: true,
       page: location.pathname,

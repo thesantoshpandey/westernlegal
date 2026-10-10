@@ -1165,3 +1165,52 @@ footer.site .paystrip+.reg{margin-top:22px;border-top:0;padding-top:0}
   body.home section.hero .art{order:-1;flex:0 0 auto !important;height:clamp(84px,13svh,140px);min-height:0;width:auto !important;align-self:stretch !important;margin:0 -18px !important;border-radius:0}
   body.home section.hero .art img{height:100% !important;border-radius:0;object-position:50% 45%}
 }
+
+/* M&A PAGE (10 Oct 2026): proof block under the hero, five deal stages with their fees, and the date field on the
+   full enquiry form. Classes are page specific (ma*), so no other page changes. */
+.maproof{padding:44px 0 46px;border-top:1px solid var(--hair)}
+.maproof-head h2{font-size:clamp(22px,2.6vw,28px);margin-top:8px}
+.maproof-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px;margin-top:22px;align-items:stretch}
+.maproof-lead,.maproof-item{display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:6px;padding:22px 22px 20px;text-decoration:none}
+.maproof-lead{border-color:var(--gold);background:rgba(232,181,74,.07);transition:background .18s ease,transform .18s ease}
+.maproof-lead:hover{background:rgba(232,181,74,.12);transform:translateY(-2px)}
+.maproof .k{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.maproof-lead p{margin-top:10px;font-size:18px;font-weight:600;line-height:1.45;color:var(--ink)}
+.maproof-item p{margin-top:10px;font-size:15px;line-height:1.55;color:var(--slate)}
+.maproof-lead .more{margin-top:auto;padding-top:14px;font-size:14px;font-weight:600;color:var(--gold)}
+.maproof-fine{margin-top:16px;font-size:12.5px;line-height:1.5;color:var(--slate)}
+.mastages{list-style:none;margin:36px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.mastages li{position:relative;display:flex;flex-direction:column;border:1px solid var(--rule);border-top:3px solid var(--gold);border-radius:6px;padding:18px 16px 20px;background:rgba(255,255,255,.035)}
+.mastages li:not(:last-child)::after{content:"";position:absolute;top:30px;right:-14px;width:9px;height:9px;border-top:2px solid var(--gold);border-right:2px solid var(--gold);transform:rotate(45deg)}
+.mastages .n{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.mastages h3{margin-top:8px;font-size:18px;line-height:1.3;color:var(--ink)}
+.mastages .mfee{margin-top:10px;font-size:21px;font-weight:700;color:var(--gold);line-height:1.2}
+.mastages .mfee small{display:block;font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--slate);margin-bottom:3px}
+.mastages .get{margin-top:14px;padding-top:12px;border-top:1px solid var(--rule);font-size:14px;line-height:1.55;color:var(--slate)}
+.mastages .get b{display:block;font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);margin-bottom:5px}
+.magate{display:grid;grid-template-columns:1fr 1fr;margin-top:24px;border:1px solid var(--gold);border-radius:6px;overflow:hidden}
+.magate > div{padding:18px 22px}
+.magate > div:first-child{background:rgba(232,181,74,.08);border-right:1px solid var(--gold)}
+.magate b{display:block;font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.magate p{margin-top:6px;font-size:16px;font-weight:600;line-height:1.45;color:var(--ink)}
+.maafter{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}
+form.lead #f-by{color-scheme:dark;-webkit-appearance:none;appearance:none;text-align:left;min-height:50px}
+form.lead #f-has:invalid{color:#8FA3C0}
+form.lead #f-has option{color:#13294B;background:#fff}
+@media(max-width:1060px){.mastages{grid-template-columns:repeat(3,1fr)}.mastages li:nth-child(3)::after{display:none}}
+@media(max-width:900px){.maproof-grid{grid-template-columns:1fr 1fr}.maproof-lead{grid-column:1 / -1}}
+@media(max-width:760px){
+  .maproof{padding:32px 0 34px}
+  .maproof-grid{grid-template-columns:1fr;gap:12px}
+  .maproof-lead p{font-size:17px}
+  .mastages{grid-template-columns:1fr;gap:12px;margin-top:24px}
+  .mastages li::after{display:none}
+  .mastages li{display:grid;grid-template-columns:1fr auto;column-gap:14px;padding:16px 16px 18px}
+  .mastages .n{grid-column:1 / -1}
+  .mastages h3{margin-top:4px;align-self:end}
+  .mastages .mfee{margin-top:4px;text-align:right;font-size:19px}
+  .mastages .get{grid-column:1 / -1}
+  .magate{grid-template-columns:1fr}
+  .magate > div:first-child{border-right:0;border-bottom:1px solid var(--gold)}
+  .maafter .btn{flex:1 1 100%;text-align:center}
+}
