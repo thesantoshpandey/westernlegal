@@ -1154,3 +1154,14 @@ footer.site .paystrip+.reg{margin-top:22px;border-top:0;padding-top:0}
 @media(max-width:900px){ .qq-fee{white-space:normal !important;overflow:visible !important;text-overflow:clip !important;font-size:16.5px !important;line-height:1.3 !important} .qq{min-width:0;max-width:100%} .qq-scope{font-size:12.5px} }
 .qqform select,.qqform input[type=date]{max-width:100%;min-width:0}
 .hero .wrap > div:first-child{min-width:0}
+
+/* PHONE HOMEPAGE HERO PHOTO (10 Oct 2026): the photo was squeezed into whatever height the form left, which after the
+   two new quote fields was under 100px on small phones and hidden behind the cookie bar. It now sits as a band at the
+   top of the first screen, above the headline, at a fixed height, and the frame grows with its content. */
+@media(max-width:767px){
+  body.home > section.hero{height:auto !important;min-height:calc(100svh - 52px);overflow:visible;padding:0 0 28px !important}
+  body.home section.hero > .wrap{min-height:0}
+  body.home section.hero > .wrap{gap:16px !important}
+  body.home section.hero .art{order:-1;flex:0 0 auto !important;height:clamp(84px,13svh,140px);min-height:0;width:auto !important;align-self:stretch !important;margin:0 -18px !important;border-radius:0}
+  body.home section.hero .art img{height:100% !important;border-radius:0;object-position:50% 45%}
+}
