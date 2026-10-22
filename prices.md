@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-22 from the live schedules. 304 rows across 40 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -25,7 +25,6 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Contract review & markup | from £595 | Incoming contract reviewed with a written risk note and negotiation points. Credited against drafting if upgraded.
 - Bespoke commercial agreement | from £1,250 | Supply, services, distribution, consultancy, licensing, franchise, intermediary/IMFPA, loan or guarantee, drafted from your deal terms.
 - Shareholder or partnership agreement | from £1,650 | Including leaver, drag/tag, reserved matters and deadlock provisions for a standard private company.
-- Incorporation & company pack | from £550 | Company formed with tailored articles, board minutes and statutory registers, or an SPV structured for a specific deal (SPV pack £750).
 
 ## Commercial Lease Solicitor  (/commercial-lease-solicitor)
 - Lease review & risk report (tenant or landlord) | from £750 | Full markup of the draft lease plus a plain-English report on repair, rent review, break, alienation and guarantee risk, with recommended amendments.
@@ -39,10 +38,7 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 
 ## Companies Act Solicitor  (/companies-act-governance)
 - Board and shareholder resolutions | from £295 | Minutes and resolutions drafted for the decision you are taking, Companies Act compliant.
-- Share allotments and filings | from £395 | New shares allotted properly: resolutions, SH01 and register updates.
 - Director duties and governance advisory | from £395 | Section 171 to 177 duties, conflicts, board process and governance packs for growing companies.
-- Share buyback | from £995 | Own-share purchase run through the Companies Act procedure correctly, the one that is void if done wrong.
-- Group reorganisation | from £1,950 | Share-for-share exchanges, new holdcos and intra-group transfers, structured and papered.
 - Company secretarial retainer | from £250/mo | The year's resolutions, filings and registers kept right, monthly.
 
 ## Construction Adjudication Solicitor  (/construction-adjudication)
@@ -54,11 +50,8 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Enforcement and next steps | from £650 | The decision enforced, or the true-value battle planned, with counsel instructed where court proceedings are needed.
 
 ## Corporate Solicitor  (/corporate-company)
-- Incorporation pack | from £550 | Company formed with tailored articles, first board minutes, registers and share certificates, not the default model articles that fit nobody.
-- SPV setup | from £995 | A special-purpose vehicle structured for the specific deal or asset, with the intercompany documents to match.
 - Shareholder / partnership agreement | from £1,650 | Leaver provisions, drag and tag, reserved matters, deadlock, the clauses that decide real fallouts.
 - Heads of terms | from £650 | Drafted or reviewed before the lawyers on both sides start the meter running.
-- Share transfers & board approvals | from £395 | Stock transfer forms, board minutes and filings for a clean change of ownership.
 
 ## Creator & Influencer Contract Solicitor  (/creator-media-contracts)
 - Brand deal / collaboration review | from £395 | The agreement marked up with a plain-English note: usage rights, exclusivity, payment terms, approval loops and the traps.
@@ -95,7 +88,6 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - EU facing privacy notice and records | from £595 | Privacy notice and records of processing drafted to Articles 13, 14 and 30 of the EU GDPR.
 - EU distribution or reseller agreement | from £995 | Your route to market contract drafted with EU competition and agency rules in mind, under English law with an EU enforcement route.
 - EU consumer terms | from £650 | B2C terms and conditions for sale into the EU, meeting the consumer rights and distance selling rules that apply to EU consumers.
-- Member state entity formation, coordinated | from £650 | Scoping of the entity you need, instruction and coordination of correspondent counsel in the member state, and review of their output against your plan. The correspondent's own fee is separate and quoted before work begins.
 
 ## FAQs  (/faq)
 - Express work | from £195 | Priority handling of any matter on the schedule, delivery date agreed in writing with the quote.
@@ -115,9 +107,7 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Terms and conditions | from EUR 760 | Customer or supplier terms built for English law.
 - Shareholder or partnership agreement | from EUR 1,930 | Control, exit, deadlock and transfer provisions.
 - Letter before action to a UK company | from EUR 695 | Formal demand on a business debt owed by a company in England and Wales.
-- Company formation and structure | from EUR 645 | UK incorporation, SPVs, holding structures and the constitutional documents.
-- Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
-- Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
+- Board and shareholder resolutions | from EUR 345 | Companies Act compliant board minutes and written resolutions.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
@@ -142,9 +132,7 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Terms and conditions | from EUR 760 | Customer or supplier terms built for English law.
 - Shareholder or partnership agreement | from EUR 1,930 | Control, exit, deadlock and transfer provisions.
 - Letter before action to a UK company | from EUR 695 | Formal demand on a business debt owed by a company in England and Wales.
-- Company formation and structure | from EUR 645 | UK incorporation, SPVs, holding structures and the constitutional documents.
-- Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
-- Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
+- Board and shareholder resolutions | from EUR 345 | Companies Act compliant board minutes and written resolutions.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
@@ -162,9 +150,7 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Shareholder or joint venture agreement | from £1,650 (AED 8,170 indicative) | Control, exit, deadlock and transfer provisions.
 - Letter before action to a UK company | from £595 (AED 2,950 indicative) | Formal demand on a business debt owed by a company in England and Wales.
 - Arbitration clause and enforcement strategy | from £570 (AED 2,820 indicative) | Drafting the dispute clause so an award is enforceable where the assets are.
-- UK company formation and structure | from £550 (AED 2,720 indicative) | Incorporation, SPVs, holding structures and constitutional documents.
-- Board and shareholder resolutions | from £295 (AED 1,460 indicative) | Companies Act compliant minutes, allotments, transfers and filings.
-- Buying or selling a business | DD from £1,950 (AED 9,650 indicative) · SPA from £2,950 (AED 14,600 indicative) | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
+- Board and shareholder resolutions | from £295 (AED 1,460 indicative) | Companies Act compliant board minutes and written resolutions.
 - Commercial lease, review and negotiation | from £750 (AED 3,710 indicative) | Premises in England and Wales reviewed with a written risk report.
 - UK GDPR and website legal pack | from £595 (AED 2,950 indicative) | Privacy notice, cookie consent, terms and processing records.
 - Mediation representation and arbitration | from £1,450 (AED 7,180 indicative) | Position statements, written submissions and settlement drafting.
@@ -191,10 +177,8 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Bespoke commercial agreement | from EUR 1,460 | Drafted from your commercial terms under English law.
 - Terms and conditions | from EUR 760 | Customer or supplier terms built for English law.
 - Letter before action to a British company | from EUR 695 | Formal demand on a business debt owed by a company in England and Wales.
-- Company formation and structure | from EUR 645 | UK incorporation, SPVs, holding structures and constitutional documents.
-- Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
+- Board and shareholder resolutions | from EUR 345 | Companies Act compliant board minutes and written resolutions.
 - Shareholder or partnership agreement | from EUR 1,930 | Control, exit, deadlock and transfer provisions.
-- Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
@@ -202,8 +186,6 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Trademark opposition defence | EUR 1,405 | TM8 and evidence rounds, fixed for the whole defence.
 
 ## 日本企業の英国進出・英国取引  (/ja)
-- 会社設立パック | £550から | 英国会社の設立、御社向けの定款、最初の取締役会議事録、法定登録簿、株券
-- SPV（特別目的会社）設立 | £995から | 特定の取引や資産のための会社設立と、グループ内契約書一式
 - 株主間契約 | £1,650から | 退出条項、ドラッグ・タグ、重要事項の承認、デッドロックなど、紛争時に効く条項
 - 英国商標出願（1区分） | £555から | 先行商標調査、指定商品・役務の作成、UKIPOへの出願（48時間以内）、標準的な応答、登録証。UKIPO官庁手数料込み
 - 追加区分（1区分ごと） | £245から | 報酬とUKIPOの追加区分手数料を含みます
@@ -232,10 +214,8 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Contract review and markup | from USD 755 | Distribution, agency, supply, licensing, SaaS or services agreements with a written risk report.
 - Bespoke commercial agreement | from USD 1,590 | Drafted from your commercial terms under English law.
 - Terms and conditions | from USD 825 | Customer or supplier terms built for English law.
-- UK company formation and structure | from USD 700 | Incorporation, SPVs, holding structures and constitutional documents.
-- Board and shareholder resolutions | from USD 375 | Companies Act compliant minutes, allotments, transfers and filings.
+- Board and shareholder resolutions | from USD 375 | Companies Act compliant board minutes and written resolutions.
 - Shareholder or joint venture agreement | from USD 2,095 | Control, exit, deadlock and transfer provisions.
-- Buying or selling a UK business | DD from USD 2,475 · SPA from USD 3,745 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from USD 955 | Premises in England and Wales reviewed with a written risk report.
 - UK GDPR and website legal pack | from USD 755 | Privacy notice, cookie consent, terms and processing records.
 - Letter before action to a UK company | from USD 755 | Formal demand on a business debt owed by a company in England and Wales.
@@ -247,14 +227,6 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Follow up and final demand | £195 | Where the first letter is ignored, the escalation that puts the recipient on notice of the next step.
 - Response to a letter before action | £345 | You have received one. The reply that protects your position, whether the answer is dispute, part payment or a negotiated route out.
 - Negotiation and settlement correspondence | from £495 | The exchange run to a documented conclusion, with the payment terms and releases drafted so the deal holds.
-
-## M&A Solicitor  (/mergers-acquisitions)
-- Heads of terms | from £650 | The deal framed before the meters start: price mechanism, conditions, exclusivity, and what is binding.
-- Legal due diligence | from £1,950 | Targeted review of the company or business: contracts, employment, IP, property, litigation, with a written red-flag report.
-- Share or asset purchase agreement | from £2,950 | SPA or APA drafted or negotiated: warranties, indemnities, price mechanics, restrictive covenants.
-- Disclosure letter | from £995 | The seller's shield, prepared properly against the warranty schedule.
-- Ancillaries and completion | from £1,450 | Board minutes, resolutions, stock transfer forms, filings and completion agenda through to done.
-- Full deal management | from £4,950 | The whole transaction, both documents and process, scoped and capped in advance.
 
 ## Netherlands  (/netherlands)
 - UK trademark, one class | from EUR 745 | Filed at the UKIPO within 48 hours of instruction. New EU filings do not cover the United Kingdom.
@@ -272,9 +244,7 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Arbitral award enforcement strategy | from EUR 875 | New York Convention route into the Netherlands, same structure.
 - Dispute clause engineering | from EUR 570 | Whether an exclusive English court clause or an arbitration clause gives you the better route into the Netherlands for this particular deal.
 - EU representative necessity assessment | from EUR 875 | Whether Article 27 GDPR requires you to appoint an EU representative at all, and what to do if it does.
-- Company formation and structure | from EUR 645 | UK incorporation, SPVs, holding structures and the constitutional documents.
-- Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
-- Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
+- Board and shareholder resolutions | from EUR 345 | Companies Act compliant board minutes and written resolutions.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
@@ -290,10 +260,8 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Bespoke commercial agreement | from SEK 16,000 / DKK 10,900 / EUR 1,460 | Drafted from your commercial terms under English law.
 - Terms and conditions | from SEK 8,300 / DKK 5,700 / EUR 760 | Customer or supplier terms built for English law.
 - Letter before action to a UK company | from SEK 7,600 / DKK 5,200 / EUR 695 | Formal demand on a business debt owed by a company in England and Wales.
-- Company formation and structure | from EUR 645 | UK incorporation, SPVs, holding structures and constitutional documents.
-- Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
+- Board and shareholder resolutions | from EUR 345 | Companies Act compliant board minutes and written resolutions.
 - Shareholder or partnership agreement | from EUR 1,930 | Control, exit, deadlock and transfer provisions.
-- Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
@@ -315,8 +283,6 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Dispute assessment and strategy letter | £495 | Your position analysed against the articles, any shareholders agreement and the statutory routes, with a written view on merits, leverage and the realistic outcomes.
 - Section 994 unfair prejudice letter before action | £750 | The conduct evidenced, the prejudice articulated, the remedy sought and a deadline set, on solicitor letterhead.
 - Director removal pack | £750 | Special notice under section 312, the ordinary resolution, the procedural timetable and the board and member documents, prepared to be served correctly first time.
-- Deadlock and buyout negotiation | from £1,450 | Valuation basis agreed, offers structured and the negotiation run in writing to a documented conclusion.
-- Settlement agreement between shareholders | from £950 | The deal converted into a binding agreement: share transfer, releases, restrictive covenants, confidentiality and payment terms.
 - Partnership or LLP dispute assessment | £495 | Your position analysed against the partnership agreement or LLP agreement, or against the default statutory position where none exists, with a written view on merits and realistic outcomes.
 - Partnership or LLP exit negotiation | from £1,450 | Capital accounts, goodwill, client and staff allocation, restrictive covenants and the timetable, negotiated in writing to a documented conclusion.
 - Board minutes and resolutions pack | £245 | Companies Act compliant minutes and resolutions to put the corporate record beyond argument.
@@ -331,9 +297,7 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Terms and conditions | from EUR 760 | Customer or supplier terms built for English law.
 - Shareholder or partnership agreement | from EUR 1,930 | Control, exit, deadlock and transfer provisions.
 - Letter before action to a UK company | from EUR 695 | Formal demand on a business debt owed by a company in England and Wales.
-- Company formation and structure | from EUR 645 | UK incorporation, SPVs, holding structures and the constitutional documents.
-- Board and shareholder resolutions | from EUR 345 | Companies Act compliant minutes, allotments, transfers and filings.
-- Buying or selling a business | DD from EUR 2,280 · SPA from EUR 3,450 | Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.
+- Board and shareholder resolutions | from EUR 345 | Companies Act compliant board minutes and written resolutions.
 - Commercial lease, review and negotiation | from EUR 875 | Premises in England and Wales reviewed with a written risk report, terms negotiated to agreed form.
 - UK GDPR and website legal pack | from EUR 695 | Privacy notice, cookie consent, terms and processing records for the UK market.
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
@@ -355,9 +319,7 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Swiss data protection assessment | from CHF 995 | Whether the Act applies to you, whether a Swiss representative is genuinely required, and the gap between your GDPR documentation and Swiss duties.
 - Swiss data protection documentation pack | from CHF 1,900 | Notices, records of processing and breach procedure brought into line with Swiss requirements.
 
-## Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme  (/tr)
-- Şirket kuruluş paketi | £550'den itibaren | İngiliz şirketinin kuruluşu, şirketinize özel esas sözleşme, ilk yönetim kurulu tutanakları, yasal defterler, pay sertifikaları
-- Özel amaçlı şirket (SPV) kuruluşu | £995'ten itibaren | Belirli bir işlem veya varlık için şirket kuruluşu ve grup içi sözleşme seti
+## Türk Şirketleri için İngiltere'de Marka ve Sözleşme  (/tr)
 - Ortaklar sözleşmesi (shareholders' agreement) | £1,650'den itibaren | Çıkış hükümleri, drag along ve tag along hakları, önemli kararlarda onay, kilitlenme (deadlock) gibi uyuşmazlıkta işe yarayan hükümler
 - Birleşik Krallık marka başvurusu (1 sınıf) | £555'ten itibaren | Önceki marka araştırması, mal ve hizmet listesi, 48 saat içinde UKIPO'ya başvuru, standart yazışmalar, tescil belgesi. UKIPO resmi harcı dahil
 - Ek sınıf (her biri) | £245'ten itibaren | Ücret ve UKIPO ek sınıf harcı dahil
@@ -395,10 +357,8 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - ICO correspondence and incident support | from £395 | Written handling of an ICO enquiry, a complaint or a breach notification decision, per matter.
 
 ## UK Market Entry for US & International Companies  (/uk-market-entry)
-- UK Market Entry bundle | from £2,150 | UK trademark (one class, UKIPO fee included), UK company incorporation with tailored articles, and B2B or B2C terms & conditions.
 - UK trademark only, one class | from £555 | Conflict search, filing within 48 hours, objection responses, certificate. Official fee included.
 - Brexit clone-mark use audit | from £595 | Your UK registrations reviewed against the 2026 genuine-use exposure, with a written risk report and fixes.
-- UK entity & corporate pack | from £550 | Company incorporation, tailored articles, board minutes, registers, or an SPV structured for a UK venture (£750).
 - UK distribution / reseller agreement | from £995 | Your route-to-market contract drafted under English law with enforcement in mind.
 
 ## UKIPO Tribunal Solicitor  (/ukipo-tribunal)
@@ -416,10 +376,8 @@ Generated 2026-10-10 from the live schedules. 344 rows across 42 pages. No VAT. 
 - Contract review and markup | from USD 755 | Distribution, agency, supply, licensing, SaaS or services agreements with a written risk report.
 - Bespoke commercial agreement | from USD 1,590 | Drafted from your commercial terms under English law.
 - Terms and conditions | from USD 825 | Customer or supplier terms built for English law.
-- UK company formation and structure | from USD 700 | Incorporation, SPVs, holding structures and constitutional documents.
-- Board and shareholder resolutions | from USD 375 | Companies Act compliant minutes, allotments, transfers and filings.
+- Board and shareholder resolutions | from USD 375 | Companies Act compliant board minutes and written resolutions.
 - Shareholder or joint venture agreement | from USD 2,095 | Control, exit, deadlock and transfer provisions.
-- Buying or selling a UK business | DD from USD 2,475 · SPA from USD 3,745 | Legal due diligence with a written red flag report, and the agreement negotiated.
 - Commercial lease, review and negotiation | from USD 955 | Premises in England and Wales reviewed with a written risk report.
 - UK GDPR and website legal pack | from USD 755 | Privacy notice, cookie consent, terms and processing records.
 - Letter before action to a UK company | from USD 755 | Formal demand on a business debt owed by a company in England and Wales.

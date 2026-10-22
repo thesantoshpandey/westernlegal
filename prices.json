@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10",
+ "generated": "2026-10-22",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 344,
+ "count": 304,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -136,13 +136,6 @@
    "fee": "from £1,650"
   },
   {
-   "page": "/commercial-contracts",
-   "page_title": "Commercial Contract Solicitor",
-   "product": "Incorporation & company pack",
-   "scope": "Company formed with tailored articles, board minutes and statutory registers, or an SPV structured for a specific deal (SPV pack £750).",
-   "fee": "from £550"
-  },
-  {
    "page": "/commercial-lease-solicitor",
    "page_title": "Commercial Lease Solicitor",
    "product": "Lease review & risk report (tenant or landlord)",
@@ -208,30 +201,9 @@
   {
    "page": "/companies-act-governance",
    "page_title": "Companies Act Solicitor",
-   "product": "Share allotments and filings",
-   "scope": "New shares allotted properly: resolutions, SH01 and register updates.",
-   "fee": "from £395"
-  },
-  {
-   "page": "/companies-act-governance",
-   "page_title": "Companies Act Solicitor",
    "product": "Director duties and governance advisory",
    "scope": "Section 171 to 177 duties, conflicts, board process and governance packs for growing companies.",
    "fee": "from £395"
-  },
-  {
-   "page": "/companies-act-governance",
-   "page_title": "Companies Act Solicitor",
-   "product": "Share buyback",
-   "scope": "Own-share purchase run through the Companies Act procedure correctly, the one that is void if done wrong.",
-   "fee": "from £995"
-  },
-  {
-   "page": "/companies-act-governance",
-   "page_title": "Companies Act Solicitor",
-   "product": "Group reorganisation",
-   "scope": "Share-for-share exchanges, new holdcos and intra-group transfers, structured and papered.",
-   "fee": "from £1,950"
   },
   {
    "page": "/companies-act-governance",
@@ -285,20 +257,6 @@
   {
    "page": "/corporate-company",
    "page_title": "Corporate Solicitor",
-   "product": "Incorporation pack",
-   "scope": "Company formed with tailored articles, first board minutes, registers and share certificates, not the default model articles that fit nobody.",
-   "fee": "from £550"
-  },
-  {
-   "page": "/corporate-company",
-   "page_title": "Corporate Solicitor",
-   "product": "SPV setup",
-   "scope": "A special-purpose vehicle structured for the specific deal or asset, with the intercompany documents to match.",
-   "fee": "from £995"
-  },
-  {
-   "page": "/corporate-company",
-   "page_title": "Corporate Solicitor",
    "product": "Shareholder / partnership agreement",
    "scope": "Leaver provisions, drag and tag, reserved matters, deadlock, the clauses that decide real fallouts.",
    "fee": "from £1,650"
@@ -309,13 +267,6 @@
    "product": "Heads of terms",
    "scope": "Drafted or reviewed before the lawyers on both sides start the meter running.",
    "fee": "from £650"
-  },
-  {
-   "page": "/corporate-company",
-   "page_title": "Corporate Solicitor",
-   "product": "Share transfers & board approvals",
-   "scope": "Stock transfer forms, board minutes and filings for a clean change of ownership.",
-   "fee": "from £395"
   },
   {
    "page": "/creator-media-contracts",
@@ -500,13 +451,6 @@
    "fee": "from £650"
   },
   {
-   "page": "/eu-market-entry",
-   "page_title": "EU Market Entry for UK, US and International Companies",
-   "product": "Member state entity formation, coordinated",
-   "scope": "Scoping of the entity you need, instruction and coordination of correspondent counsel in the member state, and review of their output against your plan. The correspondent's own fee is separate and quoted before work begins.",
-   "fee": "from £650"
-  },
-  {
    "page": "/faq",
    "page_title": "FAQs",
    "product": "Express work",
@@ -600,23 +544,9 @@
   {
    "page": "/france",
    "page_title": "French Businesses",
-   "product": "Company formation and structure",
-   "scope": "UK incorporation, SPVs, holding structures and the constitutional documents.",
-   "fee": "from EUR 645"
-  },
-  {
-   "page": "/france",
-   "page_title": "French Businesses",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from EUR 345"
-  },
-  {
-   "page": "/france",
-   "page_title": "French Businesses",
-   "product": "Buying or selling a business",
-   "scope": "Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.",
-   "fee": "DD from EUR 2,280 · SPA from EUR 3,450"
   },
   {
    "page": "/france",
@@ -761,23 +691,9 @@
   {
    "page": "/germany",
    "page_title": "German Businesses",
-   "product": "Company formation and structure",
-   "scope": "UK incorporation, SPVs, holding structures and the constitutional documents.",
-   "fee": "from EUR 645"
-  },
-  {
-   "page": "/germany",
-   "page_title": "German Businesses",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from EUR 345"
-  },
-  {
-   "page": "/germany",
-   "page_title": "German Businesses",
-   "product": "Buying or selling a business",
-   "scope": "Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.",
-   "fee": "DD from EUR 2,280 · SPA from EUR 3,450"
   },
   {
    "page": "/germany",
@@ -887,23 +803,9 @@
   {
    "page": "/gulf",
    "page_title": "Gulf Businesses",
-   "product": "UK company formation and structure",
-   "scope": "Incorporation, SPVs, holding structures and constitutional documents.",
-   "fee": "from £550 (AED 2,720 indicative)"
-  },
-  {
-   "page": "/gulf",
-   "page_title": "Gulf Businesses",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from £295 (AED 1,460 indicative)"
-  },
-  {
-   "page": "/gulf",
-   "page_title": "Gulf Businesses",
-   "product": "Buying or selling a business",
-   "scope": "Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.",
-   "fee": "DD from £1,950 (AED 9,650 indicative) · SPA from £2,950 (AED 14,600 indicative)"
   },
   {
    "page": "/gulf",
@@ -1048,15 +950,8 @@
   {
    "page": "/ireland",
    "page_title": "Ireland",
-   "product": "Company formation and structure",
-   "scope": "UK incorporation, SPVs, holding structures and constitutional documents.",
-   "fee": "from EUR 645"
-  },
-  {
-   "page": "/ireland",
-   "page_title": "Ireland",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from EUR 345"
   },
   {
@@ -1065,13 +960,6 @@
    "product": "Shareholder or partnership agreement",
    "scope": "Control, exit, deadlock and transfer provisions.",
    "fee": "from EUR 1,930"
-  },
-  {
-   "page": "/ireland",
-   "page_title": "Ireland",
-   "product": "Buying or selling a business",
-   "scope": "Legal due diligence with a written red flag report, and the agreement negotiated.",
-   "fee": "DD from EUR 2,280 · SPA from EUR 3,450"
   },
   {
    "page": "/ireland",
@@ -1107,20 +995,6 @@
    "product": "Trademark opposition defence",
    "scope": "TM8 and evidence rounds, fixed for the whole defence.",
    "fee": "EUR 1,405"
-  },
-  {
-   "page": "/ja",
-   "page_title": "日本企業の英国進出・英国取引",
-   "product": "会社設立パック",
-   "scope": "英国会社の設立、御社向けの定款、最初の取締役会議事録、法定登録簿、株券",
-   "fee": "£550から"
-  },
-  {
-   "page": "/ja",
-   "page_title": "日本企業の英国進出・英国取引",
-   "product": "SPV（特別目的会社）設立",
-   "scope": "特定の取引や資産のための会社設立と、グループ内契約書一式",
-   "fee": "£995から"
   },
   {
    "page": "/ja",
@@ -1293,15 +1167,8 @@
   {
    "page": "/latin-america",
    "page_title": "Latin America",
-   "product": "UK company formation and structure",
-   "scope": "Incorporation, SPVs, holding structures and constitutional documents.",
-   "fee": "from USD 700"
-  },
-  {
-   "page": "/latin-america",
-   "page_title": "Latin America",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from USD 375"
   },
   {
@@ -1310,13 +1177,6 @@
    "product": "Shareholder or joint venture agreement",
    "scope": "Control, exit, deadlock and transfer provisions.",
    "fee": "from USD 2,095"
-  },
-  {
-   "page": "/latin-america",
-   "page_title": "Latin America",
-   "product": "Buying or selling a UK business",
-   "scope": "Legal due diligence with a written red flag report, and the agreement negotiated.",
-   "fee": "DD from USD 2,475 · SPA from USD 3,745"
   },
   {
    "page": "/latin-america",
@@ -1380,48 +1240,6 @@
    "product": "Negotiation and settlement correspondence",
    "scope": "The exchange run to a documented conclusion, with the payment terms and releases drafted so the deal holds.",
    "fee": "from £495"
-  },
-  {
-   "page": "/mergers-acquisitions",
-   "page_title": "M&A Solicitor",
-   "product": "Heads of terms",
-   "scope": "The deal framed before the meters start: price mechanism, conditions, exclusivity, and what is binding.",
-   "fee": "from £650"
-  },
-  {
-   "page": "/mergers-acquisitions",
-   "page_title": "M&A Solicitor",
-   "product": "Legal due diligence",
-   "scope": "Targeted review of the company or business: contracts, employment, IP, property, litigation, with a written red-flag report.",
-   "fee": "from £1,950"
-  },
-  {
-   "page": "/mergers-acquisitions",
-   "page_title": "M&A Solicitor",
-   "product": "Share or asset purchase agreement",
-   "scope": "SPA or APA drafted or negotiated: warranties, indemnities, price mechanics, restrictive covenants.",
-   "fee": "from £2,950"
-  },
-  {
-   "page": "/mergers-acquisitions",
-   "page_title": "M&A Solicitor",
-   "product": "Disclosure letter",
-   "scope": "The seller's shield, prepared properly against the warranty schedule.",
-   "fee": "from £995"
-  },
-  {
-   "page": "/mergers-acquisitions",
-   "page_title": "M&A Solicitor",
-   "product": "Ancillaries and completion",
-   "scope": "Board minutes, resolutions, stock transfer forms, filings and completion agenda through to done.",
-   "fee": "from £1,450"
-  },
-  {
-   "page": "/mergers-acquisitions",
-   "page_title": "M&A Solicitor",
-   "product": "Full deal management",
-   "scope": "The whole transaction, both documents and process, scoped and capped in advance.",
-   "fee": "from £4,950"
   },
   {
    "page": "/netherlands",
@@ -1531,23 +1349,9 @@
   {
    "page": "/netherlands",
    "page_title": "Netherlands",
-   "product": "Company formation and structure",
-   "scope": "UK incorporation, SPVs, holding structures and the constitutional documents.",
-   "fee": "from EUR 645"
-  },
-  {
-   "page": "/netherlands",
-   "page_title": "Netherlands",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from EUR 345"
-  },
-  {
-   "page": "/netherlands",
-   "page_title": "Netherlands",
-   "product": "Buying or selling a business",
-   "scope": "Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.",
-   "fee": "DD from EUR 2,280 · SPA from EUR 3,450"
   },
   {
    "page": "/netherlands",
@@ -1643,15 +1447,8 @@
   {
    "page": "/nordics",
    "page_title": "Nordic Businesses",
-   "product": "Company formation and structure",
-   "scope": "UK incorporation, SPVs, holding structures and constitutional documents.",
-   "fee": "from EUR 645"
-  },
-  {
-   "page": "/nordics",
-   "page_title": "Nordic Businesses",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from EUR 345"
   },
   {
@@ -1660,13 +1457,6 @@
    "product": "Shareholder or partnership agreement",
    "scope": "Control, exit, deadlock and transfer provisions.",
    "fee": "from EUR 1,930"
-  },
-  {
-   "page": "/nordics",
-   "page_title": "Nordic Businesses",
-   "product": "Buying or selling a business",
-   "scope": "Legal due diligence with a written red flag report, and the agreement negotiated.",
-   "fee": "DD from EUR 2,280 · SPA from EUR 3,450"
   },
   {
    "page": "/nordics",
@@ -1776,20 +1566,6 @@
   {
    "page": "/shareholder-disputes",
    "page_title": "Shareholder & Partnership Disputes",
-   "product": "Deadlock and buyout negotiation",
-   "scope": "Valuation basis agreed, offers structured and the negotiation run in writing to a documented conclusion.",
-   "fee": "from £1,450"
-  },
-  {
-   "page": "/shareholder-disputes",
-   "page_title": "Shareholder & Partnership Disputes",
-   "product": "Settlement agreement between shareholders",
-   "scope": "The deal converted into a binding agreement: share transfer, releases, restrictive covenants, confidentiality and payment terms.",
-   "fee": "from £950"
-  },
-  {
-   "page": "/shareholder-disputes",
-   "page_title": "Shareholder & Partnership Disputes",
    "product": "Partnership or LLP dispute assessment",
    "scope": "Your position analysed against the partnership agreement or LLP agreement, or against the default statutory position where none exists, with a written view on merits and realistic outcomes.",
    "fee": "£495"
@@ -1874,23 +1650,9 @@
   {
    "page": "/southern-europe",
    "page_title": "Italy, Spain & Portugal",
-   "product": "Company formation and structure",
-   "scope": "UK incorporation, SPVs, holding structures and the constitutional documents.",
-   "fee": "from EUR 645"
-  },
-  {
-   "page": "/southern-europe",
-   "page_title": "Italy, Spain & Portugal",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from EUR 345"
-  },
-  {
-   "page": "/southern-europe",
-   "page_title": "Italy, Spain & Portugal",
-   "product": "Buying or selling a business",
-   "scope": "Legal due diligence with a written red flag report, and the sale or purchase agreement negotiated.",
-   "fee": "DD from EUR 2,280 · SPA from EUR 3,450"
   },
   {
    "page": "/southern-europe",
@@ -2020,84 +1782,70 @@
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
-   "product": "Şirket kuruluş paketi",
-   "scope": "İngiliz şirketinin kuruluşu, şirketinize özel esas sözleşme, ilk yönetim kurulu tutanakları, yasal defterler, pay sertifikaları",
-   "fee": "£550'den itibaren"
-  },
-  {
-   "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
-   "product": "Özel amaçlı şirket (SPV) kuruluşu",
-   "scope": "Belirli bir işlem veya varlık için şirket kuruluşu ve grup içi sözleşme seti",
-   "fee": "£995'ten itibaren"
-  },
-  {
-   "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Ortaklar sözleşmesi (shareholders' agreement)",
    "scope": "Çıkış hükümleri, drag along ve tag along hakları, önemli kararlarda onay, kilitlenme (deadlock) gibi uyuşmazlıkta işe yarayan hükümler",
    "fee": "£1,650'den itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Birleşik Krallık marka başvurusu (1 sınıf)",
    "scope": "Önceki marka araştırması, mal ve hizmet listesi, 48 saat içinde UKIPO'ya başvuru, standart yazışmalar, tescil belgesi. UKIPO resmi harcı dahil",
    "fee": "£555'ten itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Ek sınıf (her biri)",
    "scope": "Ücret ve UKIPO ek sınıf harcı dahil",
    "fee": "£245'ten itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Önceki marka araştırması",
    "scope": "İlk araştırma ücretsizdir, görüş yazılı olarak iletilir. Sonraki her araştırma £150 (30 gün içinde başvuru yapılırsa başvuru ücretinden düşülür)",
    "fee": "İlki ücretsiz, sonrası £150"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Gizlilik sözleşmesi (NDA)",
    "scope": "Tek taraflı veya karşılıklı, işleme göre hazırlanır. 48 saatte teslim",
    "fee": "£245'ten itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Sözleşme incelemesi ve düzeltme",
    "scope": "Alınan sözleşmedeki riskler yazılı olarak özetlenir, müzakere noktaları ve değişiklik önerileri sunulur",
    "fee": "£595'ten itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Satış koşulları ve kullanım şartları",
    "scope": "B2B ve B2C ticari koşullar, web sitesi ve SaaS şartları",
    "fee": "£650'den itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Özel ticari sözleşmeler",
    "scope": "Tedarik, hizmet, distribütörlük, lisans, franchise ve benzeri sözleşmeler",
    "fee": "£1,250'den itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Uygulanabilirlik değerlendirmesi",
    "scope": "UK GDPR madde 3(2) ve madde 27'nin işletmenize uygulanıp uygulanmadığı, istisnalar dahil yazılı olarak yanıtlanır",
    "fee": "£395'ten itibaren"
   },
   {
    "page": "/tr",
-   "page_title": "Türk Şirketleri için İngiltere'de Şirket, Marka ve Sözleşme",
+   "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Birleşik Krallık gizlilik bildirimi ve işleme kayıtları",
    "scope": "Gizlilik bildirimi ve madde 30 işleme faaliyetleri kaydı UK GDPR'a uygun hale getirilir",
    "fee": "£595'ten itibaren"
@@ -2238,13 +1986,6 @@
   {
    "page": "/uk-market-entry",
    "page_title": "UK Market Entry for US & International Companies",
-   "product": "UK Market Entry bundle",
-   "scope": "UK trademark (one class, UKIPO fee included), UK company incorporation with tailored articles, and B2B or B2C terms & conditions.",
-   "fee": "from £2,150"
-  },
-  {
-   "page": "/uk-market-entry",
-   "page_title": "UK Market Entry for US & International Companies",
    "product": "UK trademark only, one class",
    "scope": "Conflict search, filing within 48 hours, objection responses, certificate. Official fee included.",
    "fee": "from £555"
@@ -2255,13 +1996,6 @@
    "product": "Brexit clone-mark use audit",
    "scope": "Your UK registrations reviewed against the 2026 genuine-use exposure, with a written risk report and fixes.",
    "fee": "from £595"
-  },
-  {
-   "page": "/uk-market-entry",
-   "page_title": "UK Market Entry for US & International Companies",
-   "product": "UK entity & corporate pack",
-   "scope": "Company incorporation, tailored articles, board minutes, registers, or an SPV structured for a UK venture (£750).",
-   "fee": "from £550"
   },
   {
    "page": "/uk-market-entry",
@@ -2357,15 +2091,8 @@
   {
    "page": "/united-states",
    "page_title": "US Businesses",
-   "product": "UK company formation and structure",
-   "scope": "Incorporation, SPVs, holding structures and constitutional documents.",
-   "fee": "from USD 700"
-  },
-  {
-   "page": "/united-states",
-   "page_title": "US Businesses",
    "product": "Board and shareholder resolutions",
-   "scope": "Companies Act compliant minutes, allotments, transfers and filings.",
+   "scope": "Companies Act compliant board minutes and written resolutions.",
    "fee": "from USD 375"
   },
   {
@@ -2374,13 +2101,6 @@
    "product": "Shareholder or joint venture agreement",
    "scope": "Control, exit, deadlock and transfer provisions.",
    "fee": "from USD 2,095"
-  },
-  {
-   "page": "/united-states",
-   "page_title": "US Businesses",
-   "product": "Buying or selling a UK business",
-   "scope": "Legal due diligence with a written red flag report, and the agreement negotiated.",
-   "fee": "DD from USD 2,475 · SPA from USD 3,745"
   },
   {
    "page": "/united-states",

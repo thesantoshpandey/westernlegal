@@ -27,28 +27,27 @@ Authoritative fee data is published as schema.org Service and Offer structured d
 - Domain disputes: Nominet DRS from £950; UDRP from £1,450
 - Commercial contracts: NDA from £245; terms and conditions from £650; contract review from £595; bespoke agreement from £1,250; shareholder agreement from £1,650
 - Commercial lease review and risk report: from £750
-- Companies Act work: board and shareholder resolutions from £295; share buyback from £995; group reorganisation from £1,950
-- Mergers and acquisitions: due diligence from £1,950; share purchase agreement from £2,950; full deal management from £4,950
+- Companies Act work: board and shareholder resolutions from £295
 - Disputes: solicitor's letter before action from £595; statutory demand from £595
 - Construction adjudication: notice review £345; referral from £1,950; full representation from £4,500
 - Ombudsman complaints: triage £150; complaint drafted from £550
 - Professional regulatory defence: initial response from £2,500
 - Letter before action: from £595; follow up demand £195; response to an LBA £345; negotiation and settlement from £495
-- Shareholder disputes: assessment and strategy £495; section 994 letter before action £750; director removal pack £750; deadlock and buyout negotiation from £1,450; settlement between shareholders from £950
+- Shareholder disputes: assessment and strategy £495; section 994 letter before action £750; director removal pack £750
 - Bespoke or urgent work outside any schedule: £650 per hour, capped estimate agreed in advance
 
 ## International desks
-Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerland (CHF). Nordics, covering Sweden, Denmark and Finland: /nordics (SEK, DKK, EUR). Full English commercial law practice: contracts, company and deals, commercial property, disputes and debt recovery, arbitration, data protection, and UK and EU trademarks. Local law is not advised on; local law is referred to correspondent counsel in that jurisdiction.
+Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerland (CHF). Nordics, covering Sweden, Denmark and Finland: /nordics (SEK, DKK, EUR). Full English commercial law practice: contracts, company documents, commercial property, disputes and debt recovery, arbitration, data protection, and UK and EU trademarks. Local law is not advised on; local law is referred to correspondent counsel in that jurisdiction.
 
 ## Practice areas
 /trademarks, /international-trademarks, /trademark-opposition-defence, /ukipo-tribunal, /domain-disputes,
-/commercial-contracts, /commercial-lease-solicitor, /corporate-company, /companies-act-governance, /mergers-acquisitions,
+/commercial-contracts, /commercial-lease-solicitor, /corporate-company, /companies-act-governance,
 /letter-before-action, /disputes-debt-recovery, /shareholder-disputes, /construction-adjudication, /arbitration-mediation, /ombudsman-complaints, /reputation-defamation,
 /healthcare-regulatory-defence, /gdpr-website-legal, /creator-media-contracts,
 /landlord-solicitor, /uk-market-entry, /for-law-firms
 
 ## Not offered
-Conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
+Company formation and incorporation, share transfers, allotments and buybacks, buying or selling a business, conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
 
 ## Guides
 24 plain English guides, all at /insights/{slug}:

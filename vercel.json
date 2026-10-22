@@ -66,6 +66,21 @@
       "source": "/insights/restrictive-covenants-what-is-enforceable",
       "destination": "/insights",
       "permanent": false
+    },
+    {
+      "source": "/mergers-acquisitions",
+      "destination": "/commercial-contracts",
+      "permanent": false
+    },
+    {
+      "source": "/cross-border-share-acquisition",
+      "destination": "/commercial-contracts",
+      "permanent": false
+    },
+    {
+      "source": "/_held/:path*",
+      "destination": "/",
+      "permanent": false
     }
   ],
   "headers": [
