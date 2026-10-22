@@ -78,6 +78,11 @@
       "permanent": false
     },
     {
+      "source": "/insights/buying-a-business-due-diligence",
+      "destination": "/insights",
+      "permanent": false
+    },
+    {
       "source": "/_held/:path*",
       "destination": "/",
       "permanent": false

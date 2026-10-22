@@ -50,7 +50,7 @@ Ireland: /ireland (EUR). Netherlands: /netherlands (EUR). Switzerland: /switzerl
 Company formation and incorporation, share transfers, allotments and buybacks, buying or selling a business, conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
 
 ## Guides
-24 plain English guides, all at /insights/{slug}:
+30 plain English guides, all at /insights/{slug}:
 - What a UK trademark costs in 2026: /insights/uk-trademark-cost
 - How fast a UK trademark can be filed: /insights/how-fast-uk-trademark
 - The Madrid Protocol explained: /insights/madrid-protocol-explained
@@ -59,7 +59,6 @@ Company formation and incorporation, share transfers, allotments and buybacks, b
 - What a fixed fee solicitor actually means: /insights/fixed-fee-solicitor
 - Commercial lease review: the clauses that decide everything: /insights/commercial-lease-review-checklist
 - Commercial rent arrears: landlord options ranked: /insights/commercial-rent-arrears
-- Buying a business: the due diligence that matters: /insights/buying-a-business-due-diligence
 - Why downloaded board resolutions fail: /insights/board-resolutions-templates
 - Setting up in the UK as an overseas business: /insights/uk-company-overseas-business
 - Unpaid construction invoice: the 28 day route: /insights/smash-and-grab-adjudication
