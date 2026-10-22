@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 304,
+ "count": 346,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -311,6 +311,69 @@
    "fee": "from £395"
   },
   {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Britische Marke, eine Klasse",
+   "scope": "Anmeldung beim UKIPO innerhalb von 48 Stunden nach Beauftragung, mit britischer Zustelladresse",
+   "fee": "ab EUR 645"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Jede weitere Klasse",
+   "scope": "Bei der Anmeldung hinzugefügt",
+   "fee": "EUR 285"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Verteidigung im Widerspruchsverfahren",
+   "scope": "TM8 und Beweisrunden, Festpreis für die gesamte Verteidigung",
+   "fee": "EUR 1.405"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Geheimhaltungsvereinbarung (NDA)",
+   "scope": "Entwurf oder Prüfung nach englischem Recht",
+   "fee": "ab EUR 285"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Vertragsprüfung mit Änderungen",
+   "scope": "Vertriebs-, Liefer-, Lizenz-, SaaS- oder Dienstleistungsverträge, mit schriftlichem Risikobericht",
+   "fee": "ab EUR 695"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Allgemeine Geschäftsbedingungen",
+   "scope": "Kunden- oder Lieferanten-AGB nach englischem Recht",
+   "fee": "ab EUR 760"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Individueller Handelsvertrag",
+   "scope": "Nach Ihren kaufmännischen Konditionen entworfen",
+   "fee": "ab EUR 1.460"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "Aufforderungsschreiben an eine britische Firma",
+   "scope": "Förmliche Zahlungsaufforderung wegen einer Geschäftsforderung gegen eine Gesellschaft in England und Wales",
+   "fee": "ab EUR 695"
+  },
+  {
+   "page": "/de",
+   "page_title": "UK Marke anmelden und englisches Recht",
+   "product": "UK GDPR und Website-Paket",
+   "scope": "Datenschutzerklärung, Cookie-Einwilligung, Bedingungen und Verarbeitungsverzeichnis für den britischen Markt",
+   "fee": "ab EUR 695"
+  },
+  {
    "page": "/disputes-debt-recovery",
    "page_title": "Debt Recovery & Dispute Solicitor",
    "product": "Letter before action",
@@ -456,6 +519,69 @@
    "product": "Express work",
    "scope": "Priority handling of any matter on the schedule, delivery date agreed in writing with the quote.",
    "fee": "from £195"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Brittiläinen tavaramerkki, yksi luokka",
+   "scope": "Hakemus UKIPO:lle 48 tunnin kuluessa toimeksiannosta, brittiläisellä tiedoksiantoosoitteella",
+   "fee": "alkaen 645 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Jokainen lisäluokka",
+   "scope": "Lisätään hakemukseen",
+   "fee": "285 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Puolustus väitemenettelyssä",
+   "scope": "TM8 ja näyttökierrokset, kiinteä hinta koko puolustukselle",
+   "fee": "1 405 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Salassapitosopimus (NDA)",
+   "scope": "Laadittu tai tarkastettu Englannin lain mukaan",
+   "fee": "alkaen 285 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Sopimuksen tarkastus ja muutokset",
+   "scope": "Jakelu-, toimitus-, lisenssi-, SaaS- tai palvelusopimukset kirjallisella riskiraportilla",
+   "fee": "alkaen 695 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Yleiset sopimusehdot",
+   "scope": "Asiakas- tai toimittajaehdot Englannin lain mukaan",
+   "fee": "alkaen 760 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Räätälöity kauppasopimus",
+   "scope": "Laadittu kaupallisten ehtojenne pohjalta",
+   "fee": "alkaen 1 460 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "Maksuvaatimus brittiläiselle yhtiölle",
+   "scope": "Muodollinen maksuvaatimus yrityssaatavasta Englannin ja Walesin yhtiöltä",
+   "fee": "alkaen 695 EUR"
+  },
+  {
+   "page": "/fi",
+   "page_title": "Tavaramerkki Britanniaan ja Englannin laki",
+   "product": "UK GDPR ja verkkosivupaketti",
+   "scope": "Tietosuojaseloste, evästesuostumus, ehdot ja käsittelyseloste Britannian markkinoille",
+   "fee": "alkaen 695 EUR"
   },
   {
    "page": "/for-law-firms",
@@ -1389,6 +1515,62 @@
    "fee": "from EUR 1,115"
   },
   {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "Brits merk, één klasse",
+   "scope": "Ingediend bij het UKIPO binnen 48 uur na opdracht, met Brits correspondentieadres",
+   "fee": "vanaf EUR 745"
+  },
+  {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "Elke extra klasse",
+   "scope": "Toegevoegd bij indiening",
+   "fee": "EUR 325"
+  },
+  {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "Verweer in een oppositie",
+   "scope": "TM8 en bewijsrondes, vaste prijs voor het hele verweer",
+   "fee": "EUR 1.610"
+  },
+  {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "Geheimhoudingsovereenkomst (NDA)",
+   "scope": "Opgesteld of beoordeeld naar Engels recht",
+   "fee": "vanaf EUR 325"
+  },
+  {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "Contractbeoordeling met wijzigingen",
+   "scope": "Distributie-, leverings-, licentie-, SaaS- of dienstverleningsovereenkomsten, met schriftelijk risicorapport en onderhandelingspunten",
+   "fee": "vanaf EUR 800"
+  },
+  {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "Algemene voorwaarden",
+   "scope": "Klant- of leveranciersvoorwaarden naar Engels recht",
+   "fee": "vanaf EUR 875"
+  },
+  {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "Maatwerkcontract",
+   "scope": "Opgesteld op basis van uw commerciële voorwaarden",
+   "fee": "vanaf EUR 1.680"
+  },
+  {
+   "page": "/nl",
+   "page_title": "Merk registreren in het VK en Engels recht",
+   "product": "UK GDPR en websitepakket",
+   "scope": "Privacyverklaring, cookietoestemming, voorwaarden en verwerkingsregister voor de Britse markt",
+   "fee": "vanaf EUR 695"
+  },
+  {
    "page": "/nordics",
    "page_title": "Nordic Businesses",
    "product": "UK trademark, one class",
@@ -1543,6 +1725,55 @@
    "fee": "from £995"
   },
   {
+   "page": "/schweiz",
+   "page_title": "UK Marke und englisches Recht für Schweizer Firmen",
+   "product": "Britische Marke, eine Klasse",
+   "scope": "Anmeldung beim UKIPO innerhalb von 48 Stunden nach Beauftragung, mit britischer Zustelladresse",
+   "fee": "ab CHF 850"
+  },
+  {
+   "page": "/schweiz",
+   "page_title": "UK Marke und englisches Recht für Schweizer Firmen",
+   "product": "Jede weitere Klasse",
+   "scope": "Bei der Anmeldung hinzugefügt",
+   "fee": "CHF 375"
+  },
+  {
+   "page": "/schweiz",
+   "page_title": "UK Marke und englisches Recht für Schweizer Firmen",
+   "product": "Verteidigung im Widerspruchsverfahren",
+   "scope": "TM8 und Beweisrunden, Festpreis für die gesamte Verteidigung",
+   "fee": "CHF 1'850"
+  },
+  {
+   "page": "/schweiz",
+   "page_title": "UK Marke und englisches Recht für Schweizer Firmen",
+   "product": "Geheimhaltungsvereinbarung (NDA)",
+   "scope": "Entwurf oder Prüfung nach englischem Recht",
+   "fee": "ab CHF 375"
+  },
+  {
+   "page": "/schweiz",
+   "page_title": "UK Marke und englisches Recht für Schweizer Firmen",
+   "product": "Vertragsprüfung mit Änderungen",
+   "scope": "Vertriebs-, Liefer-, Lizenz-, SaaS- oder Dienstleistungsverträge, mit schriftlichem Risikobericht und Verhandlungspunkten",
+   "fee": "ab CHF 900"
+  },
+  {
+   "page": "/schweiz",
+   "page_title": "UK Marke und englisches Recht für Schweizer Firmen",
+   "product": "Allgemeine Geschäftsbedingungen",
+   "scope": "Kunden- oder Lieferanten-AGB nach englischem Recht",
+   "fee": "ab CHF 995"
+  },
+  {
+   "page": "/schweiz",
+   "page_title": "UK Marke und englisches Recht für Schweizer Firmen",
+   "product": "Individueller Handelsvertrag",
+   "scope": "Nach Ihren kaufmännischen Konditionen entworfen",
+   "fee": "ab CHF 1'900"
+  },
+  {
    "page": "/shareholder-disputes",
    "page_title": "Shareholder & Partnership Disputes",
    "product": "Dispute assessment and strategy letter",
@@ -1688,6 +1919,69 @@
    "product": "Domain name disputes",
    "scope": "UDRP and Nominet DRS complaints, decided on the papers.",
    "fee": "from EUR 1,115"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Brittiskt varumärke, en klass",
+   "scope": "Ansökan hos UKIPO inom 48 timmar efter uppdrag, med brittisk delgivningsadress",
+   "fee": "från SEK 7 100"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Varje ytterligare klass",
+   "scope": "Läggs till vid ansökan",
+   "fee": "SEK 3 100"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Försvar i invändningsförfarande",
+   "scope": "TM8 och bevisomgångar, fast pris för hela försvaret",
+   "fee": "SEK 15 400"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Sekretessavtal (NDA)",
+   "scope": "Upprättat eller granskat enligt engelsk rätt",
+   "fee": "från SEK 3 100"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Avtalsgranskning med ändringar",
+   "scope": "Distributions-, leverans-, licens-, SaaS- eller tjänsteavtal, med skriftlig riskrapport",
+   "fee": "från SEK 7 600"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Allmänna villkor",
+   "scope": "Kund- eller leverantörsvillkor enligt engelsk rätt",
+   "fee": "från SEK 8 300"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Skräddarsytt affärsavtal",
+   "scope": "Upprättat utifrån era kommersiella villkor",
+   "fee": "från SEK 16 000"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "Kravbrev till ett brittiskt bolag",
+   "scope": "Formellt betalningskrav för en företagsfordran mot ett bolag i England och Wales",
+   "fee": "från SEK 7 600"
+  },
+  {
+   "page": "/sv",
+   "page_title": "Varumärke i Storbritannien och engelsk rätt",
+   "product": "UK GDPR och webbpaket",
+   "scope": "Integritetspolicy, cookiesamtycke, villkor och register över behandling för den brittiska marknaden",
+   "fee": "från EUR 695"
   },
   {
    "page": "/switzerland",

@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-22 from the live schedules. 304 rows across 40 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-22 from the live schedules. 346 rows across 45 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -61,6 +61,17 @@ Generated 2026-10-22 from the live schedules. 304 rows across 40 pages. No VAT. 
 - Creator business pack | from £995 | Your standard collaboration terms, invoice terms and a template pack so every future deal starts from your paper, not theirs.
 - Advertising compliance note | from £395 | ASA/CAP disclosure requirements applied to your actual formats, the '#ad' questions answered once, properly.
 
+## UK Marke anmelden und englisches Recht  (/de)
+- Britische Marke, eine Klasse | ab EUR 645 | Anmeldung beim UKIPO innerhalb von 48 Stunden nach Beauftragung, mit britischer Zustelladresse
+- Jede weitere Klasse | EUR 285 | Bei der Anmeldung hinzugefügt
+- Verteidigung im Widerspruchsverfahren | EUR 1.405 | TM8 und Beweisrunden, Festpreis für die gesamte Verteidigung
+- Geheimhaltungsvereinbarung (NDA) | ab EUR 285 | Entwurf oder Prüfung nach englischem Recht
+- Vertragsprüfung mit Änderungen | ab EUR 695 | Vertriebs-, Liefer-, Lizenz-, SaaS- oder Dienstleistungsverträge, mit schriftlichem Risikobericht
+- Allgemeine Geschäftsbedingungen | ab EUR 760 | Kunden- oder Lieferanten-AGB nach englischem Recht
+- Individueller Handelsvertrag | ab EUR 1.460 | Nach Ihren kaufmännischen Konditionen entworfen
+- Aufforderungsschreiben an eine britische Firma | ab EUR 695 | Förmliche Zahlungsaufforderung wegen einer Geschäftsforderung gegen eine Gesellschaft in England und Wales
+- UK GDPR und Website-Paket | ab EUR 695 | Datenschutzerklärung, Cookie-Einwilligung, Bedingungen und Verarbeitungsverzeichnis für den britischen Markt
+
 ## Debt Recovery & Dispute Solicitor  (/disputes-debt-recovery)
 - Letter before action | from £595 | A compliant pre-action letter under the applicable protocol, on solicitor letterhead, with the debt or claim particularised and a deadline set.
 - Statutory demand | from £595 | Drafted and prepared for service against a company or individual debtor, the formal step before insolvency proceedings that concentrates minds.
@@ -91,6 +102,17 @@ Generated 2026-10-22 from the live schedules. 304 rows across 40 pages. No VAT. 
 
 ## FAQs  (/faq)
 - Express work | from £195 | Priority handling of any matter on the schedule, delivery date agreed in writing with the quote.
+
+## Tavaramerkki Britanniaan ja Englannin laki  (/fi)
+- Brittiläinen tavaramerkki, yksi luokka | alkaen 645 EUR | Hakemus UKIPO:lle 48 tunnin kuluessa toimeksiannosta, brittiläisellä tiedoksiantoosoitteella
+- Jokainen lisäluokka | 285 EUR | Lisätään hakemukseen
+- Puolustus väitemenettelyssä | 1 405 EUR | TM8 ja näyttökierrokset, kiinteä hinta koko puolustukselle
+- Salassapitosopimus (NDA) | alkaen 285 EUR | Laadittu tai tarkastettu Englannin lain mukaan
+- Sopimuksen tarkastus ja muutokset | alkaen 695 EUR | Jakelu-, toimitus-, lisenssi-, SaaS- tai palvelusopimukset kirjallisella riskiraportilla
+- Yleiset sopimusehdot | alkaen 760 EUR | Asiakas- tai toimittajaehdot Englannin lain mukaan
+- Räätälöity kauppasopimus | alkaen 1 460 EUR | Laadittu kaupallisten ehtojenne pohjalta
+- Maksuvaatimus brittiläiselle yhtiölle | alkaen 695 EUR | Muodollinen maksuvaatimus yrityssaatavasta Englannin ja Walesin yhtiöltä
+- UK GDPR ja verkkosivupaketti | alkaen 695 EUR | Tietosuojaseloste, evästesuostumus, ehdot ja käsittelyseloste Britannian markkinoille
 
 ## UK & international Trademark Correspondent  (/for-law-firms)
 - Second opinion for solicitors | from £650 | A privileged written second view on a live matter: merits, drafting and strategy.
@@ -251,6 +273,16 @@ Generated 2026-10-22 from the live schedules. 304 rows across 40 pages. No VAT. 
 - Construction adjudication | from EUR 2,280 | Payment disputes under the Construction Act, decision typically in 28 days.
 - Domain name disputes | from EUR 1,115 | UDRP and Nominet DRS complaints, decided on the papers.
 
+## Merk registreren in het VK en Engels recht  (/nl)
+- Brits merk, één klasse | vanaf EUR 745 | Ingediend bij het UKIPO binnen 48 uur na opdracht, met Brits correspondentieadres
+- Elke extra klasse | EUR 325 | Toegevoegd bij indiening
+- Verweer in een oppositie | EUR 1.610 | TM8 en bewijsrondes, vaste prijs voor het hele verweer
+- Geheimhoudingsovereenkomst (NDA) | vanaf EUR 325 | Opgesteld of beoordeeld naar Engels recht
+- Contractbeoordeling met wijzigingen | vanaf EUR 800 | Distributie-, leverings-, licentie-, SaaS- of dienstverleningsovereenkomsten, met schriftelijk risicorapport en onderhandelingspunten
+- Algemene voorwaarden | vanaf EUR 875 | Klant- of leveranciersvoorwaarden naar Engels recht
+- Maatwerkcontract | vanaf EUR 1.680 | Opgesteld op basis van uw commerciële voorwaarden
+- UK GDPR en websitepakket | vanaf EUR 695 | Privacyverklaring, cookietoestemming, voorwaarden en verwerkingsregister voor de Britse markt
+
 ## Nordic Businesses  (/nordics)
 - UK trademark, one class | from SEK 7,100 / DKK 4,850 / EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.
 - Each additional class | SEK 3,100 / DKK 2,150 / EUR 285 | Added at filing.
@@ -279,6 +311,15 @@ Generated 2026-10-22 from the live schedules. 304 rows across 40 pages. No VAT. 
 - Defamation pre-action letter | from £1,250 | A letter of claim compliant with the pre-action protocol, drafted to be taken seriously.
 - Response to a claim against you | from £995 | You have received a defamation or takedown letter: a measured, protective response.
 
+## UK Marke und englisches Recht für Schweizer Firmen  (/schweiz)
+- Britische Marke, eine Klasse | ab CHF 850 | Anmeldung beim UKIPO innerhalb von 48 Stunden nach Beauftragung, mit britischer Zustelladresse
+- Jede weitere Klasse | CHF 375 | Bei der Anmeldung hinzugefügt
+- Verteidigung im Widerspruchsverfahren | CHF 1'850 | TM8 und Beweisrunden, Festpreis für die gesamte Verteidigung
+- Geheimhaltungsvereinbarung (NDA) | ab CHF 375 | Entwurf oder Prüfung nach englischem Recht
+- Vertragsprüfung mit Änderungen | ab CHF 900 | Vertriebs-, Liefer-, Lizenz-, SaaS- oder Dienstleistungsverträge, mit schriftlichem Risikobericht und Verhandlungspunkten
+- Allgemeine Geschäftsbedingungen | ab CHF 995 | Kunden- oder Lieferanten-AGB nach englischem Recht
+- Individueller Handelsvertrag | ab CHF 1'900 | Nach Ihren kaufmännischen Konditionen entworfen
+
 ## Shareholder & Partnership Disputes  (/shareholder-disputes)
 - Dispute assessment and strategy letter | £495 | Your position analysed against the articles, any shareholders agreement and the statutory routes, with a written view on merits, leverage and the realistic outcomes.
 - Section 994 unfair prejudice letter before action | £750 | The conduct evidenced, the prejudice articulated, the remedy sought and a deadline set, on solicitor letterhead.
@@ -303,6 +344,17 @@ Generated 2026-10-22 from the live schedules. 304 rows across 40 pages. No VAT. 
 - Mediation representation and arbitration | from EUR 1,695 | Position statements, written submissions and settlement drafting.
 - Construction adjudication | from EUR 2,280 | Payment disputes under the Construction Act, decision typically in 28 days.
 - Domain name disputes | from EUR 1,115 | UDRP and Nominet DRS complaints, decided on the papers.
+
+## Varumärke i Storbritannien och engelsk rätt  (/sv)
+- Brittiskt varumärke, en klass | från SEK 7 100 | Ansökan hos UKIPO inom 48 timmar efter uppdrag, med brittisk delgivningsadress
+- Varje ytterligare klass | SEK 3 100 | Läggs till vid ansökan
+- Försvar i invändningsförfarande | SEK 15 400 | TM8 och bevisomgångar, fast pris för hela försvaret
+- Sekretessavtal (NDA) | från SEK 3 100 | Upprättat eller granskat enligt engelsk rätt
+- Avtalsgranskning med ändringar | från SEK 7 600 | Distributions-, leverans-, licens-, SaaS- eller tjänsteavtal, med skriftlig riskrapport
+- Allmänna villkor | från SEK 8 300 | Kund- eller leverantörsvillkor enligt engelsk rätt
+- Skräddarsytt affärsavtal | från SEK 16 000 | Upprättat utifrån era kommersiella villkor
+- Kravbrev till ett brittiskt bolag | från SEK 7 600 | Formellt betalningskrav för en företagsfordran mot ett bolag i England och Wales
+- UK GDPR och webbpaket | från EUR 695 | Integritetspolicy, cookiesamtycke, villkor och register över behandling för den brittiska marknaden
 
 ## Switzerland  (/switzerland)
 - UK trademark, one class | from CHF 850 | Filed at the UKIPO within 48 hours of instruction. Swiss and EU registrations do not cover the United Kingdom.
