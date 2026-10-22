@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Build a service page from the uk-market-entry shell. build(spec) writes <slug>.html and adds the sitemap entry."""
+"""Build a service page from the uk-market-entry shell. build(spec) writes <slug>.html and adds the sitemap entry.
+Spec must include qqscope; optional fast, img_wh. Fixed 22 Oct 2026: breadcrumb schema, quick quote scope line, proof block close, offers only for priced rows."""
 import re,json,datetime
 def build(s):
     src=open("uk-market-entry.html").read()
@@ -13,20 +14,29 @@ def build(s):
     head=re.sub(r'<link rel="canonical" href="[^"]*"',f'<link rel="canonical" href="{url}"',head)
     head=re.sub(r'<link rel="preload" as="image" href="[^"]*"',f'<link rel="preload" as="image" href="/img/{s["image"]}"',head)
     faq={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in s["faqs"]]}
-    svc={"@context":"https://schema.org","@type":"Service","name":s["service_name"],"serviceType":s["service_name"],"url":url,"description":s["desc"],"areaServed":s.get("area",["GB"]),"provider":{"@type":"Organization","name":"Western Legal","url":"https://westernlegal.co.uk"},"offers":[{"@type":"Offer","name":r[0],"price":r[2],"priceCurrency":"GBP","description":r[1]} for r in s["rows"] if r[2]]}
+    svc={"@context":"https://schema.org","@type":"Service","name":s["service_name"],"serviceType":s["service_name"],"url":url,"description":s["desc"],"areaServed":s.get("area",["GB"]),"provider":{"@type":"Organization","name":"Western Legal","url":"https://westernlegal.co.uk"},"offers":[{"@type":"Offer","name":r[0],"price":p,"priceCurrency":"GBP","description":re.sub(r'<[^>]+>','',r[1])} for r in s["rows"] for p in [str(r[2]) if isinstance(r[2],int) else re.sub(r'[^0-9]','',str(r[2]).split('(')[0])] if p]}
     scripts=re.findall(r'<script type="application/ld\+json">.*?</script>',head,re.S)
     head=head.replace(scripts[0],'<script type="application/ld+json">'+json.dumps(faq,ensure_ascii=False)+'</script>',1)
     if len(scripts)>1: head=head.replace(scripts[1],'<script type="application/ld+json">'+json.dumps(svc,ensure_ascii=False)+'</script>',1)
+    bc={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Western Legal","item":"https://westernlegal.co.uk/"},{"@type":"ListItem","position":2,"name":re.sub(r'<[^>]+>','',s["crumb"]),"item":url}]}
+    bcs=[x for x in scripts if '"BreadcrumbList"' in x]
+    if len(bcs)!=1: raise SystemExit('shell breadcrumb not found')
+    head=head.replace(bcs[0],'<script type="application/ld+json">'+json.dumps(bc,ensure_ascii=False)+'</script>',1)
     # crumbs, hero
     body=re.sub(r'<div class="wrap crumbs">.*?</div>',f'<div class="wrap crumbs"><a href="/">Western Legal</a> / {s["crumb"]}</div>',body,count=1,flags=re.S)
     body=re.sub(r'<div class="eyebrow">[^<]*</div>',f'<div class="eyebrow">{s["eyebrow"]}</div>',body,count=1)
     body=re.sub(r'<h1>.*?</h1>',f'<h1>{s["h1"]}</h1>',body,count=1,flags=re.S)
     body=re.sub(r'<p class="lede">.*?</p>',f'<p class="lede">{s["lede"]}</p>',body,count=1,flags=re.S)
     body=re.sub(r'<div class="qq-fee">[^<]*</div>',f'<div class="qq-fee">{s["qqfee"]}</div>',body,count=1)
+    if "qqscope" not in s: raise SystemExit('spec needs qqscope: the shell line is the trademark one')
+    body,n=re.subn(r'<div class="qq-scope">[^<]*</div>',lambda m:f'<div class="qq-scope">{s["qqscope"]}</div>',body,count=1)
+    if n!=1: raise SystemExit('qq-scope not found')
+    if s.get("fast"): body=re.sub(r'(<span class="k">FAST, BY DESIGN</span><p>)[^<]*(</p>)',lambda m:m.group(1)+s["fast"]+m.group(2),body,count=1)
     body=body.replace('<input type="hidden" name="matter" value="Selling into the UK from abroad">',f'<input type="hidden" name="matter" value="{s["matter"]}">')
     body=re.sub(r'<div class="cta">.*?</div>',f'<div class="cta"><a class="btn tape" href="#contact">{s["cta"]}</a><a class="btn ghost" href="{s["cta2"][0]}">{s["cta2"][1]}</a></div>',body,count=1,flags=re.S)
-    body=re.sub(r'<div class="proof">.*?</div></div>','<div class="proof">'+"".join(f'<div><b>{b}</b>{t}</div>' for b,t in s["proof"])+'</div></div>',body,count=1,flags=re.S)
+    body=re.sub(r'<div class="proof">.*?</div></div>',lambda m:'<div class="proof">'+"".join(f'<div><b>{b}</b>{t}</div>' for b,t in s["proof"])+'</div>',body,count=1,flags=re.S)
     body=re.sub(r'<img class="photo" src="[^"]*" alt="[^"]*"',f'<img class="photo" src="/img/{s["image"]}" alt="{s["image_alt"]}"',body,count=1)
+    if s.get("img_wh"): body=re.sub(r'(<img class="photo" [^>]*?) width="\d+" height="\d+"',lambda m:m.group(1)+f' width="{s["img_wh"][0]}" height="{s["img_wh"][1]}"',body,count=1)
     body=re.sub(r'<h2>The market-entry fee schedule\.</h2>',f'<h2>{s["fees_h2"]}</h2>',body,count=1)
     rows="".join(f'<tr><td><b>{n}</b></td><td style="color:var(--slate);font-size:14px">{d}</td><td class="fee"><b>{("from £"+f"{f:,}") if isinstance(f,int) else f}</b></td></tr>' for n,d,f,*_ in s["rows"])
     body=re.sub(r'<tbody>.*?</tbody>',f'<tbody>{rows}</tbody>',body,count=1,flags=re.S)

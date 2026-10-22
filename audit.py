@@ -53,6 +53,33 @@ for f in PAGES:
         except Exception as e: fail('schema',f'{f}: invalid JSON-LD {e}')
     if f not in LEGAL|NOINDEX and 'BreadcrumbList' not in s and f!='index.html':
         warn('schema',f'{f}: no BreadcrumbList')
+    # Structured data must describe THIS page, not the page it was copied from (22 Oct 2026:
+    # ten live pages carried another page's breadcrumb, Service offer or FAQ schema).
+    can=re.search(r'<link rel="canonical" href="([^"]*)"',s)
+    can=can.group(1).rstrip('/') if can else None
+    vis=re.sub(r'\s+',' ',H.unescape(re.sub(r'<[^>]+>',' ',re.sub(r'<script.*?</script>','',s[s.find('<body'):],flags=re.S)))).lower()
+    def seen(x): return re.sub(r'\s+',' ',H.unescape(x)).strip().lower() in vis
+    nbc=0
+    for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s,re.S):
+        try: dd=json.loads(b)
+        except Exception: continue
+        for n in (dd.get('@graph',[dd]) if isinstance(dd,dict) else dd):
+            if not isinstance(n,dict): continue
+            t=n.get('@type')
+            if t=='BreadcrumbList':
+                nbc+=1
+                last=(n.get('itemListElement') or [{}])[-1].get('item','').rstrip('/')
+                if can and last!=can: fail('schema',f'{f}: breadcrumb schema points to {last}')
+            elif t=='FAQPage':
+                for q in n.get('mainEntity',[]):
+                    if not seen(q.get('name','')): fail('schema',f'{f}: FAQ schema question not on the page: {q.get("name","")[:50]}')
+            elif t=='Service':
+                st=n.get('serviceType') or n.get('name') or ''
+                st=st[0] if isinstance(st,list) else st
+                offers=n.get('offers',[]); offers=[offers] if isinstance(offers,dict) else offers
+                missing=[o.get('name','') for o in offers if o.get('name') and not seen(o['name'])]
+                if st and not seen(st) and missing: fail('schema',f'{f}: Service schema for another page ({st[:40]})')
+    if nbc>1: fail('schema',f'{f}: {nbc} BreadcrumbList blocks')
 
 # ---------- links and images ----------
 have={f[:-5] for f in glob.glob('*.html')} | {'insights'} | {'insights/'+f.split('/')[-1][:-5] for f in glob.glob('insights/*.html')} | {''}
