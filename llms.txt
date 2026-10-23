@@ -78,7 +78,7 @@ The complete list, every row on every page, is https://westernlegal.co.uk/prices
 ## Not offered
 Company formation and incorporation, share transfers, allotments and buybacks, buying or selling a business, mergers and acquisitions, employment work of any kind, conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
 
-## Guides (40 plain English guides)
+## Guides (42 plain English guides)
 - Board Resolutions: Why Downloaded Templates Fail Companies: /insights/board-resolutions-templates
 - Brexit Clone UK Trademarks: The 2026 Non-Use Exposure: /insights/brexit-clone-trademarks-use-deadline
 - What Does a Solicitor Check in a Commercial Lease?: /insights/commercial-lease-review-checklist
@@ -119,6 +119,8 @@ Company formation and incorporation, share transfers, allotments and buybacks, b
 - Licence to Alter: Consent, Costs and Retrospective Licences: /insights/licence-to-alter
 - Licence to Occupy or Lease? The Test for Business Premises: /insights/licence-to-occupy-or-lease
 - Deed of Variation of a Lease: When It Becomes a New Lease: /insights/deed-of-variation-commercial-lease
+- How to Write a Letter Before Action: What It Must Contain: /insights/how-to-write-a-letter-before-action
+- UKIPO Trade Mark Search: How to Search the UK Register: /insights/ukipo-trade-mark-search
 
 ## International and language desks
 - Ireland: /ireland
