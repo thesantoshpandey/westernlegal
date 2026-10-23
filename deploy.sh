@@ -4,6 +4,8 @@ set -e
 cd "$(dirname "$0")"
 echo "== master price list =="
 python3 build_prices.py
+echo "== llms.txt from the live pages =="
+python3 build_llms.py
 echo "== audit =="
 python3 audit.py || { echo "AUDIT FAILED. Nothing deployed."; exit 1; }
 echo "== push =="

@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """Create an insights article from the standard shell. Usage: import and call build(spec)."""
 import re,json,datetime
+def crumb_label(h1):
+    """Short visible breadcrumb label for an insight: the first sentence of the headline, or the headline cut at a word."""
+    t=re.sub(r'<[^>]+>','',h1).strip()
+    m=re.match(r'(.+?[.?])(\s|$)',t)
+    first=m.group(1) if m else t
+    if len(first)<=60: return first
+    if ':' in t and len(t.split(':')[0])<=60: return t.split(':')[0]
+    cut=t[:57].rsplit(' ',1)[0]
+    return cut.rstrip(',;:')+'...'
 def build(spec):
     src=open("insights/section-25-notice-received.html").read()
     head=src[:src.find("</head>")]; mid=src[src.find("</head>"):src.find("<article")]; tail=src[src.find("</article>"):]
@@ -13,10 +22,16 @@ def build(spec):
         head=re.sub(rf'<meta property="{tag}" content="[^"]*"',f'<meta property="{tag}" content="{val}"',head)
     head=re.sub(r'<link rel="canonical" href="[^"]*"',f'<link rel="canonical" href="{url}"',head)
     schema={"@context":"https://schema.org","@graph":[{"@type":"Article","headline":spec["seo_title"],"description":spec["desc"],"datePublished":today,"dateModified":today,"mainEntityOfPage":url,"image":spec["image"],"author":{"@type":"Person","name":"Santosh Pandey","jobTitle":"Solicitor of England and Wales","url":"https://westernlegal.co.uk/about"},"publisher":{"@type":"Organization","name":"Western Legal","url":"https://westernlegal.co.uk","logo":{"@type":"ImageObject","url":"https://westernlegal.co.uk/logo-wordmark-navy.svg"}},"about":{"@type":"Thing","name":spec["about"]},"mentions":[{"@type":"Service","name":spec["service_name"],"url":"https://westernlegal.co.uk"+spec["service"]}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in spec["faqs"]]}]}
-    head=re.sub(r'<script type="application/ld\+json">.*?</script>','<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script>',head,count=1,flags=re.S)
+    # Replace ALL of the shell's structured data. Until 23 Oct 2026 only the first block was replaced, so every
+    # insight built here also carried the section 25 insight's Service offer, FAQ and breadcrumb (audit now fails that).
+    bc={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Western Legal","item":"https://westernlegal.co.uk/"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://westernlegal.co.uk/insights"},{"@type":"ListItem","position":3,"name":re.sub(r'<[^>]+>','',spec["h1"]),"item":url}]}
+    head=re.sub(r'<script type="application/ld\+json">.*?</script>','',head,flags=re.S)
+    head=head.replace('</title>','</title>\n<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script><script type="application/ld+json">'+json.dumps(bc,ensure_ascii=False)+'</script>',1)
     body=f'<article class="article"><div class="wrap" style="max-width:820px;padding-top:34px">\n<span class="kicker">{spec["kicker"]} · {spec["mins"]} min read · {nice}</span>\n<h1>{spec["h1"]}</h1>\n<p class="lede">{spec["lede"]}</p>\n<div class="fastnote reveal" style="margin:22px 0"><span class="k">FIXED FEE</span><p>{spec["feebox"]} No VAT. Advice by Santosh Pandey, Solicitor of England and Wales, SRA No. 641612. Handled entirely in writing. <a href="{spec["service"]}">{spec["service_link"]}</a>.</p></div>\n'+spec["html"]+'\n<div class="faq reveal" style="margin-top:34px"><h2 style="font-size:20px">Questions clients ask</h2>'
     for q,a in spec["faqs"]: body+=f"<details><summary>{q}</summary><p>{a}</p></details>"
     body+='</div>\n<div class="readnext reveal"><span class="k">Read next</span>'+"".join(f'<a href="{h}">{t}</a>' for h,t in spec["readnext"])+'</div>\n</div>'
+    mid,n=re.subn(r'<div class="wrap crumbs">.*?</div>',lambda m:f'<div class="wrap crumbs"><a href="/">Western Legal</a> / <a href="/insights">Insights</a> / {crumb_label(spec["h1"])}</div>',mid,count=1,flags=re.S)
+    if n!=1: raise SystemExit('insight shell crumbs not found')
     page=head+mid+body+tail
     page=re.sub(r"WL-2026-\d\d-\d\d",f"WL-{today}",page)
     open(f"insights/{slug}.html","w").write(page)

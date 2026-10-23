@@ -80,6 +80,12 @@ for f in PAGES:
                 missing=[o.get('name','') for o in offers if o.get('name') and not seen(o['name'])]
                 if st and not seen(st) and missing: fail('schema',f'{f}: Service schema for another page ({st[:40]})')
     if nbc>1: fail('schema',f'{f}: {nbc} BreadcrumbList blocks')
+    # visible insight breadcrumb must name this article, not the shell it was built from
+    cm=re.search(r'<div class="wrap crumbs">(.*?)</div>',s,re.S); hm=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S)
+    if f.startswith('insights/') and cm and hm:
+        label=H.unescape(re.sub(r'<[^>]+>','',cm.group(1))).split(' / ')[-1].strip().rstrip('.').rstrip('?')
+        label=label[:-2] if label.endswith('..') else label
+        if not H.unescape(re.sub(r'<[^>]+>','',hm.group(1))).strip().startswith(label.rstrip('.')): fail('structure',f'{f}: visible breadcrumb "{label[:40]}" does not match the headline')
 
 # ---------- links and images ----------
 have={f[:-5] for f in glob.glob('*.html')} | {'insights'} | {'insights/'+f.split('/')[-1][:-5] for f in glob.glob('insights/*.html')} | {''}
