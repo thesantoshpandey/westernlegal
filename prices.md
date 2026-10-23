@@ -211,7 +211,7 @@ Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. 
 - 株主間契約 | £1,650から | 退出条項、ドラッグ・タグ、重要事項の承認、デッドロックなど、紛争時に効く条項
 - 英国商標出願（1区分） | £555から | 先行商標調査、指定商品・役務の作成、UKIPOへの出願（48時間以内）、標準的な応答、登録証。UKIPO官庁手数料込み
 - 追加区分（1区分ごと） | £245から | 報酬とUKIPOの追加区分手数料を含みます
-- 先行商標調査 | 初回無料・以降£150 | 1件目は無料、書面で見解をお伝えします。2件目以降は1件£150（30日以内のご依頼で出願料金に充当）
+- 先行商標調査 | 1件£150 | 1件£150、書面で見解をお伝えします（30日以内のご依頼で出願料金に全額充当）。出願する商標の調査は£555の出願料金に含まれます
 - 秘密保持契約（NDA） | £245から | 片務・双務いずれも、取引内容に合わせて作成。48時間で納品
 - 契約書の確認と修正 | £595から | 受領した契約書のリスクを書面で整理し、交渉ポイントと修正案を提示
 - 取引約款・利用規約 | £650から | BtoB・BtoCの取引条件、ウェブサイト・SaaSの規約
@@ -375,7 +375,7 @@ Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. 
 - Ortaklar sözleşmesi (shareholders' agreement) | £1,650'den itibaren | Çıkış hükümleri, drag along ve tag along hakları, önemli kararlarda onay, kilitlenme (deadlock) gibi uyuşmazlıkta işe yarayan hükümler
 - Birleşik Krallık marka başvurusu (1 sınıf) | £555'ten itibaren | Önceki marka araştırması, mal ve hizmet listesi, 48 saat içinde UKIPO'ya başvuru, standart yazışmalar, tescil belgesi. UKIPO resmi harcı dahil
 - Ek sınıf (her biri) | £245'ten itibaren | Ücret ve UKIPO ek sınıf harcı dahil
-- Önceki marka araştırması | İlki ücretsiz, sonrası £150 | İlk araştırma ücretsizdir, görüş yazılı olarak iletilir. Sonraki her araştırma £150 (30 gün içinde başvuru yapılırsa başvuru ücretinden düşülür)
+- Önceki marka araştırması | Araştırma başı £150 | Her araştırma £150, görüş yazılı olarak iletilir (30 gün içinde başvuru yapılırsa başvuru ücretinden düşülür). Başvurusu yapılan markanın araştırması £555 başvuru ücretine dahildir
 - Gizlilik sözleşmesi (NDA) | £245'ten itibaren | Tek taraflı veya karşılıklı, işleme göre hazırlanır. 48 saatte teslim
 - Sözleşme incelemesi ve düzeltme | £595'ten itibaren | Alınan sözleşmedeki riskler yazılı olarak özetlenir, müzakere noktaları ve değişiklik önerileri sunulur
 - Satış koşulları ve kullanım şartları | £650'den itibaren | B2B ve B2C ticari koşullar, web sitesi ve SaaS şartları
@@ -390,7 +390,7 @@ Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. 
 - Filing the opposition (attacking) | from £1,200 | You oppose a conflicting application: TM7 grounds drafted and filed with evidence strategy.
 
 ## UK & EU Trademark Solicitor  (/trademarks)
-- Conflict search* | First free · then £150 | One free search per client on your proposed mark, with a written view. Each further mark or variation searched: £150, credited in full against your filing fee if you instruct within 30 days.
+- Conflict search | £150 per mark | A search on a proposed mark before you decide to file, with a written view. £150 per mark or variation searched, credited in full against your filing fee if you instruct within 30 days. Included in the £555 filing for the mark being filed.
 - UK trademark, one class | from £555 | Conflict search, specification drafting, UKIPO filing in 48h, standard objection responses, certificate. UKIPO official fee included.
 - UK, each additional class | from £245 | Professional fee plus the UKIPO additional-class fee, included.
 - UK trademark, two classes | £800 | One application, two classes. Everything in the one class filing, both UKIPO class fees included.

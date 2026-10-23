@@ -1147,8 +1147,8 @@
    "page": "/ja",
    "page_title": "日本企業の英国進出・英国取引",
    "product": "先行商標調査",
-   "scope": "1件目は無料、書面で見解をお伝えします。2件目以降は1件£150（30日以内のご依頼で出願料金に充当）",
-   "fee": "初回無料・以降£150"
+   "scope": "1件£150、書面で見解をお伝えします（30日以内のご依頼で出願料金に全額充当）。出願する商標の調査は£555の出願料金に含まれます",
+   "fee": "1件£150"
   },
   {
    "page": "/ja",
@@ -2099,8 +2099,8 @@
    "page": "/tr",
    "page_title": "Türk Şirketleri için İngiltere'de Marka ve Sözleşme",
    "product": "Önceki marka araştırması",
-   "scope": "İlk araştırma ücretsizdir, görüş yazılı olarak iletilir. Sonraki her araştırma £150 (30 gün içinde başvuru yapılırsa başvuru ücretinden düşülür)",
-   "fee": "İlki ücretsiz, sonrası £150"
+   "scope": "Her araştırma £150, görüş yazılı olarak iletilir (30 gün içinde başvuru yapılırsa başvuru ücretinden düşülür). Başvurusu yapılan markanın araştırması £555 başvuru ücretine dahildir",
+   "fee": "Araştırma başı £150"
   },
   {
    "page": "/tr",
@@ -2175,9 +2175,9 @@
   {
    "page": "/trademarks",
    "page_title": "UK & EU Trademark Solicitor",
-   "product": "Conflict search*",
-   "scope": "One free search per client on your proposed mark, with a written view. Each further mark or variation searched: £150, credited in full against your filing fee if you instruct within 30 days.",
-   "fee": "First free · then £150"
+   "product": "Conflict search",
+   "scope": "A search on a proposed mark before you decide to file, with a written view. £150 per mark or variation searched, credited in full against your filing fee if you instruct within 30 days. Included in the £555 filing for the mark being filed.",
+   "fee": "£150 per mark"
   },
   {
    "page": "/trademarks",
