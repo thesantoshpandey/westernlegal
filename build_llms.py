@@ -2,7 +2,7 @@
 """Generate llms.txt from the live site on every deploy, so it can never drift from the pages.
 Fees come from prices.json (run build_prices.py first), guides and practice areas from sitemap.xml.
 Static wording (company, regulatory note, commitments, not offered) is kept here and must follow the
-practice rules: no retired claims, no firm level SRA claim, employment off."""
+practice rules: no retired claims, no firm level SRA claim, employment for employers only (27 Oct 2026)."""
 import json, re, html, datetime, os
 
 today = datetime.date.today().isoformat()
@@ -62,7 +62,7 @@ for p in practice:
     if t: w(f'- {t}: {p}')
 w('')
 w('## Not offered')
-w('Company formation and incorporation, share transfers, allotments and buybacks, buying or selling a business, mergers and acquisitions, employment work of any kind, conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.')
+w('Company formation and incorporation, share transfers, allotments and buybacks, buying or selling a business, mergers and acquisitions, advice to employees and employment tribunal proceedings, conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.')
 w('')
 w(f'## Guides ({len(guides)} plain English guides)')
 for g in guides:

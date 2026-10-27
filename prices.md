@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-10-27 from the live schedules. 356 rows across 47 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -26,12 +26,12 @@ Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. 
 - Bespoke commercial agreement | from £1,250 | Supply, services, distribution, consultancy, licensing, franchise, intermediary/IMFPA, loan or guarantee, drafted from your deal terms.
 - Shareholder or partnership agreement | from £1,650 | Including leaver, drag/tag, reserved matters and deadlock provisions for a standard private company.
 
-## Commercial Lease Solicitor  (/commercial-lease-solicitor)
+## Commercial Lease Review Solicitor  (/commercial-lease-solicitor)
 - Lease review & risk report (tenant or landlord) | from £750 | Full markup of the draft lease plus a plain-English report on repair, rent review, break, alienation and guarantee risk, with recommended amendments.
-- New lease or renewal, settled to agreed form | from £1,450 | Heads of terms to agreed final form: terms structured, drafted in negotiation and settled with the other side, with an authorised conveyancing solicitor instructed for execution and Land Registry formalities where the law requires.
-- Negotiated through to completion | from £2,450 | The whole transaction managed: negotiation, agreed form, and completion coordinated with the instructed authorised solicitor handling the reserved execution and registration steps.
-- Licence to assign, underlet or alter, advised and negotiated | from £850 | Consent terms advised and negotiated with the landlord or tenant to agreed form; the licence deed itself executed via an instructed authorised solicitor where required.
-- Variation or surrender, advised and negotiated | from £850 | The commercial terms advised and negotiated to agreed form; the deed itself executed via an instructed authorised solicitor where required.
+- New lease or renewal, settled to agreed form | from £1,450 | Heads of terms to agreed final form: terms advised and negotiated with the other side, with an authorised solicitor instructed to prepare the deed and deal with Land Registry where the law requires.
+- Negotiated through to completion | from £2,450 | The whole transaction managed: negotiation, agreed form, and completion coordinated with the instructed authorised solicitor who prepares the deed and handles registration.
+- Licence to assign, underlet or alter, advised and negotiated | from £850 | Consent terms advised and negotiated with the landlord or tenant to agreed form; where the licence is a deed, an instructed authorised solicitor prepares it.
+- Variation or surrender, advised and negotiated | from £850 | The commercial terms advised and negotiated to agreed form; the deed itself is prepared by an instructed authorised solicitor.
 - Licence to occupy, drafted or reviewed | from £550 | Short term occupation without granting a tenancy: exclusivity, termination, and the drafting that keeps it a licence rather than a lease by accident.
 - Heads of terms, drafted or reviewed | from £450 | Get the commercial deal right before the lease is drafted; the cheapest point to win every later argument.
 - Section 25 notice assessment | £495 | Notice and lease read, 1954 Act and validity checked, termination date and court deadline identified, written view on your options.
@@ -83,6 +83,16 @@ Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. 
 - Nominet DRS complaint (.uk domains) | from £950 | The complaint drafted and filed, mediation stage handled, expert decision phase managed.
 - UDRP complaint (.com and global domains) | from £1,450 | Full complaint drafted and filed at WIPO or Forum: rights, legitimate interest, bad faith, evidenced properly.
 - UDRP or DRS response (defending your domain) | from £1,450 | Accused of cybersquatting? The response that keeps your domain, built on legitimate interest and good faith.
+
+## Employment Solicitor for Employers  (/employment-advisory)
+- Employment contract | from £425 | Drafted for the role: probation, restrictive covenants, IP assignment and confidentiality done properly.
+- Staff handbook and policies | from £1,100 | The core policy set, drafted to the ACAS Code and your actual practices.
+- Contract and handbook bundle | £950 | An employment contract and the core handbook together.
+- Disciplinary or grievance support | from £650 per process | The process mapped, letters drafted, and each step advised, so the file defends itself later.
+- Redundancy programme | from £995 | Selection, consultation and documentation for a compliant redundancy exercise.
+- TUPE advisory | from £995 | Transfer analysis, employee liability information, and consultation documents on a business or service transfer.
+- Settlement agreement for an exit | from £650 | Drafted for the employer, with the protected conversation approach advised first. Settlement agreements.
+- Employer retainer | £750/mo | Priority written advice, a document allowance and process support, monthly.
 
 ## EU GDPR Compliance for Businesses Outside the EU  (/eu-gdpr-compliance)
 - EU GDPR applicability review | from £395 | A written answer on whether Article 3(2) reaches your business, which obligations follow, and whether you must appoint an EU representative.
@@ -220,12 +230,12 @@ Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. 
 - 英国向けプライバシー通知と処理記録 | £595から | プライバシー通知と第30条の処理記録をUK GDPRに合わせて整備
 
 ## Landlord Solicitor  (/landlord-solicitor)
-- Possession notice, drafted & checked | from £550 | The correct notice for your ground and tenancy under the current regime, with the deposit, licensing and compliance history checked first, because a defective notice costs months.
-- Rent arrears letter | from £395 | Formal demand on solicitor letterhead with the escalation route set out.
-- Tenancy agreement (AST and short-form) | from £395 | Drafted to the current legal framework, not a template from a regime that no longer exists.
+- Possession advice, ground and notice checked | from £550 | Written advice on whether and how you can recover possession under the current regime: the right ground, the notice period, and whether your deposit, licensing and compliance history lets you serve, because a defective notice costs months. You serve the notice; any court proceedings go to a litigation solicitor.
+- Rent arrears letter | from £395 | Formal demand on our letterhead with the escalation route set out, and written advice on the options open to you.
+- Tenancy terms reviewed | from £395 | Your tenancy agreement or proposed terms checked against the current framework, with a written list of what to change.
 - Portfolio compliance audit | from £595 | Your tenancy documents, deposits and prescribed information reviewed against current requirements, with a written fix list.
 - Commercial: renewal, dilapidations, forfeiture advice | from £850 | The contentious side of the commercial lease practice, quoted per matter.
-- Landlord retainer | from £750/mo | Priority support across a portfolio, monthly.
+- Landlord retainer | from £750/mo | Priority written advice across a portfolio, monthly.
 
 ## Latin America  (/latin-america)
 - UK trademark, one class | from USD 705 | Filed at the UKIPO within 48 hours of instruction.
@@ -319,6 +329,10 @@ Generated 2026-10-23 from the live schedules. 346 rows across 45 pages. No VAT. 
 - Vertragsprüfung mit Änderungen | ab CHF 900 | Vertriebs-, Liefer-, Lizenz-, SaaS- oder Dienstleistungsverträge, mit schriftlichem Risikobericht und Verhandlungspunkten
 - Allgemeine Geschäftsbedingungen | ab CHF 995 | Kunden- oder Lieferanten-AGB nach englischem Recht
 - Individueller Handelsvertrag | ab CHF 1'900 | Nach Ihren kaufmännischen Konditionen entworfen
+
+## Settlement Agreements for Employers  (/settlement-agreements)
+- Settlement agreement for one exit | from £650 | Drafted for the employer: payment and its timing, notice and holiday pay, references, confidentiality, return of property, the waiver of claims and the section 203 conditions, with the approach to the protected conversation advised before you have it.
+- Process alongside the exit | from £650 per process | Where the exit sits inside a disciplinary, grievance or redundancy, the process supported on the employment schedule.
 
 ## Shareholder & Partnership Disputes  (/shareholder-disputes)
 - Dispute assessment and strategy letter | £495 | Your position analysed against the articles, any shareholders agreement and the statutory routes, with a written view on merits, leverage and the realistic outcomes.

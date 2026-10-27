@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-27",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 346,
+ "count": 356,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -137,56 +137,56 @@
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "Lease review & risk report (tenant or landlord)",
    "scope": "Full markup of the draft lease plus a plain-English report on repair, rent review, break, alienation and guarantee risk, with recommended amendments.",
    "fee": "from £750"
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "New lease or renewal, settled to agreed form",
-   "scope": "Heads of terms to agreed final form: terms structured, drafted in negotiation and settled with the other side, with an authorised conveyancing solicitor instructed for execution and Land Registry formalities where the law requires.",
+   "scope": "Heads of terms to agreed final form: terms advised and negotiated with the other side, with an authorised solicitor instructed to prepare the deed and deal with Land Registry where the law requires.",
    "fee": "from £1,450"
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "Negotiated through to completion",
-   "scope": "The whole transaction managed: negotiation, agreed form, and completion coordinated with the instructed authorised solicitor handling the reserved execution and registration steps.",
+   "scope": "The whole transaction managed: negotiation, agreed form, and completion coordinated with the instructed authorised solicitor who prepares the deed and handles registration.",
    "fee": "from £2,450"
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "Licence to assign, underlet or alter, advised and negotiated",
-   "scope": "Consent terms advised and negotiated with the landlord or tenant to agreed form; the licence deed itself executed via an instructed authorised solicitor where required.",
+   "scope": "Consent terms advised and negotiated with the landlord or tenant to agreed form; where the licence is a deed, an instructed authorised solicitor prepares it.",
    "fee": "from £850"
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "Variation or surrender, advised and negotiated",
-   "scope": "The commercial terms advised and negotiated to agreed form; the deed itself executed via an instructed authorised solicitor where required.",
+   "scope": "The commercial terms advised and negotiated to agreed form; the deed itself is prepared by an instructed authorised solicitor.",
    "fee": "from £850"
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "Licence to occupy, drafted or reviewed",
    "scope": "Short term occupation without granting a tenancy: exclusivity, termination, and the drafting that keeps it a licence rather than a lease by accident.",
    "fee": "from £550"
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "Heads of terms, drafted or reviewed",
    "scope": "Get the commercial deal right before the lease is drafted; the cheapest point to win every later argument.",
    "fee": "from £450"
   },
   {
    "page": "/commercial-lease-solicitor",
-   "page_title": "Commercial Lease Solicitor",
+   "page_title": "Commercial Lease Review Solicitor",
    "product": "Section 25 notice assessment",
    "scope": "Notice and lease read, 1954 Act and validity checked, termination date and court deadline identified, written view on your options.",
    "fee": "£495"
@@ -428,6 +428,62 @@
    "product": "UDRP or DRS response (defending your domain)",
    "scope": "Accused of cybersquatting? The response that keeps your domain, built on legitimate interest and good faith.",
    "fee": "from £1,450"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "Employment contract",
+   "scope": "Drafted for the role: probation, restrictive covenants, IP assignment and confidentiality done properly.",
+   "fee": "from £425"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "Staff handbook and policies",
+   "scope": "The core policy set, drafted to the ACAS Code and your actual practices.",
+   "fee": "from £1,100"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "Contract and handbook bundle",
+   "scope": "An employment contract and the core handbook together.",
+   "fee": "£950"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "Disciplinary or grievance support",
+   "scope": "The process mapped, letters drafted, and each step advised, so the file defends itself later.",
+   "fee": "from £650 per process"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "Redundancy programme",
+   "scope": "Selection, consultation and documentation for a compliant redundancy exercise.",
+   "fee": "from £995"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "TUPE advisory",
+   "scope": "Transfer analysis, employee liability information, and consultation documents on a business or service transfer.",
+   "fee": "from £995"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "Settlement agreement for an exit",
+   "scope": "Drafted for the employer, with the protected conversation approach advised first. Settlement agreements.",
+   "fee": "from £650"
+  },
+  {
+   "page": "/employment-advisory",
+   "page_title": "Employment Solicitor for Employers",
+   "product": "Employer retainer",
+   "scope": "Priority written advice, a document allowance and process support, monthly.",
+   "fee": "£750/mo"
   },
   {
    "page": "/eu-gdpr-compliance",
@@ -1195,22 +1251,22 @@
   {
    "page": "/landlord-solicitor",
    "page_title": "Landlord Solicitor",
-   "product": "Possession notice, drafted & checked",
-   "scope": "The correct notice for your ground and tenancy under the current regime, with the deposit, licensing and compliance history checked first, because a defective notice costs months.",
+   "product": "Possession advice, ground and notice checked",
+   "scope": "Written advice on whether and how you can recover possession under the current regime: the right ground, the notice period, and whether your deposit, licensing and compliance history lets you serve, because a defective notice costs months. You serve the notice; any court proceedings go to a litigation solicitor.",
    "fee": "from £550"
   },
   {
    "page": "/landlord-solicitor",
    "page_title": "Landlord Solicitor",
    "product": "Rent arrears letter",
-   "scope": "Formal demand on solicitor letterhead with the escalation route set out.",
+   "scope": "Formal demand on our letterhead with the escalation route set out, and written advice on the options open to you.",
    "fee": "from £395"
   },
   {
    "page": "/landlord-solicitor",
    "page_title": "Landlord Solicitor",
-   "product": "Tenancy agreement (AST and short-form)",
-   "scope": "Drafted to the current legal framework, not a template from a regime that no longer exists.",
+   "product": "Tenancy terms reviewed",
+   "scope": "Your tenancy agreement or proposed terms checked against the current framework, with a written list of what to change.",
    "fee": "from £395"
   },
   {
@@ -1231,7 +1287,7 @@
    "page": "/landlord-solicitor",
    "page_title": "Landlord Solicitor",
    "product": "Landlord retainer",
-   "scope": "Priority support across a portfolio, monthly.",
+   "scope": "Priority written advice across a portfolio, monthly.",
    "fee": "from £750/mo"
   },
   {
@@ -1772,6 +1828,20 @@
    "product": "Individueller Handelsvertrag",
    "scope": "Nach Ihren kaufmännischen Konditionen entworfen",
    "fee": "ab CHF 1'900"
+  },
+  {
+   "page": "/settlement-agreements",
+   "page_title": "Settlement Agreements for Employers",
+   "product": "Settlement agreement for one exit",
+   "scope": "Drafted for the employer: payment and its timing, notice and holiday pay, references, confidentiality, return of property, the waiver of claims and the section 203 conditions, with the approach to the protected conversation advised before you have it.",
+   "fee": "from £650"
+  },
+  {
+   "page": "/settlement-agreements",
+   "page_title": "Settlement Agreements for Employers",
+   "product": "Process alongside the exit",
+   "scope": "Where the exit sits inside a disciplinary, grievance or redundancy, the process supported on the employment schedule.",
+   "fee": "from £650 per process"
   },
   {
    "page": "/shareholder-disputes",
