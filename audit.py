@@ -174,7 +174,7 @@ for f in PAGES:
         if phrase in s: fail('compliance', f'{f}: retired claim, {label}')
     for legacy,label in [('d4af37','retired gold hex'),('formsubmit.co','legacy form action'),
                          ('917042333175','retired India WhatsApp'),('447915318920','old WhatsApp'),
-                         ('logo-email.png','deleted logo ref'),('href="/employment-','withdrawn employment page (25 Sep 2026, claims management)'),('ET1 claim','claimant employment work withdrawn 25 Sep 2026'),('Employment tribunal','employment withdrawn 25 Sep 2026'),('Acas early conciliation','employment withdrawn 25 Sep 2026'),('/insights/employment-','withdrawn employment insight'),('nav-portal','legacy nav')]:
+                         ('logo-email.png','deleted logo ref'),('href="/employment-tribunal','withdrawn employment tribunal page (25 Sep 2026, claims management)'),('Usually Free','employee side settlement advice is claims management, AIR reg 9.8 (27 Oct 2026)'),('Employer Pays','employee side settlement advice is claims management, AIR reg 9.8 (27 Oct 2026)'),('employer-funded','employee side settlement advice is claims management, AIR reg 9.8 (27 Oct 2026)'),('ET1 claim','claimant employment work withdrawn 25 Sep 2026'),('Employment tribunal','employment withdrawn 25 Sep 2026'),('Acas early conciliation','employment withdrawn 25 Sep 2026'),('/insights/employment-','withdrawn employment insight'),('nav-portal','legacy nav')]:
         if legacy in s: fail('legacy',f'{f}: {label} ({legacy})')
 
 # ---------- forms and tracking ----------
