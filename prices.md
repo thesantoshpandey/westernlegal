@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-10-27 from the live schedules. 356 rows across 47 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-02 from the live schedules. 356 rows across 47 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -26,7 +26,7 @@ Generated 2026-10-27 from the live schedules. 356 rows across 47 pages. No VAT. 
 - Bespoke commercial agreement | from £1,250 | Supply, services, distribution, consultancy, licensing, franchise, intermediary/IMFPA, loan or guarantee, drafted from your deal terms.
 - Shareholder or partnership agreement | from £1,650 | Including leaver, drag/tag, reserved matters and deadlock provisions for a standard private company.
 
-## Commercial Lease Review Solicitor  (/commercial-lease-solicitor)
+## Commercial Lease Solicitor  (/commercial-lease-solicitor)
 - Lease review & risk report (tenant or landlord) | from £750 | Full markup of the draft lease plus a plain-English report on repair, rent review, break, alienation and guarantee risk, with recommended amendments.
 - New lease or renewal, settled to agreed form | from £1,450 | Heads of terms to agreed final form: terms advised and negotiated with the other side, with an authorised solicitor instructed to prepare the deed and deal with Land Registry where the law requires.
 - Negotiated through to completion | from £2,450 | The whole transaction managed: negotiation, agreed form, and completion coordinated with the instructed authorised solicitor who prepares the deed and handles registration.
