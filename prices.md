@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-11-04 from the live schedules. 356 rows across 47 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-05 from the live schedules. 370 rows across 49 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -10,6 +10,19 @@ Generated 2026-11-04 from the live schedules. 356 rows across 47 pages. No VAT. 
 - Documents-only arbitration | from £2,500 | Arbitrations decided on the papers under institutional or scheme rules: submissions, evidence and costs statements, no hearing at all.
 - Trade and consumer scheme arbitrations | from £1,450 | ABTA, CEDR and similar scheme arbitrations, run entirely in writing.
 - Arbitration pleadings and submissions | from £2,500 | Statements of case, evidence and written submissions in commercial arbitrations.
+
+## Business Solicitor  (/business-solicitor)
+- Contract review & markup | from £595 | Incoming contract reviewed with a written risk note and negotiation points. Credited against drafting if upgraded.
+- Bespoke commercial agreement | from £1,250 | Supply, services, distribution, consultancy, licensing or franchise agreements, drafted to your deal.
+- Terms & conditions | from £650 | B2B or B2C trading terms, or website and SaaS terms with privacy and cookie policies.
+- NDA / confidentiality agreement | from £245 | One way or mutual, drafted to your deal, 48 hour turnaround.
+- Shareholder / partnership agreement | from £1,650 | Leaver provisions, drag and tag, reserved matters, deadlock, the clauses that decide real fallouts.
+- Board and shareholder resolutions | from £295 | Minutes and resolutions drafted for the decision you are taking, Companies Act compliant.
+- Lease review & risk report (tenant or landlord) | from £750 | Full markup of the draft lease plus a plain English report on repair, rent review, break, alienation and guarantee.
+- Letter before action | from £595 | A compliant pre action letter under the applicable protocol, on solicitor letterhead, with the debt or claim properly set out.
+- Employment contract | from £425 | Drafted for the role: probation, restrictive covenants, IP assignment and confidentiality done properly.
+- Website legal pack | from £595 | Terms of use, privacy policy and cookie policy, drafted to your actual site, data flows and business model.
+- UK trademark, one class | from £555 | Conflict search, specification drafting, UKIPO filing in 48 hours, standard objection responses, certificate. UKIPO fee included.
 
 ## Cease and Desist Letter  (/cease-and-desist)
 - Cease and desist letter | from £595 | Your rights identified, the infringing use evidenced, the legal basis set out, specific undertakings demanded and a deadline set, on solicitor letterhead.
@@ -341,6 +354,11 @@ Generated 2026-11-04 from the live schedules. 356 rows across 47 pages. No VAT. 
 - Partnership or LLP dispute assessment | £495 | Your position analysed against the partnership agreement or LLP agreement, or against the default statutory position where none exists, with a written view on merits and realistic outcomes.
 - Partnership or LLP exit negotiation | from £1,450 | Capital accounts, goodwill, client and staff allocation, restrictive covenants and the timetable, negotiated in writing to a documented conclusion.
 - Board minutes and resolutions pack | £245 | Companies Act compliant minutes and resolutions to put the corporate record beyond argument.
+
+## Shareholders Agreement Solicitor  (/shareholders-agreement)
+- Shareholder / partnership agreement | from £1,650 | Leaver provisions, drag and tag, reserved matters, deadlock, pre emption and valuation on exit: the clauses that decide real fallouts.
+- Heads of terms | from £650 | Drafted or reviewed before the lawyers on both sides start the meter running.
+- Board and shareholder resolutions | from £295 | Minutes and resolutions drafted for the decision you are taking, Companies Act compliant, including adopting articles to match the agreement.
 
 ## Italy, Spain & Portugal  (/southern-europe)
 - UK trademark, one class | from EUR 645 | Filed at the UKIPO within 48 hours of instruction. EU marks have not covered the United Kingdom since Brexit.

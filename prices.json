@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04",
+ "generated": "2026-11-05",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 356,
+ "count": 370,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -57,6 +57,83 @@
    "product": "Arbitration pleadings and submissions",
    "scope": "Statements of case, evidence and written submissions in commercial arbitrations.",
    "fee": "from £2,500"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Contract review & markup",
+   "scope": "Incoming contract reviewed with a written risk note and negotiation points. Credited against drafting if upgraded.",
+   "fee": "from £595"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Bespoke commercial agreement",
+   "scope": "Supply, services, distribution, consultancy, licensing or franchise agreements, drafted to your deal.",
+   "fee": "from £1,250"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Terms & conditions",
+   "scope": "B2B or B2C trading terms, or website and SaaS terms with privacy and cookie policies.",
+   "fee": "from £650"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "NDA / confidentiality agreement",
+   "scope": "One way or mutual, drafted to your deal, 48 hour turnaround.",
+   "fee": "from £245"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Shareholder / partnership agreement",
+   "scope": "Leaver provisions, drag and tag, reserved matters, deadlock, the clauses that decide real fallouts.",
+   "fee": "from £1,650"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Board and shareholder resolutions",
+   "scope": "Minutes and resolutions drafted for the decision you are taking, Companies Act compliant.",
+   "fee": "from £295"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Lease review & risk report (tenant or landlord)",
+   "scope": "Full markup of the draft lease plus a plain English report on repair, rent review, break, alienation and guarantee.",
+   "fee": "from £750"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Letter before action",
+   "scope": "A compliant pre action letter under the applicable protocol, on solicitor letterhead, with the debt or claim properly set out.",
+   "fee": "from £595"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Employment contract",
+   "scope": "Drafted for the role: probation, restrictive covenants, IP assignment and confidentiality done properly.",
+   "fee": "from £425"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "Website legal pack",
+   "scope": "Terms of use, privacy policy and cookie policy, drafted to your actual site, data flows and business model.",
+   "fee": "from £595"
+  },
+  {
+   "page": "/business-solicitor",
+   "page_title": "Business Solicitor",
+   "product": "UK trademark, one class",
+   "scope": "Conflict search, specification drafting, UKIPO filing in 48 hours, standard objection responses, certificate. UKIPO fee included.",
+   "fee": "from £555"
   },
   {
    "page": "/cease-and-desist",
@@ -1884,6 +1961,27 @@
    "product": "Board minutes and resolutions pack",
    "scope": "Companies Act compliant minutes and resolutions to put the corporate record beyond argument.",
    "fee": "£245"
+  },
+  {
+   "page": "/shareholders-agreement",
+   "page_title": "Shareholders Agreement Solicitor",
+   "product": "Shareholder / partnership agreement",
+   "scope": "Leaver provisions, drag and tag, reserved matters, deadlock, pre emption and valuation on exit: the clauses that decide real fallouts.",
+   "fee": "from £1,650"
+  },
+  {
+   "page": "/shareholders-agreement",
+   "page_title": "Shareholders Agreement Solicitor",
+   "product": "Heads of terms",
+   "scope": "Drafted or reviewed before the lawyers on both sides start the meter running.",
+   "fee": "from £650"
+  },
+  {
+   "page": "/shareholders-agreement",
+   "page_title": "Shareholders Agreement Solicitor",
+   "product": "Board and shareholder resolutions",
+   "scope": "Minutes and resolutions drafted for the decision you are taking, Companies Act compliant, including adopting articles to match the agreement.",
+   "fee": "from £295"
   },
   {
    "page": "/southern-europe",

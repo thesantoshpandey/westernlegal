@@ -9,7 +9,7 @@ def warn(cat,msg): WARN.append((cat,msg))
 
 PAGES=sorted(glob.glob('*.html'))+sorted(glob.glob('insights/*.html'))
 LEGAL={'privacy.html','terms.html','complaints.html'}
-NOINDEX={'portal.html','thank-you.html'}
+NOINDEX={'portal.html','thank-you.html','mergers-acquisitions.html'}  # holding page, 5 Nov 2026
 def txt(f): return open(f,encoding='utf-8',errors='ignore').read()
 
 # ---------- structure ----------
@@ -202,7 +202,7 @@ listed={u.replace('https://westernlegal.co.uk','').strip('/') for u in re.findal
 for u in listed:
     if u and u not in have: fail('sitemap',f'lists non-existent /{u}')
 for p in have:
-    if p in ('','index','portal','thank-you','trademark-instructed','insights/index'): continue
+    if p in ('','index','portal','thank-you','trademark-instructed','insights/index','mergers-acquisitions'): continue
     if p not in listed: fail('sitemap',f'missing /{p}')
 if len(set(re.findall(r'<lastmod>([^<]*)</lastmod>',sm)))>1: warn('sitemap','mixed lastmod dates')
 
