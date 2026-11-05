@@ -31,7 +31,7 @@ module.exports = async (req, res) => {
     const langTag = d.lang ? ' [' + String(d.lang).replace(/[^a-z-]/gi, '').slice(0, 5).toUpperCase() + ']' : '';
     const paidTag = d.paid ? ' [PAID ' + cap(d.paid, 40).replace(/[\r\n\]]/g, ' ') + ']' : '';
     // Quick quote: what the client has and the date they must sign or reply by. Both go straight after the ad tag.
-    const HAS = ['Draft lease', 'Heads of terms', 'Signed heads of terms', 'Notice or letter received', 'Contract to sign', 'Nothing yet'];
+    const HAS = ['Draft lease', 'Heads of terms', 'Signed heads of terms', 'Notice or letter received', 'Contract to sign', 'Nothing yet', 'Articles or existing agreement', 'Term sheet or heads of terms'];
     const has = HAS.includes(String(d.has || '')) ? String(d.has) : '';
     // Pages can relabel the date (the M&A page asks for a target completion date). Whitelisted labels only.
     const BY_LABELS = ['Target completion date'];
@@ -54,6 +54,21 @@ module.exports = async (req, res) => {
       </table>
       <p style="white-space:pre-wrap">${esc(d.message)}</p><hr>
       <table style="font-size:12px;color:#888">${attribution}</table>`;
+    // One row per submission in public.ad_leads (5 Nov 2026), so paid clients can be matched to the ad click without
+    // reading Gmail. Written by laude-mcp with its own key; this project holds only WL_LEAD_SECRET, which can add rows
+    // to that one table. The message text is not sent. Best effort: the email below decides the response.
+    const leadRow = process.env.WL_LEAD_SECRET ? fetch(process.env.LEAD_DB_URL || 'https://secure.westernlegal.co.uk/api/ad-lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-wl-lead': process.env.WL_LEAD_SECRET },
+      body: JSON.stringify({
+        name: d.name, email: clientEmail, phone: d.phone, matter: d.matter, page: d.page, has, short: !!d.short, lang: d.lang,
+        gclid: d.gclid, gbraid: d.gbraid, wbraid: d.wbraid, msclkid: d.msclkid,
+        utm_source: d.utm_source, utm_medium: d.utm_medium, utm_campaign: d.utm_campaign, utm_term: d.utm_term, utm_content: d.utm_content,
+        landing_page: d.landing_page, first_seen: d.first_seen, referrer: d.referrer,
+        paid: d.paid ? cap(d.paid, 40) : undefined, stripe_session: d.session_id ? cap(d.session_id, 120) : undefined
+      }),
+      signal: AbortSignal.timeout(6000)
+    }).then(x => x.ok, () => false) : Promise.resolve(false);
     const r = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: { 'Authorization': `Bearer ${key}`, 'Content-Type': 'application/json' },
@@ -66,6 +81,7 @@ module.exports = async (req, res) => {
         html
       })
     });
+    await leadRow;
     if (!r.ok) return res.status(502).json({ ok: false });
     return res.status(200).json({ ok: true });
   } catch (e) { return res.status(500).json({ ok: false }); }
