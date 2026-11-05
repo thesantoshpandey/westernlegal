@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-11-05 from the live schedules. 370 rows across 49 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-05 from the live schedules. 369 rows across 49 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -416,7 +416,6 @@ Generated 2026-11-05 from the live schedules. 370 rows across 49 pages. No VAT. 
 - Birleşik Krallık gizlilik bildirimi ve işleme kayıtları | £595'ten itibaren | Gizlilik bildirimi ve madde 30 işleme faaliyetleri kaydı UK GDPR'a uygun hale getirilir
 
 ## Trademark Opposition Defence UK  (/trademark-opposition-defence)
-- Free opposition review | £0 | Your TM7 and the opponent's mark assessed within 24 hours, with a written view on the strength of the opposition and your options.
 - Opposition defence, full | from £1,200 | TM8 counterstatement, evidence rounds and written submissions through to decision.
 - Negotiated coexistence or settlement | from £750 | Where the commercial answer beats the fight: coexistence agreement or undertakings negotiated with the opponent.
 - Filing the opposition (attacking) | from £1,200 | You oppose a conflicting application: TM7 grounds drafted and filed with evidence strategy.
