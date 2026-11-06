@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-11-05 from the live schedules. 369 rows across 49 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-06 from the live schedules. 378 rows across 53 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -38,6 +38,11 @@ Generated 2026-11-05 from the live schedules. 369 rows across 49 pages. No VAT. 
 - Contract review & markup | from £595 | Incoming contract reviewed with a written risk note and negotiation points. Credited against drafting if upgraded.
 - Bespoke commercial agreement | from £1,250 | Supply, services, distribution, consultancy, licensing, franchise, intermediary/IMFPA, loan or guarantee, drafted from your deal terms.
 - Shareholder or partnership agreement | from £1,650 | Including leaver, drag/tag, reserved matters and deadlock provisions for a standard private company.
+
+## Commercial Lease Renewal Solicitor  (/commercial-lease-renewal)
+- Section 25 notice assessment | £495 | Notice and lease read, 1954 Act and validity checked, termination date and court deadline identified, written view on your options.
+- New lease or renewal, settled to agreed form | from £1,450 | Heads of terms to agreed final form: terms advised and negotiated with the other side, with an authorised solicitor instructed to prepare the deed and deal with Land Registry where the law requires.
+- Variation or surrender, advised and negotiated | from £850 | The commercial terms advised and negotiated to agreed form; the deed itself is prepared by an instructed authorised solicitor.
 
 ## Commercial Lease Solicitor  (/commercial-lease-solicitor)
 - Lease review & risk report (tenant or landlord) | from £750 | Full markup of the draft lease plus a plain-English report on repair, rent review, break, alienation and guarantee risk, with recommended amendments.
@@ -84,6 +89,9 @@ Generated 2026-11-05 from the live schedules. 369 rows across 49 pages. No VAT. 
 - Individueller Handelsvertrag | ab EUR 1.460 | Nach Ihren kaufmännischen Konditionen entworfen
 - Aufforderungsschreiben an eine britische Firma | ab EUR 695 | Förmliche Zahlungsaufforderung wegen einer Geschäftsforderung gegen eine Gesellschaft in England und Wales
 - UK GDPR und Website-Paket | ab EUR 695 | Datenschutzerklärung, Cookie-Einwilligung, Bedingungen und Verarbeitungsverzeichnis für den britischen Markt
+
+## Dilapidations Solicitor  (/dilapidations-solicitor)
+- Commercial: renewal, dilapidations, forfeiture advice | from £850 | The contentious side of the commercial lease practice, quoted per matter.
 
 ## Debt Recovery & Dispute Solicitor  (/disputes-debt-recovery)
 - Letter before action | from £595 | A compliant pre-action letter under the applicable protocol, on solicitor letterhead, with the debt or claim particularised and a deadline set.
@@ -201,6 +209,11 @@ Generated 2026-11-05 from the live schedules. 369 rows across 49 pages. No VAT. 
 - Mediation representation and arbitration | from £1,450 (AED 7,180 indicative) | Position statements, written submissions and settlement drafting.
 - Domain name disputes | from £955 (AED 4,730 indicative) | UDRP and Nominet DRS complaints, decided on the papers.
 
+## Heads of Terms Solicitor  (/heads-of-terms-commercial-lease)
+- Heads of terms, drafted or reviewed | from £450 | Get the commercial deal right before the lease is drafted; the cheapest point to win every later argument.
+- New lease or renewal, settled to agreed form | from £1,450 | Heads of terms to agreed final form: terms advised and negotiated with the other side, with an authorised solicitor instructed to prepare the deed and deal with Land Registry where the law requires.
+- Negotiated through to completion | from £2,450 | The whole transaction managed: negotiation, agreed form, and completion coordinated with the instructed authorised solicitor who prepares the deed and handles registration.
+
 ## GMC, NMC, GDC & HCPC Defence Solicitor  (/healthcare-regulatory-defence)
 - Initial response to the regulator | from £2,500 | The first letter is the most important document in the case: your account framed properly, insight demonstrated, escalation headed off where possible.
 - Full written stage | from £4,500 | Representations, evidence assembly, remediation portfolio and correspondence through the investigation stage.
@@ -272,6 +285,10 @@ Generated 2026-11-05 from the live schedules. 369 rows across 49 pages. No VAT. 
 - Follow up and final demand | £195 | Where the first letter is ignored, the escalation that puts the recipient on notice of the next step.
 - Response to a letter before action | £345 | You have received one. The reply that protects your position, whether the answer is dispute, part payment or a negotiated route out.
 - Negotiation and settlement correspondence | from £495 | The exchange run to a documented conclusion, with the payment terms and releases drafted so the deal holds.
+
+## Licence to Assign, Alter or Underlet  (/licence-to-assign-alter-underlet)
+- Licence to assign, underlet or alter, advised and negotiated | from £850 | Consent terms advised and negotiated with the landlord or tenant to agreed form; where the licence is a deed, an instructed authorised solicitor prepares it.
+- Licence to occupy, drafted or reviewed | from £550 | Short term occupation without granting a tenancy: exclusivity, termination, and the drafting that keeps it a licence rather than a lease by accident.
 
 ## Netherlands  (/netherlands)
 - UK trademark, one class | from EUR 745 | Filed at the UKIPO within 48 hours of instruction. New EU filings do not cover the United Kingdom.
