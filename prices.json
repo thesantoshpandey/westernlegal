@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "source": "https://westernlegal.co.uk schedules",
  "rules": [
   "Quote only what appears here, at the fee shown. 'from' means the base tier; anything beyond the stated scope is quoted in writing before work.",
@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 369,
+ "count": 378,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -211,6 +211,27 @@
    "product": "Shareholder or partnership agreement",
    "scope": "Including leaver, drag/tag, reserved matters and deadlock provisions for a standard private company.",
    "fee": "from £1,650"
+  },
+  {
+   "page": "/commercial-lease-renewal",
+   "page_title": "Commercial Lease Renewal Solicitor",
+   "product": "Section 25 notice assessment",
+   "scope": "Notice and lease read, 1954 Act and validity checked, termination date and court deadline identified, written view on your options.",
+   "fee": "£495"
+  },
+  {
+   "page": "/commercial-lease-renewal",
+   "page_title": "Commercial Lease Renewal Solicitor",
+   "product": "New lease or renewal, settled to agreed form",
+   "scope": "Heads of terms to agreed final form: terms advised and negotiated with the other side, with an authorised solicitor instructed to prepare the deed and deal with Land Registry where the law requires.",
+   "fee": "from £1,450"
+  },
+  {
+   "page": "/commercial-lease-renewal",
+   "page_title": "Commercial Lease Renewal Solicitor",
+   "product": "Variation or surrender, advised and negotiated",
+   "scope": "The commercial terms advised and negotiated to agreed form; the deed itself is prepared by an instructed authorised solicitor.",
+   "fee": "from £850"
   },
   {
    "page": "/commercial-lease-solicitor",
@@ -449,6 +470,13 @@
    "product": "UK GDPR und Website-Paket",
    "scope": "Datenschutzerklärung, Cookie-Einwilligung, Bedingungen und Verarbeitungsverzeichnis für den britischen Markt",
    "fee": "ab EUR 695"
+  },
+  {
+   "page": "/dilapidations-solicitor",
+   "page_title": "Dilapidations Solicitor",
+   "product": "Commercial: renewal, dilapidations, forfeiture advice",
+   "scope": "The contentious side of the commercial lease practice, quoted per matter.",
+   "fee": "from £850"
   },
   {
    "page": "/disputes-debt-recovery",
@@ -1095,6 +1123,27 @@
    "fee": "from £955 (AED 4,730 indicative)"
   },
   {
+   "page": "/heads-of-terms-commercial-lease",
+   "page_title": "Heads of Terms Solicitor",
+   "product": "Heads of terms, drafted or reviewed",
+   "scope": "Get the commercial deal right before the lease is drafted; the cheapest point to win every later argument.",
+   "fee": "from £450"
+  },
+  {
+   "page": "/heads-of-terms-commercial-lease",
+   "page_title": "Heads of Terms Solicitor",
+   "product": "New lease or renewal, settled to agreed form",
+   "scope": "Heads of terms to agreed final form: terms advised and negotiated with the other side, with an authorised solicitor instructed to prepare the deed and deal with Land Registry where the law requires.",
+   "fee": "from £1,450"
+  },
+  {
+   "page": "/heads-of-terms-commercial-lease",
+   "page_title": "Heads of Terms Solicitor",
+   "product": "Negotiated through to completion",
+   "scope": "The whole transaction managed: negotiation, agreed form, and completion coordinated with the instructed authorised solicitor who prepares the deed and handles registration.",
+   "fee": "from £2,450"
+  },
+  {
    "page": "/healthcare-regulatory-defence",
    "page_title": "GMC, NMC, GDC & HCPC Defence Solicitor",
    "product": "Initial response to the regulator",
@@ -1499,6 +1548,20 @@
    "product": "Negotiation and settlement correspondence",
    "scope": "The exchange run to a documented conclusion, with the payment terms and releases drafted so the deal holds.",
    "fee": "from £495"
+  },
+  {
+   "page": "/licence-to-assign-alter-underlet",
+   "page_title": "Licence to Assign, Alter or Underlet",
+   "product": "Licence to assign, underlet or alter, advised and negotiated",
+   "scope": "Consent terms advised and negotiated with the landlord or tenant to agreed form; where the licence is a deed, an instructed authorised solicitor prepares it.",
+   "fee": "from £850"
+  },
+  {
+   "page": "/licence-to-assign-alter-underlet",
+   "page_title": "Licence to Assign, Alter or Underlet",
+   "product": "Licence to occupy, drafted or reviewed",
+   "scope": "Short term occupation without granting a tenancy: exclusivity, termination, and the drafting that keeps it a licence rather than a lease by accident.",
+   "fee": "from £550"
   },
   {
    "page": "/netherlands",

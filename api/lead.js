@@ -31,7 +31,11 @@ module.exports = async (req, res) => {
     const langTag = d.lang ? ' [' + String(d.lang).replace(/[^a-z-]/gi, '').slice(0, 5).toUpperCase() + ']' : '';
     const paidTag = d.paid ? ' [PAID ' + cap(d.paid, 40).replace(/[\r\n\]]/g, ' ') + ']' : '';
     // Quick quote: what the client has and the date they must sign or reply by. Both go straight after the ad tag.
-    const HAS = ['Draft lease', 'Heads of terms', 'Signed heads of terms', 'Notice or letter received', 'Contract to sign', 'Nothing yet', 'Articles or existing agreement', 'Term sheet or heads of terms'];
+    const HAS = ['Draft lease', 'Heads of terms', 'Signed heads of terms', 'Notice or letter received', 'Contract to sign', 'Nothing yet', 'Articles or existing agreement', 'Term sheet or heads of terms',
+      // Lease landing pages, 6 Nov 2026
+      'Agreement for lease', 'Nothing agreed yet', "Landlord's draft licence", 'My lease and the proposed works', 'Assignment or underletting request', 'Licence to occupy',
+      'Section 25 or 26 notice received', 'Lease ending within 12 months', 'Deed of variation', 'Rent review notice',
+      'Schedule of dilapidations received', 'Lease ending and expecting a claim', 'Landlord preparing a claim'];
     const has = HAS.includes(String(d.has || '')) ? String(d.has) : '';
     // Pages can relabel the date (the M&A page asks for a target completion date). Whitelisted labels only.
     const BY_LABELS = ['Target completion date'];
