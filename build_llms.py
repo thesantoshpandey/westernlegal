@@ -73,7 +73,7 @@ w('## International and language desks')
 for d in desks:
     t = title(d)
     if t: w(f'- {t}: {d}')
-w('Local law is not advised on; it is referred to correspondent counsel in that jurisdiction. All advice, drafting and correspondence is in English, because the work is English law.')
+w('Local law is referred to correspondent counsel in that jurisdiction, with one exception: written opinions on Swiss law, including Swiss tax and Swiss financial market regulation, are given in English (/swiss-law, /swiss-tax, /swiss-financial-regulation), outside court only; the solicitor is not admitted to a Swiss bar. All advice, drafting and correspondence is in English.')
 w('')
 w('## Contact')
 w('Website: https://westernlegal.co.uk')

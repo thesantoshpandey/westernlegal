@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-11-13 from the live schedules. 378 rows across 53 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-13 from the live schedules. 383 rows across 56 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -404,6 +404,17 @@ Generated 2026-11-13 from the live schedules. 378 rows across 53 pages. No VAT. 
 - Skräddarsytt affärsavtal | från SEK 16 000 | Upprättat utifrån era kommersiella villkor
 - Kravbrev till ett brittiskt bolag | från SEK 7 600 | Formellt betalningskrav för en företagsfordran mot ett bolag i England och Wales
 - UK GDPR och webbpaket | från EUR 695 | Integritetspolicy, cookiesamtycke, villkor och register över behandling för den brittiska marknaden
+
+## FINMA Licence and SRO Applications  (/swiss-financial-regulation)
+- Licensing perimeter opinion, one question | from CHF 1,900 | Whether your activity needs a FINMA licence, SRO membership or adviser registration, answered in writing and cited to the Act.
+
+## Swiss Law Opinion in English  (/swiss-law)
+- Swiss law opinion, one question | from CHF 1,900 | A written opinion on one defined question of Swiss federal or cantonal law, on your facts, with each point cited to the enactment and its original text.
+- Swiss data protection assessment | from CHF 995 | Whether the Act applies to you, whether a Swiss representative is genuinely required, and the gap between your GDPR documentation and Swiss duties.
+- Swiss data protection documentation pack | from CHF 1,900 | Notices, records of processing and breach procedure brought into line with Swiss requirements.
+
+## Swiss Tax Opinion in English  (/swiss-tax)
+- Swiss tax opinion, one question | from CHF 2,500 | A written opinion on one defined Swiss tax question, on your facts, cited to the federal Act, the cantonal tax law and any double tax agreement that applies.
 
 ## Switzerland  (/switzerland)
 - UK trademark, one class | from CHF 850 | Filed at the UKIPO within 48 hours of instruction. Swiss and EU registrations do not cover the United Kingdom.

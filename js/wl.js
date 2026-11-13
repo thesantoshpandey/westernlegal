@@ -67,7 +67,7 @@
     new FormData(form).forEach(function (v, k) { data[k] = v; });
     function success() {
       if (typeof gtag === 'function') { gtag('event', 'conversion', { send_to: 'AW-17980143249/_293CM3WqaIcEJHtzP1C' }); }
-      if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); }
+      if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); } if (typeof gtag === 'function' && window.WL_PAGE_EVENTS && window.WL_PAGE_EVENTS.prefix) { var pe = window.WL_PAGE_EVENTS, pl = (pe.labels || {}).form_submit; gtag('event', pe.prefix + '_form_submit', pl ? { send_to: pl, event_category: pe.prefix } : { event_category: pe.prefix }); }
       window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: (data.matter || 'General') });
       form.style.display = 'none';
       var ok = document.querySelector('.form-ok');
@@ -345,7 +345,7 @@
       .then(function (r) {
         if (!r.ok) throw new Error('rejected');
         if (typeof gtag === 'function') { gtag('event', 'conversion', { send_to: 'AW-17980143249/_293CM3WqaIcEJHtzP1C' }); }
-      if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); }
+      if (typeof gtag === 'function' && location.pathname === '/gulf') { var gl = (window.WL_GULF_LABELS || {}).form_submit; gtag('event', 'gulf_form_submit', gl ? { send_to: gl, event_category: 'gulf' } : { event_category: 'gulf' }); } if (typeof gtag === 'function' && window.WL_PAGE_EVENTS && window.WL_PAGE_EVENTS.prefix) { var pe = window.WL_PAGE_EVENTS, pl = (pe.labels || {}).form_submit; gtag('event', pe.prefix + '_form_submit', pl ? { send_to: pl, event_category: pe.prefix } : { event_category: pe.prefix }); }
         window.uetq = window.uetq || []; window.uetq.push('event', 'submit', { event_category: 'form', event_label: 'quick_quote' });
         var wrap = document.getElementById('qq');
         wrap.innerHTML = L

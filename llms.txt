@@ -90,6 +90,9 @@ The complete list, every row on every page, is https://westernlegal.co.uk/prices
 - Licence to Assign, Alter or Underlet: /licence-to-assign-alter-underlet
 - Commercial Lease Renewal Solicitor: /commercial-lease-renewal
 - Dilapidations Solicitor: /dilapidations-solicitor
+- Swiss Law Opinion in English: /swiss-law
+- Swiss Tax Opinion in English: /swiss-tax
+- FINMA Licence and SRO Applications: /swiss-financial-regulation
 
 ## Not offered
 Company formation and incorporation, share transfers, allotments and buybacks, buying or selling a business, mergers and acquisitions, advice to employees and employment tribunal proceedings, conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
@@ -156,7 +159,7 @@ Company formation and incorporation, share transfers, allotments and buybacks, b
 - Tavaramerkki Britanniaan ja Englannin laki: /fi
 - 日本企業の英国進出・英国取引: /ja
 - Türk Şirketleri için İngiltere'de Marka ve Sözleşme: /tr
-Local law is not advised on; it is referred to correspondent counsel in that jurisdiction. All advice, drafting and correspondence is in English, because the work is English law.
+Local law is referred to correspondent counsel in that jurisdiction, with one exception: written opinions on Swiss law, including Swiss tax and Swiss financial market regulation, are given in English (/swiss-law, /swiss-tax, /swiss-financial-regulation), outside court only; the solicitor is not admitted to a Swiss bar. All advice, drafting and correspondence is in English.
 
 ## Contact
 Website: https://westernlegal.co.uk
