@@ -35,10 +35,14 @@ module.exports = async (req, res) => {
       // Lease landing pages, 6 Nov 2026
       'Agreement for lease', 'Nothing agreed yet', "Landlord's draft licence", 'My lease and the proposed works', 'Assignment or underletting request', 'Licence to occupy',
       'Section 25 or 26 notice received', 'Lease ending within 12 months', 'Deed of variation', 'Rent review notice',
-      'Schedule of dilapidations received', 'Lease ending and expecting a claim', 'Landlord preparing a claim'];
+      'Schedule of dilapidations received', 'Lease ending and expecting a claim', 'Landlord preparing a claim',
+      // Swiss pages, 13 Nov 2026
+      'Contract governed by Swiss law', 'A question on Swiss law', 'Swiss deal or structure', 'Letter from a Swiss party',
+      'A Swiss tax question', 'Group structure or transfer pricing', 'Letter from a Swiss tax authority',
+      'SRO membership needed', 'FinSA adviser registration', 'FINMA licence project', 'Not sure a licence is needed'];
     const has = HAS.includes(String(d.has || '')) ? String(d.has) : '';
     // Pages can relabel the date (the M&A page asks for a target completion date). Whitelisted labels only.
-    const BY_LABELS = ['Target completion date'];
+    const BY_LABELS = ['Target completion date', 'Answer needed by'];
     const byLabel = BY_LABELS.includes(String(d.by_label || '')) ? String(d.by_label).toLowerCase() : 'sign or reply by';
     const byIso = /^\d{4}-\d{2}-\d{2}$/.test(String(d.by || '')) ? String(d.by) : '';
     const byDate = byIso ? new Date(byIso + 'T12:00:00Z') : null;

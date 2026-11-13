@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 378,
+ "count": 383,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -2213,6 +2213,41 @@
    "product": "UK GDPR och webbpaket",
    "scope": "Integritetspolicy, cookiesamtycke, villkor och register över behandling för den brittiska marknaden",
    "fee": "från EUR 695"
+  },
+  {
+   "page": "/swiss-financial-regulation",
+   "page_title": "FINMA Licence and SRO Applications",
+   "product": "Licensing perimeter opinion, one question",
+   "scope": "Whether your activity needs a FINMA licence, SRO membership or adviser registration, answered in writing and cited to the Act.",
+   "fee": "from CHF 1,900"
+  },
+  {
+   "page": "/swiss-law",
+   "page_title": "Swiss Law Opinion in English",
+   "product": "Swiss law opinion, one question",
+   "scope": "A written opinion on one defined question of Swiss federal or cantonal law, on your facts, with each point cited to the enactment and its original text.",
+   "fee": "from CHF 1,900"
+  },
+  {
+   "page": "/swiss-law",
+   "page_title": "Swiss Law Opinion in English",
+   "product": "Swiss data protection assessment",
+   "scope": "Whether the Act applies to you, whether a Swiss representative is genuinely required, and the gap between your GDPR documentation and Swiss duties.",
+   "fee": "from CHF 995"
+  },
+  {
+   "page": "/swiss-law",
+   "page_title": "Swiss Law Opinion in English",
+   "product": "Swiss data protection documentation pack",
+   "scope": "Notices, records of processing and breach procedure brought into line with Swiss requirements.",
+   "fee": "from CHF 1,900"
+  },
+  {
+   "page": "/swiss-tax",
+   "page_title": "Swiss Tax Opinion in English",
+   "product": "Swiss tax opinion, one question",
+   "scope": "A written opinion on one defined Swiss tax question, on your facts, cited to the federal Act, the cantonal tax law and any double tax agreement that applies.",
+   "fee": "from CHF 2,500"
   },
   {
    "page": "/switzerland",
