@@ -7,7 +7,7 @@
   "Instant pay exists for UK trade mark filing only (one, two or three classes). Everything else is quote first.",
   "If a figure is not in this file it is not a Western Legal price."
  ],
- "count": 383,
+ "count": 386,
  "rows": [
   {
    "page": "/arbitration-mediation",
@@ -535,6 +535,13 @@
    "fee": "from £1,450"
   },
   {
+   "page": "/dutch-law",
+   "page_title": "Dutch Law Opinion in English",
+   "product": "Dutch law opinion, one question",
+   "scope": "A written opinion on one defined question of Dutch law, on your facts, with each point cited to the Act and its original Dutch text.",
+   "fee": "from EUR 1,900"
+  },
+  {
    "page": "/employment-advisory",
    "page_title": "Employment Solicitor for Employers",
    "product": "Employment contract",
@@ -743,6 +750,13 @@
    "product": "UK GDPR ja verkkosivupaketti",
    "scope": "Tietosuojaseloste, evästesuostumus, ehdot ja käsittelyseloste Britannian markkinoille",
    "fee": "alkaen 695 EUR"
+  },
+  {
+   "page": "/finnish-law",
+   "page_title": "Finnish Law Opinion in English",
+   "product": "Finnish law opinion, one question",
+   "scope": "A written opinion on one defined question of Finnish law, on your facts, with each point cited to the Act and its original Finnish text.",
+   "fee": "from EUR 1,900"
   },
   {
    "page": "/for-law-firms",
@@ -2213,6 +2227,13 @@
    "product": "UK GDPR och webbpaket",
    "scope": "Integritetspolicy, cookiesamtycke, villkor och register över behandling för den brittiska marknaden",
    "fee": "från EUR 695"
+  },
+  {
+   "page": "/swedish-law",
+   "page_title": "Swedish Law Opinion in English",
+   "product": "Swedish law opinion, one question",
+   "scope": "A written opinion on one defined question of Swedish law, on your facts, with each point cited to the Act and its original Swedish text.",
+   "fee": "from EUR 1,900"
   },
   {
    "page": "/swiss-financial-regulation",

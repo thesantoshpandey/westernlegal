@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-11-13 from the live schedules. 383 rows across 56 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-13 from the live schedules. 386 rows across 59 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
@@ -105,6 +105,9 @@ Generated 2026-11-13 from the live schedules. 383 rows across 56 pages. No VAT. 
 - UDRP complaint (.com and global domains) | from £1,450 | Full complaint drafted and filed at WIPO or Forum: rights, legitimate interest, bad faith, evidenced properly.
 - UDRP or DRS response (defending your domain) | from £1,450 | Accused of cybersquatting? The response that keeps your domain, built on legitimate interest and good faith.
 
+## Dutch Law Opinion in English  (/dutch-law)
+- Dutch law opinion, one question | from EUR 1,900 | A written opinion on one defined question of Dutch law, on your facts, with each point cited to the Act and its original Dutch text.
+
 ## Employment Solicitor for Employers  (/employment-advisory)
 - Employment contract | from £425 | Drafted for the role: probation, restrictive covenants, IP assignment and confidentiality done properly.
 - Staff handbook and policies | from £1,100 | The core policy set, drafted to the ACAS Code and your actual practices.
@@ -144,6 +147,9 @@ Generated 2026-11-13 from the live schedules. 383 rows across 56 pages. No VAT. 
 - Räätälöity kauppasopimus | alkaen 1 460 EUR | Laadittu kaupallisten ehtojenne pohjalta
 - Maksuvaatimus brittiläiselle yhtiölle | alkaen 695 EUR | Muodollinen maksuvaatimus yrityssaatavasta Englannin ja Walesin yhtiöltä
 - UK GDPR ja verkkosivupaketti | alkaen 695 EUR | Tietosuojaseloste, evästesuostumus, ehdot ja käsittelyseloste Britannian markkinoille
+
+## Finnish Law Opinion in English  (/finnish-law)
+- Finnish law opinion, one question | from EUR 1,900 | A written opinion on one defined question of Finnish law, on your facts, with each point cited to the Act and its original Finnish text.
 
 ## UK & international Trademark Correspondent  (/for-law-firms)
 - Second opinion for solicitors | from £650 | A privileged written second view on a live matter: merits, drafting and strategy.
@@ -404,6 +410,9 @@ Generated 2026-11-13 from the live schedules. 383 rows across 56 pages. No VAT. 
 - Skräddarsytt affärsavtal | från SEK 16 000 | Upprättat utifrån era kommersiella villkor
 - Kravbrev till ett brittiskt bolag | från SEK 7 600 | Formellt betalningskrav för en företagsfordran mot ett bolag i England och Wales
 - UK GDPR och webbpaket | från EUR 695 | Integritetspolicy, cookiesamtycke, villkor och register över behandling för den brittiska marknaden
+
+## Swedish Law Opinion in English  (/swedish-law)
+- Swedish law opinion, one question | from EUR 1,900 | A written opinion on one defined question of Swedish law, on your facts, with each point cited to the Act and its original Swedish text.
 
 ## FINMA Licence and SRO Applications  (/swiss-financial-regulation)
 - Licensing perimeter opinion, one question | from CHF 1,900 | Whether your activity needs a FINMA licence, SRO membership or adviser registration, answered in writing and cited to the Act.
