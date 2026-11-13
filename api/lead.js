@@ -39,7 +39,9 @@ module.exports = async (req, res) => {
       // Swiss pages, 13 Nov 2026
       'Contract governed by Swiss law', 'A question on Swiss law', 'Swiss deal or structure', 'Letter from a Swiss party',
       'A Swiss tax question', 'Group structure or transfer pricing', 'Letter from a Swiss tax authority',
-      'SRO membership needed', 'FinSA adviser registration', 'FINMA licence project', 'Not sure a licence is needed'];
+      'SRO membership needed', 'FinSA adviser registration', 'FINMA licence project', 'Not sure a licence is needed',
+      // Dutch, Swedish and Finnish law pages, 13 Nov 2026
+      'Contract governed by Dutch law', 'A question on Dutch law', 'Dutch deal or structure', 'Letter from a Dutch party', 'Contract governed by Swedish law', 'A question on Swedish law', 'Swedish deal or structure', 'Letter from a Swedish party', 'Contract governed by Finnish law', 'A question on Finnish law', 'Finnish deal or structure', 'Letter from a Finnish party'];
     const has = HAS.includes(String(d.has || '')) ? String(d.has) : '';
     // Pages can relabel the date (the M&A page asks for a target completion date). Whitelisted labels only.
     const BY_LABELS = ['Target completion date', 'Answer needed by'];

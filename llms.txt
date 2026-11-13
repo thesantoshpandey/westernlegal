@@ -93,6 +93,9 @@ The complete list, every row on every page, is https://westernlegal.co.uk/prices
 - Swiss Law Opinion in English: /swiss-law
 - Swiss Tax Opinion in English: /swiss-tax
 - FINMA Licence and SRO Applications: /swiss-financial-regulation
+- Dutch Law Opinion in English: /dutch-law
+- Swedish Law Opinion in English: /swedish-law
+- Finnish Law Opinion in English: /finnish-law
 
 ## Not offered
 Company formation and incorporation, share transfers, allotments and buybacks, buying or selling a business, mergers and acquisitions, advice to employees and employment tribunal proceedings, conveyancing, preparation or registration of land instruments and lease deeds over three years, probate grants, conduct of litigation in court, rights of audience in court, immigration, notarial acts, and holding client money. Court advocacy is referred to instructed counsel; reserved property steps are referred to instructed authorised solicitors.
@@ -159,7 +162,7 @@ Company formation and incorporation, share transfers, allotments and buybacks, b
 - Tavaramerkki Britanniaan ja Englannin laki: /fi
 - 日本企業の英国進出・英国取引: /ja
 - Türk Şirketleri için İngiltere'de Marka ve Sözleşme: /tr
-Local law is referred to correspondent counsel in that jurisdiction, with one exception: written opinions on Swiss law, including Swiss tax and Swiss financial market regulation, are given in English (/swiss-law, /swiss-tax, /swiss-financial-regulation), outside court only; the solicitor is not admitted to a Swiss bar. All advice, drafting and correspondence is in English.
+Local law is referred to correspondent counsel in that jurisdiction, except where a page offers written opinions on that law: Swiss law, Swiss tax and Swiss financial market regulation (/swiss-law, /swiss-tax, /swiss-financial-regulation), and Dutch, Swedish and Finnish law (/dutch-law, /swedish-law, /finnish-law), given in English, outside court only; the solicitor is not admitted to the bar of any of those countries. All advice, drafting and correspondence is in English.
 
 ## Contact
 Website: https://westernlegal.co.uk
