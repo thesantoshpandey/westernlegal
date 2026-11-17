@@ -5,6 +5,8 @@ Built from the /ja template. Figures come only from the existing desk schedules
 Scope on every page: English law and UK trade mark procedure only. No local law,
 no EU law. Title is "Solicitor (England and Wales)" in every language, never a
 local lawyer title. Run: python3 make_lang.py"""
+# Quick quote free text placeholder by language (17 Nov 2026): replaces the choice list and the date
+NEED = {"en": ("What do you need? One line is enough (optional)", "What do you need (optional)"), "de": ("Worum geht es? Ein Satz genügt (optional)", "Worum geht es (optional)"), "nl": ("Waar gaat het om? Eén zin is genoeg (optioneel)", "Waar gaat het om (optioneel)"), "sv": ("Vad gäller det? En mening räcker (valfritt)", "Vad gäller det (valfritt)"), "fi": ("Mistä on kyse? Yksi lause riittää (vapaaehtoinen)", "Mistä on kyse (vapaaehtoinen)"), "tr": ("Konu nedir? Tek cümle yeterli (isteğe bağlı)", "Konu nedir (isteğe bağlı)"), "ja": ("ご用件（任意・一行で結構です）", "ご用件（任意）")}
 import json, html, re
 
 V_CSS = '20261010a'
@@ -121,12 +123,11 @@ def build(P):
 <div class="qq" id="qq">
 <div class="qq-fee">{F["fee"]}</div>
 <div class="qq-proof">{F["proof"]}</div>
-<form class="qqform" id="qqform" novalidate data-mode="short:true" data-endpoint="/api/lead">
+<form class="qqform" id="qqform" novalidate onsubmit="return false" data-mode="short:true" data-endpoint="/api/lead">
 <div style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label>Leave this empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
 <input type="text" name="name" placeholder="{esc(F["name"])}" autocomplete="name" aria-label="{esc(F["name"])}">
 <input type="text" name="contact" placeholder="{esc(F["contact"])}" autocomplete="email" aria-label="{esc(F["contact"])}">
-<select name="has" class="qq-sel" required aria-label="{esc(F["has"])}"><option value="" selected disabled>{F["has"]}</option>{opts}</select>
-<label class="qq-date"><span>{F["by"]}</span><input type="date" name="by" required></label>
+<textarea name="need" rows="2" maxlength="600" placeholder="{esc(NEED.get(lang[:2], NEED["en"])[0])}" aria-label="{esc(NEED.get(lang[:2], NEED["en"])[1])}"></textarea>
 <input type="hidden" name="matter" value="{P["matter"]}">
 <input type="hidden" name="lang" value="{lang[:2]}">
 <input type="hidden" name="short" value="true">
