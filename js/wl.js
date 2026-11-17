@@ -290,11 +290,18 @@
     new FormData(f).forEach(function (v, k) { d[k] = v; });
     var nm = String(d.name || '').trim();
     var ct = String(d.contact || '').trim();
-    function err(t) {
+    /* the message sits next to the field it is about (or just above the button) and is scrolled into view,
+       so it is never left below the screen or behind the phone keyboard (17 Nov 2026) */
+    function err(t, fld) {
       var e = f.querySelector('.qq-err');
-      if (!e) { e = document.createElement('p'); e.className = 'qq-err'; e.setAttribute('role','alert'); f.appendChild(e); }
+      if (!e) { e = document.createElement('p'); e.className = 'qq-err'; e.setAttribute('role','alert'); }
       e.textContent = t;
+      if (fld && fld.parentNode) fld.parentNode.insertBefore(e, fld.nextSibling);
+      else if (btn && btn.parentNode) btn.parentNode.insertBefore(e, btn);
+      else f.appendChild(e);
       if (btn) { btn.disabled = false; btn.innerHTML = label; }
+      try { (fld || e).scrollIntoView({ block: 'center', behavior: 'smooth' }); } catch (x) {}
+      if (fld && fld.focus) { try { fld.focus({ preventScroll: true }); } catch (x) { fld.focus(); } }
     }
     var L = ({
       ja: { name: 'お名前をご入力ください。', contact: 'メールアドレスまたはWhatsApp番号をご入力ください。', has: 'お手元にあるものをお選びください。', by: '署名または回答の期限をご入力ください。', sending: '送信中…', fail: '送信できませんでした。WhatsAppからご連絡ください。',
@@ -311,11 +318,12 @@
             ok: function (e) { return '<b>Vastaanotettu.</b> Saatte kiinteän hinnan ' + (e ? 'sähköpostilla' : 'WhatsAppissa') + '. Vastaamme tunnin sisällä Britannian toimistoaikana.'; } }
     })[d.lang] || null;
     var JA = !!L;
-    if (nm.length < 2) return err(L ? L.name : 'Please add your name.');
-    if (ct.length < 5) return err(L ? L.contact : 'Please add an email address or a WhatsApp number.');
+    if (nm.length < 2) return err(L ? L.name : 'Please add your name.', f.querySelector('[name="name"]'));
+    if (ct.length < 5) return err(L ? L.contact : 'Please add an email address or a WhatsApp number.', f.querySelector('[name="contact"]'));
     var has = String(d.has || '').trim(), by = String(d.by || '').trim();
-    if (f.querySelector('[name="has"]') && !has) return err(L ? L.has : 'Please choose what you have.');
-    if (f.querySelector('[name="by"]') && !/^\d{4}-\d{2}-\d{2}$/.test(by)) return err(L ? L.by : ((byEl && byEl.getAttribute('data-err')) || 'Please add the date you need to sign or reply by.'));
+    var need = String(d.need || '').trim().slice(0, 600);
+    if (f.querySelector('[name="has"]') && !has) return err(L ? L.has : 'Please choose what you have.', f.querySelector('[name="has"]'));
+    if (f.querySelector('[name="by"]') && !/^\d{4}-\d{2}-\d{2}$/.test(by)) return err(L ? L.by : ((byEl && byEl.getAttribute('data-err')) || 'Please add the date you need to sign or reply by.'), byEl);
     var byLabel = String(d.by_label || '').trim();
     var e = f.querySelector('.qq-err'); if (e) e.remove();
     if (btn) { btn.disabled = true; btn.textContent = L ? L.sending : 'Sending…'; }
@@ -326,7 +334,7 @@
       email: isEmail ? ct : '',
       phone: isEmail ? '' : ct,
       matter: d.matter || 'General enquiry',
-      message: 'Quick quote request from the first screen. Contact given: ' + ct + (has ? '\nWhat they have: ' + has : '') + (by ? '\n' + (byLabel || 'Sign or reply by') + ': ' + by : ''),
+      message: 'Quick quote request from the first screen. Contact given: ' + ct + (need ? '\nWhat they need: ' + need : '') + (has ? '\nWhat they have: ' + has : '') + (by ? '\n' + (byLabel || 'Sign or reply by') + ': ' + by : ''),
       has: has,
       by: by,
       by_label: byLabel,

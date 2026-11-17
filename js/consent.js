@@ -66,10 +66,24 @@
     });
   }
 
+  /* On a phone, a page with the quick quote form keeps the cookie notice back while that form is on screen,
+     so the notice never sits over the form or its button. It appears once the visitor scrolls past the form
+     or after the form has been sent. Nothing optional is set before a choice: consent stays denied until then
+     (17 Nov 2026). */
+  function later(show) {
+    var qq = document.getElementById('qq');
+    var phone = window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
+    if (!phone || !qq || qq.offsetParent === null || !('IntersectionObserver' in window)) { show(); return; }
+    var done = false, io, t;
+    function go() { if (done) return; done = true; if (io) io.disconnect(); clearInterval(t); show(); }
+    io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (!e.isIntersecting) go(); }); }, { threshold: 0 });
+    io.observe(qq);
+    t = setInterval(function () { if (document.querySelector('#qq .qq-ok')) go(); }, 1000);
+  }
   function init() {
     var stored = read();
     if (stored) { apply(stored); document.documentElement.classList.remove('cpending'); }
-    else { banner(); }
+    else { later(banner); }
     document.addEventListener('click', function (e) {
       var a = e.target.closest('a[href="#cookie-settings"],a[data-cookie-settings]');
       if (!a) return;
