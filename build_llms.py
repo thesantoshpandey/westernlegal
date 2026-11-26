@@ -73,7 +73,7 @@ w('## International and language desks')
 for d in desks:
     t = title(d)
     if t: w(f'- {t}: {d}')
-w('Local law is referred to correspondent counsel in that jurisdiction, except where a page offers written opinions on that law: Swiss law, Swiss tax and Swiss financial market regulation (/swiss-law, /swiss-tax, /swiss-financial-regulation), and Dutch, Swedish and Finnish law (/dutch-law, /swedish-law, /finnish-law), given in English, outside court only; the solicitor is not admitted to the bar of any of those countries. All advice, drafting and correspondence is in English.')
+w('Local law is referred to correspondent counsel in that jurisdiction, except where a page offers written opinions on that law: Swiss law, Swiss tax and Swiss financial market regulation (/swiss-law, /swiss-tax, /swiss-financial-regulation), and Dutch, Swedish and Finnish law (/dutch-law, /swedish-law, /finnish-law), given in English, outside court only; the solicitor is not admitted to the bar of any of those countries. Work before the financial centre courts is the other exception, each on its own page with the rights of audience that apply and who appears: the QFC Court (/qfc-court), the DIFC Courts (/difc-courts), the ADGM Courts (/adgm-courts), the Bahrain International Commercial Court (/bahrain-commercial-court), the Singapore International Commercial Court (/sicc) and the AIFC Court (/aifc-court); the solicitor is not admitted in Qatar, the UAE, Bahrain, Singapore or Kazakhstan. All advice, drafting and correspondence is in English.')
 w('')
 w('## Contact')
 w('Website: https://westernlegal.co.uk')
