@@ -16,7 +16,7 @@ def title(path):
 sm = open('sitemap.xml').read()
 urls = [u.replace('https://westernlegal.co.uk', '') or '/' for u in re.findall(r'<loc>([^<]*)</loc>', sm)]
 DESKS = ['/ireland', '/netherlands', '/germany', '/france', '/southern-europe', '/switzerland', '/nordics',
-         '/gulf', '/united-states', '/latin-america', '/de', '/schweiz', '/nl', '/sv', '/fi', '/ja', '/tr']
+         '/gulf', '/united-states', '/latin-america', '/de', '/schweiz', '/nl', '/sv', '/fi', '/ja', '/tr', '/ar']
 SKIP = {'/', '/about', '/contact', '/faq', '/privacy', '/terms', '/complaints', '/insights', '/portal', '/thank-you'}
 practice = [u for u in urls if not u.startswith('/insights') and u not in SKIP and u not in DESKS]
 guides = [u for u in urls if u.startswith('/insights/')]
