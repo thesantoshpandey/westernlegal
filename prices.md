@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-11-26 from the live schedules. 386 rows across 65 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-27 from the live schedules. 386 rows across 65 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## Mediation & Arbitration Representation  (/arbitration-mediation)
