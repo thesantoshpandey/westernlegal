@@ -425,3 +425,18 @@
     var img=g.querySelector('img.bandimg'); if(img){ img.addEventListener('click',toggle); img.setAttribute('loading','lazy'); }
   });
 })();
+
+/* PRACTICE AREAS MENU on phones and tablets: tap a group heading to open it; the group holding the current page starts open */
+(function(){
+  var m=document.querySelector('.dropmenu'); if(!m) return;
+  function small(){ return window.matchMedia('(max-width:900px)').matches; }
+  var here=location.pathname.replace(/\.html$/,'').replace(/\/$/,'')||'/';
+  m.querySelectorAll('.dmcol').forEach(function(c){
+    var b=c.querySelector('b'); if(!b) return;
+    b.setAttribute('role','button'); b.setAttribute('tabindex','0'); b.setAttribute('aria-expanded','false');
+    c.querySelectorAll('a').forEach(function(a){ if((a.getAttribute('href')||'').replace(/\/$/,'')===here){ c.classList.add('open'); b.setAttribute('aria-expanded','true'); } });
+    function t(e){ if(!small()) return; e.preventDefault(); e.stopPropagation(); var o=c.classList.toggle('open'); b.setAttribute('aria-expanded',o?'true':'false'); }
+    b.addEventListener('click',t);
+    b.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' ') t(e); });
+  });
+})();
