@@ -1220,3 +1220,29 @@ form.lead #f-has option{color:#13294B;background:#fff}
 .qqform textarea::placeholder{color:#8FA3C0}
 .qqform textarea:focus{border-color:#E8B54A;outline:none}
 .qqform .qq-err{margin:0;font-weight:600}
+
+/* PRACTICE AREAS MENU, 27 Nov 2026: five stacked columns on desktop so no column runs off the screen;
+   on phones and tablets the stacks dissolve and the groups flow as before */
+.dmstack{display:flex;flex-direction:column;gap:20px;min-width:0}
+@media(min-width:901px){
+  .dropmenu{grid-template-columns:repeat(5,minmax(0,max-content));gap:0 34px;padding:24px 30px 20px;
+    max-height:calc(100vh - 130px);overflow-y:auto}
+  .dmcol a{padding:5px 0;font-size:14px;line-height:1.35}
+  .dmcol b{margin-bottom:6px}
+}
+@media(max-width:1180px) and (min-width:901px){
+  .dropmenu{grid-template-columns:repeat(5,minmax(0,max-content));gap:0 22px;padding:20px 22px 16px}
+  .dmcol a{font-size:13px}
+}
+@media(max-width:900px){.dmstack{display:contents}}
+/* phones and tablets: each group is a tap to open row, so the menu is nine lines, not sixty links */
+@media(max-width:900px){
+  .dropmenu{grid-template-columns:1fr;gap:0;padding:6px 18px 10px}
+  .navdrop .dmcol b{display:flex;justify-content:space-between;align-items:center;margin:0;padding:15px 2px;
+    border-bottom:1px solid var(--rule);cursor:pointer;-webkit-tap-highlight-color:transparent;user-select:none}
+  .navdrop .dmcol b::after{content:"+";font-size:20px;line-height:1;font-weight:400;letter-spacing:0;color:#E8B54A}
+  .navdrop .dmcol.open b::after{content:"\2212"}
+  .navdrop .dmcol:not(.open) a{display:none}
+  .navdrop .dmcol.open a{padding:11px 2px 11px 12px;font-size:15.5px}
+  .navdrop .dmcol.open a:last-child{border-bottom:1px solid var(--rule)}
+}
