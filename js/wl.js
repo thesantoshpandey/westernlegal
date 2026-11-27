@@ -314,6 +314,8 @@
             ok: function (e) { return '<b>Ontvangen.</b> U ontvangt uw vaste prijs per ' + (e ? 'E-mail' : 'WhatsApp') + '. Antwoord binnen het uur tijdens Britse kantooruren.'; } },
       sv: { name: 'Skriv ert namn.', contact: 'Skriv er E-postadress eller ert WhatsAppnummer.', has: 'Välj vad ni har.', by: 'Ange sista dag för underskrift eller svar.', sending: 'Skickar…', fail: 'Det gick inte att skicka. Skriv till oss på WhatsApp.',
             ok: function (e) { return '<b>Mottaget.</b> Ni får ert fasta pris via ' + (e ? 'E-post' : 'WhatsApp') + '. Svar inom en timme under brittisk kontorstid.'; } },
+      ar: { name: 'يرجى كتابة الاسم.', contact: 'يرجى كتابة البريد الإلكتروني أو رقم واتساب.', has: 'يرجى اختيار ما لديكم.', by: 'يرجى كتابة الموعد النهائي للتوقيع أو الرد.', sending: 'جارٍ الإرسال…', fail: 'تعذّر الإرسال. يرجى مراسلتنا عبر واتساب.',
+            ok: function (e) { return '<b>تم الاستلام.</b> يصلكم عرض الأتعاب الثابتة بالإنجليزية عبر ' + (e ? 'البريد الإلكتروني' : 'واتساب') + '. نرد خلال ساعة في أوقات العمل في المملكة المتحدة.'; } },
       fi: { name: 'Kirjoittakaa nimenne.', contact: 'Kirjoittakaa sähköpostiosoitteenne tai WhatsApp-numeronne.', has: 'Valitkaa, mitä teillä on.', by: 'Antakaa allekirjoituksen tai vastauksen määräpäivä.', sending: 'Lähetetään…', fail: 'Lähetys ei onnistunut. Kirjoittakaa meille WhatsAppissa.',
             ok: function (e) { return '<b>Vastaanotettu.</b> Saatte kiinteän hinnan ' + (e ? 'sähköpostilla' : 'WhatsAppissa') + '. Vastaamme tunnin sisällä Britannian toimistoaikana.'; } }
     })[d.lang] || null;
