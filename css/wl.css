@@ -1246,3 +1246,10 @@ form.lead #f-has option{color:#13294B;background:#fff}
   .navdrop .dmcol.open a{padding:11px 2px 11px 12px;font-size:15.5px}
   .navdrop .dmcol.open a:last-child{border-bottom:1px solid var(--rule)}
 }
+
+/* iPhone edges (28 Nov 2026): the hero column is a flex item, and a flex item will not shrink below its widest unbreakable
+   line, so the one line credential under the quote form (nowrap) pushed the home page wider than the phone and cut both edges. */
+@media(max-width:860px){
+  .hero .wrap>div,.hero .wrap>div>*,.qq,.qqform{min-width:0;max-width:100%}
+  p,li,td,dd{overflow-wrap:break-word}  /* long email addresses (complaints page, iPhone SE) */
+}
