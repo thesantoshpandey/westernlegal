@@ -9,7 +9,7 @@ local lawyer title. Run: python3 make_lang.py"""
 NEED = {"en": ("What do you need? One line is enough (optional)", "What do you need (optional)"), "de": ("Worum geht es? Ein Satz genügt (optional)", "Worum geht es (optional)"), "nl": ("Waar gaat het om? Eén zin is genoeg (optioneel)", "Waar gaat het om (optioneel)"), "sv": ("Vad gäller det? En mening räcker (valfritt)", "Vad gäller det (valfritt)"), "fi": ("Mistä on kyse? Yksi lause riittää (vapaaehtoinen)", "Mistä on kyse (vapaaehtoinen)"), "tr": ("Konu nedir? Tek cümle yeterli (isteğe bağlı)", "Konu nedir (isteğe bağlı)"), "ja": ("ご用件（任意・一行で結構です）", "ご用件（任意）")}
 import json, html, re
 
-V_CSS = '20261010a'
+V_CSS = '20261128a'
 V_WL = '20261022a'
 V_CONSENT = '20261022a'
 V_TRACK = '20260917b'
@@ -76,6 +76,23 @@ def offers(P):
             out.append({'@type': 'Offer', 'name': name, 'priceCurrency': c.group(1), 'price': n, 'description': P['novat']})
     return out[:6]
 
+TPTEXT = {"en": "Rated 5 stars on Trustpilot by every client who has reviewed us",
+          "de": "Auf Trustpilot von jedem Mandanten, der uns bewertet hat, mit 5 Sternen bewertet",
+          "nl": "Op Trustpilot met 5 sterren beoordeeld door iedere cliënt die ons een review gaf",
+          "sv": "Betygsatt med 5 stjärnor på Trustpilot av varje klient som har recenserat oss",
+          "fi": "Jokainen meistä arvion jättänyt asiakas on antanut Trustpilotissa 5 tähteä",
+          "tr": "Trustpilot'ta bizi değerlendiren her müvekkil 5 yıldız verdi",
+          "ja": "Trustpilotでレビューをいただいたすべてのお客様から5つ星の評価",
+          "ar": "تقييم 5 نجوم على Trustpilot من كل عميل قيّم خدماتنا"}
+
+
+def tpline(lang):
+    """The five star line under the h1, as on every page of the site (28 Nov 2026)."""
+    return ('<p class="tpline" style="order:2;margin:10px 0 0;font-size:14px;font-weight:600;letter-spacing:.01em">'
+            '<a href="https://uk.trustpilot.com/review/westernlegal.co.uk" target="_blank" rel="noopener" style="color:#E8B54A;text-decoration:none">'
+            f'<span aria-hidden="true">★★★★★</span> {TPTEXT[lang[:2]]}</a></p>')
+
+
 def build(P):
     lang = P['lang']; slug = P['slug']; url = f'https://westernlegal.co.uk/{slug}'
     schema = {'@context': 'https://schema.org', '@type': 'ProfessionalService', 'name': 'Western Legal', 'url': url, 'inLanguage': lang,
@@ -117,7 +134,7 @@ def build(P):
 <section class="hero"><div class="wrap">
 <div>
 <div class="eyebrow">{P["eyebrow"]}</div>
-<h1><span class="h1l">{P["h1l"]}</span><span class="h1s">{P["h1s"]}</span></h1>
+<h1><span class="h1l">{P["h1l"]}</span><span class="h1s">{P["h1s"]}</span></h1>{tpline(lang)}
 <p class="lede">{P["lede"]}</p>
 <p class="ennote">{P["note"]}</p>
 <div class="qq" id="qq">

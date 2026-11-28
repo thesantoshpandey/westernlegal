@@ -1,5 +1,5 @@
 # Western Legal master price list
-Generated 2026-11-27 from the live schedules. 399 rows across 66 pages. No VAT. If a figure is not here it is not a Western Legal price.
+Generated 2026-11-28 from the live schedules. 399 rows across 66 pages. No VAT. If a figure is not here it is not a Western Legal price.
 
 
 ## محامٍ في إنجلترا وويلز لعملاء الخليج  (/ar)
